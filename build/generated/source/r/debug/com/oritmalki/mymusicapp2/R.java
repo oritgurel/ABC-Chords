@@ -3563,35 +3563,35 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #ActionBar_background com.oritmalki.mymusicapp2:background}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_backgroundSplit com.oritmalki.mymusicapp2:backgroundSplit}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_backgroundStacked com.oritmalki.mymusicapp2:backgroundStacked}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_contentInsetEnd com.oritmalki.mymusicapp2:contentInsetEnd}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_contentInsetEndWithActions com.oritmalki.mymusicapp2:contentInsetEndWithActions}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_contentInsetLeft com.oritmalki.mymusicapp2:contentInsetLeft}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_contentInsetRight com.oritmalki.mymusicapp2:contentInsetRight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_contentInsetStart com.oritmalki.mymusicapp2:contentInsetStart}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_contentInsetStartWithNavigation com.oritmalki.mymusicapp2:contentInsetStartWithNavigation}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_customNavigationLayout com.oritmalki.mymusicapp2:customNavigationLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_displayOptions com.oritmalki.mymusicapp2:displayOptions}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_divider com.oritmalki.mymusicapp2:divider}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_elevation com.oritmalki.mymusicapp2:elevation}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_height com.oritmalki.mymusicapp2:height}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_hideOnContentScroll com.oritmalki.mymusicapp2:hideOnContentScroll}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_homeAsUpIndicator com.oritmalki.mymusicapp2:homeAsUpIndicator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_homeLayout com.oritmalki.mymusicapp2:homeLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_icon com.oritmalki.mymusicapp2:icon}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_indeterminateProgressStyle com.oritmalki.mymusicapp2:indeterminateProgressStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_itemPadding com.oritmalki.mymusicapp2:itemPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_logo com.oritmalki.mymusicapp2:logo}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_navigationMode com.oritmalki.mymusicapp2:navigationMode}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_popupTheme com.oritmalki.mymusicapp2:popupTheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_progressBarPadding com.oritmalki.mymusicapp2:progressBarPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_progressBarStyle com.oritmalki.mymusicapp2:progressBarStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_subtitle com.oritmalki.mymusicapp2:subtitle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_subtitleTextStyle com.oritmalki.mymusicapp2:subtitleTextStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_title com.oritmalki.mymusicapp2:title}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_titleTextStyle com.oritmalki.mymusicapp2:titleTextStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_background com.oritmalki.com.oritmalki.mymusicapp2:background}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_backgroundSplit com.oritmalki.com.oritmalki.mymusicapp2:backgroundSplit}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_backgroundStacked com.oritmalki.com.oritmalki.mymusicapp2:backgroundStacked}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_contentInsetEnd com.oritmalki.com.oritmalki.mymusicapp2:contentInsetEnd}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_contentInsetEndWithActions com.oritmalki.com.oritmalki.mymusicapp2:contentInsetEndWithActions}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_contentInsetLeft com.oritmalki.com.oritmalki.mymusicapp2:contentInsetLeft}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_contentInsetRight com.oritmalki.com.oritmalki.mymusicapp2:contentInsetRight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_contentInsetStart com.oritmalki.com.oritmalki.mymusicapp2:contentInsetStart}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_contentInsetStartWithNavigation com.oritmalki.com.oritmalki.mymusicapp2:contentInsetStartWithNavigation}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_customNavigationLayout com.oritmalki.com.oritmalki.mymusicapp2:customNavigationLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_displayOptions com.oritmalki.com.oritmalki.mymusicapp2:displayOptions}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_divider com.oritmalki.com.oritmalki.mymusicapp2:divider}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_elevation com.oritmalki.com.oritmalki.mymusicapp2:elevation}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_height com.oritmalki.com.oritmalki.mymusicapp2:height}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_hideOnContentScroll com.oritmalki.com.oritmalki.mymusicapp2:hideOnContentScroll}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_homeAsUpIndicator com.oritmalki.com.oritmalki.mymusicapp2:homeAsUpIndicator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_homeLayout com.oritmalki.com.oritmalki.mymusicapp2:homeLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_icon com.oritmalki.com.oritmalki.mymusicapp2:icon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_indeterminateProgressStyle com.oritmalki.com.oritmalki.mymusicapp2:indeterminateProgressStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_itemPadding com.oritmalki.com.oritmalki.mymusicapp2:itemPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_logo com.oritmalki.com.oritmalki.mymusicapp2:logo}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_navigationMode com.oritmalki.com.oritmalki.mymusicapp2:navigationMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_popupTheme com.oritmalki.com.oritmalki.mymusicapp2:popupTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_progressBarPadding com.oritmalki.com.oritmalki.mymusicapp2:progressBarPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_progressBarStyle com.oritmalki.com.oritmalki.mymusicapp2:progressBarStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_subtitle com.oritmalki.com.oritmalki.mymusicapp2:subtitle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_subtitleTextStyle com.oritmalki.com.oritmalki.mymusicapp2:subtitleTextStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_title com.oritmalki.com.oritmalki.mymusicapp2:title}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_titleTextStyle com.oritmalki.com.oritmalki.mymusicapp2:titleTextStyle}</code></td><td></td></tr>
      * </table>
      * @see #ActionBar_background
      * @see #ActionBar_backgroundSplit
@@ -3677,7 +3677,7 @@ public final class R {
      */
     public static final int ActionBarLayout_android_layout_gravity=0;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#background}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#background}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -3685,11 +3685,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.oritmalki.mymusicapp2:background
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:background
      */
     public static final int ActionBar_background=0;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#backgroundSplit}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#backgroundSplit}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -3700,11 +3700,11 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.oritmalki.mymusicapp2:backgroundSplit
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:backgroundSplit
      */
     public static final int ActionBar_backgroundSplit=1;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#backgroundStacked}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#backgroundStacked}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -3715,11 +3715,11 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.oritmalki.mymusicapp2:backgroundStacked
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:backgroundStacked
      */
     public static final int ActionBar_backgroundStacked=2;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#contentInsetEnd}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#contentInsetEnd}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -3728,11 +3728,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.oritmalki.mymusicapp2:contentInsetEnd
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:contentInsetEnd
      */
     public static final int ActionBar_contentInsetEnd=3;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#contentInsetEndWithActions}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#contentInsetEndWithActions}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -3741,11 +3741,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.oritmalki.mymusicapp2:contentInsetEndWithActions
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:contentInsetEndWithActions
      */
     public static final int ActionBar_contentInsetEndWithActions=4;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#contentInsetLeft}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#contentInsetLeft}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -3754,11 +3754,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.oritmalki.mymusicapp2:contentInsetLeft
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:contentInsetLeft
      */
     public static final int ActionBar_contentInsetLeft=5;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#contentInsetRight}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#contentInsetRight}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -3767,11 +3767,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.oritmalki.mymusicapp2:contentInsetRight
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:contentInsetRight
      */
     public static final int ActionBar_contentInsetRight=6;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#contentInsetStart}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#contentInsetStart}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -3780,11 +3780,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.oritmalki.mymusicapp2:contentInsetStart
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:contentInsetStart
      */
     public static final int ActionBar_contentInsetStart=7;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#contentInsetStartWithNavigation}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#contentInsetStartWithNavigation}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -3793,11 +3793,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.oritmalki.mymusicapp2:contentInsetStartWithNavigation
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:contentInsetStartWithNavigation
      */
     public static final int ActionBar_contentInsetStartWithNavigation=8;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#customNavigationLayout}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#customNavigationLayout}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -3805,11 +3805,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.oritmalki.mymusicapp2:customNavigationLayout
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:customNavigationLayout
      */
     public static final int ActionBar_customNavigationLayout=9;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#displayOptions}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#displayOptions}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -3827,11 +3827,11 @@ public final class R {
      * <tr><td>useLogo</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name com.oritmalki.mymusicapp2:displayOptions
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:displayOptions
      */
     public static final int ActionBar_displayOptions=10;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#divider}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#divider}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -3839,11 +3839,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.oritmalki.mymusicapp2:divider
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:divider
      */
     public static final int ActionBar_divider=11;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#elevation}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#elevation}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -3852,11 +3852,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.oritmalki.mymusicapp2:elevation
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:elevation
      */
     public static final int ActionBar_elevation=12;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#height}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#height}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -3865,21 +3865,21 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.oritmalki.mymusicapp2:height
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:height
      */
     public static final int ActionBar_height=13;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#hideOnContentScroll}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#hideOnContentScroll}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.oritmalki.mymusicapp2:hideOnContentScroll
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:hideOnContentScroll
      */
     public static final int ActionBar_hideOnContentScroll=14;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#homeAsUpIndicator}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#homeAsUpIndicator}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -3887,11 +3887,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.oritmalki.mymusicapp2:homeAsUpIndicator
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:homeAsUpIndicator
      */
     public static final int ActionBar_homeAsUpIndicator=15;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#homeLayout}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#homeLayout}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -3899,11 +3899,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.oritmalki.mymusicapp2:homeLayout
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:homeLayout
      */
     public static final int ActionBar_homeLayout=16;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#icon}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#icon}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -3911,11 +3911,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.oritmalki.mymusicapp2:icon
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:icon
      */
     public static final int ActionBar_icon=17;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#indeterminateProgressStyle}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#indeterminateProgressStyle}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -3923,11 +3923,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.oritmalki.mymusicapp2:indeterminateProgressStyle
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:indeterminateProgressStyle
      */
     public static final int ActionBar_indeterminateProgressStyle=18;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#itemPadding}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#itemPadding}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -3936,11 +3936,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.oritmalki.mymusicapp2:itemPadding
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:itemPadding
      */
     public static final int ActionBar_itemPadding=19;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#logo}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#logo}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -3948,11 +3948,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.oritmalki.mymusicapp2:logo
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:logo
      */
     public static final int ActionBar_logo=20;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#navigationMode}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#navigationMode}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -3966,11 +3966,11 @@ public final class R {
      * <tr><td>tabMode</td><td>2</td><td></td></tr>
      * </table>
      *
-     * @attr name com.oritmalki.mymusicapp2:navigationMode
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:navigationMode
      */
     public static final int ActionBar_navigationMode=21;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#popupTheme}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#popupTheme}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -3978,11 +3978,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.oritmalki.mymusicapp2:popupTheme
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:popupTheme
      */
     public static final int ActionBar_popupTheme=22;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#progressBarPadding}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#progressBarPadding}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -3991,11 +3991,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.oritmalki.mymusicapp2:progressBarPadding
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:progressBarPadding
      */
     public static final int ActionBar_progressBarPadding=23;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#progressBarStyle}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#progressBarStyle}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4003,21 +4003,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.oritmalki.mymusicapp2:progressBarStyle
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:progressBarStyle
      */
     public static final int ActionBar_progressBarStyle=24;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#subtitle}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#subtitle}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.oritmalki.mymusicapp2:subtitle
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:subtitle
      */
     public static final int ActionBar_subtitle=25;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#subtitleTextStyle}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#subtitleTextStyle}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4025,21 +4025,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.oritmalki.mymusicapp2:subtitleTextStyle
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:subtitleTextStyle
      */
     public static final int ActionBar_subtitleTextStyle=26;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#title}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#title}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.oritmalki.mymusicapp2:title
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:title
      */
     public static final int ActionBar_title=27;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#titleTextStyle}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#titleTextStyle}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4047,7 +4047,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.oritmalki.mymusicapp2:titleTextStyle
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:titleTextStyle
      */
     public static final int ActionBar_titleTextStyle=28;
     /**
@@ -4086,12 +4086,12 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #ActionMode_background com.oritmalki.mymusicapp2:background}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionMode_backgroundSplit com.oritmalki.mymusicapp2:backgroundSplit}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionMode_closeItemLayout com.oritmalki.mymusicapp2:closeItemLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionMode_height com.oritmalki.mymusicapp2:height}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionMode_subtitleTextStyle com.oritmalki.mymusicapp2:subtitleTextStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionMode_titleTextStyle com.oritmalki.mymusicapp2:titleTextStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionMode_background com.oritmalki.com.oritmalki.mymusicapp2:background}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionMode_backgroundSplit com.oritmalki.com.oritmalki.mymusicapp2:backgroundSplit}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionMode_closeItemLayout com.oritmalki.com.oritmalki.mymusicapp2:closeItemLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionMode_height com.oritmalki.com.oritmalki.mymusicapp2:height}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionMode_subtitleTextStyle com.oritmalki.com.oritmalki.mymusicapp2:subtitleTextStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionMode_titleTextStyle com.oritmalki.com.oritmalki.mymusicapp2:titleTextStyle}</code></td><td></td></tr>
      * </table>
      * @see #ActionMode_background
      * @see #ActionMode_backgroundSplit
@@ -4105,7 +4105,7 @@ public final class R {
         0x7f02010c, 0x7f020130
       };
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#background}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#background}
      * attribute's value can be found in the {@link #ActionMode} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4113,11 +4113,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.oritmalki.mymusicapp2:background
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:background
      */
     public static final int ActionMode_background=0;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#backgroundSplit}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#backgroundSplit}
      * attribute's value can be found in the {@link #ActionMode} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4128,11 +4128,11 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.oritmalki.mymusicapp2:backgroundSplit
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:backgroundSplit
      */
     public static final int ActionMode_backgroundSplit=1;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#closeItemLayout}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#closeItemLayout}
      * attribute's value can be found in the {@link #ActionMode} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4140,11 +4140,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.oritmalki.mymusicapp2:closeItemLayout
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:closeItemLayout
      */
     public static final int ActionMode_closeItemLayout=2;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#height}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#height}
      * attribute's value can be found in the {@link #ActionMode} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -4153,11 +4153,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.oritmalki.mymusicapp2:height
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:height
      */
     public static final int ActionMode_height=3;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#subtitleTextStyle}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#subtitleTextStyle}
      * attribute's value can be found in the {@link #ActionMode} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4165,11 +4165,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.oritmalki.mymusicapp2:subtitleTextStyle
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:subtitleTextStyle
      */
     public static final int ActionMode_subtitleTextStyle=4;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#titleTextStyle}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#titleTextStyle}
      * attribute's value can be found in the {@link #ActionMode} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4177,7 +4177,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.oritmalki.mymusicapp2:titleTextStyle
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:titleTextStyle
      */
     public static final int ActionMode_titleTextStyle=5;
     /**
@@ -4187,8 +4187,8 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #ActivityChooserView_expandActivityOverflowButtonDrawable com.oritmalki.mymusicapp2:expandActivityOverflowButtonDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActivityChooserView_initialActivityCount com.oritmalki.mymusicapp2:initialActivityCount}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActivityChooserView_expandActivityOverflowButtonDrawable com.oritmalki.com.oritmalki.mymusicapp2:expandActivityOverflowButtonDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActivityChooserView_initialActivityCount com.oritmalki.com.oritmalki.mymusicapp2:initialActivityCount}</code></td><td></td></tr>
      * </table>
      * @see #ActivityChooserView_expandActivityOverflowButtonDrawable
      * @see #ActivityChooserView_initialActivityCount
@@ -4197,7 +4197,7 @@ public final class R {
         0x7f020074, 0x7f02008d
       };
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#expandActivityOverflowButtonDrawable}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#expandActivityOverflowButtonDrawable}
      * attribute's value can be found in the {@link #ActivityChooserView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4205,17 +4205,17 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.oritmalki.mymusicapp2:expandActivityOverflowButtonDrawable
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:expandActivityOverflowButtonDrawable
      */
     public static final int ActivityChooserView_expandActivityOverflowButtonDrawable=0;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#initialActivityCount}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#initialActivityCount}
      * attribute's value can be found in the {@link #ActivityChooserView} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.oritmalki.mymusicapp2:initialActivityCount
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:initialActivityCount
      */
     public static final int ActivityChooserView_initialActivityCount=1;
     /**
@@ -4226,12 +4226,12 @@ public final class R {
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #AlertDialog_android_layout android:layout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AlertDialog_buttonPanelSideLayout com.oritmalki.mymusicapp2:buttonPanelSideLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AlertDialog_listItemLayout com.oritmalki.mymusicapp2:listItemLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AlertDialog_listLayout com.oritmalki.mymusicapp2:listLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AlertDialog_multiChoiceItemLayout com.oritmalki.mymusicapp2:multiChoiceItemLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AlertDialog_showTitle com.oritmalki.mymusicapp2:showTitle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AlertDialog_singleChoiceItemLayout com.oritmalki.mymusicapp2:singleChoiceItemLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AlertDialog_buttonPanelSideLayout com.oritmalki.com.oritmalki.mymusicapp2:buttonPanelSideLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AlertDialog_listItemLayout com.oritmalki.com.oritmalki.mymusicapp2:listItemLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AlertDialog_listLayout com.oritmalki.com.oritmalki.mymusicapp2:listLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AlertDialog_multiChoiceItemLayout com.oritmalki.com.oritmalki.mymusicapp2:multiChoiceItemLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AlertDialog_showTitle com.oritmalki.com.oritmalki.mymusicapp2:showTitle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AlertDialog_singleChoiceItemLayout com.oritmalki.com.oritmalki.mymusicapp2:singleChoiceItemLayout}</code></td><td></td></tr>
      * </table>
      * @see #AlertDialog_android_layout
      * @see #AlertDialog_buttonPanelSideLayout
@@ -4258,7 +4258,7 @@ public final class R {
      */
     public static final int AlertDialog_android_layout=0;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#buttonPanelSideLayout}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#buttonPanelSideLayout}
      * attribute's value can be found in the {@link #AlertDialog} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4266,11 +4266,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.oritmalki.mymusicapp2:buttonPanelSideLayout
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:buttonPanelSideLayout
      */
     public static final int AlertDialog_buttonPanelSideLayout=1;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#listItemLayout}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#listItemLayout}
      * attribute's value can be found in the {@link #AlertDialog} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4278,11 +4278,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.oritmalki.mymusicapp2:listItemLayout
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:listItemLayout
      */
     public static final int AlertDialog_listItemLayout=2;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#listLayout}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#listLayout}
      * attribute's value can be found in the {@link #AlertDialog} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4290,11 +4290,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.oritmalki.mymusicapp2:listLayout
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:listLayout
      */
     public static final int AlertDialog_listLayout=3;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#multiChoiceItemLayout}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#multiChoiceItemLayout}
      * attribute's value can be found in the {@link #AlertDialog} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4302,21 +4302,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.oritmalki.mymusicapp2:multiChoiceItemLayout
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:multiChoiceItemLayout
      */
     public static final int AlertDialog_multiChoiceItemLayout=4;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#showTitle}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#showTitle}
      * attribute's value can be found in the {@link #AlertDialog} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.oritmalki.mymusicapp2:showTitle
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:showTitle
      */
     public static final int AlertDialog_showTitle=5;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#singleChoiceItemLayout}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#singleChoiceItemLayout}
      * attribute's value can be found in the {@link #AlertDialog} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4324,7 +4324,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.oritmalki.mymusicapp2:singleChoiceItemLayout
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:singleChoiceItemLayout
      */
     public static final int AlertDialog_singleChoiceItemLayout=6;
     /**
@@ -4335,9 +4335,9 @@ public final class R {
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #AppCompatImageView_android_src android:src}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatImageView_srcCompat com.oritmalki.mymusicapp2:srcCompat}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatImageView_tint com.oritmalki.mymusicapp2:tint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatImageView_tintMode com.oritmalki.mymusicapp2:tintMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatImageView_srcCompat com.oritmalki.com.oritmalki.mymusicapp2:srcCompat}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatImageView_tint com.oritmalki.com.oritmalki.mymusicapp2:tint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatImageView_tintMode com.oritmalki.com.oritmalki.mymusicapp2:tintMode}</code></td><td></td></tr>
      * </table>
      * @see #AppCompatImageView_android_src
      * @see #AppCompatImageView_srcCompat
@@ -4363,7 +4363,7 @@ public final class R {
      */
     public static final int AppCompatImageView_android_src=0;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#srcCompat}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#srcCompat}
      * attribute's value can be found in the {@link #AppCompatImageView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4371,22 +4371,22 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.oritmalki.mymusicapp2:srcCompat
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:srcCompat
      */
     public static final int AppCompatImageView_srcCompat=1;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#tint}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#tint}
      * attribute's value can be found in the {@link #AppCompatImageView} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.oritmalki.mymusicapp2:tint
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:tint
      */
     public static final int AppCompatImageView_tint=2;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#tintMode}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#tintMode}
      * attribute's value can be found in the {@link #AppCompatImageView} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -4402,7 +4402,7 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      *
-     * @attr name com.oritmalki.mymusicapp2:tintMode
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:tintMode
      */
     public static final int AppCompatImageView_tintMode=3;
     /**
@@ -4413,9 +4413,9 @@ public final class R {
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #AppCompatSeekBar_android_thumb android:thumb}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatSeekBar_tickMark com.oritmalki.mymusicapp2:tickMark}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatSeekBar_tickMarkTint com.oritmalki.mymusicapp2:tickMarkTint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatSeekBar_tickMarkTintMode com.oritmalki.mymusicapp2:tickMarkTintMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatSeekBar_tickMark com.oritmalki.com.oritmalki.mymusicapp2:tickMark}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatSeekBar_tickMarkTint com.oritmalki.com.oritmalki.mymusicapp2:tickMarkTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatSeekBar_tickMarkTintMode com.oritmalki.com.oritmalki.mymusicapp2:tickMarkTintMode}</code></td><td></td></tr>
      * </table>
      * @see #AppCompatSeekBar_android_thumb
      * @see #AppCompatSeekBar_tickMark
@@ -4438,7 +4438,7 @@ public final class R {
      */
     public static final int AppCompatSeekBar_android_thumb=0;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#tickMark}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#tickMark}
      * attribute's value can be found in the {@link #AppCompatSeekBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4446,22 +4446,22 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.oritmalki.mymusicapp2:tickMark
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:tickMark
      */
     public static final int AppCompatSeekBar_tickMark=1;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#tickMarkTint}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#tickMarkTint}
      * attribute's value can be found in the {@link #AppCompatSeekBar} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.oritmalki.mymusicapp2:tickMarkTint
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:tickMarkTint
      */
     public static final int AppCompatSeekBar_tickMarkTint=2;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#tickMarkTintMode}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#tickMarkTintMode}
      * attribute's value can be found in the {@link #AppCompatSeekBar} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -4478,7 +4478,7 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      *
-     * @attr name com.oritmalki.mymusicapp2:tickMarkTintMode
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:tickMarkTintMode
      */
     public static final int AppCompatSeekBar_tickMarkTintMode=3;
     /**
@@ -4618,13 +4618,13 @@ public final class R {
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #AppCompatTextView_android_textAppearance android:textAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_autoSizeMaxTextSize com.oritmalki.mymusicapp2:autoSizeMaxTextSize}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_autoSizeMinTextSize com.oritmalki.mymusicapp2:autoSizeMinTextSize}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_autoSizePresetSizes com.oritmalki.mymusicapp2:autoSizePresetSizes}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_autoSizeStepGranularity com.oritmalki.mymusicapp2:autoSizeStepGranularity}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_autoSizeTextType com.oritmalki.mymusicapp2:autoSizeTextType}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_fontFamily com.oritmalki.mymusicapp2:fontFamily}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_textAllCaps com.oritmalki.mymusicapp2:textAllCaps}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_autoSizeMaxTextSize com.oritmalki.com.oritmalki.mymusicapp2:autoSizeMaxTextSize}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_autoSizeMinTextSize com.oritmalki.com.oritmalki.mymusicapp2:autoSizeMinTextSize}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_autoSizePresetSizes com.oritmalki.com.oritmalki.mymusicapp2:autoSizePresetSizes}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_autoSizeStepGranularity com.oritmalki.com.oritmalki.mymusicapp2:autoSizeStepGranularity}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_autoSizeTextType com.oritmalki.com.oritmalki.mymusicapp2:autoSizeTextType}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_fontFamily com.oritmalki.com.oritmalki.mymusicapp2:fontFamily}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_textAllCaps com.oritmalki.com.oritmalki.mymusicapp2:textAllCaps}</code></td><td></td></tr>
      * </table>
      * @see #AppCompatTextView_android_textAppearance
      * @see #AppCompatTextView_autoSizeMaxTextSize
@@ -4652,7 +4652,7 @@ public final class R {
      */
     public static final int AppCompatTextView_android_textAppearance=0;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#autoSizeMaxTextSize}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#autoSizeMaxTextSize}
      * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -4661,11 +4661,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.oritmalki.mymusicapp2:autoSizeMaxTextSize
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:autoSizeMaxTextSize
      */
     public static final int AppCompatTextView_autoSizeMaxTextSize=1;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#autoSizeMinTextSize}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#autoSizeMinTextSize}
      * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -4674,11 +4674,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.oritmalki.mymusicapp2:autoSizeMinTextSize
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:autoSizeMinTextSize
      */
     public static final int AppCompatTextView_autoSizeMinTextSize=2;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#autoSizePresetSizes}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#autoSizePresetSizes}
      * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4686,11 +4686,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.oritmalki.mymusicapp2:autoSizePresetSizes
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:autoSizePresetSizes
      */
     public static final int AppCompatTextView_autoSizePresetSizes=3;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#autoSizeStepGranularity}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#autoSizeStepGranularity}
      * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -4699,11 +4699,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.oritmalki.mymusicapp2:autoSizeStepGranularity
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:autoSizeStepGranularity
      */
     public static final int AppCompatTextView_autoSizeStepGranularity=4;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#autoSizeTextType}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#autoSizeTextType}
      * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -4716,21 +4716,21 @@ public final class R {
      * <tr><td>uniform</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name com.oritmalki.mymusicapp2:autoSizeTextType
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:autoSizeTextType
      */
     public static final int AppCompatTextView_autoSizeTextType=5;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#fontFamily}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#fontFamily}
      * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.oritmalki.mymusicapp2:fontFamily
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:fontFamily
      */
     public static final int AppCompatTextView_fontFamily=6;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#textAllCaps}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#textAllCaps}
      * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4740,7 +4740,7 @@ public final class R {
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.oritmalki.mymusicapp2:textAllCaps
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:textAllCaps
      */
     public static final int AppCompatTextView_textAllCaps=7;
     /**
@@ -4752,123 +4752,123 @@ public final class R {
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #AppCompatTheme_android_windowIsFloating android:windowIsFloating}</code></td><td></td></tr>
      * <tr><td><code>{@link #AppCompatTheme_android_windowAnimationStyle android:windowAnimationStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarDivider com.oritmalki.mymusicapp2:actionBarDivider}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarItemBackground com.oritmalki.mymusicapp2:actionBarItemBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarPopupTheme com.oritmalki.mymusicapp2:actionBarPopupTheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarSize com.oritmalki.mymusicapp2:actionBarSize}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarSplitStyle com.oritmalki.mymusicapp2:actionBarSplitStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarStyle com.oritmalki.mymusicapp2:actionBarStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarTabBarStyle com.oritmalki.mymusicapp2:actionBarTabBarStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarTabStyle com.oritmalki.mymusicapp2:actionBarTabStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarTabTextStyle com.oritmalki.mymusicapp2:actionBarTabTextStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarTheme com.oritmalki.mymusicapp2:actionBarTheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarWidgetTheme com.oritmalki.mymusicapp2:actionBarWidgetTheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionButtonStyle com.oritmalki.mymusicapp2:actionButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionDropDownStyle com.oritmalki.mymusicapp2:actionDropDownStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionMenuTextAppearance com.oritmalki.mymusicapp2:actionMenuTextAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionMenuTextColor com.oritmalki.mymusicapp2:actionMenuTextColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeBackground com.oritmalki.mymusicapp2:actionModeBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeCloseButtonStyle com.oritmalki.mymusicapp2:actionModeCloseButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeCloseDrawable com.oritmalki.mymusicapp2:actionModeCloseDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeCopyDrawable com.oritmalki.mymusicapp2:actionModeCopyDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeCutDrawable com.oritmalki.mymusicapp2:actionModeCutDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeFindDrawable com.oritmalki.mymusicapp2:actionModeFindDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModePasteDrawable com.oritmalki.mymusicapp2:actionModePasteDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModePopupWindowStyle com.oritmalki.mymusicapp2:actionModePopupWindowStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeSelectAllDrawable com.oritmalki.mymusicapp2:actionModeSelectAllDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeShareDrawable com.oritmalki.mymusicapp2:actionModeShareDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeSplitBackground com.oritmalki.mymusicapp2:actionModeSplitBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeStyle com.oritmalki.mymusicapp2:actionModeStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeWebSearchDrawable com.oritmalki.mymusicapp2:actionModeWebSearchDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionOverflowButtonStyle com.oritmalki.mymusicapp2:actionOverflowButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionOverflowMenuStyle com.oritmalki.mymusicapp2:actionOverflowMenuStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_activityChooserViewStyle com.oritmalki.mymusicapp2:activityChooserViewStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_alertDialogButtonGroupStyle com.oritmalki.mymusicapp2:alertDialogButtonGroupStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_alertDialogCenterButtons com.oritmalki.mymusicapp2:alertDialogCenterButtons}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_alertDialogStyle com.oritmalki.mymusicapp2:alertDialogStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_alertDialogTheme com.oritmalki.mymusicapp2:alertDialogTheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_autoCompleteTextViewStyle com.oritmalki.mymusicapp2:autoCompleteTextViewStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_borderlessButtonStyle com.oritmalki.mymusicapp2:borderlessButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_buttonBarButtonStyle com.oritmalki.mymusicapp2:buttonBarButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_buttonBarNegativeButtonStyle com.oritmalki.mymusicapp2:buttonBarNegativeButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_buttonBarNeutralButtonStyle com.oritmalki.mymusicapp2:buttonBarNeutralButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_buttonBarPositiveButtonStyle com.oritmalki.mymusicapp2:buttonBarPositiveButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_buttonBarStyle com.oritmalki.mymusicapp2:buttonBarStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_buttonStyle com.oritmalki.mymusicapp2:buttonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_buttonStyleSmall com.oritmalki.mymusicapp2:buttonStyleSmall}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_checkboxStyle com.oritmalki.mymusicapp2:checkboxStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_checkedTextViewStyle com.oritmalki.mymusicapp2:checkedTextViewStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorAccent com.oritmalki.mymusicapp2:colorAccent}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorBackgroundFloating com.oritmalki.mymusicapp2:colorBackgroundFloating}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorButtonNormal com.oritmalki.mymusicapp2:colorButtonNormal}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorControlActivated com.oritmalki.mymusicapp2:colorControlActivated}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorControlHighlight com.oritmalki.mymusicapp2:colorControlHighlight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorControlNormal com.oritmalki.mymusicapp2:colorControlNormal}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorError com.oritmalki.mymusicapp2:colorError}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorPrimary com.oritmalki.mymusicapp2:colorPrimary}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorPrimaryDark com.oritmalki.mymusicapp2:colorPrimaryDark}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorSwitchThumbNormal com.oritmalki.mymusicapp2:colorSwitchThumbNormal}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_controlBackground com.oritmalki.mymusicapp2:controlBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_dialogPreferredPadding com.oritmalki.mymusicapp2:dialogPreferredPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_dialogTheme com.oritmalki.mymusicapp2:dialogTheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_dividerHorizontal com.oritmalki.mymusicapp2:dividerHorizontal}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_dividerVertical com.oritmalki.mymusicapp2:dividerVertical}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_dropDownListViewStyle com.oritmalki.mymusicapp2:dropDownListViewStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_dropdownListPreferredItemHeight com.oritmalki.mymusicapp2:dropdownListPreferredItemHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_editTextBackground com.oritmalki.mymusicapp2:editTextBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_editTextColor com.oritmalki.mymusicapp2:editTextColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_editTextStyle com.oritmalki.mymusicapp2:editTextStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_homeAsUpIndicator com.oritmalki.mymusicapp2:homeAsUpIndicator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_imageButtonStyle com.oritmalki.mymusicapp2:imageButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listChoiceBackgroundIndicator com.oritmalki.mymusicapp2:listChoiceBackgroundIndicator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listDividerAlertDialog com.oritmalki.mymusicapp2:listDividerAlertDialog}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listMenuViewStyle com.oritmalki.mymusicapp2:listMenuViewStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listPopupWindowStyle com.oritmalki.mymusicapp2:listPopupWindowStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeight com.oritmalki.mymusicapp2:listPreferredItemHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeightLarge com.oritmalki.mymusicapp2:listPreferredItemHeightLarge}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeightSmall com.oritmalki.mymusicapp2:listPreferredItemHeightSmall}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemPaddingLeft com.oritmalki.mymusicapp2:listPreferredItemPaddingLeft}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemPaddingRight com.oritmalki.mymusicapp2:listPreferredItemPaddingRight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_panelBackground com.oritmalki.mymusicapp2:panelBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_panelMenuListTheme com.oritmalki.mymusicapp2:panelMenuListTheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_panelMenuListWidth com.oritmalki.mymusicapp2:panelMenuListWidth}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_popupMenuStyle com.oritmalki.mymusicapp2:popupMenuStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_popupWindowStyle com.oritmalki.mymusicapp2:popupWindowStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_radioButtonStyle com.oritmalki.mymusicapp2:radioButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_ratingBarStyle com.oritmalki.mymusicapp2:ratingBarStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_ratingBarStyleIndicator com.oritmalki.mymusicapp2:ratingBarStyleIndicator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_ratingBarStyleSmall com.oritmalki.mymusicapp2:ratingBarStyleSmall}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_searchViewStyle com.oritmalki.mymusicapp2:searchViewStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_seekBarStyle com.oritmalki.mymusicapp2:seekBarStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_selectableItemBackground com.oritmalki.mymusicapp2:selectableItemBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_selectableItemBackgroundBorderless com.oritmalki.mymusicapp2:selectableItemBackgroundBorderless}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_spinnerDropDownItemStyle com.oritmalki.mymusicapp2:spinnerDropDownItemStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_spinnerStyle com.oritmalki.mymusicapp2:spinnerStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_switchStyle com.oritmalki.mymusicapp2:switchStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearanceLargePopupMenu com.oritmalki.mymusicapp2:textAppearanceLargePopupMenu}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearanceListItem com.oritmalki.mymusicapp2:textAppearanceListItem}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearanceListItemSecondary com.oritmalki.mymusicapp2:textAppearanceListItemSecondary}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearanceListItemSmall com.oritmalki.mymusicapp2:textAppearanceListItemSmall}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearancePopupMenuHeader com.oritmalki.mymusicapp2:textAppearancePopupMenuHeader}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearanceSearchResultSubtitle com.oritmalki.mymusicapp2:textAppearanceSearchResultSubtitle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearanceSearchResultTitle com.oritmalki.mymusicapp2:textAppearanceSearchResultTitle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearanceSmallPopupMenu com.oritmalki.mymusicapp2:textAppearanceSmallPopupMenu}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textColorAlertDialogListItem com.oritmalki.mymusicapp2:textColorAlertDialogListItem}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textColorSearchUrl com.oritmalki.mymusicapp2:textColorSearchUrl}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_toolbarNavigationButtonStyle com.oritmalki.mymusicapp2:toolbarNavigationButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_toolbarStyle com.oritmalki.mymusicapp2:toolbarStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_tooltipForegroundColor com.oritmalki.mymusicapp2:tooltipForegroundColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_tooltipFrameBackground com.oritmalki.mymusicapp2:tooltipFrameBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowActionBar com.oritmalki.mymusicapp2:windowActionBar}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowActionBarOverlay com.oritmalki.mymusicapp2:windowActionBarOverlay}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowActionModeOverlay com.oritmalki.mymusicapp2:windowActionModeOverlay}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowFixedHeightMajor com.oritmalki.mymusicapp2:windowFixedHeightMajor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowFixedHeightMinor com.oritmalki.mymusicapp2:windowFixedHeightMinor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowFixedWidthMajor com.oritmalki.mymusicapp2:windowFixedWidthMajor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowFixedWidthMinor com.oritmalki.mymusicapp2:windowFixedWidthMinor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowMinWidthMajor com.oritmalki.mymusicapp2:windowMinWidthMajor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowMinWidthMinor com.oritmalki.mymusicapp2:windowMinWidthMinor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowNoTitle com.oritmalki.mymusicapp2:windowNoTitle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarDivider com.oritmalki.com.oritmalki.mymusicapp2:actionBarDivider}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarItemBackground com.oritmalki.com.oritmalki.mymusicapp2:actionBarItemBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarPopupTheme com.oritmalki.com.oritmalki.mymusicapp2:actionBarPopupTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarSize com.oritmalki.com.oritmalki.mymusicapp2:actionBarSize}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarSplitStyle com.oritmalki.com.oritmalki.mymusicapp2:actionBarSplitStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarStyle com.oritmalki.com.oritmalki.mymusicapp2:actionBarStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarTabBarStyle com.oritmalki.com.oritmalki.mymusicapp2:actionBarTabBarStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarTabStyle com.oritmalki.com.oritmalki.mymusicapp2:actionBarTabStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarTabTextStyle com.oritmalki.com.oritmalki.mymusicapp2:actionBarTabTextStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarTheme com.oritmalki.com.oritmalki.mymusicapp2:actionBarTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarWidgetTheme com.oritmalki.com.oritmalki.mymusicapp2:actionBarWidgetTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionButtonStyle com.oritmalki.com.oritmalki.mymusicapp2:actionButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionDropDownStyle com.oritmalki.com.oritmalki.mymusicapp2:actionDropDownStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionMenuTextAppearance com.oritmalki.com.oritmalki.mymusicapp2:actionMenuTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionMenuTextColor com.oritmalki.com.oritmalki.mymusicapp2:actionMenuTextColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeBackground com.oritmalki.com.oritmalki.mymusicapp2:actionModeBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeCloseButtonStyle com.oritmalki.com.oritmalki.mymusicapp2:actionModeCloseButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeCloseDrawable com.oritmalki.com.oritmalki.mymusicapp2:actionModeCloseDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeCopyDrawable com.oritmalki.com.oritmalki.mymusicapp2:actionModeCopyDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeCutDrawable com.oritmalki.com.oritmalki.mymusicapp2:actionModeCutDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeFindDrawable com.oritmalki.com.oritmalki.mymusicapp2:actionModeFindDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModePasteDrawable com.oritmalki.com.oritmalki.mymusicapp2:actionModePasteDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModePopupWindowStyle com.oritmalki.com.oritmalki.mymusicapp2:actionModePopupWindowStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeSelectAllDrawable com.oritmalki.com.oritmalki.mymusicapp2:actionModeSelectAllDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeShareDrawable com.oritmalki.com.oritmalki.mymusicapp2:actionModeShareDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeSplitBackground com.oritmalki.com.oritmalki.mymusicapp2:actionModeSplitBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeStyle com.oritmalki.com.oritmalki.mymusicapp2:actionModeStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeWebSearchDrawable com.oritmalki.com.oritmalki.mymusicapp2:actionModeWebSearchDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionOverflowButtonStyle com.oritmalki.com.oritmalki.mymusicapp2:actionOverflowButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionOverflowMenuStyle com.oritmalki.com.oritmalki.mymusicapp2:actionOverflowMenuStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_activityChooserViewStyle com.oritmalki.com.oritmalki.mymusicapp2:activityChooserViewStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_alertDialogButtonGroupStyle com.oritmalki.com.oritmalki.mymusicapp2:alertDialogButtonGroupStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_alertDialogCenterButtons com.oritmalki.com.oritmalki.mymusicapp2:alertDialogCenterButtons}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_alertDialogStyle com.oritmalki.com.oritmalki.mymusicapp2:alertDialogStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_alertDialogTheme com.oritmalki.com.oritmalki.mymusicapp2:alertDialogTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_autoCompleteTextViewStyle com.oritmalki.com.oritmalki.mymusicapp2:autoCompleteTextViewStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_borderlessButtonStyle com.oritmalki.com.oritmalki.mymusicapp2:borderlessButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_buttonBarButtonStyle com.oritmalki.com.oritmalki.mymusicapp2:buttonBarButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_buttonBarNegativeButtonStyle com.oritmalki.com.oritmalki.mymusicapp2:buttonBarNegativeButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_buttonBarNeutralButtonStyle com.oritmalki.com.oritmalki.mymusicapp2:buttonBarNeutralButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_buttonBarPositiveButtonStyle com.oritmalki.com.oritmalki.mymusicapp2:buttonBarPositiveButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_buttonBarStyle com.oritmalki.com.oritmalki.mymusicapp2:buttonBarStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_buttonStyle com.oritmalki.com.oritmalki.mymusicapp2:buttonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_buttonStyleSmall com.oritmalki.com.oritmalki.mymusicapp2:buttonStyleSmall}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_checkboxStyle com.oritmalki.com.oritmalki.mymusicapp2:checkboxStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_checkedTextViewStyle com.oritmalki.com.oritmalki.mymusicapp2:checkedTextViewStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorAccent com.oritmalki.com.oritmalki.mymusicapp2:colorAccent}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorBackgroundFloating com.oritmalki.com.oritmalki.mymusicapp2:colorBackgroundFloating}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorButtonNormal com.oritmalki.com.oritmalki.mymusicapp2:colorButtonNormal}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorControlActivated com.oritmalki.com.oritmalki.mymusicapp2:colorControlActivated}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorControlHighlight com.oritmalki.com.oritmalki.mymusicapp2:colorControlHighlight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorControlNormal com.oritmalki.com.oritmalki.mymusicapp2:colorControlNormal}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorError com.oritmalki.com.oritmalki.mymusicapp2:colorError}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorPrimary com.oritmalki.com.oritmalki.mymusicapp2:colorPrimary}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorPrimaryDark com.oritmalki.com.oritmalki.mymusicapp2:colorPrimaryDark}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorSwitchThumbNormal com.oritmalki.com.oritmalki.mymusicapp2:colorSwitchThumbNormal}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_controlBackground com.oritmalki.com.oritmalki.mymusicapp2:controlBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_dialogPreferredPadding com.oritmalki.com.oritmalki.mymusicapp2:dialogPreferredPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_dialogTheme com.oritmalki.com.oritmalki.mymusicapp2:dialogTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_dividerHorizontal com.oritmalki.com.oritmalki.mymusicapp2:dividerHorizontal}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_dividerVertical com.oritmalki.com.oritmalki.mymusicapp2:dividerVertical}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_dropDownListViewStyle com.oritmalki.com.oritmalki.mymusicapp2:dropDownListViewStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_dropdownListPreferredItemHeight com.oritmalki.com.oritmalki.mymusicapp2:dropdownListPreferredItemHeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_editTextBackground com.oritmalki.com.oritmalki.mymusicapp2:editTextBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_editTextColor com.oritmalki.com.oritmalki.mymusicapp2:editTextColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_editTextStyle com.oritmalki.com.oritmalki.mymusicapp2:editTextStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_homeAsUpIndicator com.oritmalki.com.oritmalki.mymusicapp2:homeAsUpIndicator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_imageButtonStyle com.oritmalki.com.oritmalki.mymusicapp2:imageButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listChoiceBackgroundIndicator com.oritmalki.com.oritmalki.mymusicapp2:listChoiceBackgroundIndicator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listDividerAlertDialog com.oritmalki.com.oritmalki.mymusicapp2:listDividerAlertDialog}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listMenuViewStyle com.oritmalki.com.oritmalki.mymusicapp2:listMenuViewStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listPopupWindowStyle com.oritmalki.com.oritmalki.mymusicapp2:listPopupWindowStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeight com.oritmalki.com.oritmalki.mymusicapp2:listPreferredItemHeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeightLarge com.oritmalki.com.oritmalki.mymusicapp2:listPreferredItemHeightLarge}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeightSmall com.oritmalki.com.oritmalki.mymusicapp2:listPreferredItemHeightSmall}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemPaddingLeft com.oritmalki.com.oritmalki.mymusicapp2:listPreferredItemPaddingLeft}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemPaddingRight com.oritmalki.com.oritmalki.mymusicapp2:listPreferredItemPaddingRight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_panelBackground com.oritmalki.com.oritmalki.mymusicapp2:panelBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_panelMenuListTheme com.oritmalki.com.oritmalki.mymusicapp2:panelMenuListTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_panelMenuListWidth com.oritmalki.com.oritmalki.mymusicapp2:panelMenuListWidth}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_popupMenuStyle com.oritmalki.com.oritmalki.mymusicapp2:popupMenuStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_popupWindowStyle com.oritmalki.com.oritmalki.mymusicapp2:popupWindowStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_radioButtonStyle com.oritmalki.com.oritmalki.mymusicapp2:radioButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_ratingBarStyle com.oritmalki.com.oritmalki.mymusicapp2:ratingBarStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_ratingBarStyleIndicator com.oritmalki.com.oritmalki.mymusicapp2:ratingBarStyleIndicator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_ratingBarStyleSmall com.oritmalki.com.oritmalki.mymusicapp2:ratingBarStyleSmall}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_searchViewStyle com.oritmalki.com.oritmalki.mymusicapp2:searchViewStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_seekBarStyle com.oritmalki.com.oritmalki.mymusicapp2:seekBarStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_selectableItemBackground com.oritmalki.com.oritmalki.mymusicapp2:selectableItemBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_selectableItemBackgroundBorderless com.oritmalki.com.oritmalki.mymusicapp2:selectableItemBackgroundBorderless}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_spinnerDropDownItemStyle com.oritmalki.com.oritmalki.mymusicapp2:spinnerDropDownItemStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_spinnerStyle com.oritmalki.com.oritmalki.mymusicapp2:spinnerStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_switchStyle com.oritmalki.com.oritmalki.mymusicapp2:switchStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearanceLargePopupMenu com.oritmalki.com.oritmalki.mymusicapp2:textAppearanceLargePopupMenu}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearanceListItem com.oritmalki.com.oritmalki.mymusicapp2:textAppearanceListItem}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearanceListItemSecondary com.oritmalki.com.oritmalki.mymusicapp2:textAppearanceListItemSecondary}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearanceListItemSmall com.oritmalki.com.oritmalki.mymusicapp2:textAppearanceListItemSmall}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearancePopupMenuHeader com.oritmalki.com.oritmalki.mymusicapp2:textAppearancePopupMenuHeader}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearanceSearchResultSubtitle com.oritmalki.com.oritmalki.mymusicapp2:textAppearanceSearchResultSubtitle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearanceSearchResultTitle com.oritmalki.com.oritmalki.mymusicapp2:textAppearanceSearchResultTitle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearanceSmallPopupMenu com.oritmalki.com.oritmalki.mymusicapp2:textAppearanceSmallPopupMenu}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textColorAlertDialogListItem com.oritmalki.com.oritmalki.mymusicapp2:textColorAlertDialogListItem}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textColorSearchUrl com.oritmalki.com.oritmalki.mymusicapp2:textColorSearchUrl}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_toolbarNavigationButtonStyle com.oritmalki.com.oritmalki.mymusicapp2:toolbarNavigationButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_toolbarStyle com.oritmalki.com.oritmalki.mymusicapp2:toolbarStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_tooltipForegroundColor com.oritmalki.com.oritmalki.mymusicapp2:tooltipForegroundColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_tooltipFrameBackground com.oritmalki.com.oritmalki.mymusicapp2:tooltipFrameBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowActionBar com.oritmalki.com.oritmalki.mymusicapp2:windowActionBar}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowActionBarOverlay com.oritmalki.com.oritmalki.mymusicapp2:windowActionBarOverlay}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowActionModeOverlay com.oritmalki.com.oritmalki.mymusicapp2:windowActionModeOverlay}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowFixedHeightMajor com.oritmalki.com.oritmalki.mymusicapp2:windowFixedHeightMajor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowFixedHeightMinor com.oritmalki.com.oritmalki.mymusicapp2:windowFixedHeightMinor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowFixedWidthMajor com.oritmalki.com.oritmalki.mymusicapp2:windowFixedWidthMajor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowFixedWidthMinor com.oritmalki.com.oritmalki.mymusicapp2:windowFixedWidthMinor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowMinWidthMajor com.oritmalki.com.oritmalki.mymusicapp2:windowMinWidthMajor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowMinWidthMinor com.oritmalki.com.oritmalki.mymusicapp2:windowMinWidthMinor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowNoTitle com.oritmalki.com.oritmalki.mymusicapp2:windowNoTitle}</code></td><td></td></tr>
      * </table>
      * @see #AppCompatTheme_android_windowIsFloating
      * @see #AppCompatTheme_android_windowAnimationStyle
@@ -5023,7 +5023,7 @@ public final class R {
         0x7f020141, 0x7f020142, 0x7f020143
       };
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#actionBarDivider}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#actionBarDivider}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5031,11 +5031,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.oritmalki.mymusicapp2:actionBarDivider
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:actionBarDivider
      */
     public static final int AppCompatTheme_actionBarDivider=2;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#actionBarItemBackground}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#actionBarItemBackground}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5043,11 +5043,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.oritmalki.mymusicapp2:actionBarItemBackground
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:actionBarItemBackground
      */
     public static final int AppCompatTheme_actionBarItemBackground=3;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#actionBarPopupTheme}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#actionBarPopupTheme}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5055,11 +5055,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.oritmalki.mymusicapp2:actionBarPopupTheme
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:actionBarPopupTheme
      */
     public static final int AppCompatTheme_actionBarPopupTheme=4;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#actionBarSize}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#actionBarSize}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -5076,11 +5076,11 @@ public final class R {
      * <tr><td>wrap_content</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.oritmalki.mymusicapp2:actionBarSize
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:actionBarSize
      */
     public static final int AppCompatTheme_actionBarSize=5;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#actionBarSplitStyle}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#actionBarSplitStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5088,11 +5088,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.oritmalki.mymusicapp2:actionBarSplitStyle
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:actionBarSplitStyle
      */
     public static final int AppCompatTheme_actionBarSplitStyle=6;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#actionBarStyle}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#actionBarStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5100,11 +5100,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.oritmalki.mymusicapp2:actionBarStyle
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:actionBarStyle
      */
     public static final int AppCompatTheme_actionBarStyle=7;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#actionBarTabBarStyle}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#actionBarTabBarStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5112,11 +5112,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.oritmalki.mymusicapp2:actionBarTabBarStyle
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:actionBarTabBarStyle
      */
     public static final int AppCompatTheme_actionBarTabBarStyle=8;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#actionBarTabStyle}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#actionBarTabStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5124,11 +5124,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.oritmalki.mymusicapp2:actionBarTabStyle
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:actionBarTabStyle
      */
     public static final int AppCompatTheme_actionBarTabStyle=9;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#actionBarTabTextStyle}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#actionBarTabTextStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5136,11 +5136,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.oritmalki.mymusicapp2:actionBarTabTextStyle
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:actionBarTabTextStyle
      */
     public static final int AppCompatTheme_actionBarTabTextStyle=10;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#actionBarTheme}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#actionBarTheme}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5148,11 +5148,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.oritmalki.mymusicapp2:actionBarTheme
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:actionBarTheme
      */
     public static final int AppCompatTheme_actionBarTheme=11;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#actionBarWidgetTheme}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#actionBarWidgetTheme}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5160,11 +5160,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.oritmalki.mymusicapp2:actionBarWidgetTheme
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:actionBarWidgetTheme
      */
     public static final int AppCompatTheme_actionBarWidgetTheme=12;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#actionButtonStyle}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#actionButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5172,11 +5172,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.oritmalki.mymusicapp2:actionButtonStyle
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:actionButtonStyle
      */
     public static final int AppCompatTheme_actionButtonStyle=13;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#actionDropDownStyle}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#actionDropDownStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5184,11 +5184,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.oritmalki.mymusicapp2:actionDropDownStyle
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:actionDropDownStyle
      */
     public static final int AppCompatTheme_actionDropDownStyle=14;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#actionMenuTextAppearance}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#actionMenuTextAppearance}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5196,11 +5196,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.oritmalki.mymusicapp2:actionMenuTextAppearance
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:actionMenuTextAppearance
      */
     public static final int AppCompatTheme_actionMenuTextAppearance=15;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#actionMenuTextColor}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#actionMenuTextColor}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5211,11 +5211,11 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.oritmalki.mymusicapp2:actionMenuTextColor
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:actionMenuTextColor
      */
     public static final int AppCompatTheme_actionMenuTextColor=16;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#actionModeBackground}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#actionModeBackground}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5223,11 +5223,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.oritmalki.mymusicapp2:actionModeBackground
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:actionModeBackground
      */
     public static final int AppCompatTheme_actionModeBackground=17;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#actionModeCloseButtonStyle}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#actionModeCloseButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5235,11 +5235,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.oritmalki.mymusicapp2:actionModeCloseButtonStyle
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:actionModeCloseButtonStyle
      */
     public static final int AppCompatTheme_actionModeCloseButtonStyle=18;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#actionModeCloseDrawable}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#actionModeCloseDrawable}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5247,11 +5247,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.oritmalki.mymusicapp2:actionModeCloseDrawable
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:actionModeCloseDrawable
      */
     public static final int AppCompatTheme_actionModeCloseDrawable=19;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#actionModeCopyDrawable}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#actionModeCopyDrawable}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5259,11 +5259,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.oritmalki.mymusicapp2:actionModeCopyDrawable
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:actionModeCopyDrawable
      */
     public static final int AppCompatTheme_actionModeCopyDrawable=20;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#actionModeCutDrawable}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#actionModeCutDrawable}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5271,11 +5271,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.oritmalki.mymusicapp2:actionModeCutDrawable
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:actionModeCutDrawable
      */
     public static final int AppCompatTheme_actionModeCutDrawable=21;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#actionModeFindDrawable}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#actionModeFindDrawable}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5283,11 +5283,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.oritmalki.mymusicapp2:actionModeFindDrawable
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:actionModeFindDrawable
      */
     public static final int AppCompatTheme_actionModeFindDrawable=22;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#actionModePasteDrawable}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#actionModePasteDrawable}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5295,11 +5295,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.oritmalki.mymusicapp2:actionModePasteDrawable
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:actionModePasteDrawable
      */
     public static final int AppCompatTheme_actionModePasteDrawable=23;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#actionModePopupWindowStyle}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#actionModePopupWindowStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5307,11 +5307,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.oritmalki.mymusicapp2:actionModePopupWindowStyle
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:actionModePopupWindowStyle
      */
     public static final int AppCompatTheme_actionModePopupWindowStyle=24;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#actionModeSelectAllDrawable}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#actionModeSelectAllDrawable}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5319,11 +5319,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.oritmalki.mymusicapp2:actionModeSelectAllDrawable
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:actionModeSelectAllDrawable
      */
     public static final int AppCompatTheme_actionModeSelectAllDrawable=25;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#actionModeShareDrawable}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#actionModeShareDrawable}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5331,11 +5331,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.oritmalki.mymusicapp2:actionModeShareDrawable
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:actionModeShareDrawable
      */
     public static final int AppCompatTheme_actionModeShareDrawable=26;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#actionModeSplitBackground}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#actionModeSplitBackground}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5343,11 +5343,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.oritmalki.mymusicapp2:actionModeSplitBackground
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:actionModeSplitBackground
      */
     public static final int AppCompatTheme_actionModeSplitBackground=27;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#actionModeStyle}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#actionModeStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5355,11 +5355,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.oritmalki.mymusicapp2:actionModeStyle
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:actionModeStyle
      */
     public static final int AppCompatTheme_actionModeStyle=28;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#actionModeWebSearchDrawable}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#actionModeWebSearchDrawable}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5367,11 +5367,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.oritmalki.mymusicapp2:actionModeWebSearchDrawable
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:actionModeWebSearchDrawable
      */
     public static final int AppCompatTheme_actionModeWebSearchDrawable=29;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#actionOverflowButtonStyle}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#actionOverflowButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5379,11 +5379,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.oritmalki.mymusicapp2:actionOverflowButtonStyle
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:actionOverflowButtonStyle
      */
     public static final int AppCompatTheme_actionOverflowButtonStyle=30;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#actionOverflowMenuStyle}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#actionOverflowMenuStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5391,11 +5391,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.oritmalki.mymusicapp2:actionOverflowMenuStyle
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:actionOverflowMenuStyle
      */
     public static final int AppCompatTheme_actionOverflowMenuStyle=31;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#activityChooserViewStyle}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#activityChooserViewStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5403,11 +5403,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.oritmalki.mymusicapp2:activityChooserViewStyle
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:activityChooserViewStyle
      */
     public static final int AppCompatTheme_activityChooserViewStyle=32;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#alertDialogButtonGroupStyle}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#alertDialogButtonGroupStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5415,21 +5415,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.oritmalki.mymusicapp2:alertDialogButtonGroupStyle
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:alertDialogButtonGroupStyle
      */
     public static final int AppCompatTheme_alertDialogButtonGroupStyle=33;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#alertDialogCenterButtons}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#alertDialogCenterButtons}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.oritmalki.mymusicapp2:alertDialogCenterButtons
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:alertDialogCenterButtons
      */
     public static final int AppCompatTheme_alertDialogCenterButtons=34;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#alertDialogStyle}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#alertDialogStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5437,11 +5437,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.oritmalki.mymusicapp2:alertDialogStyle
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:alertDialogStyle
      */
     public static final int AppCompatTheme_alertDialogStyle=35;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#alertDialogTheme}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#alertDialogTheme}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5449,7 +5449,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.oritmalki.mymusicapp2:alertDialogTheme
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:alertDialogTheme
      */
     public static final int AppCompatTheme_alertDialogTheme=36;
     /**
@@ -5475,7 +5475,7 @@ public final class R {
      */
     public static final int AppCompatTheme_android_windowIsFloating=0;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#autoCompleteTextViewStyle}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#autoCompleteTextViewStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5483,11 +5483,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.oritmalki.mymusicapp2:autoCompleteTextViewStyle
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:autoCompleteTextViewStyle
      */
     public static final int AppCompatTheme_autoCompleteTextViewStyle=37;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#borderlessButtonStyle}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#borderlessButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5495,11 +5495,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.oritmalki.mymusicapp2:borderlessButtonStyle
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:borderlessButtonStyle
      */
     public static final int AppCompatTheme_borderlessButtonStyle=38;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#buttonBarButtonStyle}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#buttonBarButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5507,11 +5507,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.oritmalki.mymusicapp2:buttonBarButtonStyle
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:buttonBarButtonStyle
      */
     public static final int AppCompatTheme_buttonBarButtonStyle=39;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#buttonBarNegativeButtonStyle}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#buttonBarNegativeButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5519,11 +5519,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.oritmalki.mymusicapp2:buttonBarNegativeButtonStyle
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:buttonBarNegativeButtonStyle
      */
     public static final int AppCompatTheme_buttonBarNegativeButtonStyle=40;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#buttonBarNeutralButtonStyle}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#buttonBarNeutralButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5531,11 +5531,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.oritmalki.mymusicapp2:buttonBarNeutralButtonStyle
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:buttonBarNeutralButtonStyle
      */
     public static final int AppCompatTheme_buttonBarNeutralButtonStyle=41;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#buttonBarPositiveButtonStyle}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#buttonBarPositiveButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5543,11 +5543,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.oritmalki.mymusicapp2:buttonBarPositiveButtonStyle
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:buttonBarPositiveButtonStyle
      */
     public static final int AppCompatTheme_buttonBarPositiveButtonStyle=42;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#buttonBarStyle}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#buttonBarStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5555,11 +5555,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.oritmalki.mymusicapp2:buttonBarStyle
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:buttonBarStyle
      */
     public static final int AppCompatTheme_buttonBarStyle=43;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#buttonStyle}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#buttonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5567,11 +5567,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.oritmalki.mymusicapp2:buttonStyle
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:buttonStyle
      */
     public static final int AppCompatTheme_buttonStyle=44;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#buttonStyleSmall}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#buttonStyleSmall}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5579,11 +5579,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.oritmalki.mymusicapp2:buttonStyleSmall
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:buttonStyleSmall
      */
     public static final int AppCompatTheme_buttonStyleSmall=45;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#checkboxStyle}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#checkboxStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5591,11 +5591,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.oritmalki.mymusicapp2:checkboxStyle
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:checkboxStyle
      */
     public static final int AppCompatTheme_checkboxStyle=46;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#checkedTextViewStyle}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#checkedTextViewStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5603,77 +5603,77 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.oritmalki.mymusicapp2:checkedTextViewStyle
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:checkedTextViewStyle
      */
     public static final int AppCompatTheme_checkedTextViewStyle=47;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#colorAccent}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#colorAccent}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.oritmalki.mymusicapp2:colorAccent
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:colorAccent
      */
     public static final int AppCompatTheme_colorAccent=48;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#colorBackgroundFloating}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#colorBackgroundFloating}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.oritmalki.mymusicapp2:colorBackgroundFloating
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:colorBackgroundFloating
      */
     public static final int AppCompatTheme_colorBackgroundFloating=49;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#colorButtonNormal}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#colorButtonNormal}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.oritmalki.mymusicapp2:colorButtonNormal
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:colorButtonNormal
      */
     public static final int AppCompatTheme_colorButtonNormal=50;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#colorControlActivated}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#colorControlActivated}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.oritmalki.mymusicapp2:colorControlActivated
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:colorControlActivated
      */
     public static final int AppCompatTheme_colorControlActivated=51;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#colorControlHighlight}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#colorControlHighlight}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.oritmalki.mymusicapp2:colorControlHighlight
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:colorControlHighlight
      */
     public static final int AppCompatTheme_colorControlHighlight=52;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#colorControlNormal}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#colorControlNormal}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.oritmalki.mymusicapp2:colorControlNormal
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:colorControlNormal
      */
     public static final int AppCompatTheme_colorControlNormal=53;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#colorError}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#colorError}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5684,44 +5684,44 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.oritmalki.mymusicapp2:colorError
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:colorError
      */
     public static final int AppCompatTheme_colorError=54;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#colorPrimary}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#colorPrimary}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.oritmalki.mymusicapp2:colorPrimary
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:colorPrimary
      */
     public static final int AppCompatTheme_colorPrimary=55;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#colorPrimaryDark}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#colorPrimaryDark}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.oritmalki.mymusicapp2:colorPrimaryDark
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:colorPrimaryDark
      */
     public static final int AppCompatTheme_colorPrimaryDark=56;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#colorSwitchThumbNormal}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#colorSwitchThumbNormal}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.oritmalki.mymusicapp2:colorSwitchThumbNormal
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:colorSwitchThumbNormal
      */
     public static final int AppCompatTheme_colorSwitchThumbNormal=57;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#controlBackground}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#controlBackground}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5729,11 +5729,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.oritmalki.mymusicapp2:controlBackground
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:controlBackground
      */
     public static final int AppCompatTheme_controlBackground=58;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#dialogPreferredPadding}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#dialogPreferredPadding}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -5742,11 +5742,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.oritmalki.mymusicapp2:dialogPreferredPadding
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:dialogPreferredPadding
      */
     public static final int AppCompatTheme_dialogPreferredPadding=59;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#dialogTheme}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#dialogTheme}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5754,11 +5754,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.oritmalki.mymusicapp2:dialogTheme
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:dialogTheme
      */
     public static final int AppCompatTheme_dialogTheme=60;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#dividerHorizontal}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#dividerHorizontal}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5766,11 +5766,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.oritmalki.mymusicapp2:dividerHorizontal
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:dividerHorizontal
      */
     public static final int AppCompatTheme_dividerHorizontal=61;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#dividerVertical}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#dividerVertical}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5778,11 +5778,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.oritmalki.mymusicapp2:dividerVertical
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:dividerVertical
      */
     public static final int AppCompatTheme_dividerVertical=62;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#dropDownListViewStyle}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#dropDownListViewStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5790,11 +5790,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.oritmalki.mymusicapp2:dropDownListViewStyle
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:dropDownListViewStyle
      */
     public static final int AppCompatTheme_dropDownListViewStyle=63;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#dropdownListPreferredItemHeight}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#dropdownListPreferredItemHeight}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -5803,11 +5803,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.oritmalki.mymusicapp2:dropdownListPreferredItemHeight
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:dropdownListPreferredItemHeight
      */
     public static final int AppCompatTheme_dropdownListPreferredItemHeight=64;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#editTextBackground}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#editTextBackground}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5815,11 +5815,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.oritmalki.mymusicapp2:editTextBackground
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:editTextBackground
      */
     public static final int AppCompatTheme_editTextBackground=65;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#editTextColor}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#editTextColor}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5830,11 +5830,11 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.oritmalki.mymusicapp2:editTextColor
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:editTextColor
      */
     public static final int AppCompatTheme_editTextColor=66;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#editTextStyle}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#editTextStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5842,11 +5842,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.oritmalki.mymusicapp2:editTextStyle
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:editTextStyle
      */
     public static final int AppCompatTheme_editTextStyle=67;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#homeAsUpIndicator}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#homeAsUpIndicator}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5854,11 +5854,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.oritmalki.mymusicapp2:homeAsUpIndicator
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:homeAsUpIndicator
      */
     public static final int AppCompatTheme_homeAsUpIndicator=68;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#imageButtonStyle}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#imageButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5866,11 +5866,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.oritmalki.mymusicapp2:imageButtonStyle
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:imageButtonStyle
      */
     public static final int AppCompatTheme_imageButtonStyle=69;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#listChoiceBackgroundIndicator}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#listChoiceBackgroundIndicator}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5878,11 +5878,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.oritmalki.mymusicapp2:listChoiceBackgroundIndicator
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:listChoiceBackgroundIndicator
      */
     public static final int AppCompatTheme_listChoiceBackgroundIndicator=70;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#listDividerAlertDialog}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#listDividerAlertDialog}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5890,11 +5890,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.oritmalki.mymusicapp2:listDividerAlertDialog
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:listDividerAlertDialog
      */
     public static final int AppCompatTheme_listDividerAlertDialog=71;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#listMenuViewStyle}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#listMenuViewStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5902,11 +5902,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.oritmalki.mymusicapp2:listMenuViewStyle
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:listMenuViewStyle
      */
     public static final int AppCompatTheme_listMenuViewStyle=72;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#listPopupWindowStyle}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#listPopupWindowStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5914,11 +5914,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.oritmalki.mymusicapp2:listPopupWindowStyle
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:listPopupWindowStyle
      */
     public static final int AppCompatTheme_listPopupWindowStyle=73;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#listPreferredItemHeight}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#listPreferredItemHeight}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -5927,11 +5927,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.oritmalki.mymusicapp2:listPreferredItemHeight
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:listPreferredItemHeight
      */
     public static final int AppCompatTheme_listPreferredItemHeight=74;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#listPreferredItemHeightLarge}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#listPreferredItemHeightLarge}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -5940,11 +5940,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.oritmalki.mymusicapp2:listPreferredItemHeightLarge
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:listPreferredItemHeightLarge
      */
     public static final int AppCompatTheme_listPreferredItemHeightLarge=75;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#listPreferredItemHeightSmall}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#listPreferredItemHeightSmall}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -5953,11 +5953,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.oritmalki.mymusicapp2:listPreferredItemHeightSmall
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:listPreferredItemHeightSmall
      */
     public static final int AppCompatTheme_listPreferredItemHeightSmall=76;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#listPreferredItemPaddingLeft}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#listPreferredItemPaddingLeft}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -5966,11 +5966,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.oritmalki.mymusicapp2:listPreferredItemPaddingLeft
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:listPreferredItemPaddingLeft
      */
     public static final int AppCompatTheme_listPreferredItemPaddingLeft=77;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#listPreferredItemPaddingRight}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#listPreferredItemPaddingRight}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -5979,11 +5979,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.oritmalki.mymusicapp2:listPreferredItemPaddingRight
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:listPreferredItemPaddingRight
      */
     public static final int AppCompatTheme_listPreferredItemPaddingRight=78;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#panelBackground}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#panelBackground}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5991,11 +5991,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.oritmalki.mymusicapp2:panelBackground
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:panelBackground
      */
     public static final int AppCompatTheme_panelBackground=79;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#panelMenuListTheme}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#panelMenuListTheme}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6003,11 +6003,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.oritmalki.mymusicapp2:panelMenuListTheme
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:panelMenuListTheme
      */
     public static final int AppCompatTheme_panelMenuListTheme=80;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#panelMenuListWidth}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#panelMenuListWidth}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -6016,11 +6016,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.oritmalki.mymusicapp2:panelMenuListWidth
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:panelMenuListWidth
      */
     public static final int AppCompatTheme_panelMenuListWidth=81;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#popupMenuStyle}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#popupMenuStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6028,11 +6028,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.oritmalki.mymusicapp2:popupMenuStyle
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:popupMenuStyle
      */
     public static final int AppCompatTheme_popupMenuStyle=82;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#popupWindowStyle}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#popupWindowStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6040,11 +6040,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.oritmalki.mymusicapp2:popupWindowStyle
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:popupWindowStyle
      */
     public static final int AppCompatTheme_popupWindowStyle=83;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#radioButtonStyle}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#radioButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6052,11 +6052,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.oritmalki.mymusicapp2:radioButtonStyle
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:radioButtonStyle
      */
     public static final int AppCompatTheme_radioButtonStyle=84;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#ratingBarStyle}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#ratingBarStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6064,11 +6064,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.oritmalki.mymusicapp2:ratingBarStyle
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:ratingBarStyle
      */
     public static final int AppCompatTheme_ratingBarStyle=85;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#ratingBarStyleIndicator}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#ratingBarStyleIndicator}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6076,11 +6076,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.oritmalki.mymusicapp2:ratingBarStyleIndicator
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:ratingBarStyleIndicator
      */
     public static final int AppCompatTheme_ratingBarStyleIndicator=86;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#ratingBarStyleSmall}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#ratingBarStyleSmall}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6088,11 +6088,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.oritmalki.mymusicapp2:ratingBarStyleSmall
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:ratingBarStyleSmall
      */
     public static final int AppCompatTheme_ratingBarStyleSmall=87;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#searchViewStyle}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#searchViewStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6100,11 +6100,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.oritmalki.mymusicapp2:searchViewStyle
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:searchViewStyle
      */
     public static final int AppCompatTheme_searchViewStyle=88;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#seekBarStyle}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#seekBarStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6112,11 +6112,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.oritmalki.mymusicapp2:seekBarStyle
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:seekBarStyle
      */
     public static final int AppCompatTheme_seekBarStyle=89;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#selectableItemBackground}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#selectableItemBackground}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6124,11 +6124,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.oritmalki.mymusicapp2:selectableItemBackground
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:selectableItemBackground
      */
     public static final int AppCompatTheme_selectableItemBackground=90;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#selectableItemBackgroundBorderless}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#selectableItemBackgroundBorderless}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6136,11 +6136,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.oritmalki.mymusicapp2:selectableItemBackgroundBorderless
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:selectableItemBackgroundBorderless
      */
     public static final int AppCompatTheme_selectableItemBackgroundBorderless=91;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#spinnerDropDownItemStyle}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#spinnerDropDownItemStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6148,11 +6148,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.oritmalki.mymusicapp2:spinnerDropDownItemStyle
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:spinnerDropDownItemStyle
      */
     public static final int AppCompatTheme_spinnerDropDownItemStyle=92;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#spinnerStyle}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#spinnerStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6160,11 +6160,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.oritmalki.mymusicapp2:spinnerStyle
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:spinnerStyle
      */
     public static final int AppCompatTheme_spinnerStyle=93;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#switchStyle}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#switchStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6172,11 +6172,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.oritmalki.mymusicapp2:switchStyle
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:switchStyle
      */
     public static final int AppCompatTheme_switchStyle=94;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#textAppearanceLargePopupMenu}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#textAppearanceLargePopupMenu}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6184,11 +6184,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.oritmalki.mymusicapp2:textAppearanceLargePopupMenu
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:textAppearanceLargePopupMenu
      */
     public static final int AppCompatTheme_textAppearanceLargePopupMenu=95;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#textAppearanceListItem}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#textAppearanceListItem}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6196,11 +6196,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.oritmalki.mymusicapp2:textAppearanceListItem
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:textAppearanceListItem
      */
     public static final int AppCompatTheme_textAppearanceListItem=96;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#textAppearanceListItemSecondary}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#textAppearanceListItemSecondary}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6208,11 +6208,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.oritmalki.mymusicapp2:textAppearanceListItemSecondary
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:textAppearanceListItemSecondary
      */
     public static final int AppCompatTheme_textAppearanceListItemSecondary=97;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#textAppearanceListItemSmall}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#textAppearanceListItemSmall}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6220,11 +6220,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.oritmalki.mymusicapp2:textAppearanceListItemSmall
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:textAppearanceListItemSmall
      */
     public static final int AppCompatTheme_textAppearanceListItemSmall=98;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#textAppearancePopupMenuHeader}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#textAppearancePopupMenuHeader}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6232,11 +6232,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.oritmalki.mymusicapp2:textAppearancePopupMenuHeader
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:textAppearancePopupMenuHeader
      */
     public static final int AppCompatTheme_textAppearancePopupMenuHeader=99;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#textAppearanceSearchResultSubtitle}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#textAppearanceSearchResultSubtitle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6244,11 +6244,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.oritmalki.mymusicapp2:textAppearanceSearchResultSubtitle
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:textAppearanceSearchResultSubtitle
      */
     public static final int AppCompatTheme_textAppearanceSearchResultSubtitle=100;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#textAppearanceSearchResultTitle}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#textAppearanceSearchResultTitle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6256,11 +6256,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.oritmalki.mymusicapp2:textAppearanceSearchResultTitle
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:textAppearanceSearchResultTitle
      */
     public static final int AppCompatTheme_textAppearanceSearchResultTitle=101;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#textAppearanceSmallPopupMenu}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#textAppearanceSmallPopupMenu}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6268,11 +6268,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.oritmalki.mymusicapp2:textAppearanceSmallPopupMenu
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:textAppearanceSmallPopupMenu
      */
     public static final int AppCompatTheme_textAppearanceSmallPopupMenu=102;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#textColorAlertDialogListItem}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#textColorAlertDialogListItem}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6283,11 +6283,11 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.oritmalki.mymusicapp2:textColorAlertDialogListItem
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:textColorAlertDialogListItem
      */
     public static final int AppCompatTheme_textColorAlertDialogListItem=103;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#textColorSearchUrl}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#textColorSearchUrl}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6298,11 +6298,11 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.oritmalki.mymusicapp2:textColorSearchUrl
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:textColorSearchUrl
      */
     public static final int AppCompatTheme_textColorSearchUrl=104;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#toolbarNavigationButtonStyle}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#toolbarNavigationButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6310,11 +6310,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.oritmalki.mymusicapp2:toolbarNavigationButtonStyle
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:toolbarNavigationButtonStyle
      */
     public static final int AppCompatTheme_toolbarNavigationButtonStyle=105;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#toolbarStyle}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#toolbarStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6322,11 +6322,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.oritmalki.mymusicapp2:toolbarStyle
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:toolbarStyle
      */
     public static final int AppCompatTheme_toolbarStyle=106;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#tooltipForegroundColor}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#tooltipForegroundColor}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6337,11 +6337,11 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.oritmalki.mymusicapp2:tooltipForegroundColor
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:tooltipForegroundColor
      */
     public static final int AppCompatTheme_tooltipForegroundColor=107;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#tooltipFrameBackground}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#tooltipFrameBackground}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6349,41 +6349,41 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.oritmalki.mymusicapp2:tooltipFrameBackground
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:tooltipFrameBackground
      */
     public static final int AppCompatTheme_tooltipFrameBackground=108;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#windowActionBar}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#windowActionBar}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.oritmalki.mymusicapp2:windowActionBar
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:windowActionBar
      */
     public static final int AppCompatTheme_windowActionBar=109;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#windowActionBarOverlay}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#windowActionBarOverlay}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.oritmalki.mymusicapp2:windowActionBarOverlay
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:windowActionBarOverlay
      */
     public static final int AppCompatTheme_windowActionBarOverlay=110;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#windowActionModeOverlay}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#windowActionModeOverlay}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.oritmalki.mymusicapp2:windowActionModeOverlay
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:windowActionModeOverlay
      */
     public static final int AppCompatTheme_windowActionModeOverlay=111;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#windowFixedHeightMajor}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#windowFixedHeightMajor}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -6396,11 +6396,11 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      *
-     * @attr name com.oritmalki.mymusicapp2:windowFixedHeightMajor
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:windowFixedHeightMajor
      */
     public static final int AppCompatTheme_windowFixedHeightMajor=112;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#windowFixedHeightMinor}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#windowFixedHeightMinor}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -6413,11 +6413,11 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      *
-     * @attr name com.oritmalki.mymusicapp2:windowFixedHeightMinor
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:windowFixedHeightMinor
      */
     public static final int AppCompatTheme_windowFixedHeightMinor=113;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#windowFixedWidthMajor}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#windowFixedWidthMajor}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -6430,11 +6430,11 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      *
-     * @attr name com.oritmalki.mymusicapp2:windowFixedWidthMajor
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:windowFixedWidthMajor
      */
     public static final int AppCompatTheme_windowFixedWidthMajor=114;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#windowFixedWidthMinor}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#windowFixedWidthMinor}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -6447,11 +6447,11 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      *
-     * @attr name com.oritmalki.mymusicapp2:windowFixedWidthMinor
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:windowFixedWidthMinor
      */
     public static final int AppCompatTheme_windowFixedWidthMinor=115;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#windowMinWidthMajor}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#windowMinWidthMajor}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -6464,11 +6464,11 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      *
-     * @attr name com.oritmalki.mymusicapp2:windowMinWidthMajor
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:windowMinWidthMajor
      */
     public static final int AppCompatTheme_windowMinWidthMajor=116;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#windowMinWidthMinor}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#windowMinWidthMinor}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -6481,17 +6481,17 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      *
-     * @attr name com.oritmalki.mymusicapp2:windowMinWidthMinor
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:windowMinWidthMinor
      */
     public static final int AppCompatTheme_windowMinWidthMinor=117;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#windowNoTitle}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#windowNoTitle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.oritmalki.mymusicapp2:windowNoTitle
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:windowNoTitle
      */
     public static final int AppCompatTheme_windowNoTitle=118;
     /**
@@ -6501,7 +6501,7 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #ButtonBarLayout_allowStacking com.oritmalki.mymusicapp2:allowStacking}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ButtonBarLayout_allowStacking com.oritmalki.com.oritmalki.mymusicapp2:allowStacking}</code></td><td></td></tr>
      * </table>
      * @see #ButtonBarLayout_allowStacking
      */
@@ -6509,13 +6509,13 @@ public final class R {
         0x7f020028
       };
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#allowStacking}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#allowStacking}
      * attribute's value can be found in the {@link #ButtonBarLayout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.oritmalki.mymusicapp2:allowStacking
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:allowStacking
      */
     public static final int ButtonBarLayout_allowStacking=0;
     /**
@@ -6527,7 +6527,7 @@ public final class R {
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #ColorStateListItem_android_color android:color}</code></td><td></td></tr>
      * <tr><td><code>{@link #ColorStateListItem_android_alpha android:alpha}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ColorStateListItem_alpha com.oritmalki.mymusicapp2:alpha}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ColorStateListItem_alpha com.oritmalki.com.oritmalki.mymusicapp2:alpha}</code></td><td></td></tr>
      * </table>
      * @see #ColorStateListItem_android_color
      * @see #ColorStateListItem_android_alpha
@@ -6537,12 +6537,12 @@ public final class R {
         0x010101a5, 0x0101031f, 0x7f020029
       };
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#alpha}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#alpha}
      * attribute's value can be found in the {@link #ColorStateListItem} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.oritmalki.mymusicapp2:alpha
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:alpha
      */
     public static final int ColorStateListItem_alpha=2;
     /**
@@ -6573,8 +6573,8 @@ public final class R {
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #CompoundButton_android_button android:button}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CompoundButton_buttonTint com.oritmalki.mymusicapp2:buttonTint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CompoundButton_buttonTintMode com.oritmalki.mymusicapp2:buttonTintMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CompoundButton_buttonTint com.oritmalki.com.oritmalki.mymusicapp2:buttonTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CompoundButton_buttonTintMode com.oritmalki.com.oritmalki.mymusicapp2:buttonTintMode}</code></td><td></td></tr>
      * </table>
      * @see #CompoundButton_android_button
      * @see #CompoundButton_buttonTint
@@ -6596,18 +6596,18 @@ public final class R {
      */
     public static final int CompoundButton_android_button=0;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#buttonTint}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#buttonTint}
      * attribute's value can be found in the {@link #CompoundButton} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.oritmalki.mymusicapp2:buttonTint
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:buttonTint
      */
     public static final int CompoundButton_buttonTint=1;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#buttonTintMode}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#buttonTintMode}
      * attribute's value can be found in the {@link #CompoundButton} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -6623,7 +6623,7 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      *
-     * @attr name com.oritmalki.mymusicapp2:buttonTintMode
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:buttonTintMode
      */
     public static final int CompoundButton_buttonTintMode=2;
     /**
@@ -6638,50 +6638,50 @@ public final class R {
      * <tr><td><code>{@link #ConstraintLayout_Layout_android_maxHeight android:maxHeight}</code></td><td></td></tr>
      * <tr><td><code>{@link #ConstraintLayout_Layout_android_minWidth android:minWidth}</code></td><td></td></tr>
      * <tr><td><code>{@link #ConstraintLayout_Layout_android_minHeight android:minHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_constraintSet com.oritmalki.mymusicapp2:constraintSet}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintBaseline_creator com.oritmalki.mymusicapp2:layout_constraintBaseline_creator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintBaseline_toBaselineOf com.oritmalki.mymusicapp2:layout_constraintBaseline_toBaselineOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintBottom_creator com.oritmalki.mymusicapp2:layout_constraintBottom_creator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintBottom_toBottomOf com.oritmalki.mymusicapp2:layout_constraintBottom_toBottomOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintBottom_toTopOf com.oritmalki.mymusicapp2:layout_constraintBottom_toTopOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintDimensionRatio com.oritmalki.mymusicapp2:layout_constraintDimensionRatio}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintEnd_toEndOf com.oritmalki.mymusicapp2:layout_constraintEnd_toEndOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintEnd_toStartOf com.oritmalki.mymusicapp2:layout_constraintEnd_toStartOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintGuide_begin com.oritmalki.mymusicapp2:layout_constraintGuide_begin}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintGuide_end com.oritmalki.mymusicapp2:layout_constraintGuide_end}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintGuide_percent com.oritmalki.mymusicapp2:layout_constraintGuide_percent}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHeight_default com.oritmalki.mymusicapp2:layout_constraintHeight_default}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHeight_max com.oritmalki.mymusicapp2:layout_constraintHeight_max}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHeight_min com.oritmalki.mymusicapp2:layout_constraintHeight_min}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHorizontal_bias com.oritmalki.mymusicapp2:layout_constraintHorizontal_bias}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHorizontal_chainStyle com.oritmalki.mymusicapp2:layout_constraintHorizontal_chainStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHorizontal_weight com.oritmalki.mymusicapp2:layout_constraintHorizontal_weight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintLeft_creator com.oritmalki.mymusicapp2:layout_constraintLeft_creator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintLeft_toLeftOf com.oritmalki.mymusicapp2:layout_constraintLeft_toLeftOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintLeft_toRightOf com.oritmalki.mymusicapp2:layout_constraintLeft_toRightOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintRight_creator com.oritmalki.mymusicapp2:layout_constraintRight_creator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintRight_toLeftOf com.oritmalki.mymusicapp2:layout_constraintRight_toLeftOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintRight_toRightOf com.oritmalki.mymusicapp2:layout_constraintRight_toRightOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintStart_toEndOf com.oritmalki.mymusicapp2:layout_constraintStart_toEndOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintStart_toStartOf com.oritmalki.mymusicapp2:layout_constraintStart_toStartOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintTop_creator com.oritmalki.mymusicapp2:layout_constraintTop_creator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintTop_toBottomOf com.oritmalki.mymusicapp2:layout_constraintTop_toBottomOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintTop_toTopOf com.oritmalki.mymusicapp2:layout_constraintTop_toTopOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintVertical_bias com.oritmalki.mymusicapp2:layout_constraintVertical_bias}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintVertical_chainStyle com.oritmalki.mymusicapp2:layout_constraintVertical_chainStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintVertical_weight com.oritmalki.mymusicapp2:layout_constraintVertical_weight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintWidth_default com.oritmalki.mymusicapp2:layout_constraintWidth_default}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintWidth_max com.oritmalki.mymusicapp2:layout_constraintWidth_max}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintWidth_min com.oritmalki.mymusicapp2:layout_constraintWidth_min}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_editor_absoluteX com.oritmalki.mymusicapp2:layout_editor_absoluteX}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_editor_absoluteY com.oritmalki.mymusicapp2:layout_editor_absoluteY}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginBottom com.oritmalki.mymusicapp2:layout_goneMarginBottom}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginEnd com.oritmalki.mymusicapp2:layout_goneMarginEnd}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginLeft com.oritmalki.mymusicapp2:layout_goneMarginLeft}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginRight com.oritmalki.mymusicapp2:layout_goneMarginRight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginStart com.oritmalki.mymusicapp2:layout_goneMarginStart}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginTop com.oritmalki.mymusicapp2:layout_goneMarginTop}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_optimizationLevel com.oritmalki.mymusicapp2:layout_optimizationLevel}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_constraintSet com.oritmalki.com.oritmalki.mymusicapp2:constraintSet}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintBaseline_creator com.oritmalki.com.oritmalki.mymusicapp2:layout_constraintBaseline_creator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintBaseline_toBaselineOf com.oritmalki.com.oritmalki.mymusicapp2:layout_constraintBaseline_toBaselineOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintBottom_creator com.oritmalki.com.oritmalki.mymusicapp2:layout_constraintBottom_creator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintBottom_toBottomOf com.oritmalki.com.oritmalki.mymusicapp2:layout_constraintBottom_toBottomOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintBottom_toTopOf com.oritmalki.com.oritmalki.mymusicapp2:layout_constraintBottom_toTopOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintDimensionRatio com.oritmalki.com.oritmalki.mymusicapp2:layout_constraintDimensionRatio}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintEnd_toEndOf com.oritmalki.com.oritmalki.mymusicapp2:layout_constraintEnd_toEndOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintEnd_toStartOf com.oritmalki.com.oritmalki.mymusicapp2:layout_constraintEnd_toStartOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintGuide_begin com.oritmalki.com.oritmalki.mymusicapp2:layout_constraintGuide_begin}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintGuide_end com.oritmalki.com.oritmalki.mymusicapp2:layout_constraintGuide_end}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintGuide_percent com.oritmalki.com.oritmalki.mymusicapp2:layout_constraintGuide_percent}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHeight_default com.oritmalki.com.oritmalki.mymusicapp2:layout_constraintHeight_default}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHeight_max com.oritmalki.com.oritmalki.mymusicapp2:layout_constraintHeight_max}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHeight_min com.oritmalki.com.oritmalki.mymusicapp2:layout_constraintHeight_min}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHorizontal_bias com.oritmalki.com.oritmalki.mymusicapp2:layout_constraintHorizontal_bias}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHorizontal_chainStyle com.oritmalki.com.oritmalki.mymusicapp2:layout_constraintHorizontal_chainStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHorizontal_weight com.oritmalki.com.oritmalki.mymusicapp2:layout_constraintHorizontal_weight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintLeft_creator com.oritmalki.com.oritmalki.mymusicapp2:layout_constraintLeft_creator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintLeft_toLeftOf com.oritmalki.com.oritmalki.mymusicapp2:layout_constraintLeft_toLeftOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintLeft_toRightOf com.oritmalki.com.oritmalki.mymusicapp2:layout_constraintLeft_toRightOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintRight_creator com.oritmalki.com.oritmalki.mymusicapp2:layout_constraintRight_creator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintRight_toLeftOf com.oritmalki.com.oritmalki.mymusicapp2:layout_constraintRight_toLeftOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintRight_toRightOf com.oritmalki.com.oritmalki.mymusicapp2:layout_constraintRight_toRightOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintStart_toEndOf com.oritmalki.com.oritmalki.mymusicapp2:layout_constraintStart_toEndOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintStart_toStartOf com.oritmalki.com.oritmalki.mymusicapp2:layout_constraintStart_toStartOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintTop_creator com.oritmalki.com.oritmalki.mymusicapp2:layout_constraintTop_creator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintTop_toBottomOf com.oritmalki.com.oritmalki.mymusicapp2:layout_constraintTop_toBottomOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintTop_toTopOf com.oritmalki.com.oritmalki.mymusicapp2:layout_constraintTop_toTopOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintVertical_bias com.oritmalki.com.oritmalki.mymusicapp2:layout_constraintVertical_bias}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintVertical_chainStyle com.oritmalki.com.oritmalki.mymusicapp2:layout_constraintVertical_chainStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintVertical_weight com.oritmalki.com.oritmalki.mymusicapp2:layout_constraintVertical_weight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintWidth_default com.oritmalki.com.oritmalki.mymusicapp2:layout_constraintWidth_default}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintWidth_max com.oritmalki.com.oritmalki.mymusicapp2:layout_constraintWidth_max}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintWidth_min com.oritmalki.com.oritmalki.mymusicapp2:layout_constraintWidth_min}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_editor_absoluteX com.oritmalki.com.oritmalki.mymusicapp2:layout_editor_absoluteX}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_editor_absoluteY com.oritmalki.com.oritmalki.mymusicapp2:layout_editor_absoluteY}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginBottom com.oritmalki.com.oritmalki.mymusicapp2:layout_goneMarginBottom}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginEnd com.oritmalki.com.oritmalki.mymusicapp2:layout_goneMarginEnd}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginLeft com.oritmalki.com.oritmalki.mymusicapp2:layout_goneMarginLeft}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginRight com.oritmalki.com.oritmalki.mymusicapp2:layout_goneMarginRight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginStart com.oritmalki.com.oritmalki.mymusicapp2:layout_goneMarginStart}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginTop com.oritmalki.com.oritmalki.mymusicapp2:layout_goneMarginTop}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_optimizationLevel com.oritmalki.com.oritmalki.mymusicapp2:layout_optimizationLevel}</code></td><td></td></tr>
      * </table>
      * @see #ConstraintLayout_Layout_android_orientation
      * @see #ConstraintLayout_Layout_android_maxWidth
@@ -6818,7 +6818,7 @@ public final class R {
      */
     public static final int ConstraintLayout_Layout_android_orientation=0;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#constraintSet}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#constraintSet}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6826,20 +6826,20 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.oritmalki.mymusicapp2:constraintSet
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:constraintSet
      */
     public static final int ConstraintLayout_Layout_constraintSet=5;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#layout_constraintBaseline_creator}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#layout_constraintBaseline_creator}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.oritmalki.mymusicapp2:layout_constraintBaseline_creator
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:layout_constraintBaseline_creator
      */
     public static final int ConstraintLayout_Layout_layout_constraintBaseline_creator=6;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#layout_constraintBaseline_toBaselineOf}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#layout_constraintBaseline_toBaselineOf}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6855,20 +6855,20 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.oritmalki.mymusicapp2:layout_constraintBaseline_toBaselineOf
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:layout_constraintBaseline_toBaselineOf
      */
     public static final int ConstraintLayout_Layout_layout_constraintBaseline_toBaselineOf=7;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#layout_constraintBottom_creator}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#layout_constraintBottom_creator}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.oritmalki.mymusicapp2:layout_constraintBottom_creator
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:layout_constraintBottom_creator
      */
     public static final int ConstraintLayout_Layout_layout_constraintBottom_creator=8;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#layout_constraintBottom_toBottomOf}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#layout_constraintBottom_toBottomOf}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6884,11 +6884,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.oritmalki.mymusicapp2:layout_constraintBottom_toBottomOf
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:layout_constraintBottom_toBottomOf
      */
     public static final int ConstraintLayout_Layout_layout_constraintBottom_toBottomOf=9;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#layout_constraintBottom_toTopOf}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#layout_constraintBottom_toTopOf}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6904,21 +6904,21 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.oritmalki.mymusicapp2:layout_constraintBottom_toTopOf
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:layout_constraintBottom_toTopOf
      */
     public static final int ConstraintLayout_Layout_layout_constraintBottom_toTopOf=10;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#layout_constraintDimensionRatio}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#layout_constraintDimensionRatio}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.oritmalki.mymusicapp2:layout_constraintDimensionRatio
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:layout_constraintDimensionRatio
      */
     public static final int ConstraintLayout_Layout_layout_constraintDimensionRatio=11;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#layout_constraintEnd_toEndOf}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#layout_constraintEnd_toEndOf}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6934,11 +6934,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.oritmalki.mymusicapp2:layout_constraintEnd_toEndOf
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:layout_constraintEnd_toEndOf
      */
     public static final int ConstraintLayout_Layout_layout_constraintEnd_toEndOf=12;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#layout_constraintEnd_toStartOf}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#layout_constraintEnd_toStartOf}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6954,11 +6954,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.oritmalki.mymusicapp2:layout_constraintEnd_toStartOf
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:layout_constraintEnd_toStartOf
      */
     public static final int ConstraintLayout_Layout_layout_constraintEnd_toStartOf=13;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#layout_constraintGuide_begin}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#layout_constraintGuide_begin}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -6967,11 +6967,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.oritmalki.mymusicapp2:layout_constraintGuide_begin
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:layout_constraintGuide_begin
      */
     public static final int ConstraintLayout_Layout_layout_constraintGuide_begin=14;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#layout_constraintGuide_end}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#layout_constraintGuide_end}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -6980,20 +6980,20 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.oritmalki.mymusicapp2:layout_constraintGuide_end
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:layout_constraintGuide_end
      */
     public static final int ConstraintLayout_Layout_layout_constraintGuide_end=15;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#layout_constraintGuide_percent}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#layout_constraintGuide_percent}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.oritmalki.mymusicapp2:layout_constraintGuide_percent
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:layout_constraintGuide_percent
      */
     public static final int ConstraintLayout_Layout_layout_constraintGuide_percent=16;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#layout_constraintHeight_default}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#layout_constraintHeight_default}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -7006,11 +7006,11 @@ public final class R {
      * <tr><td>wrap</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name com.oritmalki.mymusicapp2:layout_constraintHeight_default
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:layout_constraintHeight_default
      */
     public static final int ConstraintLayout_Layout_layout_constraintHeight_default=17;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#layout_constraintHeight_max}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#layout_constraintHeight_max}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7019,11 +7019,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.oritmalki.mymusicapp2:layout_constraintHeight_max
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:layout_constraintHeight_max
      */
     public static final int ConstraintLayout_Layout_layout_constraintHeight_max=18;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#layout_constraintHeight_min}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#layout_constraintHeight_min}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7032,20 +7032,20 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.oritmalki.mymusicapp2:layout_constraintHeight_min
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:layout_constraintHeight_min
      */
     public static final int ConstraintLayout_Layout_layout_constraintHeight_min=19;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#layout_constraintHorizontal_bias}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#layout_constraintHorizontal_bias}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.oritmalki.mymusicapp2:layout_constraintHorizontal_bias
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:layout_constraintHorizontal_bias
      */
     public static final int ConstraintLayout_Layout_layout_constraintHorizontal_bias=20;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#layout_constraintHorizontal_chainStyle}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#layout_constraintHorizontal_chainStyle}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -7059,29 +7059,29 @@ public final class R {
      * <tr><td>spread_inside</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name com.oritmalki.mymusicapp2:layout_constraintHorizontal_chainStyle
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:layout_constraintHorizontal_chainStyle
      */
     public static final int ConstraintLayout_Layout_layout_constraintHorizontal_chainStyle=21;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#layout_constraintHorizontal_weight}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#layout_constraintHorizontal_weight}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.oritmalki.mymusicapp2:layout_constraintHorizontal_weight
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:layout_constraintHorizontal_weight
      */
     public static final int ConstraintLayout_Layout_layout_constraintHorizontal_weight=22;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#layout_constraintLeft_creator}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#layout_constraintLeft_creator}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.oritmalki.mymusicapp2:layout_constraintLeft_creator
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:layout_constraintLeft_creator
      */
     public static final int ConstraintLayout_Layout_layout_constraintLeft_creator=23;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#layout_constraintLeft_toLeftOf}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#layout_constraintLeft_toLeftOf}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7097,11 +7097,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.oritmalki.mymusicapp2:layout_constraintLeft_toLeftOf
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:layout_constraintLeft_toLeftOf
      */
     public static final int ConstraintLayout_Layout_layout_constraintLeft_toLeftOf=24;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#layout_constraintLeft_toRightOf}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#layout_constraintLeft_toRightOf}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7117,20 +7117,20 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.oritmalki.mymusicapp2:layout_constraintLeft_toRightOf
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:layout_constraintLeft_toRightOf
      */
     public static final int ConstraintLayout_Layout_layout_constraintLeft_toRightOf=25;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#layout_constraintRight_creator}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#layout_constraintRight_creator}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.oritmalki.mymusicapp2:layout_constraintRight_creator
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:layout_constraintRight_creator
      */
     public static final int ConstraintLayout_Layout_layout_constraintRight_creator=26;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#layout_constraintRight_toLeftOf}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#layout_constraintRight_toLeftOf}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7146,11 +7146,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.oritmalki.mymusicapp2:layout_constraintRight_toLeftOf
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:layout_constraintRight_toLeftOf
      */
     public static final int ConstraintLayout_Layout_layout_constraintRight_toLeftOf=27;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#layout_constraintRight_toRightOf}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#layout_constraintRight_toRightOf}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7166,11 +7166,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.oritmalki.mymusicapp2:layout_constraintRight_toRightOf
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:layout_constraintRight_toRightOf
      */
     public static final int ConstraintLayout_Layout_layout_constraintRight_toRightOf=28;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#layout_constraintStart_toEndOf}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#layout_constraintStart_toEndOf}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7186,11 +7186,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.oritmalki.mymusicapp2:layout_constraintStart_toEndOf
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:layout_constraintStart_toEndOf
      */
     public static final int ConstraintLayout_Layout_layout_constraintStart_toEndOf=29;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#layout_constraintStart_toStartOf}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#layout_constraintStart_toStartOf}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7206,20 +7206,20 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.oritmalki.mymusicapp2:layout_constraintStart_toStartOf
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:layout_constraintStart_toStartOf
      */
     public static final int ConstraintLayout_Layout_layout_constraintStart_toStartOf=30;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#layout_constraintTop_creator}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#layout_constraintTop_creator}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.oritmalki.mymusicapp2:layout_constraintTop_creator
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:layout_constraintTop_creator
      */
     public static final int ConstraintLayout_Layout_layout_constraintTop_creator=31;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#layout_constraintTop_toBottomOf}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#layout_constraintTop_toBottomOf}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7235,11 +7235,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.oritmalki.mymusicapp2:layout_constraintTop_toBottomOf
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:layout_constraintTop_toBottomOf
      */
     public static final int ConstraintLayout_Layout_layout_constraintTop_toBottomOf=32;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#layout_constraintTop_toTopOf}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#layout_constraintTop_toTopOf}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7255,20 +7255,20 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.oritmalki.mymusicapp2:layout_constraintTop_toTopOf
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:layout_constraintTop_toTopOf
      */
     public static final int ConstraintLayout_Layout_layout_constraintTop_toTopOf=33;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#layout_constraintVertical_bias}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#layout_constraintVertical_bias}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.oritmalki.mymusicapp2:layout_constraintVertical_bias
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:layout_constraintVertical_bias
      */
     public static final int ConstraintLayout_Layout_layout_constraintVertical_bias=34;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#layout_constraintVertical_chainStyle}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#layout_constraintVertical_chainStyle}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -7282,20 +7282,20 @@ public final class R {
      * <tr><td>spread_inside</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name com.oritmalki.mymusicapp2:layout_constraintVertical_chainStyle
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:layout_constraintVertical_chainStyle
      */
     public static final int ConstraintLayout_Layout_layout_constraintVertical_chainStyle=35;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#layout_constraintVertical_weight}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#layout_constraintVertical_weight}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.oritmalki.mymusicapp2:layout_constraintVertical_weight
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:layout_constraintVertical_weight
      */
     public static final int ConstraintLayout_Layout_layout_constraintVertical_weight=36;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#layout_constraintWidth_default}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#layout_constraintWidth_default}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -7308,11 +7308,11 @@ public final class R {
      * <tr><td>wrap</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name com.oritmalki.mymusicapp2:layout_constraintWidth_default
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:layout_constraintWidth_default
      */
     public static final int ConstraintLayout_Layout_layout_constraintWidth_default=37;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#layout_constraintWidth_max}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#layout_constraintWidth_max}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7321,11 +7321,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.oritmalki.mymusicapp2:layout_constraintWidth_max
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:layout_constraintWidth_max
      */
     public static final int ConstraintLayout_Layout_layout_constraintWidth_max=38;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#layout_constraintWidth_min}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#layout_constraintWidth_min}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7334,11 +7334,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.oritmalki.mymusicapp2:layout_constraintWidth_min
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:layout_constraintWidth_min
      */
     public static final int ConstraintLayout_Layout_layout_constraintWidth_min=39;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#layout_editor_absoluteX}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#layout_editor_absoluteX}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7347,11 +7347,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.oritmalki.mymusicapp2:layout_editor_absoluteX
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:layout_editor_absoluteX
      */
     public static final int ConstraintLayout_Layout_layout_editor_absoluteX=40;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#layout_editor_absoluteY}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#layout_editor_absoluteY}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7360,11 +7360,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.oritmalki.mymusicapp2:layout_editor_absoluteY
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:layout_editor_absoluteY
      */
     public static final int ConstraintLayout_Layout_layout_editor_absoluteY=41;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#layout_goneMarginBottom}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#layout_goneMarginBottom}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7373,11 +7373,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.oritmalki.mymusicapp2:layout_goneMarginBottom
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:layout_goneMarginBottom
      */
     public static final int ConstraintLayout_Layout_layout_goneMarginBottom=42;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#layout_goneMarginEnd}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#layout_goneMarginEnd}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7386,11 +7386,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.oritmalki.mymusicapp2:layout_goneMarginEnd
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:layout_goneMarginEnd
      */
     public static final int ConstraintLayout_Layout_layout_goneMarginEnd=43;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#layout_goneMarginLeft}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#layout_goneMarginLeft}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7399,11 +7399,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.oritmalki.mymusicapp2:layout_goneMarginLeft
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:layout_goneMarginLeft
      */
     public static final int ConstraintLayout_Layout_layout_goneMarginLeft=44;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#layout_goneMarginRight}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#layout_goneMarginRight}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7412,11 +7412,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.oritmalki.mymusicapp2:layout_goneMarginRight
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:layout_goneMarginRight
      */
     public static final int ConstraintLayout_Layout_layout_goneMarginRight=45;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#layout_goneMarginStart}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#layout_goneMarginStart}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7425,11 +7425,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.oritmalki.mymusicapp2:layout_goneMarginStart
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:layout_goneMarginStart
      */
     public static final int ConstraintLayout_Layout_layout_goneMarginStart=46;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#layout_goneMarginTop}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#layout_goneMarginTop}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7438,11 +7438,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.oritmalki.mymusicapp2:layout_goneMarginTop
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:layout_goneMarginTop
      */
     public static final int ConstraintLayout_Layout_layout_goneMarginTop=47;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#layout_optimizationLevel}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#layout_optimizationLevel}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -7457,7 +7457,7 @@ public final class R {
      * <tr><td>none</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name com.oritmalki.mymusicapp2:layout_optimizationLevel
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:layout_optimizationLevel
      */
     public static final int ConstraintLayout_Layout_layout_optimizationLevel=48;
     /**
@@ -7489,48 +7489,48 @@ public final class R {
      * <tr><td><code>{@link #ConstraintSet_android_layout_marginEnd android:layout_marginEnd}</code></td><td></td></tr>
      * <tr><td><code>{@link #ConstraintSet_android_translationZ android:translationZ}</code></td><td></td></tr>
      * <tr><td><code>{@link #ConstraintSet_android_elevation android:elevation}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintBaseline_creator com.oritmalki.mymusicapp2:layout_constraintBaseline_creator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintBaseline_toBaselineOf com.oritmalki.mymusicapp2:layout_constraintBaseline_toBaselineOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintBottom_creator com.oritmalki.mymusicapp2:layout_constraintBottom_creator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintBottom_toBottomOf com.oritmalki.mymusicapp2:layout_constraintBottom_toBottomOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintBottom_toTopOf com.oritmalki.mymusicapp2:layout_constraintBottom_toTopOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintDimensionRatio com.oritmalki.mymusicapp2:layout_constraintDimensionRatio}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintEnd_toEndOf com.oritmalki.mymusicapp2:layout_constraintEnd_toEndOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintEnd_toStartOf com.oritmalki.mymusicapp2:layout_constraintEnd_toStartOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintGuide_begin com.oritmalki.mymusicapp2:layout_constraintGuide_begin}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintGuide_end com.oritmalki.mymusicapp2:layout_constraintGuide_end}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintGuide_percent com.oritmalki.mymusicapp2:layout_constraintGuide_percent}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintHeight_default com.oritmalki.mymusicapp2:layout_constraintHeight_default}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintHeight_max com.oritmalki.mymusicapp2:layout_constraintHeight_max}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintHeight_min com.oritmalki.mymusicapp2:layout_constraintHeight_min}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintHorizontal_bias com.oritmalki.mymusicapp2:layout_constraintHorizontal_bias}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintHorizontal_chainStyle com.oritmalki.mymusicapp2:layout_constraintHorizontal_chainStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintHorizontal_weight com.oritmalki.mymusicapp2:layout_constraintHorizontal_weight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintLeft_creator com.oritmalki.mymusicapp2:layout_constraintLeft_creator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintLeft_toLeftOf com.oritmalki.mymusicapp2:layout_constraintLeft_toLeftOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintLeft_toRightOf com.oritmalki.mymusicapp2:layout_constraintLeft_toRightOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintRight_creator com.oritmalki.mymusicapp2:layout_constraintRight_creator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintRight_toLeftOf com.oritmalki.mymusicapp2:layout_constraintRight_toLeftOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintRight_toRightOf com.oritmalki.mymusicapp2:layout_constraintRight_toRightOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintStart_toEndOf com.oritmalki.mymusicapp2:layout_constraintStart_toEndOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintStart_toStartOf com.oritmalki.mymusicapp2:layout_constraintStart_toStartOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintTop_creator com.oritmalki.mymusicapp2:layout_constraintTop_creator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintTop_toBottomOf com.oritmalki.mymusicapp2:layout_constraintTop_toBottomOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintTop_toTopOf com.oritmalki.mymusicapp2:layout_constraintTop_toTopOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintVertical_bias com.oritmalki.mymusicapp2:layout_constraintVertical_bias}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintVertical_chainStyle com.oritmalki.mymusicapp2:layout_constraintVertical_chainStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintVertical_weight com.oritmalki.mymusicapp2:layout_constraintVertical_weight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintWidth_default com.oritmalki.mymusicapp2:layout_constraintWidth_default}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintWidth_max com.oritmalki.mymusicapp2:layout_constraintWidth_max}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintWidth_min com.oritmalki.mymusicapp2:layout_constraintWidth_min}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_editor_absoluteX com.oritmalki.mymusicapp2:layout_editor_absoluteX}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_editor_absoluteY com.oritmalki.mymusicapp2:layout_editor_absoluteY}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_goneMarginBottom com.oritmalki.mymusicapp2:layout_goneMarginBottom}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_goneMarginEnd com.oritmalki.mymusicapp2:layout_goneMarginEnd}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_goneMarginLeft com.oritmalki.mymusicapp2:layout_goneMarginLeft}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_goneMarginRight com.oritmalki.mymusicapp2:layout_goneMarginRight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_goneMarginStart com.oritmalki.mymusicapp2:layout_goneMarginStart}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_goneMarginTop com.oritmalki.mymusicapp2:layout_goneMarginTop}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintBaseline_creator com.oritmalki.com.oritmalki.mymusicapp2:layout_constraintBaseline_creator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintBaseline_toBaselineOf com.oritmalki.com.oritmalki.mymusicapp2:layout_constraintBaseline_toBaselineOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintBottom_creator com.oritmalki.com.oritmalki.mymusicapp2:layout_constraintBottom_creator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintBottom_toBottomOf com.oritmalki.com.oritmalki.mymusicapp2:layout_constraintBottom_toBottomOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintBottom_toTopOf com.oritmalki.com.oritmalki.mymusicapp2:layout_constraintBottom_toTopOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintDimensionRatio com.oritmalki.com.oritmalki.mymusicapp2:layout_constraintDimensionRatio}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintEnd_toEndOf com.oritmalki.com.oritmalki.mymusicapp2:layout_constraintEnd_toEndOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintEnd_toStartOf com.oritmalki.com.oritmalki.mymusicapp2:layout_constraintEnd_toStartOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintGuide_begin com.oritmalki.com.oritmalki.mymusicapp2:layout_constraintGuide_begin}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintGuide_end com.oritmalki.com.oritmalki.mymusicapp2:layout_constraintGuide_end}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintGuide_percent com.oritmalki.com.oritmalki.mymusicapp2:layout_constraintGuide_percent}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintHeight_default com.oritmalki.com.oritmalki.mymusicapp2:layout_constraintHeight_default}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintHeight_max com.oritmalki.com.oritmalki.mymusicapp2:layout_constraintHeight_max}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintHeight_min com.oritmalki.com.oritmalki.mymusicapp2:layout_constraintHeight_min}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintHorizontal_bias com.oritmalki.com.oritmalki.mymusicapp2:layout_constraintHorizontal_bias}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintHorizontal_chainStyle com.oritmalki.com.oritmalki.mymusicapp2:layout_constraintHorizontal_chainStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintHorizontal_weight com.oritmalki.com.oritmalki.mymusicapp2:layout_constraintHorizontal_weight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintLeft_creator com.oritmalki.com.oritmalki.mymusicapp2:layout_constraintLeft_creator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintLeft_toLeftOf com.oritmalki.com.oritmalki.mymusicapp2:layout_constraintLeft_toLeftOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintLeft_toRightOf com.oritmalki.com.oritmalki.mymusicapp2:layout_constraintLeft_toRightOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintRight_creator com.oritmalki.com.oritmalki.mymusicapp2:layout_constraintRight_creator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintRight_toLeftOf com.oritmalki.com.oritmalki.mymusicapp2:layout_constraintRight_toLeftOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintRight_toRightOf com.oritmalki.com.oritmalki.mymusicapp2:layout_constraintRight_toRightOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintStart_toEndOf com.oritmalki.com.oritmalki.mymusicapp2:layout_constraintStart_toEndOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintStart_toStartOf com.oritmalki.com.oritmalki.mymusicapp2:layout_constraintStart_toStartOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintTop_creator com.oritmalki.com.oritmalki.mymusicapp2:layout_constraintTop_creator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintTop_toBottomOf com.oritmalki.com.oritmalki.mymusicapp2:layout_constraintTop_toBottomOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintTop_toTopOf com.oritmalki.com.oritmalki.mymusicapp2:layout_constraintTop_toTopOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintVertical_bias com.oritmalki.com.oritmalki.mymusicapp2:layout_constraintVertical_bias}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintVertical_chainStyle com.oritmalki.com.oritmalki.mymusicapp2:layout_constraintVertical_chainStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintVertical_weight com.oritmalki.com.oritmalki.mymusicapp2:layout_constraintVertical_weight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintWidth_default com.oritmalki.com.oritmalki.mymusicapp2:layout_constraintWidth_default}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintWidth_max com.oritmalki.com.oritmalki.mymusicapp2:layout_constraintWidth_max}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintWidth_min com.oritmalki.com.oritmalki.mymusicapp2:layout_constraintWidth_min}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_editor_absoluteX com.oritmalki.com.oritmalki.mymusicapp2:layout_editor_absoluteX}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_editor_absoluteY com.oritmalki.com.oritmalki.mymusicapp2:layout_editor_absoluteY}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_goneMarginBottom com.oritmalki.com.oritmalki.mymusicapp2:layout_goneMarginBottom}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_goneMarginEnd com.oritmalki.com.oritmalki.mymusicapp2:layout_goneMarginEnd}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_goneMarginLeft com.oritmalki.com.oritmalki.mymusicapp2:layout_goneMarginLeft}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_goneMarginRight com.oritmalki.com.oritmalki.mymusicapp2:layout_goneMarginRight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_goneMarginStart com.oritmalki.com.oritmalki.mymusicapp2:layout_goneMarginStart}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_goneMarginTop com.oritmalki.com.oritmalki.mymusicapp2:layout_goneMarginTop}</code></td><td></td></tr>
      * </table>
      * @see #ConstraintSet_android_orientation
      * @see #ConstraintSet_android_id
@@ -7910,16 +7910,16 @@ public final class R {
      */
     public static final int ConstraintSet_android_visibility=2;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#layout_constraintBaseline_creator}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#layout_constraintBaseline_creator}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.oritmalki.mymusicapp2:layout_constraintBaseline_creator
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:layout_constraintBaseline_creator
      */
     public static final int ConstraintSet_layout_constraintBaseline_creator=22;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#layout_constraintBaseline_toBaselineOf}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#layout_constraintBaseline_toBaselineOf}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7935,20 +7935,20 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.oritmalki.mymusicapp2:layout_constraintBaseline_toBaselineOf
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:layout_constraintBaseline_toBaselineOf
      */
     public static final int ConstraintSet_layout_constraintBaseline_toBaselineOf=23;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#layout_constraintBottom_creator}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#layout_constraintBottom_creator}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.oritmalki.mymusicapp2:layout_constraintBottom_creator
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:layout_constraintBottom_creator
      */
     public static final int ConstraintSet_layout_constraintBottom_creator=24;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#layout_constraintBottom_toBottomOf}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#layout_constraintBottom_toBottomOf}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7964,11 +7964,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.oritmalki.mymusicapp2:layout_constraintBottom_toBottomOf
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:layout_constraintBottom_toBottomOf
      */
     public static final int ConstraintSet_layout_constraintBottom_toBottomOf=25;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#layout_constraintBottom_toTopOf}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#layout_constraintBottom_toTopOf}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7984,21 +7984,21 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.oritmalki.mymusicapp2:layout_constraintBottom_toTopOf
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:layout_constraintBottom_toTopOf
      */
     public static final int ConstraintSet_layout_constraintBottom_toTopOf=26;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#layout_constraintDimensionRatio}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#layout_constraintDimensionRatio}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.oritmalki.mymusicapp2:layout_constraintDimensionRatio
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:layout_constraintDimensionRatio
      */
     public static final int ConstraintSet_layout_constraintDimensionRatio=27;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#layout_constraintEnd_toEndOf}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#layout_constraintEnd_toEndOf}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8014,11 +8014,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.oritmalki.mymusicapp2:layout_constraintEnd_toEndOf
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:layout_constraintEnd_toEndOf
      */
     public static final int ConstraintSet_layout_constraintEnd_toEndOf=28;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#layout_constraintEnd_toStartOf}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#layout_constraintEnd_toStartOf}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8034,11 +8034,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.oritmalki.mymusicapp2:layout_constraintEnd_toStartOf
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:layout_constraintEnd_toStartOf
      */
     public static final int ConstraintSet_layout_constraintEnd_toStartOf=29;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#layout_constraintGuide_begin}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#layout_constraintGuide_begin}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8047,11 +8047,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.oritmalki.mymusicapp2:layout_constraintGuide_begin
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:layout_constraintGuide_begin
      */
     public static final int ConstraintSet_layout_constraintGuide_begin=30;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#layout_constraintGuide_end}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#layout_constraintGuide_end}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8060,20 +8060,20 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.oritmalki.mymusicapp2:layout_constraintGuide_end
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:layout_constraintGuide_end
      */
     public static final int ConstraintSet_layout_constraintGuide_end=31;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#layout_constraintGuide_percent}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#layout_constraintGuide_percent}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.oritmalki.mymusicapp2:layout_constraintGuide_percent
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:layout_constraintGuide_percent
      */
     public static final int ConstraintSet_layout_constraintGuide_percent=32;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#layout_constraintHeight_default}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#layout_constraintHeight_default}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -8086,11 +8086,11 @@ public final class R {
      * <tr><td>wrap</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name com.oritmalki.mymusicapp2:layout_constraintHeight_default
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:layout_constraintHeight_default
      */
     public static final int ConstraintSet_layout_constraintHeight_default=33;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#layout_constraintHeight_max}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#layout_constraintHeight_max}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8099,11 +8099,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.oritmalki.mymusicapp2:layout_constraintHeight_max
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:layout_constraintHeight_max
      */
     public static final int ConstraintSet_layout_constraintHeight_max=34;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#layout_constraintHeight_min}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#layout_constraintHeight_min}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8112,20 +8112,20 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.oritmalki.mymusicapp2:layout_constraintHeight_min
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:layout_constraintHeight_min
      */
     public static final int ConstraintSet_layout_constraintHeight_min=35;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#layout_constraintHorizontal_bias}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#layout_constraintHorizontal_bias}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.oritmalki.mymusicapp2:layout_constraintHorizontal_bias
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:layout_constraintHorizontal_bias
      */
     public static final int ConstraintSet_layout_constraintHorizontal_bias=36;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#layout_constraintHorizontal_chainStyle}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#layout_constraintHorizontal_chainStyle}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -8139,29 +8139,29 @@ public final class R {
      * <tr><td>spread_inside</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name com.oritmalki.mymusicapp2:layout_constraintHorizontal_chainStyle
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:layout_constraintHorizontal_chainStyle
      */
     public static final int ConstraintSet_layout_constraintHorizontal_chainStyle=37;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#layout_constraintHorizontal_weight}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#layout_constraintHorizontal_weight}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.oritmalki.mymusicapp2:layout_constraintHorizontal_weight
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:layout_constraintHorizontal_weight
      */
     public static final int ConstraintSet_layout_constraintHorizontal_weight=38;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#layout_constraintLeft_creator}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#layout_constraintLeft_creator}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.oritmalki.mymusicapp2:layout_constraintLeft_creator
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:layout_constraintLeft_creator
      */
     public static final int ConstraintSet_layout_constraintLeft_creator=39;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#layout_constraintLeft_toLeftOf}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#layout_constraintLeft_toLeftOf}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8177,11 +8177,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.oritmalki.mymusicapp2:layout_constraintLeft_toLeftOf
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:layout_constraintLeft_toLeftOf
      */
     public static final int ConstraintSet_layout_constraintLeft_toLeftOf=40;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#layout_constraintLeft_toRightOf}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#layout_constraintLeft_toRightOf}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8197,20 +8197,20 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.oritmalki.mymusicapp2:layout_constraintLeft_toRightOf
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:layout_constraintLeft_toRightOf
      */
     public static final int ConstraintSet_layout_constraintLeft_toRightOf=41;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#layout_constraintRight_creator}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#layout_constraintRight_creator}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.oritmalki.mymusicapp2:layout_constraintRight_creator
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:layout_constraintRight_creator
      */
     public static final int ConstraintSet_layout_constraintRight_creator=42;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#layout_constraintRight_toLeftOf}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#layout_constraintRight_toLeftOf}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8226,11 +8226,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.oritmalki.mymusicapp2:layout_constraintRight_toLeftOf
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:layout_constraintRight_toLeftOf
      */
     public static final int ConstraintSet_layout_constraintRight_toLeftOf=43;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#layout_constraintRight_toRightOf}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#layout_constraintRight_toRightOf}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8246,11 +8246,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.oritmalki.mymusicapp2:layout_constraintRight_toRightOf
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:layout_constraintRight_toRightOf
      */
     public static final int ConstraintSet_layout_constraintRight_toRightOf=44;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#layout_constraintStart_toEndOf}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#layout_constraintStart_toEndOf}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8266,11 +8266,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.oritmalki.mymusicapp2:layout_constraintStart_toEndOf
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:layout_constraintStart_toEndOf
      */
     public static final int ConstraintSet_layout_constraintStart_toEndOf=45;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#layout_constraintStart_toStartOf}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#layout_constraintStart_toStartOf}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8286,20 +8286,20 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.oritmalki.mymusicapp2:layout_constraintStart_toStartOf
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:layout_constraintStart_toStartOf
      */
     public static final int ConstraintSet_layout_constraintStart_toStartOf=46;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#layout_constraintTop_creator}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#layout_constraintTop_creator}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.oritmalki.mymusicapp2:layout_constraintTop_creator
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:layout_constraintTop_creator
      */
     public static final int ConstraintSet_layout_constraintTop_creator=47;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#layout_constraintTop_toBottomOf}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#layout_constraintTop_toBottomOf}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8315,11 +8315,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.oritmalki.mymusicapp2:layout_constraintTop_toBottomOf
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:layout_constraintTop_toBottomOf
      */
     public static final int ConstraintSet_layout_constraintTop_toBottomOf=48;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#layout_constraintTop_toTopOf}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#layout_constraintTop_toTopOf}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8335,20 +8335,20 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.oritmalki.mymusicapp2:layout_constraintTop_toTopOf
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:layout_constraintTop_toTopOf
      */
     public static final int ConstraintSet_layout_constraintTop_toTopOf=49;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#layout_constraintVertical_bias}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#layout_constraintVertical_bias}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.oritmalki.mymusicapp2:layout_constraintVertical_bias
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:layout_constraintVertical_bias
      */
     public static final int ConstraintSet_layout_constraintVertical_bias=50;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#layout_constraintVertical_chainStyle}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#layout_constraintVertical_chainStyle}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -8362,20 +8362,20 @@ public final class R {
      * <tr><td>spread_inside</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name com.oritmalki.mymusicapp2:layout_constraintVertical_chainStyle
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:layout_constraintVertical_chainStyle
      */
     public static final int ConstraintSet_layout_constraintVertical_chainStyle=51;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#layout_constraintVertical_weight}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#layout_constraintVertical_weight}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.oritmalki.mymusicapp2:layout_constraintVertical_weight
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:layout_constraintVertical_weight
      */
     public static final int ConstraintSet_layout_constraintVertical_weight=52;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#layout_constraintWidth_default}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#layout_constraintWidth_default}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -8388,11 +8388,11 @@ public final class R {
      * <tr><td>wrap</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name com.oritmalki.mymusicapp2:layout_constraintWidth_default
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:layout_constraintWidth_default
      */
     public static final int ConstraintSet_layout_constraintWidth_default=53;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#layout_constraintWidth_max}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#layout_constraintWidth_max}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8401,11 +8401,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.oritmalki.mymusicapp2:layout_constraintWidth_max
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:layout_constraintWidth_max
      */
     public static final int ConstraintSet_layout_constraintWidth_max=54;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#layout_constraintWidth_min}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#layout_constraintWidth_min}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8414,11 +8414,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.oritmalki.mymusicapp2:layout_constraintWidth_min
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:layout_constraintWidth_min
      */
     public static final int ConstraintSet_layout_constraintWidth_min=55;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#layout_editor_absoluteX}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#layout_editor_absoluteX}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8427,11 +8427,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.oritmalki.mymusicapp2:layout_editor_absoluteX
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:layout_editor_absoluteX
      */
     public static final int ConstraintSet_layout_editor_absoluteX=56;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#layout_editor_absoluteY}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#layout_editor_absoluteY}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8440,11 +8440,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.oritmalki.mymusicapp2:layout_editor_absoluteY
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:layout_editor_absoluteY
      */
     public static final int ConstraintSet_layout_editor_absoluteY=57;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#layout_goneMarginBottom}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#layout_goneMarginBottom}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8453,11 +8453,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.oritmalki.mymusicapp2:layout_goneMarginBottom
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:layout_goneMarginBottom
      */
     public static final int ConstraintSet_layout_goneMarginBottom=58;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#layout_goneMarginEnd}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#layout_goneMarginEnd}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8466,11 +8466,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.oritmalki.mymusicapp2:layout_goneMarginEnd
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:layout_goneMarginEnd
      */
     public static final int ConstraintSet_layout_goneMarginEnd=59;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#layout_goneMarginLeft}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#layout_goneMarginLeft}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8479,11 +8479,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.oritmalki.mymusicapp2:layout_goneMarginLeft
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:layout_goneMarginLeft
      */
     public static final int ConstraintSet_layout_goneMarginLeft=60;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#layout_goneMarginRight}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#layout_goneMarginRight}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8492,11 +8492,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.oritmalki.mymusicapp2:layout_goneMarginRight
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:layout_goneMarginRight
      */
     public static final int ConstraintSet_layout_goneMarginRight=61;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#layout_goneMarginStart}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#layout_goneMarginStart}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8505,11 +8505,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.oritmalki.mymusicapp2:layout_goneMarginStart
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:layout_goneMarginStart
      */
     public static final int ConstraintSet_layout_goneMarginStart=62;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#layout_goneMarginTop}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#layout_goneMarginTop}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8518,7 +8518,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.oritmalki.mymusicapp2:layout_goneMarginTop
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:layout_goneMarginTop
      */
     public static final int ConstraintSet_layout_goneMarginTop=63;
     /**
@@ -8528,14 +8528,14 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_arrowHeadLength com.oritmalki.mymusicapp2:arrowHeadLength}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_arrowShaftLength com.oritmalki.mymusicapp2:arrowShaftLength}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_barLength com.oritmalki.mymusicapp2:barLength}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_color com.oritmalki.mymusicapp2:color}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_drawableSize com.oritmalki.mymusicapp2:drawableSize}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_gapBetweenBars com.oritmalki.mymusicapp2:gapBetweenBars}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_spinBars com.oritmalki.mymusicapp2:spinBars}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_thickness com.oritmalki.mymusicapp2:thickness}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_arrowHeadLength com.oritmalki.com.oritmalki.mymusicapp2:arrowHeadLength}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_arrowShaftLength com.oritmalki.com.oritmalki.mymusicapp2:arrowShaftLength}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_barLength com.oritmalki.com.oritmalki.mymusicapp2:barLength}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_color com.oritmalki.com.oritmalki.mymusicapp2:color}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_drawableSize com.oritmalki.com.oritmalki.mymusicapp2:drawableSize}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_gapBetweenBars com.oritmalki.com.oritmalki.mymusicapp2:gapBetweenBars}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_spinBars com.oritmalki.com.oritmalki.mymusicapp2:spinBars}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_thickness com.oritmalki.com.oritmalki.mymusicapp2:thickness}</code></td><td></td></tr>
      * </table>
      * @see #DrawerArrowToggle_arrowHeadLength
      * @see #DrawerArrowToggle_arrowShaftLength
@@ -8551,7 +8551,7 @@ public final class R {
         0x7f02006c, 0x7f020081, 0x7f020100, 0x7f02011e
       };
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#arrowHeadLength}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#arrowHeadLength}
      * attribute's value can be found in the {@link #DrawerArrowToggle} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8560,11 +8560,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.oritmalki.mymusicapp2:arrowHeadLength
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:arrowHeadLength
      */
     public static final int DrawerArrowToggle_arrowHeadLength=0;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#arrowShaftLength}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#arrowShaftLength}
      * attribute's value can be found in the {@link #DrawerArrowToggle} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8573,11 +8573,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.oritmalki.mymusicapp2:arrowShaftLength
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:arrowShaftLength
      */
     public static final int DrawerArrowToggle_arrowShaftLength=1;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#barLength}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#barLength}
      * attribute's value can be found in the {@link #DrawerArrowToggle} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8586,22 +8586,22 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.oritmalki.mymusicapp2:barLength
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:barLength
      */
     public static final int DrawerArrowToggle_barLength=2;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#color}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#color}
      * attribute's value can be found in the {@link #DrawerArrowToggle} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.oritmalki.mymusicapp2:color
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:color
      */
     public static final int DrawerArrowToggle_color=3;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#drawableSize}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#drawableSize}
      * attribute's value can be found in the {@link #DrawerArrowToggle} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8610,11 +8610,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.oritmalki.mymusicapp2:drawableSize
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:drawableSize
      */
     public static final int DrawerArrowToggle_drawableSize=4;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#gapBetweenBars}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#gapBetweenBars}
      * attribute's value can be found in the {@link #DrawerArrowToggle} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8623,21 +8623,21 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.oritmalki.mymusicapp2:gapBetweenBars
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:gapBetweenBars
      */
     public static final int DrawerArrowToggle_gapBetweenBars=5;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#spinBars}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#spinBars}
      * attribute's value can be found in the {@link #DrawerArrowToggle} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.oritmalki.mymusicapp2:spinBars
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:spinBars
      */
     public static final int DrawerArrowToggle_spinBars=6;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#thickness}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#thickness}
      * attribute's value can be found in the {@link #DrawerArrowToggle} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8646,7 +8646,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.oritmalki.mymusicapp2:thickness
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:thickness
      */
     public static final int DrawerArrowToggle_thickness=7;
     /**
@@ -8656,17 +8656,17 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #FlexboxLayout_alignContent com.oritmalki.mymusicapp2:alignContent}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FlexboxLayout_alignItems com.oritmalki.mymusicapp2:alignItems}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FlexboxLayout_dividerDrawable com.oritmalki.mymusicapp2:dividerDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FlexboxLayout_dividerDrawableHorizontal com.oritmalki.mymusicapp2:dividerDrawableHorizontal}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FlexboxLayout_dividerDrawableVertical com.oritmalki.mymusicapp2:dividerDrawableVertical}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FlexboxLayout_flexDirection com.oritmalki.mymusicapp2:flexDirection}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FlexboxLayout_flexWrap com.oritmalki.mymusicapp2:flexWrap}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FlexboxLayout_justifyContent com.oritmalki.mymusicapp2:justifyContent}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FlexboxLayout_showDivider com.oritmalki.mymusicapp2:showDivider}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FlexboxLayout_showDividerHorizontal com.oritmalki.mymusicapp2:showDividerHorizontal}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FlexboxLayout_showDividerVertical com.oritmalki.mymusicapp2:showDividerVertical}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FlexboxLayout_alignContent com.oritmalki.com.oritmalki.mymusicapp2:alignContent}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FlexboxLayout_alignItems com.oritmalki.com.oritmalki.mymusicapp2:alignItems}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FlexboxLayout_dividerDrawable com.oritmalki.com.oritmalki.mymusicapp2:dividerDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FlexboxLayout_dividerDrawableHorizontal com.oritmalki.com.oritmalki.mymusicapp2:dividerDrawableHorizontal}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FlexboxLayout_dividerDrawableVertical com.oritmalki.com.oritmalki.mymusicapp2:dividerDrawableVertical}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FlexboxLayout_flexDirection com.oritmalki.com.oritmalki.mymusicapp2:flexDirection}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FlexboxLayout_flexWrap com.oritmalki.com.oritmalki.mymusicapp2:flexWrap}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FlexboxLayout_justifyContent com.oritmalki.com.oritmalki.mymusicapp2:justifyContent}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FlexboxLayout_showDivider com.oritmalki.com.oritmalki.mymusicapp2:showDivider}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FlexboxLayout_showDividerHorizontal com.oritmalki.com.oritmalki.mymusicapp2:showDividerHorizontal}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FlexboxLayout_showDividerVertical com.oritmalki.com.oritmalki.mymusicapp2:showDividerVertical}</code></td><td></td></tr>
      * </table>
      * @see #FlexboxLayout_alignContent
      * @see #FlexboxLayout_alignItems
@@ -8692,16 +8692,16 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #FlexboxLayout_Layout_layout_alignSelf com.oritmalki.mymusicapp2:layout_alignSelf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FlexboxLayout_Layout_layout_flexBasisPercent com.oritmalki.mymusicapp2:layout_flexBasisPercent}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FlexboxLayout_Layout_layout_flexGrow com.oritmalki.mymusicapp2:layout_flexGrow}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FlexboxLayout_Layout_layout_flexShrink com.oritmalki.mymusicapp2:layout_flexShrink}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FlexboxLayout_Layout_layout_maxHeight com.oritmalki.mymusicapp2:layout_maxHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FlexboxLayout_Layout_layout_maxWidth com.oritmalki.mymusicapp2:layout_maxWidth}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FlexboxLayout_Layout_layout_minHeight com.oritmalki.mymusicapp2:layout_minHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FlexboxLayout_Layout_layout_minWidth com.oritmalki.mymusicapp2:layout_minWidth}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FlexboxLayout_Layout_layout_order com.oritmalki.mymusicapp2:layout_order}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FlexboxLayout_Layout_layout_wrapBefore com.oritmalki.mymusicapp2:layout_wrapBefore}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FlexboxLayout_Layout_layout_alignSelf com.oritmalki.com.oritmalki.mymusicapp2:layout_alignSelf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FlexboxLayout_Layout_layout_flexBasisPercent com.oritmalki.com.oritmalki.mymusicapp2:layout_flexBasisPercent}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FlexboxLayout_Layout_layout_flexGrow com.oritmalki.com.oritmalki.mymusicapp2:layout_flexGrow}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FlexboxLayout_Layout_layout_flexShrink com.oritmalki.com.oritmalki.mymusicapp2:layout_flexShrink}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FlexboxLayout_Layout_layout_maxHeight com.oritmalki.com.oritmalki.mymusicapp2:layout_maxHeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FlexboxLayout_Layout_layout_maxWidth com.oritmalki.com.oritmalki.mymusicapp2:layout_maxWidth}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FlexboxLayout_Layout_layout_minHeight com.oritmalki.com.oritmalki.mymusicapp2:layout_minHeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FlexboxLayout_Layout_layout_minWidth com.oritmalki.com.oritmalki.mymusicapp2:layout_minWidth}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FlexboxLayout_Layout_layout_order com.oritmalki.com.oritmalki.mymusicapp2:layout_order}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FlexboxLayout_Layout_layout_wrapBefore com.oritmalki.com.oritmalki.mymusicapp2:layout_wrapBefore}</code></td><td></td></tr>
      * </table>
      * @see #FlexboxLayout_Layout_layout_alignSelf
      * @see #FlexboxLayout_Layout_layout_flexBasisPercent
@@ -8720,7 +8720,7 @@ public final class R {
         0x7f0200c6, 0x7f0200c7
       };
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#layout_alignSelf}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#layout_alignSelf}
      * attribute's value can be found in the {@link #FlexboxLayout_Layout} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -8737,11 +8737,11 @@ public final class R {
      * <tr><td>stretch</td><td>4</td><td></td></tr>
      * </table>
      *
-     * @attr name com.oritmalki.mymusicapp2:layout_alignSelf
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:layout_alignSelf
      */
     public static final int FlexboxLayout_Layout_layout_alignSelf=0;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#layout_flexBasisPercent}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#layout_flexBasisPercent}
      * attribute's value can be found in the {@link #FlexboxLayout_Layout} array.
      *
      * <p>May be a fractional value, which is a floating point number appended with
@@ -8749,29 +8749,29 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      *
-     * @attr name com.oritmalki.mymusicapp2:layout_flexBasisPercent
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:layout_flexBasisPercent
      */
     public static final int FlexboxLayout_Layout_layout_flexBasisPercent=1;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#layout_flexGrow}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#layout_flexGrow}
      * attribute's value can be found in the {@link #FlexboxLayout_Layout} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.oritmalki.mymusicapp2:layout_flexGrow
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:layout_flexGrow
      */
     public static final int FlexboxLayout_Layout_layout_flexGrow=2;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#layout_flexShrink}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#layout_flexShrink}
      * attribute's value can be found in the {@link #FlexboxLayout_Layout} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.oritmalki.mymusicapp2:layout_flexShrink
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:layout_flexShrink
      */
     public static final int FlexboxLayout_Layout_layout_flexShrink=3;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#layout_maxHeight}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#layout_maxHeight}
      * attribute's value can be found in the {@link #FlexboxLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8780,11 +8780,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.oritmalki.mymusicapp2:layout_maxHeight
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:layout_maxHeight
      */
     public static final int FlexboxLayout_Layout_layout_maxHeight=4;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#layout_maxWidth}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#layout_maxWidth}
      * attribute's value can be found in the {@link #FlexboxLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8793,11 +8793,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.oritmalki.mymusicapp2:layout_maxWidth
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:layout_maxWidth
      */
     public static final int FlexboxLayout_Layout_layout_maxWidth=5;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#layout_minHeight}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#layout_minHeight}
      * attribute's value can be found in the {@link #FlexboxLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8806,11 +8806,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.oritmalki.mymusicapp2:layout_minHeight
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:layout_minHeight
      */
     public static final int FlexboxLayout_Layout_layout_minHeight=6;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#layout_minWidth}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#layout_minWidth}
      * attribute's value can be found in the {@link #FlexboxLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8819,30 +8819,30 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.oritmalki.mymusicapp2:layout_minWidth
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:layout_minWidth
      */
     public static final int FlexboxLayout_Layout_layout_minWidth=7;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#layout_order}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#layout_order}
      * attribute's value can be found in the {@link #FlexboxLayout_Layout} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.oritmalki.mymusicapp2:layout_order
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:layout_order
      */
     public static final int FlexboxLayout_Layout_layout_order=8;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#layout_wrapBefore}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#layout_wrapBefore}
      * attribute's value can be found in the {@link #FlexboxLayout_Layout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.oritmalki.mymusicapp2:layout_wrapBefore
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:layout_wrapBefore
      */
     public static final int FlexboxLayout_Layout_layout_wrapBefore=9;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#alignContent}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#alignContent}
      * attribute's value can be found in the {@link #FlexboxLayout} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -8859,11 +8859,11 @@ public final class R {
      * <tr><td>stretch</td><td>5</td><td></td></tr>
      * </table>
      *
-     * @attr name com.oritmalki.mymusicapp2:alignContent
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:alignContent
      */
     public static final int FlexboxLayout_alignContent=0;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#alignItems}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#alignItems}
      * attribute's value can be found in the {@link #FlexboxLayout} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -8879,11 +8879,11 @@ public final class R {
      * <tr><td>stretch</td><td>4</td><td></td></tr>
      * </table>
      *
-     * @attr name com.oritmalki.mymusicapp2:alignItems
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:alignItems
      */
     public static final int FlexboxLayout_alignItems=1;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#dividerDrawable}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#dividerDrawable}
      * attribute's value can be found in the {@link #FlexboxLayout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8891,11 +8891,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.oritmalki.mymusicapp2:dividerDrawable
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:dividerDrawable
      */
     public static final int FlexboxLayout_dividerDrawable=2;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#dividerDrawableHorizontal}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#dividerDrawableHorizontal}
      * attribute's value can be found in the {@link #FlexboxLayout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8903,11 +8903,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.oritmalki.mymusicapp2:dividerDrawableHorizontal
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:dividerDrawableHorizontal
      */
     public static final int FlexboxLayout_dividerDrawableHorizontal=3;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#dividerDrawableVertical}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#dividerDrawableVertical}
      * attribute's value can be found in the {@link #FlexboxLayout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8915,11 +8915,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.oritmalki.mymusicapp2:dividerDrawableVertical
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:dividerDrawableVertical
      */
     public static final int FlexboxLayout_dividerDrawableVertical=4;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#flexDirection}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#flexDirection}
      * attribute's value can be found in the {@link #FlexboxLayout} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -8934,11 +8934,11 @@ public final class R {
      * <tr><td>row_reverse</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name com.oritmalki.mymusicapp2:flexDirection
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:flexDirection
      */
     public static final int FlexboxLayout_flexDirection=5;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#flexWrap}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#flexWrap}
      * attribute's value can be found in the {@link #FlexboxLayout} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -8952,11 +8952,11 @@ public final class R {
      * <tr><td>wrap_reverse</td><td>2</td><td></td></tr>
      * </table>
      *
-     * @attr name com.oritmalki.mymusicapp2:flexWrap
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:flexWrap
      */
     public static final int FlexboxLayout_flexWrap=6;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#justifyContent}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#justifyContent}
      * attribute's value can be found in the {@link #FlexboxLayout} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -8972,11 +8972,11 @@ public final class R {
      * <tr><td>space_between</td><td>3</td><td></td></tr>
      * </table>
      *
-     * @attr name com.oritmalki.mymusicapp2:justifyContent
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:justifyContent
      */
     public static final int FlexboxLayout_justifyContent=7;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#showDivider}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#showDivider}
      * attribute's value can be found in the {@link #FlexboxLayout} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -8991,11 +8991,11 @@ public final class R {
      * <tr><td>none</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.oritmalki.mymusicapp2:showDivider
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:showDivider
      */
     public static final int FlexboxLayout_showDivider=8;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#showDividerHorizontal}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#showDividerHorizontal}
      * attribute's value can be found in the {@link #FlexboxLayout} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -9010,11 +9010,11 @@ public final class R {
      * <tr><td>none</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.oritmalki.mymusicapp2:showDividerHorizontal
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:showDividerHorizontal
      */
     public static final int FlexboxLayout_showDividerHorizontal=9;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#showDividerVertical}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#showDividerVertical}
      * attribute's value can be found in the {@link #FlexboxLayout} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -9029,7 +9029,7 @@ public final class R {
      * <tr><td>none</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.oritmalki.mymusicapp2:showDividerVertical
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:showDividerVertical
      */
     public static final int FlexboxLayout_showDividerVertical=10;
     /**
@@ -9039,12 +9039,12 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #FontFamily_fontProviderAuthority com.oritmalki.mymusicapp2:fontProviderAuthority}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FontFamily_fontProviderCerts com.oritmalki.mymusicapp2:fontProviderCerts}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FontFamily_fontProviderFetchStrategy com.oritmalki.mymusicapp2:fontProviderFetchStrategy}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FontFamily_fontProviderFetchTimeout com.oritmalki.mymusicapp2:fontProviderFetchTimeout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FontFamily_fontProviderPackage com.oritmalki.mymusicapp2:fontProviderPackage}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FontFamily_fontProviderQuery com.oritmalki.mymusicapp2:fontProviderQuery}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamily_fontProviderAuthority com.oritmalki.com.oritmalki.mymusicapp2:fontProviderAuthority}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamily_fontProviderCerts com.oritmalki.com.oritmalki.mymusicapp2:fontProviderCerts}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamily_fontProviderFetchStrategy com.oritmalki.com.oritmalki.mymusicapp2:fontProviderFetchStrategy}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamily_fontProviderFetchTimeout com.oritmalki.com.oritmalki.mymusicapp2:fontProviderFetchTimeout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamily_fontProviderPackage com.oritmalki.com.oritmalki.mymusicapp2:fontProviderPackage}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamily_fontProviderQuery com.oritmalki.com.oritmalki.mymusicapp2:fontProviderQuery}</code></td><td></td></tr>
      * </table>
      * @see #FontFamily_fontProviderAuthority
      * @see #FontFamily_fontProviderCerts
@@ -9064,9 +9064,9 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #FontFamilyFont_font com.oritmalki.mymusicapp2:font}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FontFamilyFont_fontStyle com.oritmalki.mymusicapp2:fontStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FontFamilyFont_fontWeight com.oritmalki.mymusicapp2:fontWeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamilyFont_font com.oritmalki.com.oritmalki.mymusicapp2:font}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamilyFont_fontStyle com.oritmalki.com.oritmalki.mymusicapp2:fontStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamilyFont_fontWeight com.oritmalki.com.oritmalki.mymusicapp2:fontWeight}</code></td><td></td></tr>
      * </table>
      * @see #FontFamilyFont_font
      * @see #FontFamilyFont_fontStyle
@@ -9076,7 +9076,7 @@ public final class R {
         0x7f020077, 0x7f02007f, 0x7f020080
       };
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#font}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#font}
      * attribute's value can be found in the {@link #FontFamilyFont} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9084,11 +9084,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.oritmalki.mymusicapp2:font
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:font
      */
     public static final int FontFamilyFont_font=0;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#fontStyle}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#fontStyle}
      * attribute's value can be found in the {@link #FontFamilyFont} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -9101,30 +9101,30 @@ public final class R {
      * <tr><td>normal</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.oritmalki.mymusicapp2:fontStyle
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:fontStyle
      */
     public static final int FontFamilyFont_fontStyle=1;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#fontWeight}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#fontWeight}
      * attribute's value can be found in the {@link #FontFamilyFont} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.oritmalki.mymusicapp2:fontWeight
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:fontWeight
      */
     public static final int FontFamilyFont_fontWeight=2;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#fontProviderAuthority}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#fontProviderAuthority}
      * attribute's value can be found in the {@link #FontFamily} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.oritmalki.mymusicapp2:fontProviderAuthority
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:fontProviderAuthority
      */
     public static final int FontFamily_fontProviderAuthority=0;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#fontProviderCerts}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#fontProviderCerts}
      * attribute's value can be found in the {@link #FontFamily} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9132,11 +9132,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.oritmalki.mymusicapp2:fontProviderCerts
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:fontProviderCerts
      */
     public static final int FontFamily_fontProviderCerts=1;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#fontProviderFetchStrategy}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#fontProviderFetchStrategy}
      * attribute's value can be found in the {@link #FontFamily} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -9149,11 +9149,11 @@ public final class R {
      * <tr><td>blocking</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.oritmalki.mymusicapp2:fontProviderFetchStrategy
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:fontProviderFetchStrategy
      */
     public static final int FontFamily_fontProviderFetchStrategy=2;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#fontProviderFetchTimeout}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#fontProviderFetchTimeout}
      * attribute's value can be found in the {@link #FontFamily} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
@@ -9166,27 +9166,27 @@ public final class R {
      * <tr><td>forever</td><td>ffffffff</td><td></td></tr>
      * </table>
      *
-     * @attr name com.oritmalki.mymusicapp2:fontProviderFetchTimeout
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:fontProviderFetchTimeout
      */
     public static final int FontFamily_fontProviderFetchTimeout=3;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#fontProviderPackage}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#fontProviderPackage}
      * attribute's value can be found in the {@link #FontFamily} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.oritmalki.mymusicapp2:fontProviderPackage
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:fontProviderPackage
      */
     public static final int FontFamily_fontProviderPackage=4;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#fontProviderQuery}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#fontProviderQuery}
      * attribute's value can be found in the {@link #FontFamily} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.oritmalki.mymusicapp2:fontProviderQuery
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:fontProviderQuery
      */
     public static final int FontFamily_fontProviderQuery=5;
     /**
@@ -9232,10 +9232,10 @@ public final class R {
      * <tr><td><code>{@link #LinearLayoutCompat_android_baselineAligned android:baselineAligned}</code></td><td></td></tr>
      * <tr><td><code>{@link #LinearLayoutCompat_android_baselineAlignedChildIndex android:baselineAlignedChildIndex}</code></td><td></td></tr>
      * <tr><td><code>{@link #LinearLayoutCompat_android_weightSum android:weightSum}</code></td><td></td></tr>
-     * <tr><td><code>{@link #LinearLayoutCompat_divider com.oritmalki.mymusicapp2:divider}</code></td><td></td></tr>
-     * <tr><td><code>{@link #LinearLayoutCompat_dividerPadding com.oritmalki.mymusicapp2:dividerPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #LinearLayoutCompat_measureWithLargestChild com.oritmalki.mymusicapp2:measureWithLargestChild}</code></td><td></td></tr>
-     * <tr><td><code>{@link #LinearLayoutCompat_showDividers com.oritmalki.mymusicapp2:showDividers}</code></td><td></td></tr>
+     * <tr><td><code>{@link #LinearLayoutCompat_divider com.oritmalki.com.oritmalki.mymusicapp2:divider}</code></td><td></td></tr>
+     * <tr><td><code>{@link #LinearLayoutCompat_dividerPadding com.oritmalki.com.oritmalki.mymusicapp2:dividerPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #LinearLayoutCompat_measureWithLargestChild com.oritmalki.com.oritmalki.mymusicapp2:measureWithLargestChild}</code></td><td></td></tr>
+     * <tr><td><code>{@link #LinearLayoutCompat_showDividers com.oritmalki.com.oritmalki.mymusicapp2:showDividers}</code></td><td></td></tr>
      * </table>
      * @see #LinearLayoutCompat_android_gravity
      * @see #LinearLayoutCompat_android_orientation
@@ -9431,7 +9431,7 @@ public final class R {
      */
     public static final int LinearLayoutCompat_android_weightSum=4;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#divider}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#divider}
      * attribute's value can be found in the {@link #LinearLayoutCompat} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9439,11 +9439,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.oritmalki.mymusicapp2:divider
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:divider
      */
     public static final int LinearLayoutCompat_divider=5;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#dividerPadding}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#dividerPadding}
      * attribute's value can be found in the {@link #LinearLayoutCompat} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -9452,21 +9452,21 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.oritmalki.mymusicapp2:dividerPadding
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:dividerPadding
      */
     public static final int LinearLayoutCompat_dividerPadding=6;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#measureWithLargestChild}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#measureWithLargestChild}
      * attribute's value can be found in the {@link #LinearLayoutCompat} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.oritmalki.mymusicapp2:measureWithLargestChild
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:measureWithLargestChild
      */
     public static final int LinearLayoutCompat_measureWithLargestChild=7;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#showDividers}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#showDividers}
      * attribute's value can be found in the {@link #LinearLayoutCompat} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -9481,7 +9481,7 @@ public final class R {
      * <tr><td>none</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.oritmalki.mymusicapp2:showDividers
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:showDividers
      */
     public static final int LinearLayoutCompat_showDividers=8;
     /**
@@ -9649,16 +9649,16 @@ public final class R {
      * <tr><td><code>{@link #MenuItem_android_numericShortcut android:numericShortcut}</code></td><td></td></tr>
      * <tr><td><code>{@link #MenuItem_android_checkable android:checkable}</code></td><td></td></tr>
      * <tr><td><code>{@link #MenuItem_android_onClick android:onClick}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuItem_actionLayout com.oritmalki.mymusicapp2:actionLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuItem_actionProviderClass com.oritmalki.mymusicapp2:actionProviderClass}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuItem_actionViewClass com.oritmalki.mymusicapp2:actionViewClass}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuItem_alphabeticModifiers com.oritmalki.mymusicapp2:alphabeticModifiers}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuItem_contentDescription com.oritmalki.mymusicapp2:contentDescription}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuItem_iconTint com.oritmalki.mymusicapp2:iconTint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuItem_iconTintMode com.oritmalki.mymusicapp2:iconTintMode}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuItem_numericModifiers com.oritmalki.mymusicapp2:numericModifiers}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuItem_showAsAction com.oritmalki.mymusicapp2:showAsAction}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuItem_tooltipText com.oritmalki.mymusicapp2:tooltipText}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_actionLayout com.oritmalki.com.oritmalki.mymusicapp2:actionLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_actionProviderClass com.oritmalki.com.oritmalki.mymusicapp2:actionProviderClass}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_actionViewClass com.oritmalki.com.oritmalki.mymusicapp2:actionViewClass}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_alphabeticModifiers com.oritmalki.com.oritmalki.mymusicapp2:alphabeticModifiers}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_contentDescription com.oritmalki.com.oritmalki.mymusicapp2:contentDescription}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_iconTint com.oritmalki.com.oritmalki.mymusicapp2:iconTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_iconTintMode com.oritmalki.com.oritmalki.mymusicapp2:iconTintMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_numericModifiers com.oritmalki.com.oritmalki.mymusicapp2:numericModifiers}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_showAsAction com.oritmalki.com.oritmalki.mymusicapp2:showAsAction}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_tooltipText com.oritmalki.com.oritmalki.mymusicapp2:tooltipText}</code></td><td></td></tr>
      * </table>
      * @see #MenuItem_android_icon
      * @see #MenuItem_android_enabled
@@ -9693,7 +9693,7 @@ public final class R {
         0x7f0200db, 0x7f0200f7, 0x7f020135
       };
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#actionLayout}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#actionLayout}
      * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9701,31 +9701,31 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.oritmalki.mymusicapp2:actionLayout
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:actionLayout
      */
     public static final int MenuItem_actionLayout=13;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#actionProviderClass}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#actionProviderClass}
      * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.oritmalki.mymusicapp2:actionProviderClass
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:actionProviderClass
      */
     public static final int MenuItem_actionProviderClass=14;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#actionViewClass}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#actionViewClass}
      * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.oritmalki.mymusicapp2:actionViewClass
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:actionViewClass
      */
     public static final int MenuItem_actionViewClass=15;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#alphabeticModifiers}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#alphabeticModifiers}
      * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -9742,7 +9742,7 @@ public final class R {
      * <tr><td>SYM</td><td>4</td><td></td></tr>
      * </table>
      *
-     * @attr name com.oritmalki.mymusicapp2:alphabeticModifiers
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:alphabeticModifiers
      */
     public static final int MenuItem_alphabeticModifiers=16;
     /**
@@ -9888,28 +9888,28 @@ public final class R {
      */
     public static final int MenuItem_android_visible=4;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#contentDescription}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#contentDescription}
      * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.oritmalki.mymusicapp2:contentDescription
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:contentDescription
      */
     public static final int MenuItem_contentDescription=17;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#iconTint}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#iconTint}
      * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.oritmalki.mymusicapp2:iconTint
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:iconTint
      */
     public static final int MenuItem_iconTint=18;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#iconTintMode}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#iconTintMode}
      * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -9926,11 +9926,11 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      *
-     * @attr name com.oritmalki.mymusicapp2:iconTintMode
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:iconTintMode
      */
     public static final int MenuItem_iconTintMode=19;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#numericModifiers}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#numericModifiers}
      * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -9947,11 +9947,11 @@ public final class R {
      * <tr><td>SYM</td><td>4</td><td></td></tr>
      * </table>
      *
-     * @attr name com.oritmalki.mymusicapp2:numericModifiers
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:numericModifiers
      */
     public static final int MenuItem_numericModifiers=20;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#showAsAction}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#showAsAction}
      * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -9967,17 +9967,17 @@ public final class R {
      * <tr><td>withText</td><td>4</td><td></td></tr>
      * </table>
      *
-     * @attr name com.oritmalki.mymusicapp2:showAsAction
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:showAsAction
      */
     public static final int MenuItem_showAsAction=21;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#tooltipText}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#tooltipText}
      * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.oritmalki.mymusicapp2:tooltipText
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:tooltipText
      */
     public static final int MenuItem_tooltipText=22;
     /**
@@ -9994,8 +9994,8 @@ public final class R {
      * <tr><td><code>{@link #MenuView_android_headerBackground android:headerBackground}</code></td><td></td></tr>
      * <tr><td><code>{@link #MenuView_android_itemBackground android:itemBackground}</code></td><td></td></tr>
      * <tr><td><code>{@link #MenuView_android_itemIconDisabledAlpha android:itemIconDisabledAlpha}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuView_preserveIconSpacing com.oritmalki.mymusicapp2:preserveIconSpacing}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuView_subMenuArrow com.oritmalki.mymusicapp2:subMenuArrow}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuView_preserveIconSpacing com.oritmalki.com.oritmalki.mymusicapp2:preserveIconSpacing}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuView_subMenuArrow com.oritmalki.com.oritmalki.mymusicapp2:subMenuArrow}</code></td><td></td></tr>
      * </table>
      * @see #MenuView_android_windowAnimationStyle
      * @see #MenuView_android_itemTextAppearance
@@ -10100,17 +10100,17 @@ public final class R {
      */
     public static final int MenuView_android_windowAnimationStyle=0;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#preserveIconSpacing}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#preserveIconSpacing}
      * attribute's value can be found in the {@link #MenuView} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.oritmalki.mymusicapp2:preserveIconSpacing
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:preserveIconSpacing
      */
     public static final int MenuView_preserveIconSpacing=7;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#subMenuArrow}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#subMenuArrow}
      * attribute's value can be found in the {@link #MenuView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10118,7 +10118,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.oritmalki.mymusicapp2:subMenuArrow
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:subMenuArrow
      */
     public static final int MenuView_subMenuArrow=8;
     /**
@@ -10130,7 +10130,7 @@ public final class R {
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #PopupWindow_android_popupBackground android:popupBackground}</code></td><td></td></tr>
      * <tr><td><code>{@link #PopupWindow_android_popupAnimationStyle android:popupAnimationStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #PopupWindow_overlapAnchor com.oritmalki.mymusicapp2:overlapAnchor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #PopupWindow_overlapAnchor com.oritmalki.com.oritmalki.mymusicapp2:overlapAnchor}</code></td><td></td></tr>
      * </table>
      * @see #PopupWindow_android_popupBackground
      * @see #PopupWindow_android_popupAnimationStyle
@@ -10146,7 +10146,7 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #PopupWindowBackgroundState_state_above_anchor com.oritmalki.mymusicapp2:state_above_anchor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #PopupWindowBackgroundState_state_above_anchor com.oritmalki.com.oritmalki.mymusicapp2:state_above_anchor}</code></td><td></td></tr>
      * </table>
      * @see #PopupWindowBackgroundState_state_above_anchor
      */
@@ -10154,13 +10154,13 @@ public final class R {
         0x7f020106
       };
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#state_above_anchor}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#state_above_anchor}
      * attribute's value can be found in the {@link #PopupWindowBackgroundState} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.oritmalki.mymusicapp2:state_above_anchor
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:state_above_anchor
      */
     public static final int PopupWindowBackgroundState_state_above_anchor=0;
     /**
@@ -10191,13 +10191,13 @@ public final class R {
      */
     public static final int PopupWindow_android_popupBackground=0;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#overlapAnchor}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#overlapAnchor}
      * attribute's value can be found in the {@link #PopupWindow} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.oritmalki.mymusicapp2:overlapAnchor
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:overlapAnchor
      */
     public static final int PopupWindow_overlapAnchor=2;
     /**
@@ -10207,8 +10207,8 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #RecycleListView_paddingBottomNoButtons com.oritmalki.mymusicapp2:paddingBottomNoButtons}</code></td><td></td></tr>
-     * <tr><td><code>{@link #RecycleListView_paddingTopNoTitle com.oritmalki.mymusicapp2:paddingTopNoTitle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #RecycleListView_paddingBottomNoButtons com.oritmalki.com.oritmalki.mymusicapp2:paddingBottomNoButtons}</code></td><td></td></tr>
+     * <tr><td><code>{@link #RecycleListView_paddingTopNoTitle com.oritmalki.com.oritmalki.mymusicapp2:paddingTopNoTitle}</code></td><td></td></tr>
      * </table>
      * @see #RecycleListView_paddingBottomNoButtons
      * @see #RecycleListView_paddingTopNoTitle
@@ -10217,7 +10217,7 @@ public final class R {
         0x7f0200dd, 0x7f0200e0
       };
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#paddingBottomNoButtons}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#paddingBottomNoButtons}
      * attribute's value can be found in the {@link #RecycleListView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10226,11 +10226,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.oritmalki.mymusicapp2:paddingBottomNoButtons
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:paddingBottomNoButtons
      */
     public static final int RecycleListView_paddingBottomNoButtons=0;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#paddingTopNoTitle}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#paddingTopNoTitle}
      * attribute's value can be found in the {@link #RecycleListView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10239,7 +10239,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.oritmalki.mymusicapp2:paddingTopNoTitle
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:paddingTopNoTitle
      */
     public static final int RecycleListView_paddingTopNoTitle=1;
     /**
@@ -10251,10 +10251,10 @@ public final class R {
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #RecyclerView_android_orientation android:orientation}</code></td><td></td></tr>
      * <tr><td><code>{@link #RecyclerView_android_descendantFocusability android:descendantFocusability}</code></td><td></td></tr>
-     * <tr><td><code>{@link #RecyclerView_layoutManager com.oritmalki.mymusicapp2:layoutManager}</code></td><td></td></tr>
-     * <tr><td><code>{@link #RecyclerView_reverseLayout com.oritmalki.mymusicapp2:reverseLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #RecyclerView_spanCount com.oritmalki.mymusicapp2:spanCount}</code></td><td></td></tr>
-     * <tr><td><code>{@link #RecyclerView_stackFromEnd com.oritmalki.mymusicapp2:stackFromEnd}</code></td><td></td></tr>
+     * <tr><td><code>{@link #RecyclerView_layoutManager com.oritmalki.com.oritmalki.mymusicapp2:layoutManager}</code></td><td></td></tr>
+     * <tr><td><code>{@link #RecyclerView_reverseLayout com.oritmalki.com.oritmalki.mymusicapp2:reverseLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #RecyclerView_spanCount com.oritmalki.com.oritmalki.mymusicapp2:spanCount}</code></td><td></td></tr>
+     * <tr><td><code>{@link #RecyclerView_stackFromEnd com.oritmalki.com.oritmalki.mymusicapp2:stackFromEnd}</code></td><td></td></tr>
      * </table>
      * @see #RecyclerView_android_orientation
      * @see #RecyclerView_android_descendantFocusability
@@ -10303,42 +10303,42 @@ public final class R {
      */
     public static final int RecyclerView_android_orientation=0;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#layoutManager}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#layoutManager}
      * attribute's value can be found in the {@link #RecyclerView} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.oritmalki.mymusicapp2:layoutManager
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:layoutManager
      */
     public static final int RecyclerView_layoutManager=2;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#reverseLayout}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#reverseLayout}
      * attribute's value can be found in the {@link #RecyclerView} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.oritmalki.mymusicapp2:reverseLayout
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:reverseLayout
      */
     public static final int RecyclerView_reverseLayout=3;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#spanCount}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#spanCount}
      * attribute's value can be found in the {@link #RecyclerView} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.oritmalki.mymusicapp2:spanCount
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:spanCount
      */
     public static final int RecyclerView_spanCount=4;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#stackFromEnd}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#stackFromEnd}
      * attribute's value can be found in the {@link #RecyclerView} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.oritmalki.mymusicapp2:stackFromEnd
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:stackFromEnd
      */
     public static final int RecyclerView_stackFromEnd=5;
     /**
@@ -10352,19 +10352,19 @@ public final class R {
      * <tr><td><code>{@link #SearchView_android_maxWidth android:maxWidth}</code></td><td></td></tr>
      * <tr><td><code>{@link #SearchView_android_inputType android:inputType}</code></td><td></td></tr>
      * <tr><td><code>{@link #SearchView_android_imeOptions android:imeOptions}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_closeIcon com.oritmalki.mymusicapp2:closeIcon}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_commitIcon com.oritmalki.mymusicapp2:commitIcon}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_defaultQueryHint com.oritmalki.mymusicapp2:defaultQueryHint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_goIcon com.oritmalki.mymusicapp2:goIcon}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_iconifiedByDefault com.oritmalki.mymusicapp2:iconifiedByDefault}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_layout com.oritmalki.mymusicapp2:layout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_queryBackground com.oritmalki.mymusicapp2:queryBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_queryHint com.oritmalki.mymusicapp2:queryHint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_searchHintIcon com.oritmalki.mymusicapp2:searchHintIcon}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_searchIcon com.oritmalki.mymusicapp2:searchIcon}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_submitBackground com.oritmalki.mymusicapp2:submitBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_suggestionRowLayout com.oritmalki.mymusicapp2:suggestionRowLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_voiceIcon com.oritmalki.mymusicapp2:voiceIcon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_closeIcon com.oritmalki.com.oritmalki.mymusicapp2:closeIcon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_commitIcon com.oritmalki.com.oritmalki.mymusicapp2:commitIcon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_defaultQueryHint com.oritmalki.com.oritmalki.mymusicapp2:defaultQueryHint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_goIcon com.oritmalki.com.oritmalki.mymusicapp2:goIcon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_iconifiedByDefault com.oritmalki.com.oritmalki.mymusicapp2:iconifiedByDefault}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_layout com.oritmalki.com.oritmalki.mymusicapp2:layout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_queryBackground com.oritmalki.com.oritmalki.mymusicapp2:queryBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_queryHint com.oritmalki.com.oritmalki.mymusicapp2:queryHint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_searchHintIcon com.oritmalki.com.oritmalki.mymusicapp2:searchHintIcon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_searchIcon com.oritmalki.com.oritmalki.mymusicapp2:searchIcon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_submitBackground com.oritmalki.com.oritmalki.mymusicapp2:submitBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_suggestionRowLayout com.oritmalki.com.oritmalki.mymusicapp2:suggestionRowLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_voiceIcon com.oritmalki.com.oritmalki.mymusicapp2:voiceIcon}</code></td><td></td></tr>
      * </table>
      * @see #SearchView_android_focusable
      * @see #SearchView_android_maxWidth
@@ -10502,7 +10502,7 @@ public final class R {
      */
     public static final int SearchView_android_maxWidth=1;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#closeIcon}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#closeIcon}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10510,11 +10510,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.oritmalki.mymusicapp2:closeIcon
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:closeIcon
      */
     public static final int SearchView_closeIcon=4;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#commitIcon}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#commitIcon}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10522,21 +10522,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.oritmalki.mymusicapp2:commitIcon
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:commitIcon
      */
     public static final int SearchView_commitIcon=5;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#defaultQueryHint}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#defaultQueryHint}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.oritmalki.mymusicapp2:defaultQueryHint
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:defaultQueryHint
      */
     public static final int SearchView_defaultQueryHint=6;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#goIcon}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#goIcon}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10544,21 +10544,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.oritmalki.mymusicapp2:goIcon
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:goIcon
      */
     public static final int SearchView_goIcon=7;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#iconifiedByDefault}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#iconifiedByDefault}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.oritmalki.mymusicapp2:iconifiedByDefault
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:iconifiedByDefault
      */
     public static final int SearchView_iconifiedByDefault=8;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#layout}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#layout}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10566,11 +10566,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.oritmalki.mymusicapp2:layout
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:layout
      */
     public static final int SearchView_layout=9;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#queryBackground}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#queryBackground}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10578,21 +10578,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.oritmalki.mymusicapp2:queryBackground
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:queryBackground
      */
     public static final int SearchView_queryBackground=10;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#queryHint}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#queryHint}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.oritmalki.mymusicapp2:queryHint
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:queryHint
      */
     public static final int SearchView_queryHint=11;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#searchHintIcon}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#searchHintIcon}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10600,11 +10600,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.oritmalki.mymusicapp2:searchHintIcon
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:searchHintIcon
      */
     public static final int SearchView_searchHintIcon=12;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#searchIcon}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#searchIcon}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10612,11 +10612,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.oritmalki.mymusicapp2:searchIcon
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:searchIcon
      */
     public static final int SearchView_searchIcon=13;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#submitBackground}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#submitBackground}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10624,11 +10624,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.oritmalki.mymusicapp2:submitBackground
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:submitBackground
      */
     public static final int SearchView_submitBackground=14;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#suggestionRowLayout}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#suggestionRowLayout}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10636,11 +10636,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.oritmalki.mymusicapp2:suggestionRowLayout
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:suggestionRowLayout
      */
     public static final int SearchView_suggestionRowLayout=15;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#voiceIcon}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#voiceIcon}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10648,7 +10648,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.oritmalki.mymusicapp2:voiceIcon
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:voiceIcon
      */
     public static final int SearchView_voiceIcon=16;
     /**
@@ -10662,7 +10662,7 @@ public final class R {
      * <tr><td><code>{@link #Spinner_android_popupBackground android:popupBackground}</code></td><td></td></tr>
      * <tr><td><code>{@link #Spinner_android_prompt android:prompt}</code></td><td></td></tr>
      * <tr><td><code>{@link #Spinner_android_dropDownWidth android:dropDownWidth}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Spinner_popupTheme com.oritmalki.mymusicapp2:popupTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Spinner_popupTheme com.oritmalki.com.oritmalki.mymusicapp2:popupTheme}</code></td><td></td></tr>
      * </table>
      * @see #Spinner_android_entries
      * @see #Spinner_android_popupBackground
@@ -10737,7 +10737,7 @@ public final class R {
      */
     public static final int Spinner_android_prompt=2;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#popupTheme}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#popupTheme}
      * attribute's value can be found in the {@link #Spinner} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10745,7 +10745,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.oritmalki.mymusicapp2:popupTheme
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:popupTheme
      */
     public static final int Spinner_popupTheme=4;
     /**
@@ -10758,17 +10758,17 @@ public final class R {
      * <tr><td><code>{@link #SwitchCompat_android_textOn android:textOn}</code></td><td></td></tr>
      * <tr><td><code>{@link #SwitchCompat_android_textOff android:textOff}</code></td><td></td></tr>
      * <tr><td><code>{@link #SwitchCompat_android_thumb android:thumb}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_showText com.oritmalki.mymusicapp2:showText}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_splitTrack com.oritmalki.mymusicapp2:splitTrack}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_switchMinWidth com.oritmalki.mymusicapp2:switchMinWidth}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_switchPadding com.oritmalki.mymusicapp2:switchPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_switchTextAppearance com.oritmalki.mymusicapp2:switchTextAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_thumbTextPadding com.oritmalki.mymusicapp2:thumbTextPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_thumbTint com.oritmalki.mymusicapp2:thumbTint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_thumbTintMode com.oritmalki.mymusicapp2:thumbTintMode}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_track com.oritmalki.mymusicapp2:track}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_trackTint com.oritmalki.mymusicapp2:trackTint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_trackTintMode com.oritmalki.mymusicapp2:trackTintMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_showText com.oritmalki.com.oritmalki.mymusicapp2:showText}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_splitTrack com.oritmalki.com.oritmalki.mymusicapp2:splitTrack}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_switchMinWidth com.oritmalki.com.oritmalki.mymusicapp2:switchMinWidth}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_switchPadding com.oritmalki.com.oritmalki.mymusicapp2:switchPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_switchTextAppearance com.oritmalki.com.oritmalki.mymusicapp2:switchTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_thumbTextPadding com.oritmalki.com.oritmalki.mymusicapp2:thumbTextPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_thumbTint com.oritmalki.com.oritmalki.mymusicapp2:thumbTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_thumbTintMode com.oritmalki.com.oritmalki.mymusicapp2:thumbTintMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_track com.oritmalki.com.oritmalki.mymusicapp2:track}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_trackTint com.oritmalki.com.oritmalki.mymusicapp2:trackTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_trackTintMode com.oritmalki.com.oritmalki.mymusicapp2:trackTintMode}</code></td><td></td></tr>
      * </table>
      * @see #SwitchCompat_android_textOn
      * @see #SwitchCompat_android_textOff
@@ -10824,27 +10824,27 @@ public final class R {
      */
     public static final int SwitchCompat_android_thumb=2;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#showText}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#showText}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.oritmalki.mymusicapp2:showText
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:showText
      */
     public static final int SwitchCompat_showText=3;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#splitTrack}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#splitTrack}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.oritmalki.mymusicapp2:splitTrack
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:splitTrack
      */
     public static final int SwitchCompat_splitTrack=4;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#switchMinWidth}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#switchMinWidth}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10853,11 +10853,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.oritmalki.mymusicapp2:switchMinWidth
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:switchMinWidth
      */
     public static final int SwitchCompat_switchMinWidth=5;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#switchPadding}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#switchPadding}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10866,11 +10866,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.oritmalki.mymusicapp2:switchPadding
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:switchPadding
      */
     public static final int SwitchCompat_switchPadding=6;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#switchTextAppearance}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#switchTextAppearance}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10878,11 +10878,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.oritmalki.mymusicapp2:switchTextAppearance
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:switchTextAppearance
      */
     public static final int SwitchCompat_switchTextAppearance=7;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#thumbTextPadding}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#thumbTextPadding}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10891,22 +10891,22 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.oritmalki.mymusicapp2:thumbTextPadding
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:thumbTextPadding
      */
     public static final int SwitchCompat_thumbTextPadding=8;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#thumbTint}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#thumbTint}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.oritmalki.mymusicapp2:thumbTint
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:thumbTint
      */
     public static final int SwitchCompat_thumbTint=9;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#thumbTintMode}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#thumbTintMode}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -10923,11 +10923,11 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      *
-     * @attr name com.oritmalki.mymusicapp2:thumbTintMode
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:thumbTintMode
      */
     public static final int SwitchCompat_thumbTintMode=10;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#track}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#track}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10935,22 +10935,22 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.oritmalki.mymusicapp2:track
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:track
      */
     public static final int SwitchCompat_track=11;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#trackTint}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#trackTint}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.oritmalki.mymusicapp2:trackTint
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:trackTint
      */
     public static final int SwitchCompat_trackTint=12;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#trackTintMode}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#trackTintMode}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -10967,7 +10967,7 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      *
-     * @attr name com.oritmalki.mymusicapp2:trackTintMode
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:trackTintMode
      */
     public static final int SwitchCompat_trackTintMode=13;
     /**
@@ -10988,8 +10988,8 @@ public final class R {
      * <tr><td><code>{@link #TextAppearance_android_shadowDy android:shadowDy}</code></td><td></td></tr>
      * <tr><td><code>{@link #TextAppearance_android_shadowRadius android:shadowRadius}</code></td><td></td></tr>
      * <tr><td><code>{@link #TextAppearance_android_fontFamily android:fontFamily}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextAppearance_fontFamily com.oritmalki.mymusicapp2:fontFamily}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextAppearance_textAllCaps com.oritmalki.mymusicapp2:textAllCaps}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextAppearance_fontFamily com.oritmalki.com.oritmalki.mymusicapp2:fontFamily}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextAppearance_textAllCaps com.oritmalki.com.oritmalki.mymusicapp2:textAllCaps}</code></td><td></td></tr>
      * </table>
      * @see #TextAppearance_android_textSize
      * @see #TextAppearance_android_typeface
@@ -11155,17 +11155,17 @@ public final class R {
      */
     public static final int TextAppearance_android_typeface=1;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#fontFamily}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#fontFamily}
      * attribute's value can be found in the {@link #TextAppearance} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.oritmalki.mymusicapp2:fontFamily
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:fontFamily
      */
     public static final int TextAppearance_fontFamily=11;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#textAllCaps}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#textAllCaps}
      * attribute's value can be found in the {@link #TextAppearance} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -11175,7 +11175,7 @@ public final class R {
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.oritmalki.mymusicapp2:textAllCaps
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:textAllCaps
      */
     public static final int TextAppearance_textAllCaps=12;
     /**
@@ -11187,33 +11187,33 @@ public final class R {
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #Toolbar_android_gravity android:gravity}</code></td><td></td></tr>
      * <tr><td><code>{@link #Toolbar_android_minHeight android:minHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_buttonGravity com.oritmalki.mymusicapp2:buttonGravity}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_collapseContentDescription com.oritmalki.mymusicapp2:collapseContentDescription}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_collapseIcon com.oritmalki.mymusicapp2:collapseIcon}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_contentInsetEnd com.oritmalki.mymusicapp2:contentInsetEnd}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_contentInsetEndWithActions com.oritmalki.mymusicapp2:contentInsetEndWithActions}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_contentInsetLeft com.oritmalki.mymusicapp2:contentInsetLeft}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_contentInsetRight com.oritmalki.mymusicapp2:contentInsetRight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_contentInsetStart com.oritmalki.mymusicapp2:contentInsetStart}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_contentInsetStartWithNavigation com.oritmalki.mymusicapp2:contentInsetStartWithNavigation}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_logo com.oritmalki.mymusicapp2:logo}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_logoDescription com.oritmalki.mymusicapp2:logoDescription}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_maxButtonHeight com.oritmalki.mymusicapp2:maxButtonHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_navigationContentDescription com.oritmalki.mymusicapp2:navigationContentDescription}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_navigationIcon com.oritmalki.mymusicapp2:navigationIcon}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_popupTheme com.oritmalki.mymusicapp2:popupTheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_subtitle com.oritmalki.mymusicapp2:subtitle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_subtitleTextAppearance com.oritmalki.mymusicapp2:subtitleTextAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_subtitleTextColor com.oritmalki.mymusicapp2:subtitleTextColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_title com.oritmalki.mymusicapp2:title}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_titleMargin com.oritmalki.mymusicapp2:titleMargin}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_titleMarginBottom com.oritmalki.mymusicapp2:titleMarginBottom}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_titleMarginEnd com.oritmalki.mymusicapp2:titleMarginEnd}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_titleMarginStart com.oritmalki.mymusicapp2:titleMarginStart}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_titleMarginTop com.oritmalki.mymusicapp2:titleMarginTop}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_titleMargins com.oritmalki.mymusicapp2:titleMargins}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_titleTextAppearance com.oritmalki.mymusicapp2:titleTextAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_titleTextColor com.oritmalki.mymusicapp2:titleTextColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_buttonGravity com.oritmalki.com.oritmalki.mymusicapp2:buttonGravity}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_collapseContentDescription com.oritmalki.com.oritmalki.mymusicapp2:collapseContentDescription}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_collapseIcon com.oritmalki.com.oritmalki.mymusicapp2:collapseIcon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_contentInsetEnd com.oritmalki.com.oritmalki.mymusicapp2:contentInsetEnd}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_contentInsetEndWithActions com.oritmalki.com.oritmalki.mymusicapp2:contentInsetEndWithActions}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_contentInsetLeft com.oritmalki.com.oritmalki.mymusicapp2:contentInsetLeft}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_contentInsetRight com.oritmalki.com.oritmalki.mymusicapp2:contentInsetRight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_contentInsetStart com.oritmalki.com.oritmalki.mymusicapp2:contentInsetStart}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_contentInsetStartWithNavigation com.oritmalki.com.oritmalki.mymusicapp2:contentInsetStartWithNavigation}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_logo com.oritmalki.com.oritmalki.mymusicapp2:logo}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_logoDescription com.oritmalki.com.oritmalki.mymusicapp2:logoDescription}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_maxButtonHeight com.oritmalki.com.oritmalki.mymusicapp2:maxButtonHeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_navigationContentDescription com.oritmalki.com.oritmalki.mymusicapp2:navigationContentDescription}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_navigationIcon com.oritmalki.com.oritmalki.mymusicapp2:navigationIcon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_popupTheme com.oritmalki.com.oritmalki.mymusicapp2:popupTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_subtitle com.oritmalki.com.oritmalki.mymusicapp2:subtitle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_subtitleTextAppearance com.oritmalki.com.oritmalki.mymusicapp2:subtitleTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_subtitleTextColor com.oritmalki.com.oritmalki.mymusicapp2:subtitleTextColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_title com.oritmalki.com.oritmalki.mymusicapp2:title}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_titleMargin com.oritmalki.com.oritmalki.mymusicapp2:titleMargin}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_titleMarginBottom com.oritmalki.com.oritmalki.mymusicapp2:titleMarginBottom}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_titleMarginEnd com.oritmalki.com.oritmalki.mymusicapp2:titleMarginEnd}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_titleMarginStart com.oritmalki.com.oritmalki.mymusicapp2:titleMarginStart}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_titleMarginTop com.oritmalki.com.oritmalki.mymusicapp2:titleMarginTop}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_titleMargins com.oritmalki.com.oritmalki.mymusicapp2:titleMargins}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_titleTextAppearance com.oritmalki.com.oritmalki.mymusicapp2:titleTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_titleTextColor com.oritmalki.com.oritmalki.mymusicapp2:titleTextColor}</code></td><td></td></tr>
      * </table>
      * @see #Toolbar_android_gravity
      * @see #Toolbar_android_minHeight
@@ -11298,7 +11298,7 @@ public final class R {
      */
     public static final int Toolbar_android_minHeight=1;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#buttonGravity}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#buttonGravity}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -11311,21 +11311,21 @@ public final class R {
      * <tr><td>top</td><td>30</td><td></td></tr>
      * </table>
      *
-     * @attr name com.oritmalki.mymusicapp2:buttonGravity
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:buttonGravity
      */
     public static final int Toolbar_buttonGravity=2;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#collapseContentDescription}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#collapseContentDescription}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.oritmalki.mymusicapp2:collapseContentDescription
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:collapseContentDescription
      */
     public static final int Toolbar_collapseContentDescription=3;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#collapseIcon}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#collapseIcon}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -11333,11 +11333,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.oritmalki.mymusicapp2:collapseIcon
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:collapseIcon
      */
     public static final int Toolbar_collapseIcon=4;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#contentInsetEnd}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#contentInsetEnd}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -11346,11 +11346,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.oritmalki.mymusicapp2:contentInsetEnd
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:contentInsetEnd
      */
     public static final int Toolbar_contentInsetEnd=5;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#contentInsetEndWithActions}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#contentInsetEndWithActions}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -11359,11 +11359,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.oritmalki.mymusicapp2:contentInsetEndWithActions
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:contentInsetEndWithActions
      */
     public static final int Toolbar_contentInsetEndWithActions=6;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#contentInsetLeft}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#contentInsetLeft}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -11372,11 +11372,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.oritmalki.mymusicapp2:contentInsetLeft
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:contentInsetLeft
      */
     public static final int Toolbar_contentInsetLeft=7;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#contentInsetRight}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#contentInsetRight}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -11385,11 +11385,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.oritmalki.mymusicapp2:contentInsetRight
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:contentInsetRight
      */
     public static final int Toolbar_contentInsetRight=8;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#contentInsetStart}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#contentInsetStart}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -11398,11 +11398,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.oritmalki.mymusicapp2:contentInsetStart
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:contentInsetStart
      */
     public static final int Toolbar_contentInsetStart=9;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#contentInsetStartWithNavigation}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#contentInsetStartWithNavigation}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -11411,11 +11411,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.oritmalki.mymusicapp2:contentInsetStartWithNavigation
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:contentInsetStartWithNavigation
      */
     public static final int Toolbar_contentInsetStartWithNavigation=10;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#logo}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#logo}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -11423,21 +11423,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.oritmalki.mymusicapp2:logo
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:logo
      */
     public static final int Toolbar_logo=11;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#logoDescription}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#logoDescription}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.oritmalki.mymusicapp2:logoDescription
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:logoDescription
      */
     public static final int Toolbar_logoDescription=12;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#maxButtonHeight}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#maxButtonHeight}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -11446,21 +11446,21 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.oritmalki.mymusicapp2:maxButtonHeight
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:maxButtonHeight
      */
     public static final int Toolbar_maxButtonHeight=13;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#navigationContentDescription}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#navigationContentDescription}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.oritmalki.mymusicapp2:navigationContentDescription
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:navigationContentDescription
      */
     public static final int Toolbar_navigationContentDescription=14;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#navigationIcon}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#navigationIcon}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -11468,11 +11468,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.oritmalki.mymusicapp2:navigationIcon
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:navigationIcon
      */
     public static final int Toolbar_navigationIcon=15;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#popupTheme}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#popupTheme}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -11480,21 +11480,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.oritmalki.mymusicapp2:popupTheme
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:popupTheme
      */
     public static final int Toolbar_popupTheme=16;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#subtitle}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#subtitle}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.oritmalki.mymusicapp2:subtitle
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:subtitle
      */
     public static final int Toolbar_subtitle=17;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#subtitleTextAppearance}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#subtitleTextAppearance}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -11502,32 +11502,32 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.oritmalki.mymusicapp2:subtitleTextAppearance
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:subtitleTextAppearance
      */
     public static final int Toolbar_subtitleTextAppearance=18;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#subtitleTextColor}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#subtitleTextColor}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.oritmalki.mymusicapp2:subtitleTextColor
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:subtitleTextColor
      */
     public static final int Toolbar_subtitleTextColor=19;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#title}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#title}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.oritmalki.mymusicapp2:title
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:title
      */
     public static final int Toolbar_title=20;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#titleMargin}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#titleMargin}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -11536,11 +11536,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.oritmalki.mymusicapp2:titleMargin
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:titleMargin
      */
     public static final int Toolbar_titleMargin=21;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#titleMarginBottom}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#titleMarginBottom}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -11549,11 +11549,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.oritmalki.mymusicapp2:titleMarginBottom
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:titleMarginBottom
      */
     public static final int Toolbar_titleMarginBottom=22;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#titleMarginEnd}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#titleMarginEnd}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -11562,11 +11562,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.oritmalki.mymusicapp2:titleMarginEnd
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:titleMarginEnd
      */
     public static final int Toolbar_titleMarginEnd=23;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#titleMarginStart}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#titleMarginStart}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -11575,11 +11575,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.oritmalki.mymusicapp2:titleMarginStart
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:titleMarginStart
      */
     public static final int Toolbar_titleMarginStart=24;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#titleMarginTop}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#titleMarginTop}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -11588,11 +11588,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.oritmalki.mymusicapp2:titleMarginTop
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:titleMarginTop
      */
     public static final int Toolbar_titleMarginTop=25;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#titleMargins}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#titleMargins}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -11601,11 +11601,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.oritmalki.mymusicapp2:titleMargins
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:titleMargins
      */
     public static final int Toolbar_titleMargins=26;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#titleTextAppearance}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#titleTextAppearance}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -11613,18 +11613,18 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.oritmalki.mymusicapp2:titleTextAppearance
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:titleTextAppearance
      */
     public static final int Toolbar_titleTextAppearance=27;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#titleTextColor}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#titleTextColor}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.oritmalki.mymusicapp2:titleTextColor
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:titleTextColor
      */
     public static final int Toolbar_titleTextColor=28;
     /**
@@ -11636,9 +11636,9 @@ public final class R {
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #View_android_theme android:theme}</code></td><td></td></tr>
      * <tr><td><code>{@link #View_android_focusable android:focusable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #View_paddingEnd com.oritmalki.mymusicapp2:paddingEnd}</code></td><td></td></tr>
-     * <tr><td><code>{@link #View_paddingStart com.oritmalki.mymusicapp2:paddingStart}</code></td><td></td></tr>
-     * <tr><td><code>{@link #View_theme com.oritmalki.mymusicapp2:theme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #View_paddingEnd com.oritmalki.com.oritmalki.mymusicapp2:paddingEnd}</code></td><td></td></tr>
+     * <tr><td><code>{@link #View_paddingStart com.oritmalki.com.oritmalki.mymusicapp2:paddingStart}</code></td><td></td></tr>
+     * <tr><td><code>{@link #View_theme com.oritmalki.com.oritmalki.mymusicapp2:theme}</code></td><td></td></tr>
      * </table>
      * @see #View_android_theme
      * @see #View_android_focusable
@@ -11658,8 +11658,8 @@ public final class R {
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #ViewBackgroundHelper_android_background android:background}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ViewBackgroundHelper_backgroundTint com.oritmalki.mymusicapp2:backgroundTint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ViewBackgroundHelper_backgroundTintMode com.oritmalki.mymusicapp2:backgroundTintMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ViewBackgroundHelper_backgroundTint com.oritmalki.com.oritmalki.mymusicapp2:backgroundTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ViewBackgroundHelper_backgroundTintMode com.oritmalki.com.oritmalki.mymusicapp2:backgroundTintMode}</code></td><td></td></tr>
      * </table>
      * @see #ViewBackgroundHelper_android_background
      * @see #ViewBackgroundHelper_backgroundTint
@@ -11684,18 +11684,18 @@ public final class R {
      */
     public static final int ViewBackgroundHelper_android_background=0;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#backgroundTint}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#backgroundTint}
      * attribute's value can be found in the {@link #ViewBackgroundHelper} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.oritmalki.mymusicapp2:backgroundTint
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:backgroundTint
      */
     public static final int ViewBackgroundHelper_backgroundTint=1;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#backgroundTintMode}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#backgroundTintMode}
      * attribute's value can be found in the {@link #ViewBackgroundHelper} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -11711,7 +11711,7 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      *
-     * @attr name com.oritmalki.mymusicapp2:backgroundTintMode
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:backgroundTintMode
      */
     public static final int ViewBackgroundHelper_backgroundTintMode=2;
     /**
@@ -11799,7 +11799,7 @@ public final class R {
      */
     public static final int View_android_theme=0;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#paddingEnd}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#paddingEnd}
      * attribute's value can be found in the {@link #View} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -11808,11 +11808,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.oritmalki.mymusicapp2:paddingEnd
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:paddingEnd
      */
     public static final int View_paddingEnd=2;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#paddingStart}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#paddingStart}
      * attribute's value can be found in the {@link #View} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -11821,11 +11821,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.oritmalki.mymusicapp2:paddingStart
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:paddingStart
      */
     public static final int View_paddingStart=3;
     /**
-     * <p>This symbol is the offset where the {@link com.oritmalki.mymusicapp2.R.attr#theme}
+     * <p>This symbol is the offset where the {@link com.oritmalki.com.oritmalki.mymusicapp2.R.attr#theme}
      * attribute's value can be found in the {@link #View} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -11833,7 +11833,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.oritmalki.mymusicapp2:theme
+     * @attr name com.oritmalki.com.oritmalki.mymusicapp2:theme
      */
     public static final int View_theme=4;
   }

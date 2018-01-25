@@ -3,7 +3,7 @@ apply plugin: 'com.android.application'
 android {
     compileSdkVersion 26
     defaultConfig {
-        applicationId "com.oritmalki.mymusicapp2"
+        applicationId "com.oritmalki.com.oritmalki.mymusicapp2"
         minSdkVersion 21
         targetSdkVersion 26
         versionCode 1

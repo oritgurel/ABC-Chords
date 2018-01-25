@@ -2,16 +2,15 @@ package com.oritmalki.mymusicapp2;
 
 import android.arch.persistence.db.SupportSQLiteDatabase;
 import android.arch.persistence.db.SupportSQLiteOpenHelper;
-import android.arch.persistence.db.SupportSQLiteOpenHelper.Callback;
-import android.arch.persistence.db.SupportSQLiteOpenHelper.Configuration;
 import android.arch.persistence.room.DatabaseConfiguration;
 import android.arch.persistence.room.InvalidationTracker;
 import android.arch.persistence.room.RoomOpenHelper;
-import android.arch.persistence.room.RoomOpenHelper.Delegate;
 import android.arch.persistence.room.util.TableInfo;
-import android.arch.persistence.room.util.TableInfo.Column;
-import android.arch.persistence.room.util.TableInfo.ForeignKey;
-import android.arch.persistence.room.util.TableInfo.Index;
+
+import com.oritmalki.mymusicapp2.database.AppDataBase;
+import com.oritmalki.mymusicapp2.database.BeatDao;
+import com.oritmalki.mymusicapp2.database.MeasureDao;
+
 import java.lang.IllegalStateException;
 import java.lang.Override;
 import java.lang.String;
@@ -70,7 +69,7 @@ public class AppDataBase_Impl extends AppDataBase {
         final TableInfo _infoSheet = new TableInfo("Sheet", _columnsSheet, _foreignKeysSheet, _indicesSheet);
         final TableInfo _existingSheet = TableInfo.read(_db, "Sheet");
         if (! _infoSheet.equals(_existingSheet)) {
-          throw new IllegalStateException("Migration didn't properly handle Sheet(com.oritmalki.mymusicapp2.Sheet).\n"
+          throw new IllegalStateException("Migration didn't properly handle Sheet(com.oritmalki.com.oritmalki.mymusicapp2.com.oritmalki.com.oritmalki.mymusicapp2.database.com.oritmalki.com.oritmalki.mymusicapp2.database.database.model.Sheet).\n"
                   + " Expected:\n" + _infoSheet + "\n"
                   + " Found:\n" + _existingSheet);
         }
@@ -88,7 +87,7 @@ public class AppDataBase_Impl extends AppDataBase {
         final TableInfo _infoMeasure = new TableInfo("measure", _columnsMeasure, _foreignKeysMeasure, _indicesMeasure);
         final TableInfo _existingMeasure = TableInfo.read(_db, "measure");
         if (! _infoMeasure.equals(_existingMeasure)) {
-          throw new IllegalStateException("Migration didn't properly handle measure(com.oritmalki.mymusicapp2.Measure).\n"
+          throw new IllegalStateException("Migration didn't properly handle measure(com.oritmalki.com.oritmalki.mymusicapp2.com.oritmalki.com.oritmalki.mymusicapp2.database.com.oritmalki.com.oritmalki.mymusicapp2.database.database.model.Measure).\n"
                   + " Expected:\n" + _infoMeasure + "\n"
                   + " Found:\n" + _existingMeasure);
         }
@@ -101,7 +100,7 @@ public class AppDataBase_Impl extends AppDataBase {
         final TableInfo _infoBeat = new TableInfo("beat", _columnsBeat, _foreignKeysBeat, _indicesBeat);
         final TableInfo _existingBeat = TableInfo.read(_db, "beat");
         if (! _infoBeat.equals(_existingBeat)) {
-          throw new IllegalStateException("Migration didn't properly handle beat(com.oritmalki.mymusicapp2.Beat).\n"
+          throw new IllegalStateException("Migration didn't properly handle beat(com.oritmalki.com.oritmalki.mymusicapp2.com.oritmalki.com.oritmalki.mymusicapp2.database.com.oritmalki.com.oritmalki.mymusicapp2.database.database.model.Beat).\n"
                   + " Expected:\n" + _infoBeat + "\n"
                   + " Found:\n" + _existingBeat);
         }

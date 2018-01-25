@@ -6,6 +6,10 @@ import android.arch.persistence.room.EntityInsertionAdapter;
 import android.arch.persistence.room.RoomDatabase;
 import android.arch.persistence.room.RoomSQLiteQuery;
 import android.database.Cursor;
+
+import com.oritmalki.mymusicapp2.model.Beat;
+import com.oritmalki.mymusicapp2.database.BeatDao;
+
 import java.lang.Override;
 import java.lang.String;
 import java.util.ArrayList;
