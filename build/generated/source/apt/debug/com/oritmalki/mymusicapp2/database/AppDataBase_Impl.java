@@ -18,7 +18,9 @@ import java.lang.String;
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.HashSet;
+import javax.annotation.Generated;
 
+@Generated("android.arch.persistence.room.RoomProcessor")
 public class AppDataBase_Impl extends AppDataBase {
   private volatile MeasureDao _measureDao;
 

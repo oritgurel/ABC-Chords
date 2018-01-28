@@ -11,7 +11,9 @@ import java.lang.Override;
 import java.lang.String;
 import java.util.ArrayList;
 import java.util.List;
+import javax.annotation.Generated;
 
+@Generated("android.arch.persistence.room.RoomProcessor")
 public class BeatDao_Impl implements BeatDao {
   private final RoomDatabase __db;
 

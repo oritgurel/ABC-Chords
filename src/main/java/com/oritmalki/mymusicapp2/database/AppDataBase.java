@@ -1,14 +1,21 @@
 package com.oritmalki.mymusicapp2.database;
 
+import android.arch.lifecycle.LiveData;
+import android.arch.lifecycle.MutableLiveData;
+import android.arch.persistence.db.SupportSQLiteDatabase;
 import android.arch.persistence.room.Database;
 import android.arch.persistence.room.Room;
 import android.arch.persistence.room.RoomDatabase;
 import android.arch.persistence.room.TypeConverters;
 import android.content.Context;
+import android.support.annotation.NonNull;
 
+import com.oritmalki.mymusicapp2.AppExecutors;
 import com.oritmalki.mymusicapp2.model.Beat;
 import com.oritmalki.mymusicapp2.model.Measure;
 import com.oritmalki.mymusicapp2.model.Sheet;
+
+import java.util.List;
 
 /**
  * Created by Orit on 21.12.2017.
@@ -21,8 +28,12 @@ public abstract class AppDataBase extends RoomDatabase {
     private static final String DATABASE_NAME = "music_sheet";
     private static AppDataBase INSTANCE;
 
+    private final static MutableLiveData<Boolean> mIsDatabaseCreated = new MutableLiveData<>();
+
+    private static AppDataBase sInstance;
 
     public abstract MeasureDao measureDao();
+
     public abstract BeatDao beatDao();
 
     public MeasureDao getMeasureDao() {
@@ -34,17 +45,87 @@ public abstract class AppDataBase extends RoomDatabase {
     }
 
 
-    public static AppDataBase getINSTANCE(Context context) {
-        if (INSTANCE == null) {
-            INSTANCE = Room.databaseBuilder(context.getApplicationContext(), AppDataBase.class, DATABASE_NAME).allowMainThreadQueries().fallbackToDestructiveMigration().build();
+    //my old getINSTANCE()
+////    public static AppDataBase getINSTANCE(Context context) {
+////        if (INSTANCE == null) {
+////            INSTANCE = Room.databaseBuilder(context.getApplicationContext(), AppDataBase.class, DATABASE_NAME).allowMainThreadQueries().fallbackToDestructiveMigration().build();
+////            List<Measure> measures = DemoContentGenerator.generateDemoContent();
+////            insertData(AppDataBase.getINSTANCE(context), measures);
+////
+////        }
+////        updateDatabaseCreated(context);
+////        return INSTANCE;
+//
+//
+//    }
+//New version from MVVM github example
+    public static AppDataBase getInstance(final Context context, final AppExecutors executors) {
+        if (sInstance == null) {
+            synchronized (AppDataBase.class) {
+                if (sInstance == null) {
+                    sInstance = buildDatabase(context.getApplicationContext(), executors);
+                    sInstance.updateDatabaseCreated(context.getApplicationContext());
+                }
+            }
         }
-        return INSTANCE;
+        return sInstance;
+    }
+
+    private static AppDataBase buildDatabase(final Context appContext,
+                                             final AppExecutors executors) {
+        return Room.databaseBuilder(appContext, AppDataBase.class, DATABASE_NAME)
+                .addCallback(new Callback() {
+                    @Override
+                    public void onCreate(@NonNull SupportSQLiteDatabase db) {
+                        super.onCreate(db);
+                        executors.diskIO().execute(() -> {
+                            // Add a delay to simulate a long-running operation
+//                            addDelay();
+                            // Generate the data for pre-population
+                            AppDataBase database = AppDataBase.getInstance(appContext, executors);
+                            List<Measure> measures = DemoContentGenerator.generateDemoContent();
+
+                            insertData(database, measures);
+                            // notify that the database was created and it's ready to be used
+                            database.setDatabaseCreated();
+                        });
+                    }
+                }).build();
+    }
+
+    private static void insertData(final AppDataBase database, final List<Measure> measures) {
+        database.runInTransaction(() -> {
+            database.measureDao().insertAll(measures);
+
+        });
+    }
+
+    private static void addDelay() {
+        try {
+            Thread.sleep(4000);
+        } catch (InterruptedException ignored) {
+        }
     }
 
     public static void destroyInstance() {
         INSTANCE = null;
     }
+
+    private static void updateDatabaseCreated(final Context context) {
+        if (context.getDatabasePath(DATABASE_NAME).exists()) {
+            setDatabaseCreated();
+        }
+    }
+
+    private static void setDatabaseCreated(){
+        mIsDatabaseCreated.postValue(true);
+    }
+
+    public LiveData<Boolean> getDatabaseCreated() {
+        return mIsDatabaseCreated;
+    }
 }
+
 
 //    static final Migration MIGRATION_1_3 = new Migration(1, 3) {
 //////        @Override

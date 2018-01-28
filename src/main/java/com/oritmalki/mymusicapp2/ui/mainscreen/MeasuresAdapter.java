@@ -1,6 +1,9 @@
 package com.oritmalki.mymusicapp2.ui.mainscreen;
 
 import android.content.Context;
+import android.support.annotation.Nullable;
+import android.support.v7.util.DiffUtil;
+import android.support.v7.util.DiffUtil.Callback;
 import android.support.v7.widget.RecyclerView;
 import android.util.LayoutDirection;
 import android.view.LayoutInflater;
@@ -17,6 +20,7 @@ import com.oritmalki.mymusicapp2.model.TimeSignature;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Objects;
 
 /**
  * Created by Orit on 16.12.2017.
@@ -24,16 +28,57 @@ import java.util.List;
 
 public class MeasuresAdapter extends RecyclerView.Adapter<MeasuresAdapter.MeasureHolder> {
 
-   List<Measure> measures = new ArrayList<>();
-   List<Beat> beats;
+   List<? extends Measure> measures = new ArrayList<>();
+   List<? extends Beat> beats;
    TimeSignature timeSignature;
    Context context;
 
-    public MeasuresAdapter(List<Measure> measures, Context context) {
-        this.measures = measures;
-        this.context = context;
+    @Nullable
+    private final MeasureClickCallback measureClickCallback;
 
+
+   //New Constructor
+   public MeasuresAdapter(@Nullable MeasureClickCallback measureClickCallback) {
+       this.measureClickCallback = measureClickCallback;
+   }
+
+
+//new Architecture components accomodation
+    public void setMeasuresList(final List<? extends Measure> measuresList) {
+       if (this.measures == null) {
+           this.measures = measuresList;
+           notifyItemRangeInserted(0, measuresList.size());
+           notifyItemRangeRemoved(0, measuresList.size());
+       }
+       else {
+           DiffUtil.DiffResult result = DiffUtil.calculateDiff(new Callback() {
+               @Override
+               public int getOldListSize() {
+                   return MeasuresAdapter.this.measures.size();
+               }
+
+               @Override
+               public int getNewListSize() {
+                   return measuresList.size();
+               }
+
+               @Override
+               public boolean areItemsTheSame(int oldItemPosition, int newItemPosition) {
+                   return MeasuresAdapter.this.measures.get(oldItemPosition).getNumber() == measuresList.get(newItemPosition).getNumber();
+               }
+
+               @Override
+               public boolean areContentsTheSame(int oldItemPosition, int newItemPosition) {
+                   Measure measure = measuresList.get(newItemPosition);
+                   Measure old = measuresList.get(oldItemPosition);
+                   return measure.getNumber() == old.getNumber() && Objects.equals(measure.getBeats(), old.getBeats());
+               }
+           });
+           this.measures = measuresList;
+           result.dispatchUpdatesTo(this);
+       }
     }
+
 
     @Override
     public MeasureHolder onCreateViewHolder(ViewGroup parent, int viewType) {
@@ -45,7 +90,6 @@ public class MeasuresAdapter extends RecyclerView.Adapter<MeasuresAdapter.Measur
 
     @Override
     public void onBindViewHolder(MeasureHolder holder, int position) {
-
         MeasureHolder measureHolder = (MeasureHolder) holder;
         measures.get(position);
         holder.measure.removeAllViews();
@@ -63,19 +107,15 @@ public class MeasuresAdapter extends RecyclerView.Adapter<MeasuresAdapter.Measur
     }
 
 
-    public void addAndBindBeatsAndTimeSig(List<Measure> measures, MeasureHolder measureHolder, int position) {
+    public void addAndBindBeatsAndTimeSig(List<? extends Measure> measures, MeasureHolder measureHolder, int position) {
 
         LayoutInflater layoutInflater = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
         ViewGroup timeSigView = (ViewGroup)layoutInflater.inflate(R.layout.time_signature_layout, measureHolder.measure, false);
 
-// to function add timeSignature
 
-//        for (Measure measure : measures) {
-            //Problem: remembers only last beat list and passes it to "beats"
             beats = new ArrayList<>(measures.get(position).getBeats());
             timeSignature = new TimeSignature(measures.get(position).getTimeSignature().getNumerator(), measures.get(position).getTimeSignature().getDenominator());
 
-            //also here at the timeSig
             TextView numerator = (TextView) timeSigView.findViewById(R.id.numerator);
             numerator.setText(String.valueOf(measures.get(position).getTimeSignature().getNumerator()));
             TextView denomerator = (TextView) timeSigView.findViewById(R.id.denominator);
@@ -84,11 +124,13 @@ public class MeasuresAdapter extends RecyclerView.Adapter<MeasuresAdapter.Measur
 
             for (int i = 1; i < measures.size(); i++) {
 
+
+                measureHolder.measure.removeAllViews();
+                measureHolder.measure.addView(timeSigView, 0);
+
                 if (measures.get(i).getTimeSignature().compare(measures.get(i - 1).getTimeSignature())) {
                     measures.get(i).setShowTimeSig(false);
                 }
-                measureHolder.measure.removeAllViews();
-                measureHolder.measure.addView(timeSigView, 0);
 
                 for (Beat beat : beats) {
 
@@ -108,10 +150,6 @@ public class MeasuresAdapter extends RecyclerView.Adapter<MeasuresAdapter.Measur
 
 
             }
-
-
-
-//to function add beats
 
 
     }

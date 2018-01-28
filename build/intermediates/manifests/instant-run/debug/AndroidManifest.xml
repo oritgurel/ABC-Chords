@@ -11,11 +11,8 @@
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
 
-    <meta-data
-        android:name="android.support.VERSION"
-        android:value="25.3.1" />
-
     <application
+        android:name="com.oritmalki.mymusicapp2.BasicApp"
         android:allowBackup="true"
         android:debuggable="true"
         android:icon="@mipmap/ic_launcher"
@@ -37,14 +34,11 @@
             android:authorities="com.oritmalki.com.oritmalki.mymusicapp2.DebugDBInitProvider"
             android:enabled="true"
             android:exported="false" />
-
-        <meta-data
-            android:name="android.support.VERSION"
-            android:value="26.1.0" />
-        <meta-data
-            android:name="android.arch.lifecycle.VERSION"
-            android:value="27.0.0-SNAPSHOT" />
-
+        <provider
+            android:name="android.arch.lifecycle.ProcessLifecycleOwnerInitializer"
+            android:authorities="com.oritmalki.com.oritmalki.mymusicapp2.lifecycle-trojan"
+            android:exported="false"
+            android:multiprocess="true" />
         <provider
             android:name="com.android.tools.ir.server.InstantRunContentProvider"
             android:authorities="com.oritmalki.com.oritmalki.mymusicapp2.com.android.tools.ir.server.InstantRunContentProvider"

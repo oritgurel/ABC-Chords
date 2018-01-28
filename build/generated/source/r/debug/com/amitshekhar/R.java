@@ -8,7 +8,7 @@ package com.amitshekhar;
 
 public final class R {
     public static final class string {
-        public static final int PORT_NUMBER = 0x7f0b0000;
-        public static final int app_name = 0x7f0b0020;
+        public static final int PORT_NUMBER = 0x7f0c0000;
+        public static final int app_name = 0x7f0c001e;
     }
 }

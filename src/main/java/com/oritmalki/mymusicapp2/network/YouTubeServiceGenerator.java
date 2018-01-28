@@ -1,6 +1,7 @@
 package com.oritmalki.mymusicapp2.network;
 
 import retrofit2.Retrofit;
+import retrofit2.Retrofit.Builder;
 import retrofit2.converter.gson.GsonConverterFactory;
 
 /**
@@ -8,7 +9,13 @@ import retrofit2.converter.gson.GsonConverterFactory;
  */
 
 public class YouTubeServiceGenerator {
+
     static final String BASE_URL = "https://www.googleapis.com/youtube/v3/";
-    static Retrofit.Builder retrofitBuilder = new Retrofit.Builder().baseUrl(BASE_URL)
-            .addConverterFactory(GsonConverterFactory.create());
+
+    static Retrofit retrofitBuilder = new Builder().baseUrl(BASE_URL)
+            .addConverterFactory(GsonConverterFactory.create()).build();
+
+    public YouTubeService youTubeService() {
+        return retrofitBuilder.create(YouTubeService.class);
+    }
 }
