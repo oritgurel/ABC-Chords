@@ -10,7 +10,6 @@ import android.arch.persistence.room.TypeConverters;
 import android.content.Context;
 import android.support.annotation.NonNull;
 
-import com.oritmalki.mymusicapp2.AppExecutors;
 import com.oritmalki.mymusicapp2.model.Beat;
 import com.oritmalki.mymusicapp2.model.Measure;
 import com.oritmalki.mymusicapp2.model.Sheet;
@@ -59,11 +58,11 @@ public abstract class AppDataBase extends RoomDatabase {
 //
 //    }
 //New version from MVVM github example
-    public static AppDataBase getInstance(final Context context, final AppExecutors executors) {
+    public static AppDataBase getInstance(final Context context) {
         if (sInstance == null) {
             synchronized (AppDataBase.class) {
                 if (sInstance == null) {
-                    sInstance = buildDatabase(context.getApplicationContext(), executors);
+                    sInstance = buildDatabase(context.getApplicationContext());
                     sInstance.updateDatabaseCreated(context.getApplicationContext());
                 }
             }
@@ -71,24 +70,20 @@ public abstract class AppDataBase extends RoomDatabase {
         return sInstance;
     }
 
-    private static AppDataBase buildDatabase(final Context appContext,
-                                             final AppExecutors executors) {
+    private static AppDataBase buildDatabase(final Context appContext) {
         return Room.databaseBuilder(appContext, AppDataBase.class, DATABASE_NAME)
                 .addCallback(new Callback() {
                     @Override
                     public void onCreate(@NonNull SupportSQLiteDatabase db) {
                         super.onCreate(db);
-                        executors.diskIO().execute(() -> {
-                            // Add a delay to simulate a long-running operation
-//                            addDelay();
-                            // Generate the data for pre-population
-                            AppDataBase database = AppDataBase.getInstance(appContext, executors);
-                            List<Measure> measures = DemoContentGenerator.generateDemoContent();
 
-                            insertData(database, measures);
-                            // notify that the database was created and it's ready to be used
-                            database.setDatabaseCreated();
-                        });
+                                // Generate the data for pre-population
+                                AppDataBase database = AppDataBase.getInstance(appContext);
+                                List<Measure> measures = DemoContentGenerator.generateDemoContent();
+
+                                insertData(database, measures);
+                                // notify that the database was created and it's ready to be used
+                                database.setDatabaseCreated();
                     }
                 }).build();
     }
@@ -98,13 +93,6 @@ public abstract class AppDataBase extends RoomDatabase {
             database.measureDao().insertAll(measures);
 
         });
-    }
-
-    private static void addDelay() {
-        try {
-            Thread.sleep(4000);
-        } catch (InterruptedException ignored) {
-        }
     }
 
     public static void destroyInstance() {

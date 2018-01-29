@@ -1,7 +1,6 @@
 package com.oritmalki.mymusicapp2.ui.mainscreen;
 
 import android.content.Context;
-import android.support.annotation.Nullable;
 import android.support.v7.util.DiffUtil;
 import android.support.v7.util.DiffUtil.Callback;
 import android.support.v7.widget.RecyclerView;
@@ -33,20 +32,25 @@ public class MeasuresAdapter extends RecyclerView.Adapter<MeasuresAdapter.Measur
    TimeSignature timeSignature;
    Context context;
 
-    @Nullable
-    private final MeasureClickCallback measureClickCallback;
+//    @Nullable
+//    private final MeasureClickCallback measureClickCallback;
+
+    public MeasuresAdapter(Context context) {
+        this.context = context;
+    }
 
 
-   //New Constructor
-   public MeasuresAdapter(@Nullable MeasureClickCallback measureClickCallback) {
-       this.measureClickCallback = measureClickCallback;
-   }
+    //New Constructor
+//   public MeasuresAdapter(@Nullable MeasureClickCallback measureClickCallback) {
+//       this.measureClickCallback = measureClickCallback;
+//   }
 
 
 //new Architecture components accomodation
-    public void setMeasuresList(final List<? extends Measure> measuresList) {
+    public void setMeasuresList(final List<? extends Measure> measuresList, Context context) {
        if (this.measures == null) {
            this.measures = measuresList;
+           this.context = context;
            notifyItemRangeInserted(0, measuresList.size());
            notifyItemRangeRemoved(0, measuresList.size());
        }

@@ -2,6 +2,8 @@ package com.oritmalki.mymusicapp2.database;
 
 import android.arch.lifecycle.LiveData;
 import android.arch.lifecycle.MediatorLiveData;
+import android.arch.lifecycle.Observer;
+import android.support.annotation.Nullable;
 
 import com.oritmalki.mymusicapp2.model.Measure;
 
@@ -26,30 +28,21 @@ public class DataRepository {
         mDatabase = database;
         mObservableMeasures = new MediatorLiveData<>();
 
-        mObservableMeasures.addSource(mDatabase.measureDao().getAll(), measureEntities -> {
-            if (mDatabase.getDatabaseCreated().getValue() != null) {
-                mObservableMeasures.postValue(measureEntities);
+        mObservableMeasures.addSource(mDatabase.measureDao().getAll(), new Observer<List<Measure>>() {
+            @Override
+            public void onChanged(@Nullable List<Measure> measureEntities) {
+                if (mDatabase.getDatabaseCreated().getValue() != null) {
+                    mObservableMeasures.postValue(measureEntities);
+                }
             }
         });
     }
 
 
-//my old constructor
-
-//    public DataRepository(Context context) {
-//        AppDataBase appDataBase = AppDataBase.getINSTANCE(context.getApplicationContext());
-//        measureDAO = appDataBase.getMeasureDao();
-//        beatDao = appDataBase.getBeatDao();
-//    }
-
     //new constructor from example
     public static DataRepository getInstance(final AppDataBase database) {
-        if (sInstance == null) {
-            synchronized (DataRepository.class) {
                 if (sInstance == null) {
                     sInstance = new DataRepository(database);
-                }
-            }
         }
         return sInstance;
     }
@@ -82,6 +75,14 @@ public class DataRepository {
     public void deleteAllMeasures(List<Measure> measures) {
         mDatabase.measureDao().deleteAll(measures);
     }
+
+    //my old constructor
+
+//    public DataRepository(Context context) {
+//        AppDataBase appDataBase = AppDataBase.getINSTANCE(context.getApplicationContext());
+//        measureDAO = appDataBase.getMeasureDao();
+//        beatDao = appDataBase.getBeatDao();
+//    }
 
 ////Room Beat DAO
 //    public void addBeats(List<Beat> beats, Measure measure) {

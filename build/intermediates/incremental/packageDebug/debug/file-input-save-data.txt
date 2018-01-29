@@ -1,6 +1,6 @@
 #Internal package file, do not edit.
-#Sun Jan 28 21:58:42 IST 2018
-4.path=dataTables.responsive.min.js
+#Mon Jan 29 23:12:09 IST 2018
+4.path=classes.dex
 13.baseType=DIRECTORY
 8.set=ASSET
 6.path=jquery.dataTables.min.js
@@ -13,7 +13,7 @@
 3.base=/Users/Orit/AndroidStudioProjects/app/build/intermediates/assets/debug
 14.path=index.html
 15.set=ASSET
-4.set=ASSET
+4.set=DEX
 5.base=/Users/Orit/AndroidStudioProjects/app/build/intermediates/assets/debug
 16.path=jquery.min.js
 7.base=/Users/Orit/AndroidStudioProjects/app/build/intermediates/assets/debug
@@ -34,7 +34,7 @@
 15.baseType=DIRECTORY
 1.path=favicon.ico
 7.baseType=DIRECTORY
-3.path=bootstrap.min.js
+3.path=dataTables.responsive.min.js
 10.set=ASSET
 5.path=buttons.dataTables.min.css
 0.base=/Users/Orit/AndroidStudioProjects/app/build/intermediates/assets/debug
@@ -42,10 +42,10 @@
 11.path=bootstrap.min.css
 9.path=dataTables.altEditor.free.js
 6.set=ASSET
-2.base=/Users/Orit/AndroidStudioProjects/app/build/intermediates/transforms/dexMerger/debug/18
+2.base=/Users/Orit/AndroidStudioProjects/app/build/intermediates/assets/debug
 13.path=select.dataTables.min.css
 11.baseType=DIRECTORY
-4.base=/Users/Orit/AndroidStudioProjects/app/build/intermediates/assets/debug
+4.base=/Users/Orit/AndroidStudioProjects/app/build/intermediates/transforms/dexMerger/debug/0
 15.path=app.js
 3.baseType=DIRECTORY
 6.base=/Users/Orit/AndroidStudioProjects/app/build/intermediates/assets/debug
@@ -53,7 +53,7 @@
 10.base=/Users/Orit/AndroidStudioProjects/app/build/intermediates/assets/debug
 13.set=ASSET
 8.base=/Users/Orit/AndroidStudioProjects/app/build/intermediates/assets/debug
-2.set=DEX
+2.set=ASSET
 8.baseType=DIRECTORY
 12.base=/Users/Orit/AndroidStudioProjects/app/build/intermediates/assets/debug
 14.base=/Users/Orit/AndroidStudioProjects/app/build/intermediates/assets/debug
@@ -68,4 +68,4 @@ count=17
 0.path=dataTables.buttons.min.js
 12.set=ASSET
 1.set=ASSET
-2.path=classes.dex
+2.path=bootstrap.min.js

@@ -16,6 +16,7 @@ import com.google.android.flexbox.FlexWrap;
 import com.google.android.flexbox.FlexboxItemDecoration;
 import com.google.android.flexbox.FlexboxLayoutManager;
 import com.oritmalki.mymusicapp2.R;
+import com.oritmalki.mymusicapp2.database.DataRepository;
 import com.oritmalki.mymusicapp2.model.Measure;
 import com.oritmalki.mymusicapp2.viewmodel.MeasureListViewModel;
 
@@ -25,6 +26,7 @@ public class MainActivity extends AppCompatActivity {
 
     private RecyclerView recyclerView;
     private FlexboxLayoutManager layoutManager;
+    private DataRepository dataRepository;
     private FloatingActionButton addBut;
     private FloatingActionButton remBut;
     private OnClickListener listener;
@@ -58,8 +60,9 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onChanged(@Nullable List<Measure> measures) {
                 if (measures != null) {
-                    measuresAdapter = new MeasuresAdapter(measureClickCallback);
-                    measuresAdapter.setMeasuresList(measures);
+                    measuresAdapter = new MeasuresAdapter(getApplicationContext());
+                    measuresAdapter.setMeasuresList(measures, getApplicationContext());
+                    recyclerView.setAdapter(measuresAdapter);
                 }
             }
         });
@@ -93,8 +96,7 @@ public class MainActivity extends AppCompatActivity {
         itemDecoration.setOrientation(FlexboxItemDecoration.BOTH);
         recyclerView.addItemDecoration(itemDecoration);
         recyclerView.setLayoutManager(layoutManager);
-        measuresAdapter = new MeasuresAdapter(measureClickCallback);
-        recyclerView.setAdapter(measuresAdapter);
+
 
     }
 
