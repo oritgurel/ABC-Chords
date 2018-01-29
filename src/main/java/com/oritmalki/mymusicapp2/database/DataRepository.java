@@ -41,8 +41,12 @@ public class DataRepository {
 
     //new constructor from example
     public static DataRepository getInstance(final AppDataBase database) {
+        if (sInstance == null) {
+            synchronized (DataRepository.class) {
                 if (sInstance == null) {
                     sInstance = new DataRepository(database);
+                }
+            }
         }
         return sInstance;
     }
@@ -62,6 +66,10 @@ public class DataRepository {
 
     public LiveData<Measure> getMeasure(int measureNum) {
         return mDatabase.measureDao().getMeasure(measureNum);
+    }
+
+    public void InsertMeasure(Measure measure) {
+        mDatabase.measureDao().newMeasure(measure);
     }
 
     public void deleteMeasure(Measure measure) {

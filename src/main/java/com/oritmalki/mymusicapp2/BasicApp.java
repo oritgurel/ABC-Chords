@@ -16,9 +16,10 @@ public class BasicApp extends Application {
     @Override
     public void onCreate() {
         super.onCreate();
+        this.mAppExecutors = new AppExecutors();
     }
     public AppDataBase getDatabase() {
-        return AppDataBase.getInstance(this);
+        return AppDataBase.getInstance(this, mAppExecutors);
     }
 
     public DataRepository getRepository() {

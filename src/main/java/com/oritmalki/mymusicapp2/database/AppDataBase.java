@@ -10,6 +10,7 @@ import android.arch.persistence.room.TypeConverters;
 import android.content.Context;
 import android.support.annotation.NonNull;
 
+import com.oritmalki.mymusicapp2.AppExecutors;
 import com.oritmalki.mymusicapp2.model.Beat;
 import com.oritmalki.mymusicapp2.model.Measure;
 import com.oritmalki.mymusicapp2.model.Sheet;
@@ -58,19 +59,20 @@ public abstract class AppDataBase extends RoomDatabase {
 //
 //    }
 //New version from MVVM github example
-    public static AppDataBase getInstance(final Context context) {
+    public static AppDataBase getInstance(final Context context, final AppExecutors executors) {
         if (sInstance == null) {
             synchronized (AppDataBase.class) {
                 if (sInstance == null) {
-                    sInstance = buildDatabase(context.getApplicationContext());
+                    sInstance = buildDatabase(context.getApplicationContext(), executors);
                     sInstance.updateDatabaseCreated(context.getApplicationContext());
                 }
             }
         }
+
         return sInstance;
     }
 
-    private static AppDataBase buildDatabase(final Context appContext) {
+    private static AppDataBase buildDatabase(final Context appContext, final AppExecutors executors) {
         return Room.databaseBuilder(appContext, AppDataBase.class, DATABASE_NAME)
                 .addCallback(new Callback() {
                     @Override
@@ -78,14 +80,20 @@ public abstract class AppDataBase extends RoomDatabase {
                         super.onCreate(db);
 
                                 // Generate the data for pre-population
-                                AppDataBase database = AppDataBase.getInstance(appContext);
+                        executors.diskIO().execute(() -> {
+
+                            // Generate the data for pre-population
+                            AppDataBase database = AppDataBase.getInstance(appContext, executors);
                                 List<Measure> measures = DemoContentGenerator.generateDemoContent();
+
 
                                 insertData(database, measures);
                                 // notify that the database was created and it's ready to be used
                                 database.setDatabaseCreated();
+                        });
+
                     }
-                }).build();
+                }).allowMainThreadQueries().build();
     }
 
     private static void insertData(final AppDataBase database, final List<Measure> measures) {
@@ -94,6 +102,8 @@ public abstract class AppDataBase extends RoomDatabase {
 
         });
     }
+
+
 
     public static void destroyInstance() {
         INSTANCE = null;

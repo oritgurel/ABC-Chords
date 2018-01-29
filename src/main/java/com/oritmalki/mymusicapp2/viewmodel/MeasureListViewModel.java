@@ -30,6 +30,7 @@ public class MeasureListViewModel extends AndroidViewModel {
         // set by default null, until we get data from the database.
         mObservableMeasures.setValue(null);
 
+
         LiveData<List<Measure>> measures = ((BasicApp) application).getRepository()
                 .getAllMeasures();
 
@@ -44,13 +45,17 @@ public class MeasureListViewModel extends AndroidViewModel {
         return mObservableMeasures;
     }
 
-    public void addMeasure() {
+    public void addEmptyMeasure(Application application) {
 
         TimeSignature lastMesTimeSignature = mObservableMeasures.getValue().get(mObservableMeasures.getValue().size()-1).getTimeSignature();
         List <Beat> emptyBeats = new ArrayList<>();
         for (int i=0; i<lastMesTimeSignature.getNumerator(); i++) {
             emptyBeats.add(new Beat("  "));
         }
-//        mObservableMeasures.setValue(mObservableMeasures.getValue().add(new Measure(mObservableMeasures.getValue().size() + 1, emptyBeats, lastMesTimeSignature, true)));
+
+
+
+        ((BasicApp) application).getRepository().addNewMeasure(new Measure(mObservableMeasures.getValue().size() + 1, emptyBeats, lastMesTimeSignature, true));
+
     }
 }

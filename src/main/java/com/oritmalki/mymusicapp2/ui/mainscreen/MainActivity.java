@@ -75,7 +75,7 @@ public class MainActivity extends AppCompatActivity {
         listener = new OnClickListener() {
             @Override
             public void onClick(View v) {
-                addMeasure();
+                addEmptyMeasure(viewModel);
             }
         };
 
@@ -101,8 +101,8 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
-    public void addMeasure() {
-
+    public void addEmptyMeasure(MeasureListViewModel viewModel) {
+        viewModel.addEmptyMeasure(getApplication());
 
     }
 
