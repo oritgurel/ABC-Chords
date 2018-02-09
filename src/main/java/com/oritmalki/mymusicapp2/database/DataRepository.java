@@ -5,6 +5,7 @@ import android.arch.lifecycle.MediatorLiveData;
 import android.arch.lifecycle.Observer;
 import android.support.annotation.Nullable;
 
+import com.oritmalki.mymusicapp2.AppExecutors;
 import com.oritmalki.mymusicapp2.model.Measure;
 
 import java.util.List;
@@ -19,6 +20,9 @@ public class DataRepository {
     private final AppDataBase mDatabase;
     private MediatorLiveData<List<Measure>> mObservableMeasures;
 
+    //my addition
+    public AppExecutors appExecutors = new AppExecutors();
+
 //    private final MeasureDao measureDAO;
 //    private final BeatDao beatDao;
 
@@ -32,7 +36,9 @@ public class DataRepository {
             @Override
             public void onChanged(@Nullable List<Measure> measureEntities) {
                 if (mDatabase.getDatabaseCreated().getValue() != null) {
-                    mObservableMeasures.postValue(measureEntities);
+
+                    appExecutors.diskIO().execute(() ->
+                    mObservableMeasures.postValue(measureEntities));
                 }
             }
         });
@@ -54,26 +60,31 @@ public class DataRepository {
 //Room Measures DAO
 
     public void addNewMeasure(Measure measure) {
-        mDatabase.measureDao().newMeasure(measure);
+        appExecutors.diskIO().execute(() ->
+                mDatabase.measureDao().newMeasure(measure));
     }
-    public void addMeasures(List<Measure> measures) {
-        mDatabase.measureDao().insertAll(measures);
+
+    public void addAllMeasures(List<Measure> measures) {
+        appExecutors.diskIO().execute(() ->
+                mDatabase.measureDao().insertAll(measures));
     }
 
     public LiveData<List<Measure>> getAllMeasures() {
-       return mObservableMeasures;
+        return mObservableMeasures;
     }
 
     public LiveData<Measure> getMeasure(int measureNum) {
-        return mDatabase.measureDao().getMeasure(measureNum);
-    }
+             return mDatabase.measureDao().getMeasure(measureNum);
+          }
+
 
     public void InsertMeasure(Measure measure) {
         mDatabase.measureDao().newMeasure(measure);
     }
 
     public void deleteMeasure(Measure measure) {
-        mDatabase.measureDao().delete(measure);
+        appExecutors.diskIO().execute(() ->
+        mDatabase.measureDao().delete(measure));
     }
 
 //    public LiveData<List<Beat>> getBeats(int measureNum) {
@@ -81,7 +92,8 @@ public class DataRepository {
 //    }
 
     public void deleteAllMeasures(List<Measure> measures) {
-        mDatabase.measureDao().deleteAll(measures);
+        appExecutors.diskIO().execute(() ->
+        mDatabase.measureDao().deleteAll(measures));
     }
 
     //my old constructor

@@ -51,6 +51,7 @@ public class MeasuresAdapter extends RecyclerView.Adapter<MeasuresAdapter.Measur
        if (this.measures == null) {
            this.measures = measuresList;
            this.context = context;
+
            notifyItemRangeInserted(0, measuresList.size());
            notifyItemRangeRemoved(0, measuresList.size());
        }
@@ -96,8 +97,12 @@ public class MeasuresAdapter extends RecyclerView.Adapter<MeasuresAdapter.Measur
     public void onBindViewHolder(MeasureHolder holder, int position) {
         MeasureHolder measureHolder = (MeasureHolder) holder;
         measures.get(position);
+
         holder.measure.removeAllViews();
+
         addAndBindBeatsAndTimeSig(measures, measureHolder, position);
+
+        //hide timeSig
         if (measures.get(position).isShowTimeSig() == false) {
             holder.measure.getChildAt(0).setVisibility(View.GONE);
 
@@ -131,6 +136,7 @@ public class MeasuresAdapter extends RecyclerView.Adapter<MeasuresAdapter.Measur
 
                 measureHolder.measure.removeAllViews();
                 measureHolder.measure.addView(timeSigView, 0);
+                measureHolder.measure.setTag(String.valueOf(position));
 
                 if (measures.get(i).getTimeSignature().compare(measures.get(i - 1).getTimeSignature())) {
                     measures.get(i).setShowTimeSig(false);

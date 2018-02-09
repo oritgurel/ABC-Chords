@@ -46,12 +46,6 @@ public class MainActivity extends AppCompatActivity {
 
         observeViewModel(viewModel);
 
-
-
-
-
-
-
     }
 
     private void observeViewModel(MeasureListViewModel viewModel) {
@@ -63,6 +57,7 @@ public class MainActivity extends AppCompatActivity {
                     measuresAdapter = new MeasuresAdapter(getApplicationContext());
                     measuresAdapter.setMeasuresList(measures, getApplicationContext());
                     recyclerView.setAdapter(measuresAdapter);
+                    recyclerView.smoothScrollToPosition(measures.size());
                 }
             }
         });
@@ -70,12 +65,17 @@ public class MainActivity extends AppCompatActivity {
 
     public void initializeViews(MeasureListViewModel viewModel) {
 
-
-
         listener = new OnClickListener() {
             @Override
             public void onClick(View v) {
-                addEmptyMeasure(viewModel);
+                switch (v.getId()) {
+                    case R.id.add_fab:
+                        addEmptyMeasure(viewModel);
+                        break;
+                    case R.id.remove_fab:
+                        deleteMeasure(viewModel);
+                        break;
+                }
             }
         };
 
@@ -84,6 +84,7 @@ public class MainActivity extends AppCompatActivity {
         addBut.setOnClickListener(listener);
 
         remBut = findViewById(R.id.remove_fab);
+        remBut.setOnClickListener(listener);
 
         recyclerView = findViewById(R.id.recycler_view);
         layoutManager = new FlexboxLayoutManager(MainActivity.this);
@@ -91,11 +92,21 @@ public class MainActivity extends AppCompatActivity {
         layoutManager.setFlexWrap(FlexWrap.WRAP);
         layoutManager.setAlignItems(AlignItems.STRETCH);
 
+
         FlexboxItemDecoration itemDecoration = new FlexboxItemDecoration(MainActivity.this);
         itemDecoration.setDrawable(getApplicationContext().getDrawable(R.drawable.divider));
         itemDecoration.setOrientation(FlexboxItemDecoration.BOTH);
         recyclerView.addItemDecoration(itemDecoration);
+        layoutManager.getBaseline();
         recyclerView.setLayoutManager(layoutManager);
+//        recyclerView.addOnScrollListener(new OnScrollListener() {
+//            @Override
+//            public void onScrollStateChanged(RecyclerView recyclerView, int newState) {
+//                super.onScrollStateChanged(recyclerView, newState);
+//                recyclerView.getScrollState();
+//            }
+//        });
+
 
 
     }
@@ -103,6 +114,11 @@ public class MainActivity extends AppCompatActivity {
 
     public void addEmptyMeasure(MeasureListViewModel viewModel) {
         viewModel.addEmptyMeasure(getApplication());
+
+    }
+
+    public void deleteMeasure(MeasureListViewModel viewModel) {
+        viewModel.deleteMeasure(getApplication());
 
     }
 

@@ -62,6 +62,7 @@ public abstract class AppDataBase extends RoomDatabase {
     public static AppDataBase getInstance(final Context context, final AppExecutors executors) {
         if (sInstance == null) {
             synchronized (AppDataBase.class) {
+
                 if (sInstance == null) {
                     sInstance = buildDatabase(context.getApplicationContext(), executors);
                     sInstance.updateDatabaseCreated(context.getApplicationContext());
@@ -84,12 +85,12 @@ public abstract class AppDataBase extends RoomDatabase {
 
                             // Generate the data for pre-population
                             AppDataBase database = AppDataBase.getInstance(appContext, executors);
-                                List<Measure> measures = DemoContentGenerator.generateDemoContent();
+                            List<Measure> measures = DemoContentGenerator.generateDemoContent();
 
 
-                                insertData(database, measures);
-                                // notify that the database was created and it's ready to be used
-                                database.setDatabaseCreated();
+                            insertData(database, measures);
+                            // notify that the database was created and it's ready to be used
+                            database.setDatabaseCreated();
                         });
 
                     }

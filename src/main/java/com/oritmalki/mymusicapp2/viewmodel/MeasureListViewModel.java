@@ -45,17 +45,37 @@ public class MeasureListViewModel extends AndroidViewModel {
         return mObservableMeasures;
     }
 
+    //something is wrong here.
     public void addEmptyMeasure(Application application) {
 
-        TimeSignature lastMesTimeSignature = mObservableMeasures.getValue().get(mObservableMeasures.getValue().size()-1).getTimeSignature();
-        List <Beat> emptyBeats = new ArrayList<>();
-        for (int i=0; i<lastMesTimeSignature.getNumerator(); i++) {
+        //prepare the time signature and beatList
+        TimeSignature lastMesTimeSignature;
+        if (mObservableMeasures.getValue().size() != 0) {
+            lastMesTimeSignature = mObservableMeasures.getValue().get(mObservableMeasures.getValue().size() - 1).getTimeSignature();
+        } else {
+            lastMesTimeSignature = new TimeSignature(4,4);
+        }
+
+        List<Beat> emptyBeats = new ArrayList<>();
+        for (int i = 0; i < lastMesTimeSignature.getNumerator(); i++) {
             emptyBeats.add(new Beat("  "));
         }
 
+        //insert empty measure
+        if (mObservableMeasures.getValue().size() != 0) {
+            ((BasicApp) application).getRepository().addNewMeasure(new Measure(mObservableMeasures.getValue().size() + 1, emptyBeats, lastMesTimeSignature, true));
+        } else
+            ((BasicApp) application).getRepository().addNewMeasure(new Measure(0, emptyBeats, lastMesTimeSignature, true));
+
+    }
 
 
-        ((BasicApp) application).getRepository().addNewMeasure(new Measure(mObservableMeasures.getValue().size() + 1, emptyBeats, lastMesTimeSignature, true));
+
+
+    public void deleteMeasure(Application application) {
+        if (mObservableMeasures.getValue().size() != 0) {
+            ((BasicApp) application).getRepository().deleteMeasure(mObservableMeasures.getValue().get(mObservableMeasures.getValue().size() - 1));
+        }
 
     }
 }
