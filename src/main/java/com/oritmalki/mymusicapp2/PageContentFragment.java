@@ -1,4 +1,4 @@
-package com.oritmalki.mymusicapp2;
+package com.oritmalki.mymusicapp2.com.oritmalki.mymusicapp2;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
