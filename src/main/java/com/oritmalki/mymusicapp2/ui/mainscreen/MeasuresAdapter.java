@@ -103,9 +103,10 @@ public class MeasuresAdapter extends RecyclerView.Adapter<MeasuresAdapter.Measur
         addAndBindBeatsAndTimeSig(measures, measureHolder, position);
 
         //hide timeSig
+        if (measures.get(position) != null) {
         if (measures.get(position).isShowTimeSig() == false) {
             holder.measure.getChildAt(0).setVisibility(View.GONE);
-
+        }
         }
     }
 

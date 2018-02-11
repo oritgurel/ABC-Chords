@@ -6,6 +6,7 @@ import android.arch.persistence.room.Delete;
 import android.arch.persistence.room.Insert;
 import android.arch.persistence.room.OnConflictStrategy;
 import android.arch.persistence.room.Query;
+import android.arch.persistence.room.Transaction;
 
 import com.oritmalki.mymusicapp2.model.Measure;
 
@@ -27,9 +28,11 @@ public interface MeasureDao {
 //    LiveData<List<Beat>> getBeats(int measureNumber);
 
 
+    @Transaction
     @Insert(onConflict = OnConflictStrategy.REPLACE)
     void insertAll(List<Measure> measures);
 
+    @Transaction
     @Insert
     void newMeasure(Measure measure);
 
@@ -38,4 +41,5 @@ public interface MeasureDao {
 
     @Delete
     void deleteAll(List<Measure> measures);
+
 }

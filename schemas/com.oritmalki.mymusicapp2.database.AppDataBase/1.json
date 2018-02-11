@@ -2,7 +2,7 @@
   "formatVersion": 1,
   "database": {
     "version": 1,
-    "identityHash": "c0eb47ffbfe4cb39136b5ea83fc01f11",
+    "identityHash": "09f412f544e4506d1b3d31b5078c6afe",
     "entities": [
       {
         "tableName": "Sheet",
@@ -95,7 +95,25 @@
           ],
           "autoGenerate": false
         },
-        "indices": [],
+        "indices": [
+          {
+            "name": "index_measure_measure_number",
+            "unique": false,
+            "columnNames": [
+              "measure_number"
+            ],
+            "createSql": "CREATE  INDEX `index_measure_measure_number` ON `${TABLE_NAME}` (`measure_number`)"
+          },
+          {
+            "name": "index_measure_measure_number_beats",
+            "unique": false,
+            "columnNames": [
+              "measure_number",
+              "beats"
+            ],
+            "createSql": "CREATE  INDEX `index_measure_measure_number_beats` ON `${TABLE_NAME}` (`measure_number`, `beats`)"
+          }
+        ],
         "foreignKeys": [
           {
             "table": "Sheet",
@@ -151,7 +169,7 @@
     ],
     "setupQueries": [
       "CREATE TABLE IF NOT EXISTS room_master_table (id INTEGER PRIMARY KEY,identity_hash TEXT)",
-      "INSERT OR REPLACE INTO room_master_table (id,identity_hash) VALUES(42, \"c0eb47ffbfe4cb39136b5ea83fc01f11\")"
+      "INSERT OR REPLACE INTO room_master_table (id,identity_hash) VALUES(42, \"09f412f544e4506d1b3d31b5078c6afe\")"
     ]
   }
 }

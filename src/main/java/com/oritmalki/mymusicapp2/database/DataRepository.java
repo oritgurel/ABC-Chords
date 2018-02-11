@@ -61,6 +61,7 @@ public class DataRepository {
 
     public void addNewMeasure(Measure measure) {
         appExecutors.diskIO().execute(() ->
+
                 mDatabase.measureDao().newMeasure(measure));
     }
 

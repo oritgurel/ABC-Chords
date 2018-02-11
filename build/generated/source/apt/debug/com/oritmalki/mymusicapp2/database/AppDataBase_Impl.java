@@ -31,9 +31,11 @@ public class AppDataBase_Impl extends AppDataBase {
       public void createAllTables(SupportSQLiteDatabase _db) {
         _db.execSQL("CREATE TABLE IF NOT EXISTS `Sheet` (`id` INTEGER, `name` TEXT, `title` TEXT, `author` TEXT, PRIMARY KEY(`id`))");
         _db.execSQL("CREATE TABLE IF NOT EXISTS `measure` (`sheetId` INTEGER, `measure_number` INTEGER, `time_signature` TEXT, `showTimeSig` INTEGER NOT NULL, `beats` TEXT, `numerator` INTEGER, `denominator` INTEGER, PRIMARY KEY(`measure_number`), FOREIGN KEY(`sheetId`) REFERENCES `Sheet`(`id`) ON UPDATE NO ACTION ON DELETE CASCADE )");
+        _db.execSQL("CREATE  INDEX `index_measure_measure_number` ON `measure` (`measure_number`)");
+        _db.execSQL("CREATE  INDEX `index_measure_measure_number_beats` ON `measure` (`measure_number`, `beats`)");
         _db.execSQL("CREATE TABLE IF NOT EXISTS `beat` (`chord_name` TEXT NOT NULL, `measureNum` INTEGER, PRIMARY KEY(`chord_name`), FOREIGN KEY(`measureNum`) REFERENCES `measure`(`measure_number`) ON UPDATE NO ACTION ON DELETE CASCADE )");
         _db.execSQL("CREATE TABLE IF NOT EXISTS room_master_table (id INTEGER PRIMARY KEY,identity_hash TEXT)");
-        _db.execSQL("INSERT OR REPLACE INTO room_master_table (id,identity_hash) VALUES(42, \"c0eb47ffbfe4cb39136b5ea83fc01f11\")");
+        _db.execSQL("INSERT OR REPLACE INTO room_master_table (id,identity_hash) VALUES(42, \"09f412f544e4506d1b3d31b5078c6afe\")");
       }
 
       public void dropAllTables(SupportSQLiteDatabase _db) {
@@ -86,7 +88,9 @@ public class AppDataBase_Impl extends AppDataBase {
         _columnsMeasure.put("denominator", new TableInfo.Column("denominator", "INTEGER", false, 0));
         final HashSet<TableInfo.ForeignKey> _foreignKeysMeasure = new HashSet<TableInfo.ForeignKey>(1);
         _foreignKeysMeasure.add(new TableInfo.ForeignKey("Sheet", "CASCADE", "NO ACTION",Arrays.asList("sheetId"), Arrays.asList("id")));
-        final HashSet<TableInfo.Index> _indicesMeasure = new HashSet<TableInfo.Index>(0);
+        final HashSet<TableInfo.Index> _indicesMeasure = new HashSet<TableInfo.Index>(2);
+        _indicesMeasure.add(new TableInfo.Index("index_measure_measure_number", false, Arrays.asList("measure_number")));
+        _indicesMeasure.add(new TableInfo.Index("index_measure_measure_number_beats", false, Arrays.asList("measure_number","beats")));
         final TableInfo _infoMeasure = new TableInfo("measure", _columnsMeasure, _foreignKeysMeasure, _indicesMeasure);
         final TableInfo _existingMeasure = TableInfo.read(_db, "measure");
         if (! _infoMeasure.equals(_existingMeasure)) {
@@ -108,7 +112,7 @@ public class AppDataBase_Impl extends AppDataBase {
                   + " Found:\n" + _existingBeat);
         }
       }
-    }, "c0eb47ffbfe4cb39136b5ea83fc01f11");
+    }, "09f412f544e4506d1b3d31b5078c6afe");
     final SupportSQLiteOpenHelper.Configuration _sqliteConfig = SupportSQLiteOpenHelper.Configuration.builder(configuration.context)
         .name(configuration.name)
         .callback(_openCallback)

@@ -5,6 +5,7 @@ import android.arch.persistence.room.Embedded;
 import android.arch.persistence.room.Entity;
 import android.arch.persistence.room.ForeignKey;
 import android.arch.persistence.room.Ignore;
+import android.arch.persistence.room.Index;
 import android.arch.persistence.room.PrimaryKey;
 import android.util.Log;
 
@@ -16,7 +17,9 @@ import static android.arch.persistence.room.ForeignKey.CASCADE;
 /**
  * Created by Orit on 28.11.2017.
  */
-@Entity(tableName = "measure", foreignKeys = @ForeignKey(onDelete = CASCADE, entity = Sheet.class, parentColumns = "id", childColumns = "sheetId"))
+@Entity(tableName = "measure",
+        foreignKeys = @ForeignKey(onDelete = CASCADE, entity = Sheet.class, parentColumns = "id", childColumns = "sheetId"),
+        indices = {@Index("measure_number"), @Index(value = {"measure_number", "beats"})})
 public class Measure {
 
     @Embedded

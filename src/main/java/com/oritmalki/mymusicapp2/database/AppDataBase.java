@@ -94,7 +94,7 @@ public abstract class AppDataBase extends RoomDatabase {
                         });
 
                     }
-                }).allowMainThreadQueries().build();
+                }).fallbackToDestructiveMigration().build();
     }
 
     private static void insertData(final AppDataBase database, final List<Measure> measures) {

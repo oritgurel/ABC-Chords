@@ -1,0 +1,447 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:layout_margin="24dp"
+             tools:context="com.oritmalki.com.oritmalki.mymusicapp2.EditFragment">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <android.support.design.widget.TabLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <android.support.design.widget.TabItem
+            android:text="Chord Builder"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"/>
+        <android.support.design.widget.TabItem
+            android:text="Rests"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"/>
+    </android.support.design.widget.TabLayout>
+    <TextView
+        android:id="@+id/last_use_stack_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingVertical="5dp"
+        android:paddingHorizontal="16dp"
+        android:text="Last used:"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="16dp"
+        android:paddingVertical="3dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/last_used_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/measure_background_white"
+            android:layout_weight="1"/>
+        <Button
+            android:id="@+id/last_used_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/measure_background_white"
+            android:layout_weight="1"/>
+        <Button
+            android:id="@+id/last_used_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/measure_background_white"
+            android:layout_weight="1"/>
+        <Button
+            android:id="@+id/last_used_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/measure_background_white"
+            android:layout_weight="1"/>
+        <Button
+            android:id="@+id/last_used_5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/measure_background_white"
+            android:layout_weight="1"/>
+        <Button
+            android:id="@+id/last_used_6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/measure_background_white"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/chord_builder_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingVertical="5dp"
+        android:paddingHorizontal="16dp"
+        android:text="Chord Builder:"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="16dp"
+        android:paddingVertical="3dp"
+        android:orientation="horizontal">
+
+    <Button
+        android:id="@+id/c"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text = "C"
+        android:background="@drawable/measure_background_white"
+        android:layout_weight="1"/>
+        <Button
+            android:id="@+id/d"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text = "D"
+            android:background="@drawable/measure_background_white"
+            android:layout_weight="1"/>
+        <Button
+            android:id="@+id/e"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text = "E"
+            android:background="@drawable/measure_background_white"
+            android:layout_weight="1"/>
+        <Button
+            android:id="@+id/f"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text = "F"
+            android:background="@drawable/measure_background_white"
+            android:layout_weight="1"/>
+        <Button
+            android:id="@+id/g"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text = "G"
+            android:background="@drawable/measure_background_white"
+            android:layout_weight="1"/>
+        <Button
+        android:id="@+id/a"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text = "A"
+        android:background="@drawable/measure_background_white"
+        android:layout_weight="1"/>
+        <Button
+            android:id="@+id/b"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text = "B"
+            android:background="@drawable/measure_background_white"
+            android:layout_weight="1"/>
+        <Button
+            android:id="@+id/c_flat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAllCaps="false"
+            android:text = "z"
+            android:layout_marginTop="-8dp"
+            android:fontFamily="@font/finale_numerics"
+            android:background="@drawable/measure_background"
+            android:layout_weight="1"/>
+        <Button
+            android:id="@+id/c_sharp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAllCaps="false"
+            android:text = "x"
+            android:layout_marginTop="-8dp"
+            android:fontFamily="@font/finale_numerics"
+            android:background="@drawable/measure_background"
+            android:layout_weight="1"/>
+        <Button
+            android:id="@+id/c_natural"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAllCaps="false"
+            android:text = "y"
+            android:layout_marginTop="-8dp"
+            android:fontFamily="@font/finale_numerics"
+            android:background="@drawable/measure_background"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="16dp"
+        android:paddingVertical="3dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/major"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text = "M"
+            android:background="@drawable/measure_background_white"
+            android:layout_weight="1"/>
+        <Button
+        android:id="@+id/minor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:text = "m"
+        android:background="@drawable/measure_background_white"
+        android:layout_weight="1"/>
+    <Button
+        android:id="@+id/aug"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:text = "aug"
+        android:background="@drawable/measure_background_white"
+        android:layout_weight="1"/>
+    <Button
+        android:id="@+id/dim"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:text = "dim"
+        android:background="@drawable/measure_background_white"
+        android:layout_weight="1"/>
+        <Button
+            android:id="@+id/sus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text = "sus"
+            android:textAllCaps="false"
+            android:background="@drawable/measure_background_white"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="16dp"
+        android:paddingVertical="3dp"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/flat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text = "z"
+            android:textAllCaps="false"
+            android:fontFamily="@font/finale_numerics"
+            android:background="@drawable/measure_background"
+            android:layout_weight="1"/>
+        <Button
+            android:id="@+id/sharp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text = "x"
+            android:textAllCaps="false"
+            android:fontFamily="@font/finale_numerics"
+            android:background="@drawable/measure_background"
+            android:layout_weight="1"/>
+        <Button
+            android:id="@+id/natural"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAllCaps="false"
+            android:text = "y"
+            android:fontFamily="@font/finale_numerics"
+            android:background="@drawable/measure_background"
+            android:layout_weight="1"/>
+        <Button
+            android:id="@+id/_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text = "2"
+            android:textAllCaps="false"
+            android:fontFamily="@font/finale_numerics"
+            android:background="@drawable/measure_background_white"
+            android:layout_weight="1"/>
+        <Button
+            android:id="@+id/_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text = "3"
+            android:textAllCaps="false"
+            android:fontFamily="@font/finale_numerics"
+            android:background="@drawable/measure_background_white"
+            android:layout_weight="1"/>
+        <Button
+            android:id="@+id/_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text = "4"
+            android:textAllCaps="false"
+            android:fontFamily="@font/finale_numerics"
+            android:background="@drawable/measure_background_white"
+            android:layout_weight="1"/>
+        <Button
+            android:id="@+id/_5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text = "5"
+            android:fontFamily="@font/finale_numerics"
+            android:background="@drawable/measure_background_white"
+            android:layout_weight="1"/>
+        <Button
+            android:id="@+id/_6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text = "6"
+            android:fontFamily="@font/finale_numerics"
+            android:background="@drawable/measure_background_white"
+            android:layout_weight="1"/>
+
+        <Button
+            android:id="@+id/_7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text = "7"
+            android:fontFamily="@font/finale_numerics"
+            android:background="@drawable/measure_background_white"
+            android:layout_weight="1"/>
+        <Button
+            android:id="@+id/maj_7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAllCaps="false"
+            android:text = "+7"
+            android:fontFamily="@font/finale_numerics"
+            android:background="@drawable/measure_background_white"
+            android:layout_weight="1"/>
+        <Button
+            android:id="@+id/diminished_7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAllCaps="false"
+            android:text = "k 7"
+            android:fontFamily="@font/finale_numerics"
+            android:background="@drawable/measure_background_white"
+            android:layout_weight="1"/>
+        <Button
+            android:id="@+id/half_diminished"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text = "j"
+            android:textAllCaps="false"
+            android:fontFamily="@font/finale_numerics"
+            android:background="@drawable/measure_background_white"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="16dp"
+        android:paddingVertical="3dp"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/high_flat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text = "Z"
+            android:textAllCaps="false"
+            android:fontFamily="@font/finale_numerics"
+            android:background="@drawable/measure_background"
+            android:layout_weight="13"/>
+        <Button
+            android:id="@+id/high_sharp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text = "X"
+            android:textAllCaps="false"
+            android:fontFamily="@font/finale_numerics"
+            android:background="@drawable/measure_background"
+            android:layout_weight="13"/>
+        <Button
+            android:id="@+id/high_natural"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text = "Y"
+            android:textAllCaps="false"
+            android:fontFamily="@font/finale_numerics"
+            android:background="@drawable/measure_background"
+            android:layout_weight="13"/>
+        <Button
+            android:id="@+id/_9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text = "("
+            android:textAllCaps="false"
+            android:fontFamily="@font/finale_numerics"
+            android:background="@drawable/measure_background_white"
+            android:layout_weight="1"/>
+        <Button
+            android:id="@+id/_11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text = "! !"
+            android:textAllCaps="false"
+            android:fontFamily="@font/finale_numerics"
+            android:background="@drawable/measure_background_white"
+            android:layout_weight="1"/>
+        <Button
+            android:id="@+id/_13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text = "! #"
+            android:textAllCaps="false"
+            android:fontFamily="@font/finale_numerics"
+            android:background="@drawable/measure_background_white"
+            android:layout_weight="13"/>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/preview_select_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="Preview/Select:"
+            android:paddingVertical="5dp"
+            android:paddingHorizontal="16dp"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/preview"/>
+
+    <RelativeLayout
+            android:id="@+id/preview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:paddingVertical="5dp"
+            android:paddingHorizontal="16dp"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="bottom"
+            android:background="@drawable/measure_background_white"
+            android:orientation="horizontal">
+
+        <TextView
+        android:id="@+id/preview_select_but"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingVertical="8dp"
+        android:paddingHorizontal="3dp"
+        android:textAllCaps="false"
+        tools:text="C"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingVertical="8dp"
+            android:paddingHorizontal="3dp"
+            android:textAllCaps="false"
+            android:layout_toRightOf="@id/preview_select_but"
+            tools:text="7"/>
+
+    </RelativeLayout>
+    </RelativeLayout>
+</LinearLayout>
+
+
+</FrameLayout>

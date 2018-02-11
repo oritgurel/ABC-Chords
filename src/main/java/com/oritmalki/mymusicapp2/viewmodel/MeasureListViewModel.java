@@ -48,6 +48,7 @@ public class MeasureListViewModel extends AndroidViewModel {
     //something is wrong here.
     public void addEmptyMeasure(Application application) {
 
+
         //prepare the time signature and beatList
         TimeSignature lastMesTimeSignature;
         if (mObservableMeasures.getValue().size() != 0) {
