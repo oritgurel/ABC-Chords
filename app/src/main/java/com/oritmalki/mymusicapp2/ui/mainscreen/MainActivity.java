@@ -16,6 +16,7 @@ import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
 import android.widget.FrameLayout;
+import android.widget.RadioButton;
 import android.widget.TextView;
 
 import com.google.android.flexbox.AlignItems;
@@ -210,46 +211,37 @@ public class MainActivity extends AppCompatActivity implements OnFragmentInterac
                  }
                 break;
             case R.id.c:
-                onRootSelected(view, IS_C_ROOT_PRESSED);
+                onRootSelected(view);
                 break;
             case R.id.d:
-                onRootSelected(view, IS_D_ROOT_PRESSED);
+                onRootSelected(view);
                 break;
             case R.id.e:
-                onRootSelected(view, IS_E_ROOT_PRESSED);
+                onRootSelected(view);
                 break;
             case R.id.f:
-                onRootSelected(view, IS_F_ROOT_PRESSED);
+                onRootSelected(view);
                 break;
             case R.id.g:
-                onRootSelected(view, IS_G_ROOT_PRESSED);
+                onRootSelected(view);
                 break;
             case R.id.a:
-                onRootSelected(view, IS_A_ROOT_PRESSED);
+                onRootSelected(view);
                 break;
             case R.id.b:
-                onRootSelected(view, IS_B_ROOT_PRESSED);
+                onRootSelected(view);
                 break;
         }
     }
 
 //selecting chord root on edit fragment
-    public void onRootSelected(View view, String isPressedPref) {
+    public void onRootSelected(View view) {
         TextView preview = findViewById(R.id.preview_select_tv);
+        RadioButton rb = (RadioButton) view;
 
-        if (!preferences.getBoolean(isPressedPref, false)) {
-            view.setPressed(true);
-            view.setBackgroundColor(getResources().getColor(R.color.buttonPressed));
-            editor.putBoolean(isPressedPref, true).commit();
-            String text = (String) ((Button) view).getText();
+        if (rb.isChecked()) {
+            String text = (String) (rb.getText());
             chord = text;
-            preview.setText(chord);
-        } else if ((preferences.getBoolean(isPressedPref, false))) {
-
-            view.setBackground(getResources().getDrawable(R.drawable.measure_background_white));
-            editor.putBoolean(isPressedPref, false).commit();
-            view.setPressed(false);
-            chord = "";
             preview.setText(chord);
         }
     }

@@ -7,12 +7,14 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.RadioButton;
 import android.widget.TextView;
 
 import com.oritmalki.mymusicapp2.R;
 import com.oritmalki.mymusicapp2.model.Measure;
 
 import butterknife.BindView;
+import butterknife.BindViews;
 import butterknife.ButterKnife;
 
 
@@ -29,16 +31,16 @@ public class EditFragment extends Fragment {
 
     @BindView(R.id.add_chord) Button addChordButt;
 
-    @BindView(R.id.c) Button c_root;
-    @BindView(R.id.d) Button d_root;
-    @BindView(R.id.e) Button e_root;
-    @BindView(R.id.f) Button f_root;
-    @BindView(R.id.g) Button g_root;
-    @BindView(R.id.a) Button a_root;
-    @BindView(R.id.b) Button b_root;
-    @BindView(R.id.root_flat) Button root_flat;
-    @BindView(R.id.root_sharp) Button root_sharp;
-    @BindView(R.id.root_natural) Button root_natural;
+    @BindView(R.id.c) RadioButton c_root;
+    @BindView(R.id.d) RadioButton d_root;
+    @BindView(R.id.e) RadioButton e_root;
+    @BindView(R.id.f) RadioButton f_root;
+    @BindView(R.id.g) RadioButton g_root;
+    @BindView(R.id.a) RadioButton a_root;
+    @BindView(R.id.b) RadioButton b_root;
+    @BindView(R.id.root_flat) RadioButton root_flat;
+    @BindView(R.id.root_sharp) RadioButton root_sharp;
+    @BindView(R.id.root_natural) RadioButton root_natural;
 
     @BindView(R.id.major) Button major;
     @BindView(R.id.minor) Button minor;
@@ -69,9 +71,10 @@ public class EditFragment extends Fragment {
     @BindView(R.id._13) Button _13;
 
 
-    private Button[] rootButtonsGroup = new Button[7];
-    private Button btn_unfocus;
-    private int[] btn_id = {R.id.c, R.id.d, R.id.e, R.id.f, R.id.g, R.id.a, R.id.b};
+    @BindViews({R.id.c, R.id.d, R.id.e, R.id.f, R.id.g, R.id.a, R.id.b}) RadioButton[] rootButtonsGroup;
+    @BindViews({R.id.root_flat, R.id.root_sharp, R.id.root_natural}) RadioButton[] rootAccButtonsGroup;
+
+
 
     private static final String ARG_MEASURE = "args_measure";
     public static String ARG_BEAT_POSITION = "args_beat_position";
@@ -117,16 +120,10 @@ public class EditFragment extends Fragment {
 
         addChordButt.setOnClickListener(EditFragment.this::onButtonPressed);
 
-        createRootToggleButtonGroup(view);
-
-
-//        c_root.setOnClickListener(EditFragment.this::onButtonPressed);
-//        d_root.setOnClickListener(EditFragment.this::onButtonPressed);
-//        e_root.setOnClickListener(EditFragment.this::onButtonPressed);
-//        f_root.setOnClickListener(EditFragment.this::onButtonPressed);
-//        g_root.setOnClickListener(EditFragment.this::onButtonPressed);
-//        a_root.setOnClickListener(EditFragment.this::onButtonPressed);
-//        b_root.setOnClickListener(EditFragment.this::onButtonPressed);
+        for (RadioButton rootButton : rootButtonsGroup) {
+            //null??
+            rootButton.setOnClickListener(EditFragment.this::onButtonPressed);
+        }
 
         measureNumEditorView.setText("M: " + String.valueOf(measure.getNumber()));
         beatNumEditorView.setText("B: " + String.valueOf(beatPosition + 1));
@@ -148,15 +145,6 @@ public class EditFragment extends Fragment {
             }
         }
 
-    public void createRootToggleButtonGroup(View view) {
-
-        for (int i = 0; i < rootButtonsGroup.length; i++) {
-            rootButtonsGroup[i] = view.findViewById(btn_id[i]);
-            rootButtonsGroup[i].setOnClickListener(EditFragment.this::onButtonPressed);
-            rootButtonsGroup[i].setBackground(getResources().getDrawable(R.drawable.toggle_buttons));
-        }
-//        btn_unfocus = rootButtonsGroup[0];
-    }
 
     @Override
     public void onAttach(Context context) {

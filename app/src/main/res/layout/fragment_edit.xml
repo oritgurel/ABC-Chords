@@ -1,4 +1,3 @@
-
 <RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
@@ -12,480 +11,557 @@
         android:layout_alignParentBottom="true"
         android:fillViewport="true">
 
-<LinearLayout
-    android:id="@+id/edit_layout"
-    android:layout_width="match_parent"
-    android:layout_height="320dp"
-    android:background="#99f8bbd0"
-    android:layout_alignParentBottom="true"
-    android:orientation="vertical">
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal">
-    <android.support.design.widget.TabLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content">
-        <android.support.design.widget.TabItem
-            android:text="Chord Builder"
-            android:layout_height="wrap_content"
-            android:layout_width="wrap_content"/>
-        <android.support.design.widget.TabItem
-            android:text="Rests"
-            android:layout_height="wrap_content"
-            android:layout_width="wrap_content"/>
-
-    </android.support.design.widget.TabLayout>
-
-        <RelativeLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content">
-
-            <Button
-                android:id="@+id/add_chord"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_alignParentLeft="true"
-                android:text="add"
-                android:elevation="1dp"
-                android:textColor="@color/white"
-                android:background="@color/colorAccent"/>
+        <LinearLayout
+            android:id="@+id/edit_layout"
+            android:layout_width="match_parent"
+            android:layout_height="320dp"
+            android:layout_alignParentBottom="true"
+            android:background="#99f8bbd0"
+            android:orientation="vertical">
 
             <LinearLayout
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_toRightOf="@id/add_chord"
                 android:orientation="horizontal">
 
-            <TextView
-                android:id="@+id/measure_num_tv"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="M: "
-                android:layout_toRightOf="@id/add_chord"
-                android:paddingVertical="16dp"
-                android:paddingLeft="5dp"
-                android:layout_gravity="end"
-                />
-            <TextView
-                android:id="@+id/beat_num"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_toRightOf="@id/measure_num_tv"
-                android:text="B:"
-                android:layout_gravity="start"
-                android:padding="16dp"/>
+                <android.support.design.widget.TabLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <android.support.design.widget.TabItem
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Chord Builder"/>
+
+                    <android.support.design.widget.TabItem
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Rests"/>
+
+                </android.support.design.widget.TabLayout>
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <Button
+                        android:id="@+id/add_chord"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:background="@color/colorAccent"
+                        android:elevation="1dp"
+                        android:text="add"
+                        android:textColor="@color/white"/>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@id/add_chord"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/measure_num_tv"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="end"
+                            android:layout_toRightOf="@id/add_chord"
+                            android:paddingLeft="5dp"
+                            android:paddingVertical="16dp"
+                            android:text="M: "
+                            />
+
+                        <TextView
+                            android:id="@+id/beat_num"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="start"
+                            android:layout_toRightOf="@id/measure_num_tv"
+                            android:padding="16dp"
+                            android:text="B:"/>
+                    </LinearLayout>
+
+                </RelativeLayout>
             </LinearLayout>
 
-        </RelativeLayout>
-    </LinearLayout>
-    <TextView
-        android:id="@+id/last_use_stack_tv"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:paddingHorizontal="16dp"
-        android:text="Last used:"/>
+            <TextView
+                android:id="@+id/last_use_stack_tv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingHorizontal="16dp"
+                android:text="Last used:"/>
 
-    <com.google.android.flexbox.FlexboxLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:paddingHorizontal="16dp"
-        android:paddingVertical="3dp"
-        android:weightSum="6"
-        android:orientation="horizontal">
+            <com.google.android.flexbox.FlexboxLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingHorizontal="16dp"
+                android:paddingVertical="3dp"
+                android:weightSum="6">
 
-        <Button
-            android:id="@+id/last_used_1"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:background="@drawable/measure_background_white"/>
-        <Button
-            android:id="@+id/last_used_2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:background="@drawable/measure_background_white"
-            android:layout_weight="1"/>
-        <Button
-            android:id="@+id/last_used_3"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:background="@drawable/measure_background_white"
-            android:layout_weight="1"/>
-        <Button
-            android:id="@+id/last_used_4"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:background="@drawable/measure_background_white"
-            android:layout_weight="1"/>
-        <Button
-            android:id="@+id/last_used_5"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:background="@drawable/measure_background_white"
-            android:layout_weight="1"/>
-        <Button
-            android:id="@+id/last_used_6"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:background="@drawable/measure_background_white"
-            android:layout_weight="1"/>
-    </com.google.android.flexbox.FlexboxLayout>
+                <Button
+                    android:id="@+id/last_used_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/measure_background_white"/>
 
-    <TextView
-        android:id="@+id/chord_builder_tv"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:paddingVertical="5dp"
-        android:paddingHorizontal="16dp"
-        android:text="Chord Builder:"/>
+                <Button
+                    android:id="@+id/last_used_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/measure_background_white"/>
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:paddingHorizontal="16dp"
-        android:paddingVertical="3dp"
-        android:orientation="horizontal">
+                <Button
+                    android:id="@+id/last_used_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/measure_background_white"/>
 
-    <Button
-        android:id="@+id/c"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text = "C"
-        android:background="@drawable/measure_background_white"
-        android:layout_weight="1"/>
-        <Button
-            android:id="@+id/d"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text = "D"
-            android:background="@drawable/measure_background_white"
-            android:layout_weight="1"/>
-        <Button
-            android:id="@+id/e"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text = "E"
-            android:background="@drawable/measure_background_white"
-            android:layout_weight="1"/>
-        <Button
-            android:id="@+id/f"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text = "F"
-            android:background="@drawable/measure_background_white"
-            android:layout_weight="1"/>
-        <Button
-            android:id="@+id/g"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text = "G"
-            android:background="@drawable/measure_background_white"
-            android:layout_weight="1"/>
-        <Button
-        android:id="@+id/a"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text = "A"
-        android:background="@drawable/measure_background_white"
-        android:layout_weight="1"/>
-        <Button
-            android:id="@+id/b"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text = "B"
-            android:background="@drawable/measure_background_white"
-            android:layout_weight="1"/>
-        <Button
-            android:id="@+id/root_flat"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textAllCaps="false"
-            android:text = "z"
-            android:layout_marginTop="-8dp"
-            android:fontFamily="@font/finale_numerics"
-            android:background="@drawable/measure_background"
-            android:layout_weight="1"/>
-        <Button
-            android:id="@+id/root_sharp"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textAllCaps="false"
-            android:text = "x"
-            android:layout_marginTop="-8dp"
-            android:fontFamily="@font/finale_numerics"
-            android:background="@drawable/measure_background"
-            android:layout_weight="1"/>
-        <Button
-            android:id="@+id/root_natural"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textAllCaps="false"
-            android:text = "y"
-            android:layout_marginTop="-8dp"
-            android:fontFamily="@font/finale_numerics"
-            android:background="@drawable/measure_background"
-            android:layout_weight="1"/>
-    </LinearLayout>
+                <Button
+                    android:id="@+id/last_used_4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/measure_background_white"/>
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:paddingHorizontal="16dp"
-        android:paddingVertical="3dp"
-        android:orientation="horizontal">
+                <Button
+                    android:id="@+id/last_used_5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/measure_background_white"/>
 
-        <Button
-            android:id="@+id/major"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text = "M"
-            android:background="@drawable/measure_background_white"
-            android:layout_weight="1"/>
-        <Button
-        android:id="@+id/minor"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textAllCaps="false"
-        android:text = "m"
-        android:background="@drawable/measure_background_white"
-        android:layout_weight="1"/>
-    <Button
-        android:id="@+id/aug"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textAllCaps="false"
-        android:text = "aug"
-        android:background="@drawable/measure_background_white"
-        android:layout_weight="1"/>
-    <Button
-        android:id="@+id/dim"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textAllCaps="false"
-        android:text = "dim"
-        android:background="@drawable/measure_background_white"
-        android:layout_weight="1"/>
-        <Button
-            android:id="@+id/sus"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text = "sus"
-            android:textAllCaps="false"
-            android:background="@drawable/measure_background_white"
-            android:layout_weight="1"/>
-    </LinearLayout>
+                <Button
+                    android:id="@+id/last_used_6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/measure_background_white"/>
+            </com.google.android.flexbox.FlexboxLayout>
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:paddingHorizontal="16dp"
-        android:paddingVertical="3dp"
-        android:orientation="horizontal">
-        <Button
-            android:id="@+id/ten1_flat"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text = "z"
-            android:textAllCaps="false"
-            android:fontFamily="@font/finale_numerics"
-            android:background="@drawable/measure_background"
-            android:layout_weight="1"/>
-        <Button
-            android:id="@+id/ten1_sharp"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text = "x"
-            android:textAllCaps="false"
-            android:fontFamily="@font/finale_numerics"
-            android:background="@drawable/measure_background"
-            android:layout_weight="1"/>
-        <Button
-            android:id="@+id/ten1_natural"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textAllCaps="false"
-            android:text = "y"
-            android:fontFamily="@font/finale_numerics"
-            android:background="@drawable/measure_background"
-            android:layout_weight="1"/>
-        <Button
-            android:id="@+id/_2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text = "2"
-            android:textAllCaps="false"
-            android:fontFamily="@font/finale_numerics"
-            android:background="@drawable/measure_background_white"
-            android:layout_weight="1"/>
-        <Button
-            android:id="@+id/_3"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text = "3"
-            android:textAllCaps="false"
-            android:fontFamily="@font/finale_numerics"
-            android:background="@drawable/measure_background_white"
-            android:layout_weight="1"/>
-        <Button
-            android:id="@+id/_4"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text = "4"
-            android:textAllCaps="false"
-            android:fontFamily="@font/finale_numerics"
-            android:background="@drawable/measure_background_white"
-            android:layout_weight="1"/>
-        <Button
-            android:id="@+id/_5"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text = "5"
-            android:fontFamily="@font/finale_numerics"
-            android:background="@drawable/measure_background_white"
-            android:layout_weight="1"/>
-        <Button
-            android:id="@+id/_6"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text = "6"
-            android:fontFamily="@font/finale_numerics"
-            android:background="@drawable/measure_background_white"
-            android:layout_weight="1"/>
+            <TextView
+                android:id="@+id/chord_builder_tv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingHorizontal="16dp"
+                android:paddingVertical="5dp"
+                android:text="Chord Builder:"/>
 
-        <Button
-            android:id="@+id/_7"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text = "7"
-            android:fontFamily="@font/finale_numerics"
-            android:background="@drawable/measure_background_white"
-            android:layout_weight="1"/>
-        <Button
-            android:id="@+id/maj_7"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textAllCaps="false"
-            android:text = "+7"
-            android:fontFamily="@font/finale_numerics"
-            android:background="@drawable/measure_background_white"
-            android:layout_weight="1"/>
-        <Button
-            android:id="@+id/diminished_7"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textAllCaps="false"
-            android:text = "k 7"
-            android:fontFamily="@font/finale_numerics"
-            android:background="@drawable/measure_background_white"
-            android:layout_weight="1"/>
-        <Button
-            android:id="@+id/half_diminished"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text = "j"
-            android:textAllCaps="false"
-            android:fontFamily="@font/finale_numerics"
-            android:background="@drawable/measure_background_white"
-            android:layout_weight="1"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="horizontal"
+                android:paddingHorizontal="16dp"
+                android:paddingVertical="3dp">
 
-    </LinearLayout>
+                <RadioGroup
+                    android:id="@+id/root_bt_group"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="7"
+                    android:orientation="horizontal">
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:paddingHorizontal="16dp"
-        android:paddingVertical="3dp"
-        android:orientation="horizontal">
-        <Button
-            android:id="@+id/ten2_flat"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text = "Z"
-            android:textAllCaps="false"
-            android:fontFamily="@font/finale_numerics"
-            android:background="@drawable/measure_background"
-            android:layout_weight="13"/>
-        <Button
-            android:id="@+id/ten2_sharp"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text = "X"
-            android:textAllCaps="false"
-            android:fontFamily="@font/finale_numerics"
-            android:background="@drawable/measure_background"
-            android:layout_weight="13"/>
-        <Button
-            android:id="@+id/ten2_natural"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text = "Y"
-            android:textAllCaps="false"
-            android:fontFamily="@font/finale_numerics"
-            android:background="@drawable/measure_background"
-            android:layout_weight="13"/>
-        <Button
-            android:id="@+id/_9"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text = "("
-            android:textAllCaps="false"
-            android:fontFamily="@font/finale_numerics"
-            android:background="@drawable/measure_background_white"
-            android:layout_weight="1"/>
-        <Button
-            android:id="@+id/_11"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text = "! !"
-            android:textAllCaps="false"
-            android:fontFamily="@font/finale_numerics"
-            android:background="@drawable/measure_background_white"
-            android:layout_weight="1"/>
-        <Button
-            android:id="@+id/_13"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text = "! #"
-            android:textAllCaps="false"
-            android:fontFamily="@font/finale_numerics"
-            android:background="@drawable/measure_background_white"
-            android:layout_weight="13"/>
+                    <RadioButton
+                        android:id="@+id/c"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/custom_radiobtn"
+                        android:button="@null"
+                        android:gravity="center"
+                        android:text="C"/>
 
-    </LinearLayout>
+                    <RadioButton
+                        android:id="@+id/d"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/custom_radiobtn"
+                        android:button="@null"
+                        android:gravity="center"
+                        android:text="D"/>
+
+                    <RadioButton
+                        android:id="@+id/e"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/custom_radiobtn"
+                        android:button="@null"
+                        android:gravity="center"
+                        android:text="E"/>
+
+                    <RadioButton
+                        android:id="@+id/f"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/custom_radiobtn"
+                        android:button="@null"
+                        android:gravity="center"
+                        android:text="F"/>
+
+                    <RadioButton
+                        android:id="@+id/g"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/custom_radiobtn"
+                        android:button="@null"
+                        android:gravity="center"
+                        android:text="G"/>
+
+                    <RadioButton
+                        android:id="@+id/a"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/custom_radiobtn"
+                        android:button="@null"
+                        android:gravity="center"
+                        android:text="A"/>
+
+                    <RadioButton
+                        android:id="@+id/b"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/custom_radiobtn"
+                        android:button="@null"
+                        android:gravity="center"
+                        android:text="B"/>
+
+                </RadioGroup>
+
+                <RadioGroup
+                    android:id="@+id/root_acc_bt_group"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="3"
+                    android:orientation="horizontal">
+
+                    <RadioButton
+                        android:id="@+id/root_flat"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="-8dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/custom_radiobtn_acc"
+                        android:button="@null"
+                        android:fontFamily="@font/finale_numerics"
+                        android:gravity="center"
+                        android:text="z"
+                        android:textAllCaps="false"/>
+
+                    <RadioButton
+                        android:id="@+id/root_sharp"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="-8dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/custom_radiobtn_acc"
+                        android:button="@null"
+                        android:fontFamily="@font/finale_numerics"
+                        android:gravity="center"
+                        android:text="x"
+                        android:textAllCaps="false"/>
+
+                    <RadioButton
+                        android:id="@+id/root_natural"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="-8dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/custom_radiobtn_acc"
+                        android:button="@null"
+                        android:fontFamily="@font/finale_numerics"
+                        android:gravity="center"
+                        android:text="y"
+                        android:textAllCaps="false"/>
+                </RadioGroup>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingHorizontal="16dp"
+                android:paddingVertical="3dp">
+
+                <Button
+                    android:id="@+id/major"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/measure_background_white"
+                    android:text="M"/>
+
+                <Button
+                    android:id="@+id/minor"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/measure_background_white"
+                    android:text="m"
+                    android:textAllCaps="false"/>
+
+                <Button
+                    android:id="@+id/aug"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/measure_background_white"
+                    android:text="aug"
+                    android:textAllCaps="false"/>
+
+                <Button
+                    android:id="@+id/dim"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/measure_background_white"
+                    android:text="dim"
+                    android:textAllCaps="false"/>
+
+                <Button
+                    android:id="@+id/sus"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/measure_background_white"
+                    android:text="sus"
+                    android:textAllCaps="false"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingHorizontal="16dp"
+                android:paddingVertical="3dp">
+
+                <Button
+                    android:id="@+id/ten1_flat"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/measure_background"
+                    android:fontFamily="@font/finale_numerics"
+                    android:text="z"
+                    android:textAllCaps="false"/>
+
+                <Button
+                    android:id="@+id/ten1_sharp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/measure_background"
+                    android:fontFamily="@font/finale_numerics"
+                    android:text="x"
+                    android:textAllCaps="false"/>
+
+                <Button
+                    android:id="@+id/ten1_natural"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/measure_background"
+                    android:fontFamily="@font/finale_numerics"
+                    android:text="y"
+                    android:textAllCaps="false"/>
+
+                <Button
+                    android:id="@+id/_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/measure_background_white"
+                    android:fontFamily="@font/finale_numerics"
+                    android:text="2"
+                    android:textAllCaps="false"/>
+
+                <Button
+                    android:id="@+id/_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/measure_background_white"
+                    android:fontFamily="@font/finale_numerics"
+                    android:text="3"
+                    android:textAllCaps="false"/>
+
+                <Button
+                    android:id="@+id/_4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/measure_background_white"
+                    android:fontFamily="@font/finale_numerics"
+                    android:text="4"
+                    android:textAllCaps="false"/>
+
+                <Button
+                    android:id="@+id/_5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/measure_background_white"
+                    android:fontFamily="@font/finale_numerics"
+                    android:text="5"/>
+
+                <Button
+                    android:id="@+id/_6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/measure_background_white"
+                    android:fontFamily="@font/finale_numerics"
+                    android:text="6"/>
+
+                <Button
+                    android:id="@+id/_7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/measure_background_white"
+                    android:fontFamily="@font/finale_numerics"
+                    android:text="7"/>
+
+                <Button
+                    android:id="@+id/maj_7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/measure_background_white"
+                    android:fontFamily="@font/finale_numerics"
+                    android:text="+7"
+                    android:textAllCaps="false"/>
+
+                <Button
+                    android:id="@+id/diminished_7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/measure_background_white"
+                    android:fontFamily="@font/finale_numerics"
+                    android:text="k 7"
+                    android:textAllCaps="false"/>
+
+                <Button
+                    android:id="@+id/half_diminished"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/measure_background_white"
+                    android:fontFamily="@font/finale_numerics"
+                    android:text="j"
+                    android:textAllCaps="false"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingHorizontal="16dp"
+                android:paddingVertical="3dp">
+
+                <Button
+                    android:id="@+id/ten2_flat"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="13"
+                    android:background="@drawable/measure_background"
+                    android:fontFamily="@font/finale_numerics"
+                    android:text="Z"
+                    android:textAllCaps="false"/>
+
+                <Button
+                    android:id="@+id/ten2_sharp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="13"
+                    android:background="@drawable/measure_background"
+                    android:fontFamily="@font/finale_numerics"
+                    android:text="X"
+                    android:textAllCaps="false"/>
+
+                <Button
+                    android:id="@+id/ten2_natural"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="13"
+                    android:background="@drawable/measure_background"
+                    android:fontFamily="@font/finale_numerics"
+                    android:text="Y"
+                    android:textAllCaps="false"/>
+
+                <Button
+                    android:id="@+id/_9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/measure_background_white"
+                    android:fontFamily="@font/finale_numerics"
+                    android:text="("
+                    android:textAllCaps="false"/>
+
+                <Button
+                    android:id="@+id/_11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/measure_background_white"
+                    android:fontFamily="@font/finale_numerics"
+                    android:text="! !"
+                    android:textAllCaps="false"/>
+
+                <Button
+                    android:id="@+id/_13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="13"
+                    android:background="@drawable/measure_background_white"
+                    android:fontFamily="@font/finale_numerics"
+                    android:text="! #"
+                    android:textAllCaps="false"/>
+
+            </LinearLayout>
 
 
-    <RelativeLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
 
-        <TextView
-            android:id="@+id/preview_select_tv"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Preview/Select:"
-            android:paddingVertical="5dp"
-            android:paddingHorizontal="16dp"
-            android:layout_centerVertical="true"
-            android:layout_toLeftOf="@+id/preview"/>
+                <TextView
+                    android:id="@+id/preview_select_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toLeftOf="@+id/preview"
+                    android:paddingHorizontal="16dp"
+                    android:paddingVertical="5dp"
+                    android:text="Preview/Select:"/>
 
-    <RelativeLayout
-            android:id="@+id/preview"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_margin="16dp"
-            android:paddingVertical="5dp"
-            android:paddingHorizontal="16dp"
-            android:layout_centerHorizontal="true"
-            android:layout_gravity="bottom"
-            android:background="@drawable/measure_background_white"
-            android:orientation="horizontal">
+                <RelativeLayout
+                    android:id="@+id/preview"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_gravity="bottom"
+                    android:layout_margin="16dp"
+                    android:background="@drawable/measure_background_white"
+                    android:orientation="horizontal"
+                    android:paddingHorizontal="16dp"
+                    android:paddingVertical="5dp">
 
-    </RelativeLayout>
-    </RelativeLayout>
+                </RelativeLayout>
+            </RelativeLayout>
 
-</LinearLayout>
+        </LinearLayout>
     </ScrollView>
 
 
