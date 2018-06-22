@@ -23,6 +23,19 @@ limitations under the License.
     android:theme="@style/AppTheme.NoActionBar"
     tools:context="com.oritmalki.mymusicapp2.ui.mainscreen.MainActivity">
 
+    <!--<android.support.design.widget.AppBarLayout-->
+        <!--xmlns:android="http://schemas.android.com/apk/res/android"-->
+        <!--xmlns:app="http://schemas.android.com/apk/res-auto"-->
+        <!--xmlns:tools="http://schemas.android.com/tools"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content">-->
+
+
+        <!--<android.support.v7.widget.Toolbar-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"></android.support.v7.widget.Toolbar>-->
+    <!--</android.support.design.widget.AppBarLayout>-->
+
 
     <android.support.design.widget.FloatingActionButton
         android:id="@+id/remove_fab"
@@ -46,3 +59,4 @@ limitations under the License.
         android:src="@drawable/ic_add_white_24dp"/>
 
 </RelativeLayout>
+

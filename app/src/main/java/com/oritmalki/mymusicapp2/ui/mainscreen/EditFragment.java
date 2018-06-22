@@ -120,13 +120,19 @@ public class EditFragment extends Fragment {
 
         addChordButt.setOnClickListener(EditFragment.this::onButtonPressed);
 
+        //set onclick listeners (TODO create a function for it)
         for (RadioButton rootButton : rootButtonsGroup) {
             //null??
             rootButton.setOnClickListener(EditFragment.this::onButtonPressed);
         }
+        for (RadioButton rootAccBtn : rootAccButtonsGroup) {
+            rootAccBtn.setOnClickListener(EditFragment.this::onButtonPressed);
+        }
 
         measureNumEditorView.setText("M: " + String.valueOf(measure.getNumber()));
         beatNumEditorView.setText("B: " + String.valueOf(beatPosition + 1));
+
+
 
 
 

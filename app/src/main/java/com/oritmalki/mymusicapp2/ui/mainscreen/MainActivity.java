@@ -231,6 +231,17 @@ public class MainActivity extends AppCompatActivity implements OnFragmentInterac
             case R.id.b:
                 onRootSelected(view);
                 break;
+                //accidentals adding
+            case R.id.root_flat:
+                if (chord != null && chord.length() != 0) {
+                    //string builder usage
+                    sb.append(chord);
+                    RadioButton rb = (RadioButton) view;
+                    if (rb.isChecked()) {
+                        sb.append((String) rb.getText());
+                    }
+                }
+                break;
         }
     }
 
