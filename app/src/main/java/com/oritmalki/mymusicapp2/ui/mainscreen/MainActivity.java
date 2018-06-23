@@ -33,6 +33,7 @@ import com.oritmalki.mymusicapp2.viewmodel.MeasureListViewModel;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.concurrent.atomic.AtomicBoolean;
 
 public class MainActivity extends AppCompatActivity implements OnFragmentInteractionListener {
 
@@ -55,6 +56,8 @@ public class MainActivity extends AppCompatActivity implements OnFragmentInterac
     private View currentBeatView;
     private FrameLayout editFragmentContainer;
 
+    private AtomicBoolean isLoadingNewMeasure;
+
     public final static String IS_C_ROOT_PRESSED = "IS_C_ROOT_PRESSED";
     public final static String IS_D_ROOT_PRESSED = "IS_D_ROOT_PRESSED";
     public final static String IS_E_ROOT_PRESSED = "IS_E_ROOT_PRESSED";
@@ -71,6 +74,8 @@ public class MainActivity extends AppCompatActivity implements OnFragmentInterac
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         initSharedPrefs();
+
+        isLoadingNewMeasure = new AtomicBoolean(false);
 
         final MeasureListViewModel viewModel = ViewModelProviders.of(this).get(MeasureListViewModel.class);
         this.viewModel = viewModel;
@@ -118,8 +123,11 @@ public class MainActivity extends AppCompatActivity implements OnFragmentInterac
             public void onClick(View v) {
                 switch (v.getId()) {
                     case R.id.add_fab:
-                        addEmptyMeasure(viewModel);
-                        Log.d("ADD_MEASURE", "called addEmptyMeasure(viewModel) from activity");
+                        if (!isLoadingNewMeasure.get()) {
+
+                            addEmptyMeasure(viewModel);
+                            Log.d("ADD_MEASURE", "called addEmptyMeasure(viewModel) from activity");
+                        }
                         break;
                     case R.id.remove_fab:
                         deleteMeasure(viewModel);
@@ -171,7 +179,7 @@ public class MainActivity extends AppCompatActivity implements OnFragmentInterac
 
 //DAO methods
     public void addEmptyMeasure(MeasureListViewModel viewModel) {
-        viewModel.addEmptyMeasure(getApplication());
+        viewModel.addEmptyMeasure(getApplication(), isLoadingNewMeasure);
 
     }
 

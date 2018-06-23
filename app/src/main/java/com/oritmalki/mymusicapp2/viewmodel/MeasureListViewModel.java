@@ -12,12 +12,14 @@ import com.oritmalki.mymusicapp2.model.TimeSignature;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.concurrent.atomic.AtomicBoolean;
 
 /**
  * Created by Orit on 27.1.2018.
  */
 
 public class MeasureListViewModel extends AndroidViewModel {
+
 
     // MediatorLiveData can observe other LiveData objects and react on their emissions.
     private final MediatorLiveData<List<Measure>> mObservableMeasures;
@@ -49,8 +51,9 @@ public class MeasureListViewModel extends AndroidViewModel {
         ((BasicApp) application).getRepository().updateMeasure(measure);
     }
 
-    public void addEmptyMeasure(Application application) {
+    public void addEmptyMeasure(Application application, AtomicBoolean lock) {
 
+//        final CountDownLatch latch = new CountDownLatch(1);
 
         //prepare the time signature and beatList
         TimeSignature lastMesTimeSignature;
@@ -67,9 +70,9 @@ public class MeasureListViewModel extends AndroidViewModel {
 
         //insert empty measure
         if (mObservableMeasures.getValue().size() != 0) {
-            ((BasicApp) application).getRepository().addNewMeasure(new Measure(mObservableMeasures.getValue().size() + 1, emptyBeats, lastMesTimeSignature, true));
+            ((BasicApp) application).getRepository().addNewMeasure(new Measure(mObservableMeasures.getValue().size() + 1, emptyBeats, lastMesTimeSignature, true), lock);
         } else
-            ((BasicApp) application).getRepository().addNewMeasure(new Measure(0, emptyBeats, lastMesTimeSignature, true));
+            ((BasicApp) application).getRepository().addNewMeasure(new Measure(0, emptyBeats, lastMesTimeSignature, true), lock);
 
     }
 

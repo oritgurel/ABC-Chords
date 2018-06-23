@@ -7,9 +7,14 @@ import android.support.annotation.Nullable;
 import android.util.Log;
 
 import com.oritmalki.mymusicapp2.AppExecutors;
+import com.oritmalki.mymusicapp2.model.Beat;
 import com.oritmalki.mymusicapp2.model.Measure;
 
 import java.util.List;
+import java.util.TreeMap;
+import java.util.concurrent.CountDownLatch;
+import java.util.concurrent.atomic.AtomicBoolean;
+import java.util.concurrent.atomic.AtomicInteger;
 
 /**
  * Created by Orit on 14.12.2017.
@@ -17,15 +22,15 @@ import java.util.List;
 
 public class MeasureRepository {
 
+    private AtomicInteger atomicMeasureNum = new AtomicInteger();
+    CountDownLatch startSignal = new CountDownLatch(1);
+
     private static MeasureRepository sInstance;
     private final AppDataBase mDatabase;
     private MediatorLiveData<List<Measure>> mObservableMeasures;
 
     //my addition
     public AppExecutors appExecutors = new AppExecutors();
-
-//    private final MeasureDao measureDAO;
-//    private final BeatDao beatDao;
 
 
     //private constructor
@@ -40,7 +45,8 @@ public class MeasureRepository {
             public void onChanged(@Nullable List<Measure> measureEntities) {
                 if (mDatabase.getDatabaseCreated().getValue() != null) {
                     appExecutors.diskIO().execute(() ->
-                    mObservableMeasures.postValue(measureEntities));
+                            mObservableMeasures.postValue(measureEntities));
+                    startSignal.countDown();
                 }
             }
         });
@@ -58,13 +64,26 @@ public class MeasureRepository {
         return sInstance;
     }
 
-//Room Measures DAO
+    /*****Room Measures DAO*****/
 
-    public void addNewMeasure(Measure measure) {
-        appExecutors.diskIO().execute(() ->
+    public void addNewMeasure(Measure measure, AtomicBoolean lock) {
 
-                mDatabase.measureDao().newMeasure(measure));
+        appExecutors.diskIO().execute(new Runnable() {
+            @Override
+            public void run() {
+
+                if (!lock.get()) {
+                    lock.set(true);
+                    mDatabase.measureDao().newMeasure(measure);
+                }
+                lock.set(false);
+            }
+
+
+        });
+
         Log.d("ADD_MEASURE", "Added empty measure to database");
+
     }
 
     public void addAllMeasures(List<Measure> measures) {
@@ -73,23 +92,24 @@ public class MeasureRepository {
     }
 
     public LiveData<List<Measure>> getAllMeasures() {
+
         return mObservableMeasures;
     }
 
     public LiveData<Measure> getMeasure(int measureNum) {
 
-             return mDatabase.measureDao().getMeasure(measureNum);
-          }
+        return mDatabase.measureDao().getMeasure(measureNum);
+    }
 
 
     public void InsertMeasure(Measure measure) {
 
-                mDatabase.measureDao().newMeasure(measure);
+        mDatabase.measureDao().newMeasure(measure);
     }
 
     public void deleteMeasure(Measure measure) {
         appExecutors.diskIO().execute(() ->
-        mDatabase.measureDao().delete(measure));
+                mDatabase.measureDao().delete(measure));
     }
 
     public void updateMeasure(Measure measure) {
@@ -103,77 +123,45 @@ public class MeasureRepository {
 
     public void deleteAllMeasures(List<Measure> measures) {
         appExecutors.diskIO().execute(() ->
-        mDatabase.measureDao().deleteAll(measures));
+                mDatabase.measureDao().deleteAll(measures));
     }
 
     public void destroyDatabase() {
 
     }
-    //my old constructor
 
-//    public MeasureRepository(Context context) {
-//        AppDataBase appDataBase = AppDataBase.getINSTANCE(context.getApplicationContext());
-//        measureDAO = appDataBase.getMeasureDao();
-//        beatDao = appDataBase.getBeatDao();
-//    }
+    /*****Local App Memory DAO*****/
 
-////Room Beat DAO
-//    public void addBeats(List<Beat> beats, Measure measure) {
-//
-//        try {
-//
-//            if (beats.size() == measure.getTimeSignature().getNumerator())
-////
-//                beatDao.insertAll(beats);
-//        }
-//        catch (Exception e) {
-//            Log.v("BeatsException", "Beats number do not match time signature");
-//        }
-//
-//    }
-//
-//    public void addBeat(Beat beat, Measure measure) {
-//
-//
-//            if (measure.getTimeSignature().getNumerator() > measure.getBeats().size())
-//            beatDao.insertBeat(beat);
-//
-//        else Log.v("BeatsException", "Beats number do not match time signature");
-//    }
-//
-//    public List<Beat> getBeatsFromMeasure(int measureNum) {
-//        return measureDAO.findByNumber(measureNum).getBeats();
-//
-//    }
-//
-//    public List<Beat> getBeats() {
-//        return measureDAO.getBeats();
-//    }
+    private TreeMap<Integer, Measure> measureTreeMap = new TreeMap<>();
 
-
-//
-//    private HashMap<Integer, List<Beat>> measureHashMap;
-//
-
-//
-
-
-
-
-//    public void saveMeasure(Measure measure) {
-//        measureHashMap.put(measure.getNumber(), measure.getBeats());
-//    }
-//
-//    public List<Beat> getMeasureContent(int number) {
-//        return measureHashMap.get(number);
-//    }
-//
-//    public ArrayList<List<Beat>> getAllMeasuresContents() {
-//        return new ArrayList<>(measureHashMap.values());
-//    }
-//
-//
-//    AppDataBase db = Room.databaseBuilder(getApplicationContext(), AppDataBase.class, "app-database").build();
-
+    public TreeMap<Integer, Measure> getMeasureTreeMap() {
+        return measureTreeMap;
     }
 
+    public void setMeasureTreeMap(TreeMap<Integer, Measure> measureTreeMap) {
+        this.measureTreeMap = measureTreeMap;
+    }
+
+    public void addMeasureLocal(Measure measure) {
+        measureTreeMap.put(measure.getNumber(), measure);
+    }
+
+    public void deleteMeasureLocal(int measureNumber) {
+        measureTreeMap.remove(measureNumber);
+    }
+
+    public void updateMeasureLocal(int measureNumber, List<Beat> beatsList) {
+        Measure editMeasure = measureTreeMap.get(measureNumber);
+        editMeasure.setBeats(beatsList);
+    }
+
+    public List<Measure> getAllMeasuresLocal() {
+        return (List<Measure>) measureTreeMap.values();
+    }
+
+    public void setListOfMeasuresLocal(List<Measure> measuresList) {
+        for (Measure measure : measuresList) {
+            measureTreeMap.put(measure.getNumber(), measure);
+        }
+    }
+}
