@@ -91,11 +91,17 @@ public class MainActivity extends AppCompatActivity implements OnFragmentInterac
         viewModel.getMeasures().observe(this, new Observer<List<Measure>>() {
             @Override
             public void onChanged(@Nullable List<Measure> measures) {
-                if (measures != null) {
-                    measuresAdapter = new MeasuresAdapter(getApplicationContext(), beatClickCallback);
+                if (measures != null && measures.size() != 0) {
+
+                    if (measuresAdapter == null) {
+
+                        measuresAdapter = new MeasuresAdapter(getApplicationContext(), beatClickCallback);
+                        recyclerView.setAdapter(measuresAdapter);
+
+                    }
                     measuresAdapter.setMeasuresList(measures, getApplicationContext());
-                    recyclerView.setAdapter(measuresAdapter);
-                    recyclerView.smoothScrollToPosition(measures.size());
+
+//                    recyclerView.smoothScrollToPosition(measures.size());
                     Log.d("ADD_MEASURE", "updated view");
 
                 }
@@ -124,9 +130,9 @@ public class MainActivity extends AppCompatActivity implements OnFragmentInterac
                 switch (v.getId()) {
                     case R.id.add_fab:
                         if (!isLoadingNewMeasure.get()) {
-
-                            addEmptyMeasure(viewModel);
                             Log.d("ADD_MEASURE", "called addEmptyMeasure(viewModel) from activity");
+                            addEmptyMeasure(viewModel);
+
                         }
                         break;
                     case R.id.remove_fab:
