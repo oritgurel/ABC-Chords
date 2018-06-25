@@ -117,7 +117,7 @@ public class MainActivity extends AppCompatActivity implements OnFragmentInterac
 
             transaction.addToBackStack(editFragment.getClass().getSimpleName());
             editFragmentContainer.setVisibility(View.VISIBLE);
-            transaction.replace(R.id.edit_fragment, editFragment, null).setTransition(android.R.transition.slide_top).commit();
+            transaction.replace(R.id.edit_fragment_container, editFragment, null).commit();
             recyclerView.smoothScrollToPosition(measure.getNumber());
         }
 //    }
@@ -146,7 +146,7 @@ public class MainActivity extends AppCompatActivity implements OnFragmentInterac
         addBut = findViewById(R.id.add_fab);
         addBut.setOnClickListener(listener);
 
-        editFragmentContainer = findViewById(R.id.edit_fragment);
+        editFragmentContainer = findViewById(R.id.edit_fragment_container);
 
         remBut = findViewById(R.id.remove_fab);
         remBut.setOnClickListener(listener);
@@ -178,6 +178,7 @@ public class MainActivity extends AppCompatActivity implements OnFragmentInterac
 
             if (getLifecycle().getCurrentState().isAtLeast(Lifecycle.State.STARTED)) {
                 show(measure, currentBeatPosition);
+
             }
         }
 
