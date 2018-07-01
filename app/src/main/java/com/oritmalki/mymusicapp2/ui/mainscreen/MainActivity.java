@@ -101,7 +101,7 @@ public class MainActivity extends AppCompatActivity implements OnFragmentInterac
                     }
                     measuresAdapter.setMeasuresList(measures, getApplicationContext());
 
-//                    recyclerView.smoothScrollToPosition(measures.size());
+//                    recyclerView.smoothScrollToPosition(measures.size()-1);
                     Log.d("ADD_MEASURE", "updated view");
 
                 }
@@ -222,7 +222,9 @@ public class MainActivity extends AppCompatActivity implements OnFragmentInterac
                     //update database
                     updateMeasure(viewModel, currentMeasure);
                     usedStack1.setText(chord);
-                    recyclerView.findViewHolderForAdapterPosition(currentBeatPosition + 1).itemView.performClick();
+                    if (recyclerView.findViewHolderForAdapterPosition(currentBeatPosition + 1) != null) {
+                        recyclerView.findViewHolderForAdapterPosition(currentBeatPosition + 1).itemView.performClick();
+                    }
                  }
                 break;
             case R.id.c:

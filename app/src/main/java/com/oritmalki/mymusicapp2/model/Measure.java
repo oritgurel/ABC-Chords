@@ -7,6 +7,7 @@ import android.arch.persistence.room.ForeignKey;
 import android.arch.persistence.room.Ignore;
 import android.arch.persistence.room.Index;
 import android.arch.persistence.room.PrimaryKey;
+import android.support.annotation.NonNull;
 import android.util.Log;
 
 import java.io.Serializable;
@@ -21,7 +22,7 @@ import static android.arch.persistence.room.ForeignKey.CASCADE;
 @Entity(tableName = "measure",
         foreignKeys = @ForeignKey(onDelete = CASCADE, entity = Sheet.class, parentColumns = "id", childColumns = "sheetId"),
         indices = {@Index("measure_number"), @Index(value = {"measure_number", "beats"})})
-public class Measure implements Serializable {
+public class Measure implements Serializable, Comparable<Measure> {
 
     @Embedded
     TimeSignature timeSignature;
@@ -120,6 +121,20 @@ public class Measure implements Serializable {
 
     public void setTimeSig(String timeSig) {
         this.timeSig = timeSig;
+    }
+
+    @Override
+    public int compareTo(@NonNull Measure o) {
+        int cmp = this.measureNumber.compareTo(o.measureNumber);
+        if (cmp != 0) {
+            return cmp;
+        }
+        boolean bool = this.getBeats().equals(o.getBeats());
+        if (bool) {
+            return 0;
+        } else {
+            return 1;
+        }
     }
 }
 

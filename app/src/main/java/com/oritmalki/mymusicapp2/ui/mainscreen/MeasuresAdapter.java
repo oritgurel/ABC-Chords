@@ -38,6 +38,10 @@ public class MeasuresAdapter extends RecyclerView.Adapter<MeasuresAdapter.Measur
    boolean isBeatSelected;
    View selectedBeatView;
 
+   boolean beatInit = false;
+   int aPosition;
+
+
     @Override
     public void onAttachedToRecyclerView(RecyclerView recyclerView) {
         super.onAttachedToRecyclerView(recyclerView);
@@ -85,7 +89,7 @@ public class MeasuresAdapter extends RecyclerView.Adapter<MeasuresAdapter.Measur
                @Override
                public boolean areContentsTheSame(int oldItemPosition, int newItemPosition) {
                    Measure measure = measuresList.get(newItemPosition);
-                   Measure old = measuresList.get(oldItemPosition);
+                   Measure old = MeasuresAdapter.this.measures.get(oldItemPosition);
                    return measure.getNumber() == old.getNumber() && Objects.equals(measure.getBeats(), old.getBeats());
                }
            });
@@ -99,27 +103,34 @@ public class MeasuresAdapter extends RecyclerView.Adapter<MeasuresAdapter.Measur
     public MeasureHolder onCreateViewHolder(ViewGroup parent, int viewType) {
 
         ViewGroup viewGroup = (ViewGroup) LayoutInflater.from(parent.getContext()).inflate(R.layout.measure_view, parent, false);
+        MeasureHolder measureHolder = new MeasureHolder(viewGroup);
+//        if (beatInit) {
+//            addAndBindBeatsAndTimeSig(measures, measureHolder, aPosition);
+//        }
 
-        return new MeasureHolder(viewGroup);
+        return measureHolder;
 
     }
 
     @Override
     public void onBindViewHolder(MeasureHolder holder, int position) {
-        MeasureHolder measureHolder = (MeasureHolder) holder;
+
+        aPosition = position;
+
+
+
+
+//            if (!beatInit) {
+        //TODO make it only on initialization of adapter, debug and make required changes on calls.
+                addAndBindBeatsAndTimeSig(measures, holder, position);
+                beatInit = true;
+//           }
+
+
         measures.get(position);
 
 
-        holder.measure.removeAllViews();
 
-        addAndBindBeatsAndTimeSig(measures, measureHolder, position);
-
-        //hide timeSig
-        if (measures.get(position) != null) {
-        if (measures.get(position).isShowTimeSig() == false) {
-            holder.measure.getChildAt(0).setVisibility(View.GONE);
-            }
-        }
 
 
 
@@ -135,6 +146,8 @@ public class MeasuresAdapter extends RecyclerView.Adapter<MeasuresAdapter.Measur
 
     public void addAndBindBeatsAndTimeSig(List<? extends Measure> measures, MeasureHolder measureHolder, int position) {
 
+        measureHolder.measure.removeAllViews();
+
         LayoutInflater layoutInflater = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
         ViewGroup timeSigView = (ViewGroup)layoutInflater.inflate(R.layout.time_signature_layout, measureHolder.measure, false);
 
@@ -142,9 +155,9 @@ public class MeasuresAdapter extends RecyclerView.Adapter<MeasuresAdapter.Measur
             beats = new ArrayList<>(measures.get(position).getBeats());
             timeSignature = new TimeSignature(measures.get(position).getTimeSignature().getNumerator(), measures.get(position).getTimeSignature().getDenominator());
 
-            TextView numerator = (TextView) timeSigView.findViewById(R.id.numerator);
+            TextView numerator = timeSigView.findViewById(R.id.numerator);
             numerator.setText(String.valueOf(measures.get(position).getTimeSignature().getNumerator()));
-            TextView denomerator = (TextView) timeSigView.findViewById(R.id.denominator);
+            TextView denomerator = timeSigView.findViewById(R.id.denominator);
             denomerator.setText(String.valueOf(measures.get(position).getTimeSignature().getDenominator()));
 
 
@@ -204,11 +217,14 @@ public class MeasuresAdapter extends RecyclerView.Adapter<MeasuresAdapter.Measur
 
             }
 
+        //hide timeSig
+        hideTimeSig(position, measureHolder);
+
 
     }
 
 
-    static class MeasureHolder extends RecyclerView.ViewHolder {
+    class MeasureHolder extends RecyclerView.ViewHolder {
         LinearLayout measure;
         TextView measureNumEditorView;
 
@@ -217,9 +233,6 @@ public class MeasuresAdapter extends RecyclerView.Adapter<MeasuresAdapter.Measur
             super(itemView);
             measure = itemView.findViewById(R.id.measure);
             measureNumEditorView = itemView.findViewById(R.id.measure_num_tv);
-
-
-
 
 
             ViewGroup.LayoutParams lp =
@@ -231,6 +244,15 @@ public class MeasuresAdapter extends RecyclerView.Adapter<MeasuresAdapter.Measur
 
         }
 
+    }
+
+    private void hideTimeSig(int position, MeasureHolder measureHolder) {
+        //hide timeSig
+        if (measures.get(position) != null) {
+            if (measures.get(position).isShowTimeSig() == false) {
+                measureHolder.measure.getChildAt(0).setVisibility(View.GONE);
+            }
+        }
     }
 
     private onRecyclerViewItemClickListener mItemClickListener;
