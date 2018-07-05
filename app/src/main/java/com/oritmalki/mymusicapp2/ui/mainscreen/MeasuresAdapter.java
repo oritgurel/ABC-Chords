@@ -29,17 +29,18 @@ import java.util.Objects;
 
 public class MeasuresAdapter extends RecyclerView.Adapter<MeasuresAdapter.MeasureHolder> {
 
-   List<? extends Measure> measures = new ArrayList<>();
-   List<? extends Beat> beats;
-   TimeSignature timeSignature;
-   Context context;
-   RecyclerView mRecyclerView;
-   Measure currentMeasure;
-   boolean isBeatSelected;
-   View selectedBeatView;
+    private List<? extends Measure> measures = new ArrayList<>();
+    private List<? extends Beat> beats;
+    private TimeSignature timeSignature;
+    private Context context;
+    private RecyclerView mRecyclerView;
+    private Measure currentMeasure;
+    private boolean isBeatSelected;
+    private View selectedBeatView;
 
-   boolean beatInit = false;
-   int aPosition;
+    private boolean beatInit = false;
+    private IAdapterPosition listener;
+    private int aPosition;
 
 
     @Override
@@ -105,8 +106,9 @@ public class MeasuresAdapter extends RecyclerView.Adapter<MeasuresAdapter.Measur
         ViewGroup viewGroup = (ViewGroup) LayoutInflater.from(parent.getContext()).inflate(R.layout.measure_view, parent, false);
         MeasureHolder measureHolder = new MeasureHolder(viewGroup);
 //        if (beatInit) {
-//            addAndBindBeatsAndTimeSig(measures, measureHolder, aPosition);
-//        }
+//                    measureHolder.measure.removeAllViews();
+//                    addAndBindBeatsAndTimeSig(measures, measureHolder, measureHolder.getAdapterPosition());
+//                }
 
         return measureHolder;
 
@@ -115,19 +117,18 @@ public class MeasuresAdapter extends RecyclerView.Adapter<MeasuresAdapter.Measur
     @Override
     public void onBindViewHolder(MeasureHolder holder, int position) {
 
-        aPosition = position;
-
-
-
 
 //            if (!beatInit) {
         //TODO make it only on initialization of adapter, debug and make required changes on calls.
+
+
                 addAndBindBeatsAndTimeSig(measures, holder, position);
-                beatInit = true;
+//                beatInit = true;
 //           }
 
 
         measures.get(position);
+
 
 
 
@@ -146,8 +147,8 @@ public class MeasuresAdapter extends RecyclerView.Adapter<MeasuresAdapter.Measur
 
     public void addAndBindBeatsAndTimeSig(List<? extends Measure> measures, MeasureHolder measureHolder, int position) {
 
-        measureHolder.measure.removeAllViews();
 
+        measureHolder.measure.removeAllViews();
         LayoutInflater layoutInflater = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
         ViewGroup timeSigView = (ViewGroup)layoutInflater.inflate(R.layout.time_signature_layout, measureHolder.measure, false);
 

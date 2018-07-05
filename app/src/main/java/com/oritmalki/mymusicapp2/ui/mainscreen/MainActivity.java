@@ -14,7 +14,6 @@ import android.support.v7.widget.RecyclerView;
 import android.util.Log;
 import android.view.View;
 import android.view.View.OnClickListener;
-import android.widget.Button;
 import android.widget.FrameLayout;
 import android.widget.RadioButton;
 import android.widget.TextView;
@@ -29,6 +28,7 @@ import com.oritmalki.mymusicapp2.database.MeasureRepository;
 import com.oritmalki.mymusicapp2.model.Beat;
 import com.oritmalki.mymusicapp2.model.Measure;
 import com.oritmalki.mymusicapp2.ui.mainscreen.EditFragment.OnFragmentInteractionListener;
+import com.oritmalki.mymusicapp2.utils.StringQueueArray;
 import com.oritmalki.mymusicapp2.viewmodel.MeasureListViewModel;
 
 import java.util.ArrayList;
@@ -43,15 +43,18 @@ public class MainActivity extends AppCompatActivity implements OnFragmentInterac
     private FloatingActionButton addBut;
     private FloatingActionButton remBut;
     private OnClickListener listener;
-    MeasuresAdapter measuresAdapter;
-    StringBuilder sb = new StringBuilder();
-    String chord;
-    Measure adapterPosition;
-    MeasureListViewModel viewModel;
-    List<Beat> beatsForInsersion;
+    private MeasuresAdapter measuresAdapter;
+    private StringBuilder sb = new StringBuilder();
+    private String chord;
+    private Measure adapterPosition;
+    private MeasureListViewModel viewModel;
+    private List<Beat> beatsForInsersion;
+    private EditFragment editFragment;
+    StringQueueArray usedQueue;
     SharedPreferences preferences;
     Editor editor;
-    Measure currentMeasure;
+    private RadioButton[] usedStackBtns;
+    private Measure currentMeasure;
     int currentBeatPosition;
     private View currentBeatView;
     private FrameLayout editFragmentContainer;
@@ -67,8 +70,6 @@ public class MainActivity extends AppCompatActivity implements OnFragmentInterac
     public final static String IS_B_ROOT_PRESSED = "IS_B_ROOT_PRESSED";
 
 
-
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -76,6 +77,10 @@ public class MainActivity extends AppCompatActivity implements OnFragmentInterac
         initSharedPrefs();
 
         isLoadingNewMeasure = new AtomicBoolean(false);
+        usedQueue = new StringQueueArray(6);
+
+
+
 
         final MeasureListViewModel viewModel = ViewModelProviders.of(this).get(MeasureListViewModel.class);
         this.viewModel = viewModel;
@@ -84,6 +89,16 @@ public class MainActivity extends AppCompatActivity implements OnFragmentInterac
 
         observeViewModel(viewModel);
 
+    }
+
+    private void initUsedStackUi() {
+        usedStackBtns = new RadioButton[6];
+        usedStackBtns[0] = editFragment.getView().findViewById(R.id.last_used_1);
+        usedStackBtns[1] = editFragment.getView().findViewById(R.id.last_used_2);
+        usedStackBtns[2] = editFragment.getView().findViewById(R.id.last_used_3);
+        usedStackBtns[3] = editFragment.getView().findViewById(R.id.last_used_4);
+        usedStackBtns[4] = editFragment.getView().findViewById(R.id.last_used_5);
+        usedStackBtns[5] = editFragment.getView().findViewById(R.id.last_used_6);
     }
 
     private void observeViewModel(MeasureListViewModel viewModel) {
@@ -111,15 +126,15 @@ public class MainActivity extends AppCompatActivity implements OnFragmentInterac
 
     public void show(Measure measure, int currentBeatPosition) {
 
-        EditFragment editFragment = EditFragment.newInstance(measure, currentBeatPosition);
+        editFragment = EditFragment.newInstance(measure, currentBeatPosition);
         FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();
 //        if (!(getSupportFragmentManager().getBackStackEntryCount() == 1)) {
 
-            transaction.addToBackStack(editFragment.getClass().getSimpleName());
-            editFragmentContainer.setVisibility(View.VISIBLE);
-            transaction.replace(R.id.edit_fragment_container, editFragment, null).commit();
-            recyclerView.smoothScrollToPosition(measure.getNumber());
-        }
+        transaction.addToBackStack(editFragment.getClass().getSimpleName());
+        editFragmentContainer.setVisibility(View.VISIBLE);
+        transaction.replace(R.id.edit_fragment_container, editFragment, null).commit();
+        recyclerView.smoothScrollToPosition(measure.getNumber());
+    }
 //    }
 
     public void initializeViews(MeasureListViewModel viewModel) {
@@ -167,7 +182,7 @@ public class MainActivity extends AppCompatActivity implements OnFragmentInterac
 
     }
 
-//interaction with adapter
+    //interaction with adapter
     private final BeatClickCallback beatClickCallback = new BeatClickCallback() {
 
         @Override
@@ -184,7 +199,7 @@ public class MainActivity extends AppCompatActivity implements OnFragmentInterac
 
     };
 
-//DAO methods
+    //DAO methods
     public void addEmptyMeasure(MeasureListViewModel viewModel) {
         viewModel.addEmptyMeasure(getApplication(), isLoadingNewMeasure);
 
@@ -200,32 +215,33 @@ public class MainActivity extends AppCompatActivity implements OnFragmentInterac
 
     }
 
-//when button pressed in editFragment
+    //when button pressed in editFragment
     @Override
     public void onFragmentInteraction(View view) {
+
+        initUsedStackUi();
 
         switch (view.getId()) {
 
             case R.id.add_chord:
-                Button usedStack1 = findViewById(R.id.last_used_1);
 
-                if (chord !=null) {
+                if (chord != null) {
 
                     beatsForInsersion = new ArrayList<>(currentMeasure.getBeats());
 //                    for (int i=0; i<beatsForInsersion.size(); i++) {
                     if (chord != null)
                         beatsForInsersion.get(currentBeatPosition).setChordName(chord);
-                        //TODO prompt for next beat
+                    //TODO prompt for next beat
 //                    }
                     currentMeasure.setBeats(beatsForInsersion);
 
                     //update database
                     updateMeasure(viewModel, currentMeasure);
-                    usedStack1.setText(chord);
+                    updateUsedStackButtons();
                     if (recyclerView.findViewHolderForAdapterPosition(currentBeatPosition + 1) != null) {
                         recyclerView.findViewHolderForAdapterPosition(currentBeatPosition + 1).itemView.performClick();
                     }
-                 }
+                }
                 break;
             case R.id.c:
                 onRootSelected(view);
@@ -248,7 +264,7 @@ public class MainActivity extends AppCompatActivity implements OnFragmentInterac
             case R.id.b:
                 onRootSelected(view);
                 break;
-                //accidentals adding
+            //accidentals adding
             case R.id.root_flat:
                 if (chord != null && chord.length() != 0) {
                     //string builder usage
@@ -256,13 +272,42 @@ public class MainActivity extends AppCompatActivity implements OnFragmentInterac
                     RadioButton rb = (RadioButton) view;
                     if (rb.isChecked()) {
                         sb.append((String) rb.getText());
+                        chord = sb.toString();
+                        sb.replace(0, chord.length(), "");
                     }
                 }
                 break;
         }
     }
 
-//selecting chord root on edit fragment
+    private void updateUsedStackButtons() {
+
+    if (!usedQueue.isEmpty(usedQueue)) {
+        //if chord already exists in last used list, don't insert it and return.
+        if (usedQueue.getIndexOf(chord) != -1) {
+            return;
+        }
+
+        //if list is not yet full, fill in the buttons. (buttons and list array has same size).
+            if (!usedQueue.isFull(usedQueue)) {
+                    usedQueue.enqueue(chord);
+                    usedStackBtns[usedQueue.getIndexOf(chord)].setText(chord);
+                    return;
+            }
+        }
+
+        //else, if list is full
+            usedQueue.dequeue();
+            usedQueue.enqueue(chord);
+            for (int i=0; i<usedStackBtns.length; i++) {
+                usedStackBtns[i].setText(usedQueue.getArray()[i]);
+            }
+    }
+
+
+
+
+    //selecting chord root on edit fragment
     public void onRootSelected(View view) {
         TextView preview = findViewById(R.id.preview_select_tv);
         RadioButton rb = (RadioButton) view;
@@ -283,22 +328,21 @@ public class MainActivity extends AppCompatActivity implements OnFragmentInterac
     }
 
     public void initSharedPrefs() {
-            final SharedPreferences preferences = getApplicationContext().getSharedPreferences("myApp", MODE_PRIVATE);
-            this.preferences = preferences;
-            Editor editor = preferences.edit();
-            this.editor = editor;
+        final SharedPreferences preferences = getApplicationContext().getSharedPreferences("myApp", MODE_PRIVATE);
+        this.preferences = preferences;
+        Editor editor = preferences.edit();
+        this.editor = editor;
 
-            editor.putBoolean(IS_C_ROOT_PRESSED, false).commit();
-            editor.putBoolean(IS_D_ROOT_PRESSED, false).commit();
-            editor.putBoolean(IS_E_ROOT_PRESSED, false).commit();
-            editor.putBoolean(IS_F_ROOT_PRESSED, false).commit();
-            editor.putBoolean(IS_G_ROOT_PRESSED, false).commit();
-            editor.putBoolean(IS_A_ROOT_PRESSED, false).commit();
-            editor.putBoolean(IS_B_ROOT_PRESSED, false).commit();
+        editor.putBoolean(IS_C_ROOT_PRESSED, false).commit();
+        editor.putBoolean(IS_D_ROOT_PRESSED, false).commit();
+        editor.putBoolean(IS_E_ROOT_PRESSED, false).commit();
+        editor.putBoolean(IS_F_ROOT_PRESSED, false).commit();
+        editor.putBoolean(IS_G_ROOT_PRESSED, false).commit();
+        editor.putBoolean(IS_A_ROOT_PRESSED, false).commit();
+        editor.putBoolean(IS_B_ROOT_PRESSED, false).commit();
 
 
     }
-
 
 
 }

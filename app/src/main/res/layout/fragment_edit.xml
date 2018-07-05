@@ -93,53 +93,79 @@
 
             <com.google.android.flexbox.FlexboxLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="50dp"
                 android:orientation="horizontal"
                 android:paddingHorizontal="16dp"
                 android:paddingVertical="3dp"
                 android:weightSum="6">
 
-                <Button
+                <RadioGroup
+                    android:id="@+id/last_used_bt_group"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="6"
+                    android:orientation="horizontal">
+
+                <RadioButton
                     android:id="@+id/last_used_1"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
                     android:layout_weight="1"
+                    android:textColor="@color/colorAccent"
+                    android:button="@null"
+                    android:gravity="center"
                     android:background="@drawable/measure_background_white"/>
 
-                <Button
+                <RadioButton
                     android:id="@+id/last_used_2"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
                     android:layout_weight="1"
+                    android:button="@null"
+                    android:gravity="center"
+                    android:textColor="@color/colorAccent"
                     android:background="@drawable/measure_background_white"/>
 
-                <Button
+                <RadioButton
                     android:id="@+id/last_used_3"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
                     android:layout_weight="1"
+                    android:button="@null"
+                    android:gravity="center"
+                    android:textColor="@color/colorAccent"
                     android:background="@drawable/measure_background_white"/>
 
-                <Button
+                <RadioButton
                     android:id="@+id/last_used_4"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
                     android:layout_weight="1"
+                    android:button="@null"
+                    android:gravity="center"
+                    android:textColor="@color/colorAccent"
                     android:background="@drawable/measure_background_white"/>
 
-                <Button
+                <RadioButton
                     android:id="@+id/last_used_5"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
                     android:layout_weight="1"
+                    android:button="@null"
+                    android:gravity="center"
+                    android:textColor="@color/colorAccent"
                     android:background="@drawable/measure_background_white"/>
 
-                <Button
+                <RadioButton
                     android:id="@+id/last_used_6"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
                     android:layout_weight="1"
+                    android:button="@null"
+                    android:gravity="center"
+                    android:textColor="@color/colorAccent"
                     android:background="@drawable/measure_background_white"/>
+                </RadioGroup>
             </com.google.android.flexbox.FlexboxLayout>
 
             <TextView
