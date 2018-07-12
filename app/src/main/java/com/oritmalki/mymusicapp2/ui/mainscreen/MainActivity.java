@@ -62,6 +62,7 @@ public class MainActivity extends AppCompatActivity implements OnFragmentInterac
     private View currentBeatView;
     private FrameLayout editFragmentContainer;
     private AppBarLayout appBarLayout;
+    private View counterView;
 
     private AtomicBoolean isLoadingNewMeasure;
 
@@ -103,9 +104,12 @@ public class MainActivity extends AppCompatActivity implements OnFragmentInterac
         ActionBar actionBar = getSupportActionBar();
         actionBar.setDisplayHomeAsUpEnabled(true);
         actionBar.setDisplayShowTitleEnabled(false);
-        actionBar.setIcon(R.drawable.ic_chevron_left_black_24dp);
-        actionBar.setIcon(R.drawable.ic_chevron_right_black_24dp);
-        actionBar.setIcon(R.drawable.ic_eraser);
+        actionBar.setDisplayShowCustomEnabled(true);
+
+        counterView = getLayoutInflater().inflate(R.layout.counter_view, null);
+        actionBar.setCustomView(counterView);
+
+
         TextView titleTV = findViewById(R.id.sheet_title_tv);
         TextView authorTV = findViewById(R.id.sheet_author_tv);
         appBarLayout = findViewById(R.id.main_appbar);
@@ -218,6 +222,9 @@ public class MainActivity extends AppCompatActivity implements OnFragmentInterac
 
             if (getLifecycle().getCurrentState().isAtLeast(Lifecycle.State.STARTED)) {
                 showEditFragment(measure, currentBeatPosition);
+                ((TextView)counterView.findViewById(R.id.measure_num_tv)).setText("Measure: " + String.valueOf(measure.getNumber()));
+                ((TextView)counterView.findViewById(R.id.beat_num)).setText("Beat: " + String.valueOf(beatPosition + 1));
+
 
             }
         }

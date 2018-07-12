@@ -113,8 +113,6 @@ public class EditFragment extends Fragment {
 
         ButterKnife.bind(this, view);
 
-//        addChordButt.setOnClickListener(EditFragment.this::onButtonPressed);
-
         //set onclick listeners (TODO create a function for it)
         for (RadioButton rootButton : rootButtonsGroup) {
 
@@ -155,8 +153,8 @@ public class EditFragment extends Fragment {
         prevBeatButt.setOnClickListener(EditFragment.this::onButtonPressed);
         eraserButt.setOnClickListener(EditFragment.this::onButtonPressed);
 
-        measureNumEditorView.setText("M: " + String.valueOf(measure.getNumber()));
-        beatNumEditorView.setText("B: " + String.valueOf(beatPosition + 1));
+//        measureNumEditorView.setText("M: " + String.valueOf(measure.getNumber()));
+//        beatNumEditorView.setText("B: " + String.valueOf(beatPosition + 1));
 
 
 
