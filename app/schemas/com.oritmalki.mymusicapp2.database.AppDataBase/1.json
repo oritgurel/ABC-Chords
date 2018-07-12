@@ -2,7 +2,7 @@
   "formatVersion": 1,
   "database": {
     "version": 1,
-    "identityHash": "09f412f544e4506d1b3d31b5078c6afe",
+    "identityHash": "af394fa54ca1109192c63db15151e249",
     "entities": [
       {
         "tableName": "Sheet",
@@ -130,7 +130,7 @@
       },
       {
         "tableName": "beat",
-        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`chord_name` TEXT NOT NULL, `measureNum` INTEGER, PRIMARY KEY(`chord_name`), FOREIGN KEY(`measureNum`) REFERENCES `measure`(`measure_number`) ON UPDATE NO ACTION ON DELETE CASCADE )",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`chord_name` TEXT NOT NULL, `measureNum` INTEGER, PRIMARY KEY(`chord_name`))",
         "fields": [
           {
             "fieldPath": "chordName",
@@ -152,24 +152,12 @@
           "autoGenerate": false
         },
         "indices": [],
-        "foreignKeys": [
-          {
-            "table": "measure",
-            "onDelete": "CASCADE",
-            "onUpdate": "NO ACTION",
-            "columns": [
-              "measureNum"
-            ],
-            "referencedColumns": [
-              "measure_number"
-            ]
-          }
-        ]
+        "foreignKeys": []
       }
     ],
     "setupQueries": [
       "CREATE TABLE IF NOT EXISTS room_master_table (id INTEGER PRIMARY KEY,identity_hash TEXT)",
-      "INSERT OR REPLACE INTO room_master_table (id,identity_hash) VALUES(42, \"09f412f544e4506d1b3d31b5078c6afe\")"
+      "INSERT OR REPLACE INTO room_master_table (id,identity_hash) VALUES(42, \"af394fa54ca1109192c63db15151e249\")"
     ]
   }
 }

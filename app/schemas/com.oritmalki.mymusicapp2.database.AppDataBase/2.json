@@ -2,7 +2,7 @@
   "formatVersion": 1,
   "database": {
     "version": 2,
-    "identityHash": "1a28f0b285195944dcb8e0d320f1bb83",
+    "identityHash": "af394fa54ca1109192c63db15151e249",
     "entities": [
       {
         "tableName": "Sheet",
@@ -97,21 +97,21 @@
         },
         "indices": [
           {
-            "name": "index_measure_beats",
+            "name": "index_measure_measure_number",
             "unique": false,
             "columnNames": [
-              "beats"
+              "measure_number"
             ],
-            "createSql": "CREATE  INDEX `index_measure_beats` ON `${TABLE_NAME}` (`beats`)"
+            "createSql": "CREATE  INDEX `index_measure_measure_number` ON `${TABLE_NAME}` (`measure_number`)"
           },
           {
-            "name": "index_measure_time_signature_beats",
+            "name": "index_measure_measure_number_beats",
             "unique": false,
             "columnNames": [
-              "time_signature",
+              "measure_number",
               "beats"
             ],
-            "createSql": "CREATE  INDEX `index_measure_time_signature_beats` ON `${TABLE_NAME}` (`time_signature`, `beats`)"
+            "createSql": "CREATE  INDEX `index_measure_measure_number_beats` ON `${TABLE_NAME}` (`measure_number`, `beats`)"
           }
         ],
         "foreignKeys": [
@@ -130,7 +130,7 @@
       },
       {
         "tableName": "beat",
-        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`chord_name` TEXT NOT NULL, `measureNum` INTEGER, PRIMARY KEY(`chord_name`), FOREIGN KEY(`measureNum`) REFERENCES `measure`(`measure_number`) ON UPDATE NO ACTION ON DELETE CASCADE )",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`chord_name` TEXT NOT NULL, `measureNum` INTEGER, PRIMARY KEY(`chord_name`))",
         "fields": [
           {
             "fieldPath": "chordName",
@@ -152,24 +152,12 @@
           "autoGenerate": false
         },
         "indices": [],
-        "foreignKeys": [
-          {
-            "table": "measure",
-            "onDelete": "CASCADE",
-            "onUpdate": "NO ACTION",
-            "columns": [
-              "measureNum"
-            ],
-            "referencedColumns": [
-              "measure_number"
-            ]
-          }
-        ]
+        "foreignKeys": []
       }
     ],
     "setupQueries": [
       "CREATE TABLE IF NOT EXISTS room_master_table (id INTEGER PRIMARY KEY,identity_hash TEXT)",
-      "INSERT OR REPLACE INTO room_master_table (id,identity_hash) VALUES(42, \"1a28f0b285195944dcb8e0d320f1bb83\")"
+      "INSERT OR REPLACE INTO room_master_table (id,identity_hash) VALUES(42, \"af394fa54ca1109192c63db15151e249\")"
     ]
   }
 }

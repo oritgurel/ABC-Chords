@@ -45,19 +45,37 @@
                     android:layout_height="wrap_content">
 
                     <Button
-                        android:id="@+id/add_chord"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:id="@+id/prev_beat_butt"
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
                         android:layout_alignParentLeft="true"
-                        android:background="@color/colorAccent"
+                        android:background="@drawable/ic_chevron_left_black_24dp"
                         android:elevation="1dp"
-                        android:text="add"
+                        android:textColor="@color/white"/>
+
+                    <Button
+                        android:id="@+id/eraser_butt"
+                        android:layout_width="32dp"
+                        android:layout_height="32dp"
+                        android:layout_margin="8dp"
+                        android:layout_toRightOf="@+id/prev_beat_butt"
+                        android:background="@drawable/ic_eraser"
+                        android:elevation="1dp"
+                        android:textColor="@color/white"/>
+
+                    <Button
+                        android:id="@+id/next_beat_butt"
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:layout_toRightOf="@+id/eraser_butt"
+                        android:background="@drawable/ic_chevron_right_black_24dp"
+                        android:elevation="1dp"
                         android:textColor="@color/white"/>
 
                     <LinearLayout
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_toRightOf="@id/add_chord"
+                        android:layout_toRightOf="@id/next_beat_butt"
                         android:orientation="horizontal">
 
                         <TextView
@@ -65,7 +83,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="end"
-                            android:layout_toRightOf="@id/add_chord"
+                            android:layout_toRightOf="@id/next_beat_butt"
                             android:paddingLeft="5dp"
                             android:paddingVertical="16dp"
                             android:text="M: "
@@ -106,65 +124,65 @@
                     android:layout_weight="6"
                     android:orientation="horizontal">
 
-                <RadioButton
-                    android:id="@+id/last_used_1"
-                    android:layout_width="0dp"
-                    android:layout_height="match_parent"
-                    android:layout_weight="1"
-                    android:textColor="@color/colorAccent"
-                    android:button="@null"
-                    android:gravity="center"
-                    android:background="@drawable/measure_background_white"/>
+                    <RadioButton
+                        android:id="@+id/last_used_1"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/measure_background_white"
+                        android:button="@null"
+                        android:gravity="center"
+                        android:textColor="@color/colorAccent"/>
 
-                <RadioButton
-                    android:id="@+id/last_used_2"
-                    android:layout_width="0dp"
-                    android:layout_height="match_parent"
-                    android:layout_weight="1"
-                    android:button="@null"
-                    android:gravity="center"
-                    android:textColor="@color/colorAccent"
-                    android:background="@drawable/measure_background_white"/>
+                    <RadioButton
+                        android:id="@+id/last_used_2"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/measure_background_white"
+                        android:button="@null"
+                        android:gravity="center"
+                        android:textColor="@color/colorAccent"/>
 
-                <RadioButton
-                    android:id="@+id/last_used_3"
-                    android:layout_width="0dp"
-                    android:layout_height="match_parent"
-                    android:layout_weight="1"
-                    android:button="@null"
-                    android:gravity="center"
-                    android:textColor="@color/colorAccent"
-                    android:background="@drawable/measure_background_white"/>
+                    <RadioButton
+                        android:id="@+id/last_used_3"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/measure_background_white"
+                        android:button="@null"
+                        android:gravity="center"
+                        android:textColor="@color/colorAccent"/>
 
-                <RadioButton
-                    android:id="@+id/last_used_4"
-                    android:layout_width="0dp"
-                    android:layout_height="match_parent"
-                    android:layout_weight="1"
-                    android:button="@null"
-                    android:gravity="center"
-                    android:textColor="@color/colorAccent"
-                    android:background="@drawable/measure_background_white"/>
+                    <RadioButton
+                        android:id="@+id/last_used_4"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/measure_background_white"
+                        android:button="@null"
+                        android:gravity="center"
+                        android:textColor="@color/colorAccent"/>
 
-                <RadioButton
-                    android:id="@+id/last_used_5"
-                    android:layout_width="0dp"
-                    android:layout_height="match_parent"
-                    android:layout_weight="1"
-                    android:button="@null"
-                    android:gravity="center"
-                    android:textColor="@color/colorAccent"
-                    android:background="@drawable/measure_background_white"/>
+                    <RadioButton
+                        android:id="@+id/last_used_5"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/measure_background_white"
+                        android:button="@null"
+                        android:gravity="center"
+                        android:textColor="@color/colorAccent"/>
 
-                <RadioButton
-                    android:id="@+id/last_used_6"
-                    android:layout_width="0dp"
-                    android:layout_height="match_parent"
-                    android:layout_weight="1"
-                    android:button="@null"
-                    android:gravity="center"
-                    android:textColor="@color/colorAccent"
-                    android:background="@drawable/measure_background_white"/>
+                    <RadioButton
+                        android:id="@+id/last_used_6"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/measure_background_white"
+                        android:button="@null"
+                        android:gravity="center"
+                        android:textColor="@color/colorAccent"/>
                 </RadioGroup>
             </com.google.android.flexbox.FlexboxLayout>
 
@@ -277,9 +295,8 @@
                         android:layout_weight="1"
                         android:background="@drawable/custom_radiobtn_acc"
                         android:button="@null"
-                        android:fontFamily="@font/finale_numerics"
                         android:gravity="center"
-                        android:text="z"
+                        android:text="\u266D"
                         android:textAllCaps="false"/>
 
                     <RadioButton
@@ -290,9 +307,8 @@
                         android:layout_weight="1"
                         android:background="@drawable/custom_radiobtn_acc"
                         android:button="@null"
-                        android:fontFamily="@font/finale_numerics"
                         android:gravity="center"
-                        android:text="x"
+                        android:text="\u266F"
                         android:textAllCaps="false"/>
 
                     <RadioButton
@@ -303,101 +319,122 @@
                         android:layout_weight="1"
                         android:background="@drawable/custom_radiobtn_acc"
                         android:button="@null"
-                        android:fontFamily="@font/finale_numerics"
                         android:gravity="center"
-                        android:text="y"
+                        android:text="\u266E"
                         android:textAllCaps="false"/>
                 </RadioGroup>
             </LinearLayout>
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="50dp"
                 android:orientation="horizontal"
                 android:paddingHorizontal="16dp"
                 android:paddingVertical="3dp">
 
-                <Button
-                    android:id="@+id/major"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:background="@drawable/measure_background_white"
-                    android:text="M"/>
+                <RadioGroup
+                    android:id="@+id/triad_type_group"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="4"
+                    android:orientation="horizontal">
 
-                <Button
-                    android:id="@+id/minor"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:background="@drawable/measure_background_white"
-                    android:text="m"
-                    android:textAllCaps="false"/>
+                    <RadioButton
+                        android:id="@+id/minor"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/measure_background_white"
+                        android:button="@null"
+                        android:gravity="center"
+                        android:text="m"
+                        android:textAllCaps="false"/>
 
-                <Button
-                    android:id="@+id/aug"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:background="@drawable/measure_background_white"
-                    android:text="aug"
-                    android:textAllCaps="false"/>
+                    <RadioButton
+                        android:id="@+id/aug"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/measure_background_white"
+                        android:button="@null"
+                        android:gravity="center"
+                        android:text="aug"
+                        android:textAllCaps="false"/>
 
-                <Button
-                    android:id="@+id/dim"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:background="@drawable/measure_background_white"
-                    android:text="dim"
-                    android:textAllCaps="false"/>
+                    <RadioButton
+                        android:id="@+id/dim"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/measure_background_white"
+                        android:button="@null"
+                        android:gravity="center"
+                        android:text="dim"
+                        android:textAllCaps="false"/>
 
-                <Button
-                    android:id="@+id/sus"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:background="@drawable/measure_background_white"
-                    android:text="sus"
-                    android:textAllCaps="false"/>
+                    <RadioButton
+                        android:id="@+id/sus"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/measure_background_white"
+                        android:button="@null"
+                        android:gravity="center"
+                        android:text="sus"
+                        android:textAllCaps="false"/>
+                </RadioGroup>
             </LinearLayout>
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="50dp"
                 android:orientation="horizontal"
                 android:paddingHorizontal="16dp"
                 android:paddingVertical="3dp">
 
-                <Button
-                    android:id="@+id/ten1_flat"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:background="@drawable/measure_background"
-                    android:fontFamily="@font/finale_numerics"
-                    android:text="z"
-                    android:textAllCaps="false"/>
+                <RadioGroup
+                    android:id="@+id/ten1_acc_group"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="3"
+                    android:orientation="horizontal">
 
-                <Button
-                    android:id="@+id/ten1_sharp"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:background="@drawable/measure_background"
-                    android:fontFamily="@font/finale_numerics"
-                    android:text="x"
-                    android:textAllCaps="false"/>
+                    <RadioButton
+                        android:id="@+id/ten1_flat"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/measure_background"
+                        android:button="@null"
+                        android:fontFamily="@font/finale_numerics"
+                        android:gravity="center"
+                        android:text="\u266D"
+                        android:textAllCaps="false"/>
 
-                <Button
-                    android:id="@+id/ten1_natural"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:background="@drawable/measure_background"
-                    android:fontFamily="@font/finale_numerics"
-                    android:text="y"
-                    android:textAllCaps="false"/>
+                    <RadioButton
+                        android:id="@+id/ten1_sharp"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/measure_background"
+                        android:button="@null"
+                        android:fontFamily="@font/finale_numerics"
+                        android:gravity="center"
+                        android:text="\u266F"
+                        android:textAllCaps="false"/>
+
+                    <RadioButton
+                        android:id="@+id/ten1_natural"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/measure_background"
+                        android:button="@null"
+                        android:fontFamily="@font/finale_numerics"
+                        android:gravity="center"
+                        android:text="\u266E"
+                        android:textAllCaps="false"/>
+                </RadioGroup>
 
                 <Button
                     android:id="@+id/_2"
@@ -447,83 +484,113 @@
                     android:fontFamily="@font/finale_numerics"
                     android:text="6"/>
 
-                <Button
-                    android:id="@+id/_7"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:background="@drawable/measure_background_white"
-                    android:fontFamily="@font/finale_numerics"
-                    android:text="7"/>
+                <RadioGroup
+                    android:id="@+id/square_acc_group"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="4"
+                    android:orientation="horizontal">
 
-                <Button
-                    android:id="@+id/maj_7"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:background="@drawable/measure_background_white"
-                    android:fontFamily="@font/finale_numerics"
-                    android:text="+7"
-                    android:textAllCaps="false"/>
+                    <RadioButton
+                        android:id="@+id/_7"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/measure_background_white"
+                        android:button="@null"
+                        android:fontFamily="@font/finale_numerics"
+                        android:gravity="center"
+                        android:text="7"/>
 
-                <Button
-                    android:id="@+id/diminished_7"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:background="@drawable/measure_background_white"
-                    android:fontFamily="@font/finale_numerics"
-                    android:text="k 7"
-                    android:textAllCaps="false"/>
+                    <RadioButton
+                        android:id="@+id/maj_7"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/measure_background_white"
+                        android:button="@null"
+                        android:fontFamily="@font/finale_numerics"
+                        android:gravity="center"
+                        android:text="+7"
+                        android:textAllCaps="false"/>
 
-                <Button
-                    android:id="@+id/half_diminished"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:background="@drawable/measure_background_white"
-                    android:fontFamily="@font/finale_numerics"
-                    android:text="j"
-                    android:textAllCaps="false"/>
+                    <RadioButton
+                        android:id="@+id/diminished_7"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/measure_background_white"
+                        android:button="@null"
+                        android:fontFamily="@font/finale_numerics"
+                        android:gravity="center"
+                        android:text="k 7"
+                        android:textAllCaps="false"/>
+
+                    <RadioButton
+                        android:id="@+id/half_diminished"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/measure_background_white"
+                        android:button="@null"
+                        android:fontFamily="@font/finale_numerics"
+                        android:gravity="center"
+                        android:text="j"
+                        android:textAllCaps="false"/>
+                </RadioGroup>
 
             </LinearLayout>
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="50dp"
                 android:orientation="horizontal"
                 android:paddingHorizontal="16dp"
                 android:paddingVertical="3dp">
 
-                <Button
-                    android:id="@+id/ten2_flat"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="13"
-                    android:background="@drawable/measure_background"
-                    android:fontFamily="@font/finale_numerics"
-                    android:text="Z"
-                    android:textAllCaps="false"/>
+                <RadioGroup
+                    android:id="@+id/ten2_acc_group"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="3"
+                    android:orientation="horizontal">
 
-                <Button
-                    android:id="@+id/ten2_sharp"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="13"
-                    android:background="@drawable/measure_background"
-                    android:fontFamily="@font/finale_numerics"
-                    android:text="X"
-                    android:textAllCaps="false"/>
+                    <RadioButton
+                        android:id="@+id/ten2_flat"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="13"
+                        android:button="@null"
+                        android:gravity="center"
+                        android:background="@drawable/measure_background"
+                        android:fontFamily="@font/finale_numerics"
+                        android:text="\u266D"
+                        android:textAllCaps="false"/>
 
-                <Button
-                    android:id="@+id/ten2_natural"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="13"
-                    android:background="@drawable/measure_background"
-                    android:fontFamily="@font/finale_numerics"
-                    android:text="Y"
-                    android:textAllCaps="false"/>
+                    <RadioButton
+                        android:id="@+id/ten2_sharp"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="13"
+                        android:button="@null"
+                        android:gravity="center"
+                        android:background="@drawable/measure_background"
+                        android:fontFamily="@font/finale_numerics"
+                        android:text="\u266F"
+                        android:textAllCaps="false"/>
+
+                    <RadioButton
+                        android:id="@+id/ten2_natural"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="13"
+                        android:button="@null"
+                        android:gravity="center"
+                        android:background="@drawable/measure_background"
+                        android:fontFamily="@font/finale_numerics"
+                        android:text="\u266E"
+                        android:textAllCaps="false"/>
+                </RadioGroup>
 
                 <Button
                     android:id="@+id/_9"
@@ -549,7 +616,7 @@
                     android:id="@+id/_13"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_weight="13"
+                    android:layout_weight="1"
                     android:background="@drawable/measure_background_white"
                     android:fontFamily="@font/finale_numerics"
                     android:text="! #"

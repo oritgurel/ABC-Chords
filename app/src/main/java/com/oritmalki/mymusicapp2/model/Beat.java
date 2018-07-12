@@ -2,19 +2,17 @@ package com.oritmalki.mymusicapp2.model;
 
 import android.arch.persistence.room.ColumnInfo;
 import android.arch.persistence.room.Entity;
-import android.arch.persistence.room.ForeignKey;
 import android.arch.persistence.room.Ignore;
 import android.arch.persistence.room.PrimaryKey;
 import android.support.annotation.NonNull;
 
 import java.io.Serializable;
 
-import static android.arch.persistence.room.ForeignKey.CASCADE;
-
 /**
  * Created by Orit on 19.11.2017.
  */
-@Entity(tableName = "beat", foreignKeys = @ForeignKey(onDelete = CASCADE, entity = Measure.class, parentColumns = "measure_number", childColumns = "measureNum"))
+@Entity(tableName = "beat")
+//        foreignKeys = @ForeignKey(onDelete = CASCADE, entity = Measure.class, parentColumns = "measure_number", childColumns = "measureNum"))
 public class Beat implements Serializable {
 
 //    private int duration;
@@ -23,15 +21,22 @@ public class Beat implements Serializable {
     @PrimaryKey
     @ColumnInfo(name = "chord_name")
     @NonNull
-    String chordName;
+    private String chordName;
 
+    public void setMeasureNum(Integer measureNum) {
+        this.measureNum = measureNum;
+    }
 
-    public Integer measureNum;
+    private Integer measureNum;
 
+    public Integer getMeasureNum() {
+        return measureNum;
+    }
 
     public Beat() {
         this.getChordName();
     }
+
     @Ignore
     public Beat(String chordName) {
         this.chordName = chordName;

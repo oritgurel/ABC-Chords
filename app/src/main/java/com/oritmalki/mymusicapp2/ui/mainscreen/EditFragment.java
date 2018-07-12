@@ -29,28 +29,22 @@ import butterknife.ButterKnife;
 public class EditFragment extends Fragment {
 
 
-    @BindView(R.id.add_chord) Button addChordButt;
+//    @BindView(R.id.add_chord) Button addChordButt;
 
-    @BindView(R.id.c) RadioButton c_root;
-    @BindView(R.id.d) RadioButton d_root;
-    @BindView(R.id.e) RadioButton e_root;
-    @BindView(R.id.f) RadioButton f_root;
-    @BindView(R.id.g) RadioButton g_root;
-    @BindView(R.id.a) RadioButton a_root;
-    @BindView(R.id.b) RadioButton b_root;
-    @BindView(R.id.root_flat) RadioButton root_flat;
-    @BindView(R.id.root_sharp) RadioButton root_sharp;
-    @BindView(R.id.root_natural) RadioButton root_natural;
+//    @BindView(R.id.c) RadioButton c_root;
+//    @BindView(R.id.d) RadioButton d_root;
+//    @BindView(R.id.e) RadioButton e_root;
+//    @BindView(R.id.f) RadioButton f_root;
+//    @BindView(R.id.g) RadioButton g_root;
+//    @BindView(R.id.a) RadioButton a_root;
+//    @BindView(R.id.b) RadioButton b_root;
+//    @BindView(R.id.root_flat) RadioButton root_flat;
+//    @BindView(R.id.root_sharp) RadioButton root_sharp;
+//    @BindView(R.id.root_natural) RadioButton root_natural;
 
-    @BindView(R.id.major) Button major;
-    @BindView(R.id.minor) Button minor;
-    @BindView(R.id.aug) Button aug;
-    @BindView(R.id.dim) Button dim;
-    @BindView(R.id.sus) Button sus;
+    @BindViews({R.id.minor, R.id.aug, R.id.dim, R.id.sus}) RadioButton[] triadTypeGroup;
 
-    @BindView(R.id.ten1_flat) Button ten1_flat;
-    @BindView(R.id.ten1_sharp) Button ten1_sharp;
-    @BindView(R.id.ten1_natural) Button ten1_natural;
+    @BindViews({R.id.ten1_flat, R.id.ten1_sharp, R.id.ten1_natural}) RadioButton[] ten1AccGroup;
 
     @BindView(R.id._2) Button _2;
     @BindView(R.id._3) Button _3;
@@ -58,13 +52,10 @@ public class EditFragment extends Fragment {
     @BindView(R.id._5) Button _5;
     @BindView(R.id._6) Button _6;
     @BindView(R.id._7) Button _7;
-    @BindView(R.id.maj_7) Button maj_7;
-    @BindView(R.id.diminished_7) Button diminished_7;
-    @BindView(R.id.half_diminished) Button half_diminished;
 
-    @BindView(R.id.ten2_flat) Button ten2_flat;
-    @BindView(R.id.ten2_sharp) Button ten2_sharp;
-    @BindView(R.id.ten2_natural) Button ten2_natural;
+    @BindViews({R.id.maj_7, R.id.diminished_7, R.id.half_diminished}) RadioButton[] squareTypeGroup;
+
+    @BindViews({R.id.ten2_flat, R.id.ten2_sharp, R.id.ten2_natural}) RadioButton[] ten2AccGroup;
 
     @BindView(R.id._9) Button _9;
     @BindView(R.id._11) Button _11;
@@ -73,6 +64,10 @@ public class EditFragment extends Fragment {
 
     @BindViews({R.id.c, R.id.d, R.id.e, R.id.f, R.id.g, R.id.a, R.id.b}) RadioButton[] rootButtonsGroup;
     @BindViews({R.id.root_flat, R.id.root_sharp, R.id.root_natural}) RadioButton[] rootAccButtonsGroup;
+
+    @BindView(R.id.next_beat_butt) Button nextBeatButt;
+    @BindView(R.id.prev_beat_butt) Button prevBeatButt;
+    @BindView(R.id.eraser_butt) Button eraserButt;
 
 
 
@@ -118,16 +113,47 @@ public class EditFragment extends Fragment {
 
         ButterKnife.bind(this, view);
 
-        addChordButt.setOnClickListener(EditFragment.this::onButtonPressed);
+//        addChordButt.setOnClickListener(EditFragment.this::onButtonPressed);
 
         //set onclick listeners (TODO create a function for it)
         for (RadioButton rootButton : rootButtonsGroup) {
-            //null??
+
             rootButton.setOnClickListener(EditFragment.this::onButtonPressed);
         }
         for (RadioButton rootAccBtn : rootAccButtonsGroup) {
             rootAccBtn.setOnClickListener(EditFragment.this::onButtonPressed);
         }
+
+        for (RadioButton triadTypBtn : triadTypeGroup) {
+            triadTypBtn.setOnClickListener(EditFragment.this::onButtonPressed);
+        }
+
+        for (RadioButton squareTypeBtn : squareTypeGroup) {
+            squareTypeBtn.setOnClickListener(EditFragment.this::onButtonPressed);
+        }
+
+        for (RadioButton ten1AccBtn : ten1AccGroup) {
+            ten1AccBtn.setOnClickListener(EditFragment.this::onButtonPressed);
+        }
+
+        for (RadioButton ten2AccBtn : ten2AccGroup) {
+            ten2AccBtn.setOnClickListener(EditFragment.this::onButtonPressed);
+        }
+
+        _9.setOnClickListener(EditFragment.this::onButtonPressed);
+        _11.setOnClickListener(EditFragment.this::onButtonPressed);
+        _13.setOnClickListener(EditFragment.this::onButtonPressed);
+
+        _2.setOnClickListener(EditFragment.this::onButtonPressed);
+        _3.setOnClickListener(EditFragment.this::onButtonPressed);
+        _4.setOnClickListener(EditFragment.this::onButtonPressed);
+        _5.setOnClickListener(EditFragment.this::onButtonPressed);
+        _6.setOnClickListener(EditFragment.this::onButtonPressed);
+
+
+        nextBeatButt.setOnClickListener(EditFragment.this::onButtonPressed);
+        prevBeatButt.setOnClickListener(EditFragment.this::onButtonPressed);
+        eraserButt.setOnClickListener(EditFragment.this::onButtonPressed);
 
         measureNumEditorView.setText("M: " + String.valueOf(measure.getNumber()));
         beatNumEditorView.setText("B: " + String.valueOf(beatPosition + 1));

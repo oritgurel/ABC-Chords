@@ -193,7 +193,7 @@ public class MeasuresAdapter extends RecyclerView.Adapter<MeasuresAdapter.Measur
                         @Override
                         public void onClick(View v) {
                             //retrieve measure and beat position
-                            mBeatClickCallback.onClick(measures.get(position), v, (int) newBeat.getTag());
+                            mBeatClickCallback.onBeatClicked(measures.get(position), v, (int) newBeat.getTag());
                             v.setSelected(true);
                             //initialize
                             if (selectedBeatView != null) {
