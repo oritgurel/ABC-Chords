@@ -649,24 +649,24 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_centerVertical="true"
-                    android:layout_toLeftOf="@+id/preview"
+                    android:layout_centerHorizontal="true"
                     android:paddingHorizontal="16dp"
                     android:paddingVertical="5dp"
                     android:text="Preview/Select:"/>
 
-                <RelativeLayout
-                    android:id="@+id/preview"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_centerHorizontal="true"
-                    android:layout_gravity="bottom"
-                    android:layout_margin="16dp"
-                    android:background="@drawable/measure_background_white"
-                    android:orientation="horizontal"
-                    android:paddingHorizontal="16dp"
-                    android:paddingVertical="5dp">
-
-                </RelativeLayout>
+                <!--<RelativeLayout-->
+                    <!--android:id="@+id/preview"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_centerHorizontal="true"-->
+                    <!--android:layout_gravity="bottom"-->
+                    <!--android:layout_margin="16dp"-->
+                    <!--android:background="@drawable/measure_background_white"-->
+                    <!--android:orientation="horizontal"-->
+                    <!--android:paddingHorizontal="16dp"-->
+                    <!--android:paddingVertical="5dp">-->
+<!---->
+                <!--</RelativeLayout>-->
             </RelativeLayout>
 
         </LinearLayout>

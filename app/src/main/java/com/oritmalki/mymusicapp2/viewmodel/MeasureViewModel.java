@@ -54,7 +54,7 @@ public class MeasureViewModel extends AndroidViewModel {
         public Factory(@NonNull Application application, int measureNum) {
             mApplication = application;
             mMeasureNumber = measureNum;
-            mRepository = ((BasicApp) application).getRepository();
+            mRepository = ((BasicApp) application).getMeasureRepository();
         }
         @Override
         public <T extends ViewModel> T create(Class<T> modelClass) {

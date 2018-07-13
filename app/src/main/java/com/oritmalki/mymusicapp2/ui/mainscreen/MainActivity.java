@@ -30,10 +30,12 @@ import com.oritmalki.mymusicapp2.R;
 import com.oritmalki.mymusicapp2.database.MeasureRepository;
 import com.oritmalki.mymusicapp2.model.Beat;
 import com.oritmalki.mymusicapp2.model.Measure;
+import com.oritmalki.mymusicapp2.model.Sheet;
 import com.oritmalki.mymusicapp2.ui.mainscreen.EditFragment.OnFragmentInteractionListener;
 import com.oritmalki.mymusicapp2.ui.mainscreen.MeasuresAdapter.MeasureHolder;
 import com.oritmalki.mymusicapp2.utils.StringQueueArray;
 import com.oritmalki.mymusicapp2.viewmodel.MeasureListViewModel;
+import com.oritmalki.mymusicapp2.viewmodel.SheetListViewModel;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -87,12 +89,14 @@ public class MainActivity extends AppCompatActivity implements OnFragmentInterac
         usedQueue = new StringQueueArray(6);
 
 
-        final MeasureListViewModel viewModel = ViewModelProviders.of(this).get(MeasureListViewModel.class);
-        this.viewModel = viewModel;
+        final MeasureListViewModel measureListViewModel = ViewModelProviders.of(this).get(MeasureListViewModel.class);
+        this.viewModel = measureListViewModel;
 
-        initializeViews(viewModel);
+        final SheetListViewModel sheetListViewModel = ViewModelProviders.of(this).get(SheetListViewModel.class);
 
-        observeViewModel(viewModel);
+        initializeViews(measureListViewModel);
+
+        observeViewModel(measureListViewModel, sheetListViewModel);
 
         setupActionbar();
 
@@ -106,8 +110,10 @@ public class MainActivity extends AppCompatActivity implements OnFragmentInterac
         actionBar.setDisplayShowTitleEnabled(false);
         actionBar.setDisplayShowCustomEnabled(true);
 
+
+
         counterView = getLayoutInflater().inflate(R.layout.counter_view, null);
-        actionBar.setCustomView(counterView);
+
 
 
         TextView titleTV = findViewById(R.id.sheet_title_tv);
@@ -126,9 +132,9 @@ public class MainActivity extends AppCompatActivity implements OnFragmentInterac
         usedStackBtns[5] = editFragment.getView().findViewById(R.id.last_used_6);
     }
 
-    private void observeViewModel(MeasureListViewModel viewModel) {
+    private void observeViewModel(MeasureListViewModel measureListViewModel, SheetListViewModel sheetListViewModel) {
         // Update the list when the data changes
-        viewModel.getMeasures().observe(this, new Observer<List<Measure>>() {
+        measureListViewModel.getMeasures().observe(this, new Observer<List<Measure>>() {
             @Override
             public void onChanged(@Nullable List<Measure> measures) {
                 if (measures != null && measures.size() != 0) {
@@ -145,6 +151,13 @@ public class MainActivity extends AppCompatActivity implements OnFragmentInterac
                     Log.d("ADD_MEASURE", "updated view");
 
                 }
+            }
+        });
+
+        sheetListViewModel.getSheets().observe(this, new Observer<List<Sheet>>() {
+            @Override
+            public void onChanged(@Nullable List<Sheet> sheets) {
+
             }
         });
     }

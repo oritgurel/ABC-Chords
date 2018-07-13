@@ -32,6 +32,8 @@ public abstract class AppDataBase extends RoomDatabase {
 
     private static AppDataBase sInstance;
 
+    public abstract SheetDao sheetDao();
+
     public abstract MeasureDao measureDao();
 
     public abstract BeatDao beatDao();
@@ -43,6 +45,8 @@ public abstract class AppDataBase extends RoomDatabase {
     public BeatDao getBeatDao() {
         return this.beatDao();
     }
+
+    public SheetDao getSheetDao() { return this.sheetDao(); }
 
 
     //my old getINSTANCE()

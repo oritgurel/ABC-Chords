@@ -33,7 +33,7 @@ public class MeasureListViewModel extends AndroidViewModel {
         mObservableMeasures.setValue(null);
 
 
-        LiveData<List<Measure>> measures = ((BasicApp) application).getRepository()
+        LiveData<List<Measure>> measures = ((BasicApp) application).getMeasureRepository()
                 .getAllMeasures();
 
         // observe the changes of the measures from the database and forward them
@@ -48,7 +48,7 @@ public class MeasureListViewModel extends AndroidViewModel {
     }
 
     public void updateMeasure(Application application, Measure measure) {
-        ((BasicApp) application).getRepository().updateMeasure(measure);
+        ((BasicApp) application).getMeasureRepository().updateMeasure(measure);
     }
 
     public void addEmptyMeasure(Application application, AtomicBoolean lock) {
@@ -70,9 +70,9 @@ public class MeasureListViewModel extends AndroidViewModel {
 
         //insert empty measure
         if (mObservableMeasures.getValue().size() != 0) {
-            ((BasicApp) application).getRepository().addNewMeasure(new Measure(mObservableMeasures.getValue().size() + 1, emptyBeats, lastMesTimeSignature, true), lock);
+            ((BasicApp) application).getMeasureRepository().addNewMeasure(new Measure(mObservableMeasures.getValue().size() + 1, emptyBeats, lastMesTimeSignature, true), lock);
         } else
-            ((BasicApp) application).getRepository().addNewMeasure(new Measure(0, emptyBeats, lastMesTimeSignature, true), lock);
+            ((BasicApp) application).getMeasureRepository().addNewMeasure(new Measure(0, emptyBeats, lastMesTimeSignature, true), lock);
 
     }
 
@@ -81,7 +81,7 @@ public class MeasureListViewModel extends AndroidViewModel {
 
     public void deleteMeasure(Application application) {
         if (mObservableMeasures.getValue().size() != 0) {
-            ((BasicApp) application).getRepository().deleteMeasure(mObservableMeasures.getValue().get(mObservableMeasures.getValue().size() - 1));
+            ((BasicApp) application).getMeasureRepository().deleteMeasure(mObservableMeasures.getValue().get(mObservableMeasures.getValue().size() - 1));
         }
 
     }

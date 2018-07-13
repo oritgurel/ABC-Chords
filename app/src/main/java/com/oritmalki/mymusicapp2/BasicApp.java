@@ -4,6 +4,7 @@ import android.app.Application;
 
 import com.oritmalki.mymusicapp2.database.AppDataBase;
 import com.oritmalki.mymusicapp2.database.MeasureRepository;
+import com.oritmalki.mymusicapp2.database.SheetRepository;
 
 /**
  * Created by Orit on 27.1.2018.
@@ -22,7 +23,11 @@ public class BasicApp extends Application {
         return AppDataBase.getInstance(this, mAppExecutors);
     }
 
-    public MeasureRepository getRepository() {
+    public MeasureRepository getMeasureRepository() {
         return MeasureRepository.getInstance(getDatabase());
+    }
+
+    public SheetRepository getSheetRepository() {
+        return SheetRepository.getInstance(getDatabase());
     }
 }
