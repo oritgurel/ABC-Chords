@@ -182,6 +182,8 @@ public class MeasuresAdapter extends RecyclerView.Adapter<MeasuresAdapter.Measur
                     TextView newBeat = new TextView(context);
                     newBeat.setLayoutParams(lp);
                     newBeat.setSingleLine(true);
+                    newBeat.setTextSize(20);
+                    newBeat.setGravity(View.TEXT_ALIGNMENT_CENTER);
                     //save beat position in measure into new created beat
                     newBeat.setTag(beats.indexOf(beat));
 

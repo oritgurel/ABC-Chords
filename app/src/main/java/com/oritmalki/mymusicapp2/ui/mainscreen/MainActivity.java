@@ -215,6 +215,7 @@ public class MainActivity extends AppCompatActivity implements OnFragmentInterac
 
         @Override
         public void onBeatClicked(Measure measure, View beatView, int beatPosition) {
+            recyclerView.scrollToPosition(measure.getNumber()-1);
             appBarLayout.setExpanded(false);
             currentMeasure = measure;
             currentBeatPosition = beatPosition;
@@ -222,8 +223,9 @@ public class MainActivity extends AppCompatActivity implements OnFragmentInterac
 
             if (getLifecycle().getCurrentState().isAtLeast(Lifecycle.State.STARTED)) {
                 showEditFragment(measure, currentBeatPosition);
-                ((TextView)counterView.findViewById(R.id.measure_num_tv)).setText("Measure: " + String.valueOf(measure.getNumber()));
-                ((TextView)counterView.findViewById(R.id.beat_num)).setText("Beat: " + String.valueOf(beatPosition + 1));
+                //update counter on action bar
+                ((TextView) counterView.findViewById(R.id.measure_num_tv)).setText("Measure: " + String.valueOf(measure.getNumber()));
+                ((TextView) counterView.findViewById(R.id.beat_num)).setText("Beat: " + String.valueOf(beatPosition + 1));
 
 
             }
@@ -326,7 +328,7 @@ public class MainActivity extends AppCompatActivity implements OnFragmentInterac
         beatsForInsersion = new ArrayList<>(currentMeasure.getBeats());
 
 
-            beatsForInsersion.get(currentBeatPosition).setChordName(chord);
+        beatsForInsersion.get(currentBeatPosition).setChordName(chord);
 
         currentMeasure.setBeats(beatsForInsersion);
 
@@ -338,27 +340,34 @@ public class MainActivity extends AppCompatActivity implements OnFragmentInterac
     private void editNext() {
 
         View nextBeatView;
-        int measurePosition = currentMeasure.getNumber()-1;
+        int measurePosition = currentMeasure.getNumber() - 1;
         //TODO handle when first measure
         if (measurePosition == -1) {
             measurePosition = 0;
         }
 
-            nextBeatView = ((MeasureHolder) recyclerView.findViewHolderForAdapterPosition(measurePosition)).measure.getChildAt(currentBeatPosition + 2);
-            //if beat is not last in measure
-            if (nextBeatView != null) {
-                nextBeatView.performClick();
-            } else {
-                //if last beat of measure then go to first beat of next measure
-                nextBeatView = ((MeasureHolder) recyclerView.findViewHolderForAdapterPosition(measurePosition + 1)).measure.getChildAt(1);
-                nextBeatView.performClick();
+        nextBeatView = ((MeasureHolder) recyclerView.findViewHolderForAdapterPosition(measurePosition)).measure.getChildAt(currentBeatPosition + 2);
+        //if beat is not last in measure
+        if (nextBeatView != null) {
+            recyclerView.scrollToPosition(measurePosition + 1);
+            nextBeatView.performClick();
+        } else {
+            //if last measure
+            if (((MeasureHolder) recyclerView.findViewHolderForAdapterPosition(measurePosition + 1)) == null) {
+                return;
             }
+            //if last beat of measure then go to first beat of next measure
+            nextBeatView = ((MeasureHolder) recyclerView.findViewHolderForAdapterPosition(measurePosition + 1)).measure.getChildAt(1);
+            recyclerView.scrollToPosition(measurePosition + 2);
+            nextBeatView.performClick();
+
         }
+    }
 
     private void editPrev() {
 
         View prevBeatView;
-        int measurePosition = currentMeasure.getNumber()-1;
+        int measurePosition = currentMeasure.getNumber() - 1;
         //if in first measure
         if (measurePosition == -1) {
             measurePosition = 0;
@@ -367,6 +376,7 @@ public class MainActivity extends AppCompatActivity implements OnFragmentInterac
         prevBeatView = ((MeasureHolder) recyclerView.findViewHolderForAdapterPosition(measurePosition)).measure.getChildAt(currentBeatPosition);
         //if beat is not first in measure and not a hidden time sig view
         if (prevBeatView != null && !(prevBeatView instanceof LinearLayout)) {
+            recyclerView.scrollToPosition(measurePosition);
             prevBeatView.performClick();
         } else {
             //if first beat of first measure
@@ -374,6 +384,7 @@ public class MainActivity extends AppCompatActivity implements OnFragmentInterac
                 return;
             }
             //if first beat of measure then go to last beat of previous measure
+            recyclerView.scrollToPosition(measurePosition - 2);
             prevBeatView = ((MeasureHolder) recyclerView.findViewHolderForAdapterPosition(measurePosition - 1)).measure.getChildAt(currentMeasure.getBeats().size());
             prevBeatView.performClick();
         }
@@ -387,8 +398,8 @@ public class MainActivity extends AppCompatActivity implements OnFragmentInterac
     private void insertSlash() {
         chord = "/";
         addChord();
+        editNext();
     }
-
 
 
     private void onAccSelected(View view) {
