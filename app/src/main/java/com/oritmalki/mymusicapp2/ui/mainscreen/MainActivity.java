@@ -310,6 +310,9 @@ public class MainActivity extends AppCompatActivity implements OnFragmentInterac
             case R.id.eraser_butt:
                 eraseBeat();
                 break;
+            case R.id.slash_butt:
+                insertSlash();
+                break;
 
         }
     }
@@ -378,6 +381,11 @@ public class MainActivity extends AppCompatActivity implements OnFragmentInterac
 
     private void eraseBeat() {
         chord = "";
+        addChord();
+    }
+
+    private void insertSlash() {
+        chord = "/";
         addChord();
     }
 

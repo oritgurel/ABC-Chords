@@ -68,6 +68,8 @@ public class EditFragment extends Fragment {
     @BindView(R.id.next_beat_butt) Button nextBeatButt;
     @BindView(R.id.prev_beat_butt) Button prevBeatButt;
     @BindView(R.id.eraser_butt) Button eraserButt;
+    @BindView(R.id.slash_butt) Button slashButt;
+
 
 
 
@@ -152,6 +154,7 @@ public class EditFragment extends Fragment {
         nextBeatButt.setOnClickListener(EditFragment.this::onButtonPressed);
         prevBeatButt.setOnClickListener(EditFragment.this::onButtonPressed);
         eraserButt.setOnClickListener(EditFragment.this::onButtonPressed);
+        slashButt.setOnClickListener(EditFragment.this::onButtonPressed);
 
 //        measureNumEditorView.setText("M: " + String.valueOf(measure.getNumber()));
 //        beatNumEditorView.setText("B: " + String.valueOf(beatPosition + 1));

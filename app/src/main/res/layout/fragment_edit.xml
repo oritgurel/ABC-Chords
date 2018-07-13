@@ -64,13 +64,28 @@
                         android:textColor="@color/white"/>
 
                     <Button
+                        android:id="@+id/slash_butt"
+                        android:layout_width="32dp"
+                        android:layout_height="32dp"
+                        android:layout_margin="8dp"
+                        android:paddingBottom="4dp"
+                        android:layout_toRightOf="@+id/eraser_butt"
+                        android:text="/"
+                        android:background="@android:color/transparent"
+                        android:textStyle="bold"
+                        android:textSize="26sp"
+                        android:elevation="1dp"/>
+
+                    <Button
                         android:id="@+id/next_beat_butt"
                         android:layout_width="48dp"
                         android:layout_height="48dp"
-                        android:layout_toRightOf="@+id/eraser_butt"
+                        android:layout_toRightOf="@+id/slash_butt"
                         android:background="@drawable/ic_chevron_right_black_24dp"
                         android:elevation="1dp"
                         android:textColor="@color/white"/>
+
+                    <!--keep in landscape-->
 
                     <!--<LinearLayout-->
                         <!--android:layout_width="wrap_content"-->
