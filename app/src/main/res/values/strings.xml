@@ -10,4 +10,11 @@
     <string name="sheets_activity_shared_with_me_tab_title">Shared with me</string>
     <string name="sharedsheets_fragment_empty_message">No Sheets yet.</string>
     <string name="listfragment_mysheets_message_create_new_sheet">Create new sheet!</string>
+    <string name="activity_create_new_sheet_title_tv">Sheet title</string>
+    <string name="cs_activity_sheet_author_hint">Author</string>
+    <string name="cs_activity_numerator_hint">Numerator</string>
+    <string name="cs_acitivyt_denominator_et">Denominator</string>
+    <string name="cs_activity_timesig_title">Time Signature</string>
+    <string name="cs_activity_timesig_denom_hint">Denomenator</string>
+    <string name="cs_activity_number_of_measures_hint">Number Of Measures</string>
 </resources>

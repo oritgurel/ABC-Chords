@@ -21,8 +21,32 @@
 
     <!--<style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />-->
 
-    <style name="DialogButton" />
-    
+    <style name="DialogButton"/>
+
     <style name="MyRadioButtonStyle" parent="@android:style/Widget.CompoundButton.RadioButton"/>
 
+    <!--Create New Sheet Activity-->
+
+    <style name="CsTextViewTitle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/text_size_medium</item>
+        <item name="android:paddingEnd">@dimen/create_sheet_activity_tv_end_margin</item>
+        <item name="android:layout_marginBottom">@dimen/create_sheet_textview_margin</item>
+        <item name="android:layout_marginEnd">@dimen/create_sheet_textview_margin</item>
+        <item name="android:textColor">@color/preference_fallback_accent_color</item>
+
+    </style>
+
+    <style name="CsEditTextField">
+        <item name="android:textSize">@dimen/text_size_medium</item>
+        <item name="android:layout_width">@dimen/create_sheet_edittext_width</item>
+        <item name="android:singleLine">true</item>’
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/preference_fallback_accent_color</item>
+        <item name="android:textColorHint">@color/preference_fallback_accent_color</item>
+
+
+    </style>
 </resources>
