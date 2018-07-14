@@ -17,4 +17,6 @@
     <string name="cs_activity_timesig_title">Time Signature</string>
     <string name="cs_activity_timesig_denom_hint">Denomenator</string>
     <string name="cs_activity_number_of_measures_hint">Number Of Measures</string>
+    <string name="cs_create_new_sheet_label">Create new sheet</string>
+    <string name="cs_activity_default_title_et">My Song</string>
 </resources>

@@ -47,7 +47,7 @@ public class MySheetsFragment extends ListFragment {
         createNewBtn.setOnClickListener(new OnClickListener() {
             @Override
             public void onClick(View v) {
-
+                startActivity(CreateNewSheetActivity.getIntent(getContext()));
             }
         });
 
