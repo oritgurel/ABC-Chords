@@ -110,9 +110,8 @@ public class MainActivity extends AppCompatActivity implements OnFragmentInterac
         actionBar.setDisplayShowTitleEnabled(false);
         actionBar.setDisplayShowCustomEnabled(true);
 
-
-
         counterView = getLayoutInflater().inflate(R.layout.counter_view, null);
+        actionBar.setCustomView(counterView);
 
 
 
