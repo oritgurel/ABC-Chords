@@ -1,10 +1,17 @@
 package com.oritmalki.mymusicapp2.ui.mainscreen;
 
 import android.os.Bundle;
+import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.support.v4.app.ListFragment;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.View.OnClickListener;
+import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
+import android.widget.Button;
 
+import com.oritmalki.mymusicapp2.R;
 import com.oritmalki.mymusicapp2.model.Sheet;
 
 import java.util.ArrayList;
@@ -13,6 +20,7 @@ import java.util.List;
 public class MySheetsFragment extends ListFragment {
 
     private static List<Sheet> mySheets;
+    private Button createNewBtn;
 
     public MySheetsFragment() {
 
@@ -30,6 +38,27 @@ public class MySheetsFragment extends ListFragment {
             mySheets.clear();
         }
         mySheets.addAll(sheets);
+    }
+
+    @Override
+    public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
+        View view = inflater.inflate(R.layout.listfragment_mysheets_layout, container, false);
+        createNewBtn = view.findViewById(R.id.listfragment_mysheets_create_new_btn);
+        createNewBtn.setOnClickListener(new OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+            }
+        });
+
+        return view;
+    }
+
+    @Override
+    public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
+        super.onViewCreated(view, savedInstanceState);
+//        setListShown(true);
+//        setEmptyText(getString(R.string.sharedsheets_fragment_empty_message));
     }
 
     @Override

@@ -56,7 +56,6 @@ public class SheetsActivity extends AppCompatActivity {
         }
         mTabLayout.setupWithViewPager(mTabsViewPager);
 
-
     }
 
     private void initFragments() {

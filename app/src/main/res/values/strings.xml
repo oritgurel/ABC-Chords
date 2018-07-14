@@ -8,4 +8,6 @@
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="sheets_activity_my_sheets_tab_title">My Sheets</string>
     <string name="sheets_activity_shared_with_me_tab_title">Shared with me</string>
+    <string name="sharedsheets_fragment_empty_message">No Sheets yet.</string>
+    <string name="listfragment_mysheets_message_create_new_sheet">Create new sheet!</string>
 </resources>
