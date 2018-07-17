@@ -22,7 +22,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".ui.mainscreen.CreateNewSheetActivity" android:theme="@style/Theme.AppCompat.Light"
-            android:label="@string/cs_create_new_sheet_label">
+            android:label="@string/cs_create_new_sheet_label"
+            android:launchMode="singleTask">
         </activity>
     </application>
 

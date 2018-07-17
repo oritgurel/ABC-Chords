@@ -3,6 +3,8 @@ package com.oritmalki.mymusicapp2.ui.mainscreen;
 import android.arch.lifecycle.Lifecycle;
 import android.arch.lifecycle.Observer;
 import android.arch.lifecycle.ViewModelProviders;
+import android.content.Context;
+import android.content.Intent;
 import android.content.SharedPreferences;
 import android.content.SharedPreferences.Editor;
 import android.os.Bundle;
@@ -26,6 +28,7 @@ import com.google.android.flexbox.FlexDirection;
 import com.google.android.flexbox.FlexWrap;
 import com.google.android.flexbox.FlexboxItemDecoration;
 import com.google.android.flexbox.FlexboxLayoutManager;
+import com.oritmalki.mymusicapp2.BasicApp;
 import com.oritmalki.mymusicapp2.R;
 import com.oritmalki.mymusicapp2.database.MeasureRepository;
 import com.oritmalki.mymusicapp2.model.Beat;
@@ -42,6 +45,10 @@ import java.util.List;
 import java.util.concurrent.atomic.AtomicBoolean;
 
 public class MainActivity extends AppCompatActivity implements OnFragmentInteractionListener {
+
+    public static final String SHEET_ID_INTENT_KEY = "sheet_id_intent_key";
+    public static String SHEET_TITLE_INTENT_KEY = "sheet_title_intent_key";
+    public static String SHEET_AUTHOR_INTENT_KEY = "sheet_author_intent_key";
 
     private RecyclerView recyclerView;
     private FlexboxLayoutManager layoutManager;
@@ -68,6 +75,8 @@ public class MainActivity extends AppCompatActivity implements OnFragmentInterac
 
     private AtomicBoolean isLoadingNewMeasure;
 
+    private Sheet sheet;
+
     private boolean isAccSelected = false;
 
     public final static String IS_C_ROOT_PRESSED = "IS_C_ROOT_PRESSED";
@@ -77,6 +86,16 @@ public class MainActivity extends AppCompatActivity implements OnFragmentInterac
     public final static String IS_G_ROOT_PRESSED = "IS_G_ROOT_PRESSED";
     public final static String IS_A_ROOT_PRESSED = "IS_A_ROOT_PRESSED";
     public final static String IS_B_ROOT_PRESSED = "IS_B_ROOT_PRESSED";
+
+    public static Intent getIntent(Context context, long sheetId, String title, String author) {
+        Intent intent = new Intent(context, MainActivity.class);
+        intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+        intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK);
+        intent.putExtra(SHEET_ID_INTENT_KEY, sheetId);
+        intent.putExtra(SHEET_TITLE_INTENT_KEY, title);
+        intent.putExtra(SHEET_AUTHOR_INTENT_KEY, author);
+        return intent;
+    }
 
 
     @Override
@@ -88,15 +107,19 @@ public class MainActivity extends AppCompatActivity implements OnFragmentInterac
         isLoadingNewMeasure = new AtomicBoolean(false);
         usedQueue = new StringQueueArray(6);
 
+        ((BasicApp) getApplication()).setSheetId(getIntent().getExtras().getLong(SHEET_ID_INTENT_KEY));
 
         final MeasureListViewModel measureListViewModel = ViewModelProviders.of(this).get(MeasureListViewModel.class);
         this.viewModel = measureListViewModel;
+
+
 
         final SheetListViewModel sheetListViewModel = ViewModelProviders.of(this).get(SheetListViewModel.class);
 
         initializeViews(measureListViewModel);
 
         observeViewModel(measureListViewModel, sheetListViewModel);
+
 
         setupActionbar();
 
@@ -116,7 +139,9 @@ public class MainActivity extends AppCompatActivity implements OnFragmentInterac
 
 
         TextView titleTV = findViewById(R.id.sheet_title_tv);
+        titleTV.setText(getIntent().getExtras().getString(SHEET_TITLE_INTENT_KEY));
         TextView authorTV = findViewById(R.id.sheet_author_tv);
+        authorTV.setText("by " + getIntent().getExtras().getString(SHEET_AUTHOR_INTENT_KEY));
         appBarLayout = findViewById(R.id.main_appbar);
     }
 
@@ -132,17 +157,26 @@ public class MainActivity extends AppCompatActivity implements OnFragmentInterac
     }
 
     private void observeViewModel(MeasureListViewModel measureListViewModel, SheetListViewModel sheetListViewModel) {
+
+        sheetListViewModel.getSheets().observe(this, new Observer<List<Sheet>>() {
+            @Override
+            public void onChanged(@Nullable List<Sheet> sheets) {
+
+            }
+        });
+
         // Update the list when the data changes
-        measureListViewModel.getMeasures().observe(this, new Observer<List<Measure>>() {
+        measureListViewModel.getMeasuresBySheet(getApplication()).observe(this, new Observer<List<Measure>>() {
             @Override
             public void onChanged(@Nullable List<Measure> measures) {
                 if (measures != null && measures.size() != 0) {
+
+                    measures = measureListViewModel.getMeasuresBySheet(getApplication()).getValue();
 
                     if (measuresAdapter == null) {
 
                         measuresAdapter = new MeasuresAdapter(getApplicationContext(), beatClickCallback);
                         recyclerView.setAdapter(measuresAdapter);
-
                     }
                     measuresAdapter.setMeasuresList(measures, getApplicationContext());
 
@@ -153,12 +187,6 @@ public class MainActivity extends AppCompatActivity implements OnFragmentInterac
             }
         });
 
-        sheetListViewModel.getSheets().observe(this, new Observer<List<Sheet>>() {
-            @Override
-            public void onChanged(@Nullable List<Sheet> sheets) {
-
-            }
-        });
     }
 
     public void showEditFragment(Measure measure, int currentBeatPosition) {
@@ -245,9 +273,10 @@ public class MainActivity extends AppCompatActivity implements OnFragmentInterac
 
     };
 
+
     //DAO methods
     public void addEmptyMeasure(MeasureListViewModel viewModel) {
-        viewModel.addEmptyMeasure(getApplication(), isLoadingNewMeasure);
+        viewModel.addEmptyMeasure(getApplication(), 324, isLoadingNewMeasure);
 
     }
 

@@ -2,6 +2,7 @@ package com.oritmalki.mymusicapp2.database;
 
 import android.arch.lifecycle.LiveData;
 import android.arch.lifecycle.MediatorLiveData;
+import android.arch.lifecycle.MutableLiveData;
 import android.arch.lifecycle.Observer;
 import android.support.annotation.Nullable;
 import android.util.Log;
@@ -22,38 +23,61 @@ public class MeasureRepository {
     private static MeasureRepository sInstance;
     private final AppDataBase mDatabase;
     private MediatorLiveData<List<Measure>> mObservableMeasures;
+    private MediatorLiveData<List<Measure>> mObservableMeasuresBySheet;
+
 
     //my addition
     public AppExecutors appExecutors = new AppExecutors();
 
+    long mSheetId;
+
 
     //private constructor
-    private MeasureRepository(final AppDataBase database) {
+    private MeasureRepository(final AppDataBase database, long sheetId) {
 
         mDatabase = database;
 
+        mSheetId = sheetId;
 
 
         mObservableMeasures = new MediatorLiveData<>();
+        mObservableMeasuresBySheet = new MediatorLiveData<>();
 
-        mObservableMeasures.addSource(mDatabase.measureDao().getAll(), new Observer<List<Measure>>() {
+        MutableLiveData<List<Measure>> measuresBySheetMutable = new MutableLiveData<>();
+
+//        measuresBySheetMutable.postValue(
+//                mDatabase.measureDao().getMeasuresOfSheet(mSheetId));
+
+
+        mObservableMeasuresBySheet.addSource(measuresBySheetMutable, new Observer<List<Measure>>() {
             @Override
-            public void onChanged(@Nullable List<Measure> measureEntities) {
+            public void onChanged(@Nullable List<Measure> measuresBySheet) {
                 if (mDatabase.getDatabaseCreated().getValue() != null) {
                     appExecutors.diskIO().execute(() ->
-                            mObservableMeasures.postValue(measureEntities));
+                            mObservableMeasuresBySheet.postValue(measuresBySheet));
                 }
             }
         });
 
+        mObservableMeasures.addSource(mDatabase.measureDao().getAll(), new Observer<List<Measure>>() {
+            @Override
+            public void onChanged(@Nullable List<Measure> allMeasures) {
+                if (mDatabase.getDatabaseCreated().getValue() != null) {
+                    appExecutors.diskIO().execute(() ->
+                            mObservableMeasures.postValue(allMeasures));
+                }
+            }
+        });
+
+
     }
 
     //new constructor from example
-    public static MeasureRepository getInstance(final AppDataBase database) {
+    public static MeasureRepository getInstance(final AppDataBase database, long sheetId) {
         if (sInstance == null) {
             synchronized (MeasureRepository.class) {
                 if (sInstance == null) {
-                    sInstance = new MeasureRepository(database);
+                    sInstance = new MeasureRepository(database, sheetId);
                 }
             }
         }
@@ -83,7 +107,7 @@ public class MeasureRepository {
     }
 
 
-    public void addAllMeasures(List<Measure> measures) {
+    public void saveMeasures(List<Measure> measures) {
         appExecutors.diskIO().execute(() ->
                 mDatabase.measureDao().insertAll(measures));
     }
@@ -91,6 +115,17 @@ public class MeasureRepository {
     public LiveData<List<Measure>> getAllMeasures() {
 
         return mObservableMeasures;
+    }
+
+    public LiveData<List<Measure>> getMeasuresBySheet() {
+        return mObservableMeasuresBySheet;
+    }
+
+
+
+    public void deleteAllMeasuresOfSheet(long sheetId) {
+        appExecutors.diskIO().execute(() ->
+                mDatabase.measureDao().deleteMeasuresOfSheet(sheetId));
     }
 
     public LiveData<Measure> getMeasure(int measureNum) {
@@ -118,9 +153,9 @@ public class MeasureRepository {
 //        return mDatabase.measureDao().getBeats(measureNum);
 //    }
 
-    public void deleteAllMeasures(List<Measure> measures) {
+    public void deleteAllMeasures() {
         appExecutors.diskIO().execute(() ->
-                mDatabase.measureDao().deleteAll(measures));
+                mDatabase.measureDao().deleteAll());
     }
 
     public void destroyDatabase() {

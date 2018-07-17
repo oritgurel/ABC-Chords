@@ -10,13 +10,14 @@ import com.oritmalki.mymusicapp2.AppExecutors;
 import com.oritmalki.mymusicapp2.model.Sheet;
 
 import java.util.List;
-import java.util.concurrent.atomic.AtomicBoolean;
 
 public class SheetRepository {
 
     private static SheetRepository sInstance;
     private final AppDataBase mDatabase;
     private MediatorLiveData<List<Sheet>> mObservableSheets;
+
+    public long id;
 
     //my addition
     public AppExecutors appExecutors = new AppExecutors();
@@ -28,7 +29,6 @@ public class SheetRepository {
         mDatabase = database;
 
 
-
         mObservableSheets = new MediatorLiveData<>();
 
         mObservableSheets.addSource(mDatabase.sheetDao().getAll(), new Observer<List<Sheet>>() {
@@ -37,9 +37,14 @@ public class SheetRepository {
                 if (mDatabase.getDatabaseCreated().getValue() != null) {
                     appExecutors.diskIO().execute(() ->
                             mObservableSheets.postValue(sheets));
+
                 }
             }
         });
+
+
+
+
 
     }
 
@@ -55,28 +60,30 @@ public class SheetRepository {
         return sInstance;
     }
 
-    /*****Room Measures DAO*****/
+    /*****Room Sheet DAO*****/
 
-    public void addNewSheet(Sheet sheet, AtomicBoolean lock) {
+    public long addNewSheet(Sheet sheet, ISheetId listener) {
 
         appExecutors.diskIO().execute(new Runnable() {
             @Override
             public void run() {
 
-                if (!lock.get()) {
-                    lock.set(true);
-                    mDatabase.sheetDao().newSheet(sheet);
-                }
-                lock.set(false);
+                listener.onIdRecieved(mDatabase.sheetDao().newSheet(sheet));
             }
-
-
         });
 
-        Log.d("ADD_MEASURE", "Added empty measure to database");
+        Log.d("ADD_SHEET", "Added empty sheet to database");
+        return getId();
 
     }
 
+    public void setId(long id) {
+        this.id = id;
+    }
+
+    public long getId() {
+        return id;
+    }
 
     public void addAllSheets(List<Sheet> sheets) {
         appExecutors.diskIO().execute(() ->
@@ -88,30 +95,32 @@ public class SheetRepository {
         return mObservableSheets;
     }
 
-    public LiveData<Sheet> getSheet(int sheetId) {
+    public LiveData<Sheet> getSheet(long sheetId) {
 
         return mDatabase.sheetDao().getSheetById(sheetId);
     }
 
-    public LiveData<Sheet> getSheet(String sheetName) {
-
-        return mDatabase.sheetDao().getSheetByName(sheetName);
-    }
 
 
-    public void InsertSheet(Sheet sheet) {
-
-        mDatabase.sheetDao().newSheet(sheet);
-    }
-
-    public void deleteSheet(Sheet sheet) {
+    public void deleteSheet(long sheetId) {
         appExecutors.diskIO().execute(() ->
-                mDatabase.sheetDao().delete(sheet));
+                mDatabase.sheetDao().delete(sheetId));
+    }
+
+    public void deleteAllSheets() {
+        appExecutors.diskIO().execute(() ->
+                mDatabase.sheetDao().deleteAll());
     }
 
     public void updateSheet(Sheet sheet) {
-        appExecutors.diskIO().execute(() ->
-                mDatabase.sheetDao().updateSheet(sheet));
+          appExecutors.diskIO().execute(new Runnable() {
+
+            @Override
+            public void run() {
+               mDatabase.sheetDao().updateSheet(sheet);
+            }
+        });
+
     }
 
 //    public LiveData<List<Beat>> getBeats(int measureNum) {

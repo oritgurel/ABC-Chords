@@ -2,7 +2,6 @@ package com.oritmalki.mymusicapp2.database;
 
 import android.arch.lifecycle.LiveData;
 import android.arch.persistence.room.Dao;
-import android.arch.persistence.room.Delete;
 import android.arch.persistence.room.Insert;
 import android.arch.persistence.room.Query;
 import android.arch.persistence.room.Update;
@@ -22,20 +21,20 @@ public interface SheetDao {
     @Query("SELECT * FROM sheet where author LIKE :author")
     LiveData<Sheet> getSheetByAuthor(String author);
 
-    @Query("SELECT * FROM sheet where name LIKE :name")
-    LiveData<Sheet> getSheetByName(String name);
-
     @Query("SELECT * FROM sheet where id LIKE :id")
-    LiveData<Sheet> getSheetById(int id);
+    LiveData<Sheet> getSheetById(long id);
 
     @Insert
-    void newSheet(Sheet sheet);
+    long newSheet(Sheet sheet);
 
     @Insert
-    void insertAll(List<Sheet> sheets);
+    long[] insertAll(List<Sheet> sheets);
 
-    @Delete
-    void delete(Sheet sheet);
+    @Query("DELETE FROM sheet where id like :sheetId")
+    int delete(long sheetId);
+
+    @Query("DELETE FROM sheet")
+    int deleteAll();
 
     @Update
     int updateSheet(Sheet sheet);

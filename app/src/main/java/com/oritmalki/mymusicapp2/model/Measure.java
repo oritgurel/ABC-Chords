@@ -3,8 +3,6 @@ package com.oritmalki.mymusicapp2.model;
 import android.arch.persistence.room.ColumnInfo;
 import android.arch.persistence.room.Embedded;
 import android.arch.persistence.room.Entity;
-import android.arch.persistence.room.ForeignKey;
-import android.arch.persistence.room.Ignore;
 import android.arch.persistence.room.Index;
 import android.arch.persistence.room.PrimaryKey;
 import android.support.annotation.NonNull;
@@ -14,23 +12,24 @@ import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
 
-import static android.arch.persistence.room.ForeignKey.CASCADE;
-
 /**
  * Created by Orit on 28.11.2017.
  */
 @Entity(tableName = "measure",
-        foreignKeys = @ForeignKey(onDelete = CASCADE, entity = Sheet.class, parentColumns = "id", childColumns = "sheetId"),
-        indices = {@Index("measure_number"), @Index(value = {"measure_number", "beats"})})
+//        foreignKeys = @ForeignKey(onDelete = CASCADE, entity = Sheet.class, parentColumns = "id", childColumns = "sheetId"),
+        indices = {@Index("id"), @Index(value = {"measure_number", "beats"}), @Index("sheetId")})
 public class Measure implements Serializable, Comparable<Measure> {
 
     @Embedded
     TimeSignature timeSignature;
 
-//    @Relation(parentColumn = "measureNumber", entityColumn = "chordName", entity = Beat.class)
-    public Integer sheetId;
 
-    @PrimaryKey
+    public long sheetId;
+
+    @NonNull
+    @PrimaryKey(autoGenerate = true)
+    int id;
+
     @ColumnInfo(name = "measure_number")
     public Integer measureNumber;
 
@@ -46,12 +45,14 @@ public class Measure implements Serializable, Comparable<Measure> {
     public Measure() {
         this.getBeats();
     }
-    @Ignore
-    public Measure(int number, List<Beat> beats, TimeSignature timeSignature, boolean showTimeSig) {
+
+
+    public Measure(int number, List<Beat> beats, TimeSignature timeSignature, boolean showTimeSig, long sheetId) {
         this.beats = beats;
         this.measureNumber = number;
         this.timeSignature = timeSignature;
         this.showTimeSig = showTimeSig;
+        this.sheetId = sheetId;
 
 
         int s = beats.size();
@@ -59,6 +60,22 @@ public class Measure implements Serializable, Comparable<Measure> {
         if (timeSignature.numerator == x) {
             s = x;
         }
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public long getSheetId() {
+        return sheetId;
+    }
+
+    public void setSheetId(long sheetId) {
+        this.sheetId = sheetId;
     }
 
 

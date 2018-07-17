@@ -2,22 +2,16 @@
   "formatVersion": 1,
   "database": {
     "version": 2,
-    "identityHash": "af394fa54ca1109192c63db15151e249",
+    "identityHash": "17c04a0cacea5c04b412a2fdd2fb28d9",
     "entities": [
       {
         "tableName": "Sheet",
-        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`id` INTEGER, `name` TEXT, `title` TEXT, `author` TEXT, PRIMARY KEY(`id`))",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`id` INTEGER, `title` TEXT, `author` TEXT, PRIMARY KEY(`id`))",
         "fields": [
           {
             "fieldPath": "id",
             "columnName": "id",
             "affinity": "INTEGER",
-            "notNull": false
-          },
-          {
-            "fieldPath": "name",
-            "columnName": "name",
-            "affinity": "TEXT",
             "notNull": false
           },
           {
@@ -44,13 +38,19 @@
       },
       {
         "tableName": "measure",
-        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`sheetId` INTEGER, `measure_number` INTEGER, `time_signature` TEXT, `showTimeSig` INTEGER NOT NULL, `beats` TEXT, `numerator` INTEGER, `denominator` INTEGER, PRIMARY KEY(`measure_number`), FOREIGN KEY(`sheetId`) REFERENCES `Sheet`(`id`) ON UPDATE NO ACTION ON DELETE CASCADE )",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`sheetId` INTEGER NOT NULL, `id` INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, `measure_number` INTEGER, `time_signature` TEXT, `showTimeSig` INTEGER NOT NULL, `beats` TEXT, `numerator` INTEGER, `denominator` INTEGER)",
         "fields": [
           {
             "fieldPath": "sheetId",
             "columnName": "sheetId",
             "affinity": "INTEGER",
-            "notNull": false
+            "notNull": true
+          },
+          {
+            "fieldPath": "id",
+            "columnName": "id",
+            "affinity": "INTEGER",
+            "notNull": true
           },
           {
             "fieldPath": "measureNumber",
@@ -91,18 +91,18 @@
         ],
         "primaryKey": {
           "columnNames": [
-            "measure_number"
+            "id"
           ],
-          "autoGenerate": false
+          "autoGenerate": true
         },
         "indices": [
           {
-            "name": "index_measure_measure_number",
+            "name": "index_measure_id",
             "unique": false,
             "columnNames": [
-              "measure_number"
+              "id"
             ],
-            "createSql": "CREATE  INDEX `index_measure_measure_number` ON `${TABLE_NAME}` (`measure_number`)"
+            "createSql": "CREATE  INDEX `index_measure_id` ON `${TABLE_NAME}` (`id`)"
           },
           {
             "name": "index_measure_measure_number_beats",
@@ -112,21 +112,17 @@
               "beats"
             ],
             "createSql": "CREATE  INDEX `index_measure_measure_number_beats` ON `${TABLE_NAME}` (`measure_number`, `beats`)"
-          }
-        ],
-        "foreignKeys": [
+          },
           {
-            "table": "Sheet",
-            "onDelete": "CASCADE",
-            "onUpdate": "NO ACTION",
-            "columns": [
+            "name": "index_measure_sheetId",
+            "unique": false,
+            "columnNames": [
               "sheetId"
             ],
-            "referencedColumns": [
-              "id"
-            ]
+            "createSql": "CREATE  INDEX `index_measure_sheetId` ON `${TABLE_NAME}` (`sheetId`)"
           }
-        ]
+        ],
+        "foreignKeys": []
       },
       {
         "tableName": "beat",
@@ -157,7 +153,7 @@
     ],
     "setupQueries": [
       "CREATE TABLE IF NOT EXISTS room_master_table (id INTEGER PRIMARY KEY,identity_hash TEXT)",
-      "INSERT OR REPLACE INTO room_master_table (id,identity_hash) VALUES(42, \"af394fa54ca1109192c63db15151e249\")"
+      "INSERT OR REPLACE INTO room_master_table (id,identity_hash) VALUES(42, \"17c04a0cacea5c04b412a2fdd2fb28d9\")"
     ]
   }
 }

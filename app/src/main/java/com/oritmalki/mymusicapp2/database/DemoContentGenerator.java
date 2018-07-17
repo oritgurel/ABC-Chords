@@ -4,6 +4,7 @@ import android.content.Context;
 
 import com.oritmalki.mymusicapp2.model.Beat;
 import com.oritmalki.mymusicapp2.model.Measure;
+import com.oritmalki.mymusicapp2.model.Sheet;
 import com.oritmalki.mymusicapp2.model.TimeSignature;
 
 import java.util.ArrayList;
@@ -16,8 +17,14 @@ import java.util.List;
 public class DemoContentGenerator {
     Context context;
 
+    static Sheet sheet = new Sheet();
+
 
     public static List<Measure> generateDemoContent() {
+
+        sheet.setTitle("Demo Song");
+        sheet.setAuthor("Orit Gur-El");
+        sheet.setId(323L);
 
         List<Beat> beats = new ArrayList<>();
         beats.add(new Beat("Cm"));
@@ -37,10 +44,10 @@ public class DemoContentGenerator {
         try {
 
             for (int i = 1; i < 10; i++) {
-                demoMeasureList.add(new Measure(i, new ArrayList<Beat>(beats), new TimeSignature(3, 4), true));
+                demoMeasureList.add(new Measure(i, new ArrayList<Beat>(beats), new TimeSignature(3, 4), true, sheet.getId()));
             }
             for (int i = 10; i < 15; i++) {
-                demoMeasureList.add(new Measure(i, new ArrayList<Beat>(beats1), new TimeSignature(4, 4), true));
+                demoMeasureList.add(new Measure(i, new ArrayList<Beat>(beats1), new TimeSignature(4, 4), true, sheet.getId()));
             }
 
         }

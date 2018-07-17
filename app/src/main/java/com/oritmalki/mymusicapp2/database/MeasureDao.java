@@ -8,7 +8,6 @@ import android.arch.persistence.room.OnConflictStrategy;
 import android.arch.persistence.room.Query;
 import android.arch.persistence.room.Transaction;
 import android.arch.persistence.room.Update;
-import android.util.Log;
 
 import com.oritmalki.mymusicapp2.model.Measure;
 
@@ -23,6 +22,9 @@ public abstract class MeasureDao {
     @Transaction @Query("SELECT * FROM measure")
     abstract LiveData<List<Measure>> getAll();
 
+    @Query("SELECT * FROM measure where sheetId LIKE :sheetId")
+    abstract List<Measure> getMeasuresOfSheet(long sheetId);
+
     @Transaction @Query("SELECT * FROM measure where measure_number LIKE :measureNumber")
     abstract LiveData<Measure> getMeasure(int measureNumber);
 
@@ -35,11 +37,17 @@ public abstract class MeasureDao {
     @Insert
     abstract void newMeasure(Measure measure);
 
+    @Query("DELETE FROM measure")
+    abstract void deleteAll();
+
+    @Query("DELETE FROM measure where sheetId like :sheetId")
+    abstract void deleteMeasuresOfSheet(long sheetId);
+
     @Delete
     abstract void delete(Measure measure);
 
     @Delete
-    abstract void deleteAll(List<Measure> measures);
+    abstract void delete(List<Measure> measures);
 
     @Update
     abstract int updateMeasure(Measure measure);

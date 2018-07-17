@@ -14,20 +14,35 @@ public class BasicApp extends Application {
 
     private AppExecutors mAppExecutors;
 
+
+
+    private long mSheetId;
+
     @Override
     public void onCreate() {
         super.onCreate();
         this.mAppExecutors = new AppExecutors();
+
     }
     public AppDataBase getDatabase() {
         return AppDataBase.getInstance(this, mAppExecutors);
     }
 
-    public MeasureRepository getMeasureRepository() {
-        return MeasureRepository.getInstance(getDatabase());
-    }
 
     public SheetRepository getSheetRepository() {
         return SheetRepository.getInstance(getDatabase());
     }
+
+    public MeasureRepository getMeasureRepository() {
+        return MeasureRepository.getInstance(getDatabase(), mSheetId);
+    }
+
+    public long getSheetId() {
+        return mSheetId;
+    }
+
+    public void setSheetId(long mSheetId) {
+        this.mSheetId = mSheetId;
+    }
+
 }

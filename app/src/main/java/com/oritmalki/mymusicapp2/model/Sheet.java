@@ -14,11 +14,10 @@ import java.util.List;
 public class Sheet implements Serializable {
 
     @PrimaryKey
-    public Integer id;
+    public Long id;
 
-    public String name = "";
-    public String title = "";
-    public String author = "";
+    public String title;
+    public String author;
 
 
 //    @Relation(parentColumn = "id", entityColumn = "measureNumber", entity = Measure.class)
@@ -26,28 +25,22 @@ public class Sheet implements Serializable {
     @Ignore
     public List<Measure> measures;
 
-    @Ignore
-    public Sheet(List<Measure> measures) {
+
+    public Sheet(String title, String author) {
+        this.title = title;
+        this.author = author;
     }
 
     public Sheet() {
         this.getMeasures();
     }
 
-    public Integer getId() {
+    public Long getId() {
         return id;
     }
 
-    public void setId(Integer id) {
+    public void setId(Long id) {
         this.id = id;
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
     }
 
     public String getTitle() {
@@ -75,11 +68,9 @@ public class Sheet implements Serializable {
     }
 
     @Ignore
-    public Sheet(int id, String name, String title, String author, List<Measure> measures) {
+    public Sheet(Long id, String title, String author, List<Measure> measures) {
         this.id = id;
-        this.name = name;
         this.title = title;
-
         this.author = author;
         this.measures = measures;
     }
