@@ -22,7 +22,7 @@ import java.util.List;
  */
 
 
-@Database(entities = {Sheet.class, Measure.class, Beat.class}, version = 2)
+@Database(entities = {Sheet.class, Measure.class, Beat.class}, version = 3)
 @TypeConverters({Converters.class})
 public abstract class AppDataBase extends RoomDatabase {
     private static final String DATABASE_NAME = "music_sheet";

@@ -2,7 +2,7 @@
   "formatVersion": 1,
   "database": {
     "version": 2,
-    "identityHash": "17c04a0cacea5c04b412a2fdd2fb28d9",
+    "identityHash": "267a4d0d668c261f132d099f34164fbf",
     "entities": [
       {
         "tableName": "Sheet",
@@ -38,11 +38,11 @@
       },
       {
         "tableName": "measure",
-        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`sheetId` INTEGER NOT NULL, `id` INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, `measure_number` INTEGER, `time_signature` TEXT, `showTimeSig` INTEGER NOT NULL, `beats` TEXT, `numerator` INTEGER, `denominator` INTEGER)",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`sheet_id` INTEGER NOT NULL, `id` INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, `measure_number` INTEGER, `time_signature` TEXT, `showTimeSig` INTEGER NOT NULL, `beats` TEXT, `numerator` INTEGER, `denominator` INTEGER)",
         "fields": [
           {
             "fieldPath": "sheetId",
-            "columnName": "sheetId",
+            "columnName": "sheet_id",
             "affinity": "INTEGER",
             "notNull": true
           },
@@ -112,14 +112,6 @@
               "beats"
             ],
             "createSql": "CREATE  INDEX `index_measure_measure_number_beats` ON `${TABLE_NAME}` (`measure_number`, `beats`)"
-          },
-          {
-            "name": "index_measure_sheetId",
-            "unique": false,
-            "columnNames": [
-              "sheetId"
-            ],
-            "createSql": "CREATE  INDEX `index_measure_sheetId` ON `${TABLE_NAME}` (`sheetId`)"
           }
         ],
         "foreignKeys": []
@@ -153,7 +145,7 @@
     ],
     "setupQueries": [
       "CREATE TABLE IF NOT EXISTS room_master_table (id INTEGER PRIMARY KEY,identity_hash TEXT)",
-      "INSERT OR REPLACE INTO room_master_table (id,identity_hash) VALUES(42, \"17c04a0cacea5c04b412a2fdd2fb28d9\")"
+      "INSERT OR REPLACE INTO room_master_table (id,identity_hash) VALUES(42, \"267a4d0d668c261f132d099f34164fbf\")"
     ]
   }
 }

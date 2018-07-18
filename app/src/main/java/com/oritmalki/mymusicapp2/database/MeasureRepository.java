@@ -24,6 +24,7 @@ public class MeasureRepository {
     private final AppDataBase mDatabase;
     private MediatorLiveData<List<Measure>> mObservableMeasures;
     private MediatorLiveData<List<Measure>> mObservableMeasuresBySheet;
+    private MutableLiveData<List<Measure>> measuresBySheetMutable;
 
 
     //my addition
@@ -43,13 +44,13 @@ public class MeasureRepository {
         mObservableMeasures = new MediatorLiveData<>();
         mObservableMeasuresBySheet = new MediatorLiveData<>();
 
-        MutableLiveData<List<Measure>> measuresBySheetMutable = new MutableLiveData<>();
+//       measuresBySheetMutable = new MutableLiveData<>();
+//
+//
+//       observeMeasuresBySheet(measuresBySheetMutable, sheetId);
 
-//        measuresBySheetMutable.postValue(
-//                mDatabase.measureDao().getMeasuresOfSheet(mSheetId));
 
-
-        mObservableMeasuresBySheet.addSource(measuresBySheetMutable, new Observer<List<Measure>>() {
+        mObservableMeasuresBySheet.addSource(mDatabase.measureDao().getMeasuresOfSheet(sheetId), new Observer<List<Measure>>() {
             @Override
             public void onChanged(@Nullable List<Measure> measuresBySheet) {
                 if (mDatabase.getDatabaseCreated().getValue() != null) {
@@ -59,18 +60,27 @@ public class MeasureRepository {
             }
         });
 
-        mObservableMeasures.addSource(mDatabase.measureDao().getAll(), new Observer<List<Measure>>() {
-            @Override
-            public void onChanged(@Nullable List<Measure> allMeasures) {
-                if (mDatabase.getDatabaseCreated().getValue() != null) {
-                    appExecutors.diskIO().execute(() ->
-                            mObservableMeasures.postValue(allMeasures));
-                }
-            }
-        });
+//        mObservableMeasures.addSource(mDatabase.measureDao().getAll(), new Observer<List<Measure>>() {
+//            @Override
+//            public void onChanged(@Nullable List<Measure> allMeasures) {
+//                if (mDatabase.getDatabaseCreated().getValue() != null) {
+//                    appExecutors.diskIO().execute(() ->
+//                            mObservableMeasures.postValue(allMeasures));
+//                }
+//            }
+//        });
 
 
     }
+
+//    public void observeMeasuresBySheet(MutableLiveData<List<Measure>> mutableLiveData, long sheetId) {
+//        appExecutors.diskIO().execute(new Runnable() {
+//            @Override
+//            public void run() {
+//                mutableLiveData.postValue(mDatabase.getMeasureDao().getMeasuresOfSheet(sheetId));
+//            }
+//        });
+//    }
 
     //new constructor from example
     public static MeasureRepository getInstance(final AppDataBase database, long sheetId) {

@@ -171,7 +171,7 @@ public class MainActivity extends AppCompatActivity implements OnFragmentInterac
             public void onChanged(@Nullable List<Measure> measures) {
                 if (measures != null && measures.size() != 0) {
 
-                    measures = measureListViewModel.getMeasuresBySheet(getApplication()).getValue();
+//                    measures = measureListViewModel.getMeasuresBySheet(getApplication()).getValue();
 
                     if (measuresAdapter == null) {
 
