@@ -57,7 +57,7 @@ public class MeasureListViewModel extends AndroidViewModel {
     }
 
     public LiveData<List<Measure>> getMeasuresBySheet(Application application) {
-        return ((BasicApp) application).getMeasureRepository().getMeasuresBySheet();
+        return mObservableMeasuresBySheet;
     }
 
     public void deleteAllMeasuresOfSheet(Application application, long sheetId) {
@@ -76,7 +76,7 @@ public class MeasureListViewModel extends AndroidViewModel {
         ((BasicApp) application).getMeasureRepository().updateMeasure(measure);
     }
 
-    public void addEmptyMeasure(Application application, int sheetId, AtomicBoolean lock) {
+    public void addEmptyMeasure(Application application, long sheetId, AtomicBoolean lock) {
 
 //        final CountDownLatch latch = new CountDownLatch(1);
 

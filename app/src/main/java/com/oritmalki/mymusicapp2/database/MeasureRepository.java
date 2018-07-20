@@ -23,7 +23,7 @@ public class MeasureRepository {
     private static MeasureRepository sInstance;
     private final AppDataBase mDatabase;
     private MediatorLiveData<List<Measure>> mObservableMeasures;
-    private MediatorLiveData<List<Measure>> mObservableMeasuresBySheet;
+    private MediatorLiveData<List<Measure>>  mObservableMeasuresBySheet;
     private MutableLiveData<List<Measure>> measuresBySheetMutable;
 
 
@@ -51,36 +51,29 @@ public class MeasureRepository {
 
 
         mObservableMeasuresBySheet.addSource(mDatabase.measureDao().getMeasuresOfSheet(sheetId), new Observer<List<Measure>>() {
+
             @Override
             public void onChanged(@Nullable List<Measure> measuresBySheet) {
+                Log.e("Repository", "measuresBySheet = " + measuresBySheet.toString() + " sheetId: " + sheetId);
                 if (mDatabase.getDatabaseCreated().getValue() != null) {
                     appExecutors.diskIO().execute(() ->
                             mObservableMeasuresBySheet.postValue(measuresBySheet));
-                }
+               }
             }
         });
 
 //        mObservableMeasures.addSource(mDatabase.measureDao().getAll(), new Observer<List<Measure>>() {
-//            @Override
+//           @Override
 //            public void onChanged(@Nullable List<Measure> allMeasures) {
 //                if (mDatabase.getDatabaseCreated().getValue() != null) {
-//                    appExecutors.diskIO().execute(() ->
+//                   appExecutors.diskIO().execute(() ->
 //                            mObservableMeasures.postValue(allMeasures));
-//                }
+//               }
 //            }
 //        });
 
 
     }
-
-//    public void observeMeasuresBySheet(MutableLiveData<List<Measure>> mutableLiveData, long sheetId) {
-//        appExecutors.diskIO().execute(new Runnable() {
-//            @Override
-//            public void run() {
-//                mutableLiveData.postValue(mDatabase.getMeasureDao().getMeasuresOfSheet(sheetId));
-//            }
-//        });
-//    }
 
     //new constructor from example
     public static MeasureRepository getInstance(final AppDataBase database, long sheetId) {
@@ -89,9 +82,21 @@ public class MeasureRepository {
                 if (sInstance == null) {
                     sInstance = new MeasureRepository(database, sheetId);
                 }
+
             }
         }
+        if (sInstance.getSheetId() != sheetId) {
+            sInstance = new MeasureRepository(database, sheetId);
+        }
         return sInstance;
+    }
+
+    public void setSheetId(long SheetId) {
+        this.mSheetId = SheetId;
+    }
+
+    public long getSheetId() {
+        return mSheetId;
     }
 
     /*****Room Measures DAO*****/

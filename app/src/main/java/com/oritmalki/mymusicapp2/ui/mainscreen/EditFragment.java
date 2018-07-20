@@ -8,7 +8,6 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.RadioButton;
-import android.widget.TextView;
 
 import com.oritmalki.mymusicapp2.R;
 import com.oritmalki.mymusicapp2.model.Measure;
@@ -46,14 +45,9 @@ public class EditFragment extends Fragment {
 
     @BindViews({R.id.ten1_flat, R.id.ten1_sharp, R.id.ten1_natural}) RadioButton[] ten1AccGroup;
 
-    @BindView(R.id._2) Button _2;
-    @BindView(R.id._3) Button _3;
-    @BindView(R.id._4) Button _4;
-    @BindView(R.id._5) Button _5;
-    @BindView(R.id._6) Button _6;
-    @BindView(R.id._7) Button _7;
+    @BindViews({R.id._2, R.id._3, R.id._4,R.id._5, R.id._6}) RadioButton[] chordPartsGroup;
 
-    @BindViews({R.id.maj_7, R.id.diminished_7, R.id.half_diminished}) RadioButton[] squareTypeGroup;
+    @BindViews({R.id._7, R.id.maj_7, R.id.diminished_7, R.id.half_diminished}) RadioButton[] squareTypeGroup;
 
     @BindViews({R.id.ten2_flat, R.id.ten2_sharp, R.id.ten2_natural}) RadioButton[] ten2AccGroup;
 
@@ -69,8 +63,6 @@ public class EditFragment extends Fragment {
     @BindView(R.id.prev_beat_butt) Button prevBeatButt;
     @BindView(R.id.eraser_butt) Button eraserButt;
     @BindView(R.id.slash_butt) Button slashButt;
-
-
 
 
     private static final String ARG_MEASURE = "args_measure";
@@ -110,8 +102,8 @@ public class EditFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_edit, container, false);
-        TextView measureNumEditorView = view.findViewById(R.id.measure_num_tv);
-        TextView beatNumEditorView = view.findViewById(R.id.beat_num);
+//        TextView measureNumEditorView = view.findViewById(R.id.measure_num_tv);
+//        TextView beatNumEditorView = view.findViewById(R.id.beat_num);
 
         ButterKnife.bind(this, view);
 
@@ -140,16 +132,13 @@ public class EditFragment extends Fragment {
             ten2AccBtn.setOnClickListener(EditFragment.this::onButtonPressed);
         }
 
+        for (RadioButton chordPart : chordPartsGroup) {
+            chordPart.setOnClickListener(EditFragment.this::onButtonPressed);
+        }
+
         _9.setOnClickListener(EditFragment.this::onButtonPressed);
         _11.setOnClickListener(EditFragment.this::onButtonPressed);
         _13.setOnClickListener(EditFragment.this::onButtonPressed);
-
-        _2.setOnClickListener(EditFragment.this::onButtonPressed);
-        _3.setOnClickListener(EditFragment.this::onButtonPressed);
-        _4.setOnClickListener(EditFragment.this::onButtonPressed);
-        _5.setOnClickListener(EditFragment.this::onButtonPressed);
-        _6.setOnClickListener(EditFragment.this::onButtonPressed);
-
 
         nextBeatButt.setOnClickListener(EditFragment.this::onButtonPressed);
         prevBeatButt.setOnClickListener(EditFragment.this::onButtonPressed);
@@ -158,12 +147,6 @@ public class EditFragment extends Fragment {
 
 //        measureNumEditorView.setText("M: " + String.valueOf(measure.getNumber()));
 //        beatNumEditorView.setText("B: " + String.valueOf(beatPosition + 1));
-
-
-
-
-
-
 
 
         // Inflate the layout for this fragment

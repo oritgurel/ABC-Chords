@@ -18,19 +18,17 @@ import java.util.List;
 
 @Dao
 public interface MeasureDao {
-//    @Transaction
+
     @Query("SELECT * FROM measure")
     LiveData<List<Measure>> getAll();
 
     @Query("SELECT * FROM measure where sheet_id=:sheetId")
-     LiveData<List<Measure>> getMeasuresOfSheet(final long sheetId);
+     LiveData<List<Measure>> getMeasuresOfSheet(long sheetId);
 
-//   @Transaction
+
     @Query("SELECT * FROM measure where measure_number LIKE :measureNumber")
      LiveData<Measure> getMeasure(int measureNumber);
 
-//    @Query("SELECT beats FROM measure WHERE measure_number LIKE :measureNumber")
-//    LiveData<List<Beat>> getBeats(int measureNumber);
 
     @Insert(onConflict = OnConflictStrategy.REPLACE)
      void insertAll(List<Measure> measures);

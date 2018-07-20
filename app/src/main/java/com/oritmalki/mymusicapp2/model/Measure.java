@@ -3,7 +3,6 @@ package com.oritmalki.mymusicapp2.model;
 import android.arch.persistence.room.ColumnInfo;
 import android.arch.persistence.room.Embedded;
 import android.arch.persistence.room.Entity;
-import android.arch.persistence.room.ForeignKey;
 import android.arch.persistence.room.Index;
 import android.arch.persistence.room.PrimaryKey;
 import android.support.annotation.NonNull;
@@ -13,13 +12,11 @@ import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
 
-import static android.arch.persistence.room.ForeignKey.CASCADE;
-
 /**
  * Created by Orit on 28.11.2017.
  */
 @Entity(tableName = "measure",
-        foreignKeys = @ForeignKey(onDelete = CASCADE, entity = Sheet.class, parentColumns = "id", childColumns = "sheet_id"),
+//        foreignKeys = @ForeignKey(onDelete = CASCADE, entity = Sheet.class, parentColumns = "id", childColumns = "sheet_id"),
         indices = {@Index("id"), @Index(value = {"measure_number", "beats"}), @Index("sheet_id")})
 public class Measure implements Serializable, Comparable<Measure> {
 

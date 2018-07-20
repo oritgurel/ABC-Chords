@@ -1,5 +1,6 @@
 package com.oritmalki.mymusicapp2.ui.mainscreen;
 
+import android.app.Application;
 import android.arch.lifecycle.Lifecycle;
 import android.arch.lifecycle.Observer;
 import android.arch.lifecycle.ViewModelProviders;
@@ -16,8 +17,10 @@ import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.RecyclerView;
 import android.util.Log;
+import android.view.MenuItem;
 import android.view.View;
 import android.view.View.OnClickListener;
+import android.view.ViewGroup;
 import android.widget.FrameLayout;
 import android.widget.LinearLayout;
 import android.widget.RadioButton;
@@ -33,7 +36,6 @@ import com.oritmalki.mymusicapp2.R;
 import com.oritmalki.mymusicapp2.database.MeasureRepository;
 import com.oritmalki.mymusicapp2.model.Beat;
 import com.oritmalki.mymusicapp2.model.Measure;
-import com.oritmalki.mymusicapp2.model.Sheet;
 import com.oritmalki.mymusicapp2.ui.mainscreen.EditFragment.OnFragmentInteractionListener;
 import com.oritmalki.mymusicapp2.ui.mainscreen.MeasuresAdapter.MeasureHolder;
 import com.oritmalki.mymusicapp2.utils.StringQueueArray;
@@ -45,6 +47,8 @@ import java.util.List;
 import java.util.concurrent.atomic.AtomicBoolean;
 
 public class MainActivity extends AppCompatActivity implements OnFragmentInteractionListener {
+
+    private Application application;
 
     public static final String SHEET_ID_INTENT_KEY = "sheet_id_intent_key";
     public static String SHEET_TITLE_INTENT_KEY = "sheet_title_intent_key";
@@ -72,10 +76,11 @@ public class MainActivity extends AppCompatActivity implements OnFragmentInterac
     private FrameLayout editFragmentContainer;
     private AppBarLayout appBarLayout;
     private View counterView;
+    private ViewGroup appBarFabs;
 
     private AtomicBoolean isLoadingNewMeasure;
 
-    private Sheet sheet;
+    private long sheetId;
 
     private boolean isAccSelected = false;
 
@@ -107,7 +112,9 @@ public class MainActivity extends AppCompatActivity implements OnFragmentInterac
         isLoadingNewMeasure = new AtomicBoolean(false);
         usedQueue = new StringQueueArray(6);
 
-        ((BasicApp) getApplication()).setSheetId(getIntent().getExtras().getLong(SHEET_ID_INTENT_KEY));
+
+        sheetId = getIntent().getExtras().getLong(SHEET_ID_INTENT_KEY);
+        ((BasicApp) getApplication()).setSheetId(sheetId);
 
         final MeasureListViewModel measureListViewModel = ViewModelProviders.of(this).get(MeasureListViewModel.class);
         this.viewModel = measureListViewModel;
@@ -130,6 +137,7 @@ public class MainActivity extends AppCompatActivity implements OnFragmentInterac
         setSupportActionBar(toolbar);
         ActionBar actionBar = getSupportActionBar();
         actionBar.setDisplayHomeAsUpEnabled(true);
+
         actionBar.setDisplayShowTitleEnabled(false);
         actionBar.setDisplayShowCustomEnabled(true);
 
@@ -158,27 +166,18 @@ public class MainActivity extends AppCompatActivity implements OnFragmentInterac
 
     private void observeViewModel(MeasureListViewModel measureListViewModel, SheetListViewModel sheetListViewModel) {
 
-        sheetListViewModel.getSheets().observe(this, new Observer<List<Sheet>>() {
-            @Override
-            public void onChanged(@Nullable List<Sheet> sheets) {
-
-            }
-        });
-
         // Update the list when the data changes
         measureListViewModel.getMeasuresBySheet(getApplication()).observe(this, new Observer<List<Measure>>() {
             @Override
             public void onChanged(@Nullable List<Measure> measures) {
                 if (measures != null && measures.size() != 0) {
 
-//                    measures = measureListViewModel.getMeasuresBySheet(getApplication()).getValue();
+                                  if (measuresAdapter == null) {
 
-                    if (measuresAdapter == null) {
-
-                        measuresAdapter = new MeasuresAdapter(getApplicationContext(), beatClickCallback);
-                        recyclerView.setAdapter(measuresAdapter);
-                    }
-                    measuresAdapter.setMeasuresList(measures, getApplicationContext());
+                                      measuresAdapter = new MeasuresAdapter(getApplicationContext(), beatClickCallback);
+                                      recyclerView.setAdapter(measuresAdapter);
+                                  }
+                                  measuresAdapter.setMeasuresList(measures, getApplicationContext());
 
 //                    recyclerView.smoothScrollToPosition(measures.size()-1);
                     Log.d("ADD_MEASURE", "updated view");
@@ -190,7 +189,7 @@ public class MainActivity extends AppCompatActivity implements OnFragmentInterac
     }
 
     public void showEditFragment(Measure measure, int currentBeatPosition) {
-
+        appBarFabs.setVisibility(View.GONE);
         editFragment = EditFragment.newInstance(measure, currentBeatPosition);
         FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();
 //        if (!(getSupportFragmentManager().getBackStackEntryCount() == 1)) {
@@ -221,6 +220,7 @@ public class MainActivity extends AppCompatActivity implements OnFragmentInterac
 
         addBut = findViewById(R.id.add_fab);
         addBut.setOnClickListener(listener);
+        appBarFabs = findViewById(R.id.app_bar_fabs);
 
         editFragmentContainer = findViewById(R.id.edit_fragment_container);
 
@@ -276,7 +276,7 @@ public class MainActivity extends AppCompatActivity implements OnFragmentInterac
 
     //DAO methods
     public void addEmptyMeasure(MeasureListViewModel viewModel) {
-        viewModel.addEmptyMeasure(getApplication(), 324, isLoadingNewMeasure);
+        viewModel.addEmptyMeasure(getApplication(), sheetId, isLoadingNewMeasure);
 
     }
 
@@ -304,16 +304,6 @@ public class MainActivity extends AppCompatActivity implements OnFragmentInterac
             case R.id.g:
             case R.id.a:
             case R.id.b:
-
-            case R.id._2:
-            case R.id._3:
-            case R.id._4:
-            case R.id._5:
-            case R.id._6:
-
-            case R.id._9:
-            case R.id._11:
-            case R.id._13:
                 onRootSelected(view);
                 addChord();
                 break;
@@ -339,6 +329,16 @@ public class MainActivity extends AppCompatActivity implements OnFragmentInterac
             case R.id.aug:
             case R.id.dim:
             case R.id.sus:
+
+            case R.id._2:
+            case R.id._3:
+            case R.id._4:
+            case R.id._5:
+            case R.id._6:
+
+            case R.id._9:
+            case R.id._11:
+            case R.id._13:
 
                 onAccSelected(view);
                 addChord();
@@ -382,7 +382,7 @@ public class MainActivity extends AppCompatActivity implements OnFragmentInterac
 
         View nextBeatView;
         int measurePosition = currentMeasure.getNumber() - 1;
-        //TODO handle when first measure
+       //if beat is in first measure
         if (measurePosition == -1) {
             measurePosition = 0;
         }
@@ -502,6 +502,7 @@ public class MainActivity extends AppCompatActivity implements OnFragmentInterac
         super.onBackPressed();
         if (editFragmentContainer.getVisibility() == View.VISIBLE) {
             editFragmentContainer.setVisibility(View.GONE);
+            appBarFabs.setVisibility(View.VISIBLE);
         }
     }
 
@@ -520,6 +521,21 @@ public class MainActivity extends AppCompatActivity implements OnFragmentInterac
         editor.putBoolean(IS_B_ROOT_PRESSED, false).commit();
 
 
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        switch (item.getItemId()) {
+            case android.R.id.home:
+                // todo: goto back activity from here
+
+                startActivity(SheetsActivity.getIntent(this));
+                finish();
+                return true;
+
+            default:
+                return super.onOptionsItemSelected(item);
+        }
     }
 
 

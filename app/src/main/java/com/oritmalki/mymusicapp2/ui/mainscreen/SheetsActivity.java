@@ -2,6 +2,8 @@ package com.oritmalki.mymusicapp2.ui.mainscreen;
 
 import android.arch.lifecycle.Observer;
 import android.arch.lifecycle.ViewModelProviders;
+import android.content.Context;
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.design.widget.TabLayout;
@@ -27,6 +29,12 @@ public class SheetsActivity extends AppCompatActivity {
     private SharedSheetsFragment mSharedSheetsFragment;
 
     private SheetListViewModel mSheetListViewModel;
+
+    public static Intent getIntent(Context context) {
+        Intent intent = new Intent(context, SheetsActivity.class);
+        intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_NEW_TASK);
+        return intent;
+    }
 
 
 
